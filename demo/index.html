@@ -409,16 +409,13 @@
   Sanskrit Etymology Project — Data from Monier-Williams, GRETIL, SARIT, CBETA
 </footer>
 
+<script src="terms_inline.js"></script>
 <script>
-let TERMS = [];
+let TERMS = TERMS_DATA;
 let activeIdx = -1;
 
-fetch('terms.json')
-  .then(r => r.json())
-  .then(data => {
-    TERMS = data;
-    renderGrid();
-  });
+// Init on load
+renderGrid();
 
 // ── SEARCH ──
 const searchEl = document.getElementById('search');
@@ -439,20 +436,32 @@ searchEl.addEventListener('input', () => {
 });
 
 searchEl.addEventListener('keydown', (e) => {
-  const items = sugEl.querySelector('.suggestions-list')?.children;
-  if (!items || !items.length) return;
-  if (e.key === 'ArrowDown') {
+  const list = sugEl.querySelector('.suggestions-list');
+  const items = list ? list.querySelectorAll('.suggestion-item') : [];
+  if (e.key === 'ArrowDown' && items.length) {
     e.preventDefault();
     activeIdx = Math.min(activeIdx + 1, items.length - 1);
     updateActive(items);
-  } else if (e.key === 'ArrowUp') {
+  } else if (e.key === 'ArrowUp' && items.length) {
     e.preventDefault();
     activeIdx = Math.max(activeIdx - 1, 0);
     updateActive(items);
-  } else if (e.key === 'Enter' && activeIdx >= 0) {
+  } else if (e.key === 'Enter') {
     e.preventDefault();
-    const id = items[activeIdx].dataset.id;
-    selectTerm(id);
+    if (activeIdx >= 0 && items[activeIdx]) {
+      selectTerm(items[activeIdx].dataset.id);
+    } else if (items.length > 0) {
+      // Select first match when Enter pressed without arrow navigation
+      selectTerm(items[0].dataset.id);
+    } else {
+      // Try fuzzy match directly
+      const q = searchEl.value.trim().toLowerCase();
+      const match = TERMS.find(t =>
+        t.search_aliases.some(a => a.startsWith(q)) ||
+        t.transliteration.toLowerCase().includes(q)
+      );
+      if (match) selectTerm(match.id);
+    }
   }
 });
 
@@ -468,7 +477,7 @@ function showSuggestions(matches) {
     return;
   }
   const html = matches.slice(0, 8).map(t => `
-    <div class="suggestion-item" data-id="${t.id}" onclick="selectTerm('${t.id}')">
+    <div class="suggestion-item" data-id="${t.id}">
       <span class="suggestion-deva">${t.devanagari}</span>
       <span class="suggestion-iast">${t.transliteration}</span>
       <span class="suggestion-gloss">${truncate(t.literal_gloss, 40)}</span>
@@ -491,7 +500,7 @@ function truncate(s, n) {
 function renderGrid() {
   const grid = document.getElementById('termGrid');
   grid.innerHTML = TERMS.map(t => `
-    <div class="term-chip" onclick="selectTerm('${t.id}')">
+    <div class="term-chip" data-id="${t.id}">
       <span class="chip-deva">${t.devanagari}</span>
       ${t.transliteration}
     </div>
@@ -577,7 +586,7 @@ function renderCard(t) {
   const confCls = t.confidence === 'high' ? 'conf-high' : t.confidence === 'medium' ? 'conf-medium' : 'conf-low';
 
   return `
-    <button class="back-btn" onclick="goBack()">← Back to all terms</button>
+    <button class="back-btn">← Back to all terms</button>
     <div class="result-card">
       <div class="card-header">
         <span class="card-confidence ${confCls}">${t.confidence} confidence</span>
@@ -650,8 +659,30 @@ function buildSegmentation(t) {
   }).join('');
 }
 
-// Close suggestions when clicking outside
+// ── EVENT DELEGATION (reliable clicks) ──
 document.addEventListener('click', (e) => {
+  // Suggestion clicks
+  const sugItem = e.target.closest('.suggestion-item');
+  if (sugItem) {
+    selectTerm(sugItem.dataset.id);
+    return;
+  }
+
+  // Browse chip clicks
+  const chip = e.target.closest('.term-chip');
+  if (chip) {
+    selectTerm(chip.dataset.id);
+    return;
+  }
+
+  // Back button
+  const backBtn = e.target.closest('.back-btn');
+  if (backBtn) {
+    goBack();
+    return;
+  }
+
+  // Close suggestions when clicking outside
   if (!e.target.closest('.search-container') && !e.target.closest('.suggestions')) {
     hideSuggestions();
   }
