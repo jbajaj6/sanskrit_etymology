@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "buddha": {
+      "command": "/Users/jaibajaj/.buddha/bin/buddha",
+      "args": ["mcp"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/jaibajaj/Desktop/RealDesktop/sanskrit_etymology"
+      ]
+    }
+  }
+}
