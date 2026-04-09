@@ -51,15 +51,15 @@ slides:
 
   - type: quote
     title: "The Defining Sutra"
-    quote: "yogas citta-vrtti-nirodhah"
-    attribution: "Yoga Sutra 1.2 — \"Yoga is the cessation of the turnings of the mind\""
+    quote: "योगश्चित्तवृत्तिनिरोधः    yogas citta-vrtti-nirodhah"
+    attribution: "Yoga Sutra 1.2 — \"Yoga is the stilling of the turnings of the mind\""
     notes: >
       Let me ground this in a sentence most of you already know: Yoga Sutra
-      1.2, the definition of yoga itself. This single sentence contains three
-      technical terms — citta, vrtti, nirodha — each built from specific
-      roots and prefixes. By the end of this talk, I want you to hear each
-      of those words differently. Let's start by looking at how the
-      breakdown works.
+      1.2, the definition of yoga itself. Here it is in Devanagari and
+      transliteration. This single sentence contains three technical terms —
+      citta, vrtti, nirodha — each built from specific roots and prefixes.
+      By the end of this talk, I want you to hear each of those words
+      differently. Let's start by looking at how the breakdown works.
 
   # ── SLIDE 4: METHOD ──
 
@@ -84,23 +84,25 @@ slides:
   # ── SLIDE 5: SAMADHI ──
 
   - type: two_column
-    title: "samadhi — \"A Complete Placing-Together\""
+    title: "समाधि samadhi — Meditative Absorption"
     left: |
-      Root: dha — "to place, put"
+      Root: √dha — "to place, put"
       Prefixes: sam- ("together") + a- ("toward")
       Suffix: -i (action noun)
       Literal: "a complete placing-together"
+      Philosophical: total absorption of awareness into its object
     right: |
       The word's architecture argues for its meaning
-      Not a metaphor added later — built into the word itself
-      Common folk etymology sama + adhi ("equal placing") is incorrect
-      Standard derivation: sam + a + dha (Monier-Williams)
+      "Placing-together" is not a metaphor added later — it is built into the word
+      Common folk etymology sama + adhi ("equal placing") is not supported by standard grammar
+      Standard derivation: sam + a + √dha (Monier-Williams)
     notes: >
       Samadhi — the culmination of yogic practice. Built from the root dha,
       "to place," with two prefixes: sam meaning "together" or "completely,"
       and a meaning "toward." Plus the suffix -i making it an action noun.
-      So literally: a complete placing-together. A total composing or settling
-      of awareness. Notice what the word is doing — it's not just naming a
+      So literally: a complete placing-together. Philosophically: the state of
+      total meditative absorption where the meditator's awareness merges with
+      its object. Notice what the word is doing — it's not just naming a
       state, it's describing a process: the gathering and settling of
       dispersed awareness into unified focus. Quick sidebar: you'll sometimes
       hear samadhi glossed as "equal placing" from sama plus adhi. That's a
@@ -111,45 +113,48 @@ slides:
   # ── SLIDE 6: NIRODHA ──
 
   - type: two_column
-    title: "nirodha — \"A Complete Holding-Back\""
+    title: "निरोध nirodha — Cessation or Stilling"
     left: |
-      Root: rudh — "to hold back, restrain"
+      Root: √rudh — "to hold back, restrain"
       Prefix: ni- (intensifying)
       Suffix: -a (action noun)
-      Literal: "a complete restraining"
+      Literal: "a complete holding-back"
+      Philosophical: the stilling of mental activity
     right: |
       English translations carry different weight:
       "Cessation" — implies ending
       "Suppression" — implies force
       "Stilling" — implies quieting
-      The root rudh favors "stilling" over "destroying"
+      The root √rudh favors "stilling" over "destroying"
     notes: >
       Nirodha — the operative word in Yoga Sutra 1.2. Built from the prefix
       ni, which intensifies, plus the root rudh, meaning "to hold back" or
       "to restrain," plus the suffix -a. So literally: a complete holding-back.
-      Why does this matter? Because different English translations carry very
-      different philosophical implications. "Cessation" implies something ends.
-      "Suppression" implies force. "Stilling" implies a gentle quieting. The
-      root rudh — "to hold back" — is closer to stilling than to either
-      ending or forcing. Patanjali isn't saying the mind is destroyed. He's
-      saying its habitual activity is held in check so that pure awareness
-      can emerge. This becomes even more interesting when we get to the
-      Chinese rendering later.
+      Philosophically: the stilling of citta's habitual activity so that pure
+      awareness can emerge. Why does the morphology matter? Because different
+      English translations carry very different philosophical implications.
+      "Cessation" implies something ends. "Suppression" implies force.
+      "Stilling" implies a gentle quieting. The root rudh — "to hold back" —
+      is closer to stilling than to either ending or forcing. Patanjali isn't
+      saying the mind is destroyed. He's saying its habitual activity is held
+      in check. This becomes even more interesting when we get to the Chinese
+      rendering later.
 
   # ── SLIDE 7: ABHINIVESA ──
 
   - type: two_column
-    title: "abhinivesa — \"A Deep Settling-Into\""
+    title: "abhinivesa — Clinging to Existence"
     left: |
-      Root: vis — "to enter, settle into"
+      Root: √vis — "to enter, settle into"
       Prefix: abhi- ("toward, upon")
       Prefix: ni- ("down, into")
+      Literal: "a deep settling-into"
       Three layers of settling deeper
     right: |
       The fifth klesa (affliction)
       "Flows by its own momentum, even in the wise" (YS 2.9)
       Not an intellectual error — an embodied survival drive
-      Morphology physically enacts the concept
+      The morphology physically enacts the concept
     notes: >
       This is my favorite case for showing why morphology matters. Abhinivesa
       is the fifth klesa — usually translated as clinging to life or fear of
@@ -169,29 +174,30 @@ slides:
   # ── SLIDE 8: SAMSKARA ──
 
   - type: content
-    title: "samskara — \"A Thorough Making\""
+    title: "samskara — Latent Impressions"
     body: |
-      Root: kr — "to do, make"    Prefix: sam- ("completely")
+      Root: √kr — "to do, make"    Prefix: sam- ("completely")
+      Literal: "a thorough making"     Philosophical: accumulated subliminal traces
       Three lives of one word:
       - Ritual: consecration, sacrament (the samskaras of life)
       - Grammar: refinement (samskrta = "Sanskrit" = the "well-made" language)
       - Yoga Sutras: latent impressions — the unconscious residue of experience
-      In Patanjali: the traces that shape perception without our awareness
       Samskaras from samadhi can overwrite samskaras from ordinary experience (YS 1.50)
     notes: >
       One more Sanskrit case. Samskara — sam plus the root kr, "to make,"
-      plus the suffix -a. Literally: a thorough making, a complete
-      preparation. This word has three completely different lives depending
+      plus the suffix -a. Literally: a thorough making. Philosophically: the
+      latent impressions — subliminal traces — left in the mind by every
+      experience. This word has three completely different lives depending
       on context. In ritual, it means consecration — the sacraments of birth,
       marriage, death. In grammar, it means refinement — the word Sanskrit
       itself, samskrta, means "well-made." And in the Yoga Sutras, it means
-      latent impression — the subliminal trace that every experience leaves
-      in the mind, shaping future perception and behavior without your
-      awareness. This is strikingly close to what modern psychology calls
-      unconscious conditioning. And crucially, Patanjali says that samskaras
-      from samadhi can overwrite samskaras from ordinary experience — which
-      is the mechanism by which practice actually transforms the mind. Not
-      by destroying old patterns, but by laying down new, deeper ones.
+      the unconscious residue of experience that shapes future perception
+      and behavior without your awareness. This is strikingly close to what
+      modern psychology calls unconscious conditioning. And crucially,
+      Patanjali says that samskaras from samadhi can overwrite samskaras
+      from ordinary experience — which is the mechanism by which practice
+      actually transforms the mind. Not by destroying old patterns, but by
+      laying down new, deeper ones.
 
   # ── SLIDE 9: TRANSITION TO MAPPING ──
 
@@ -222,10 +228,10 @@ slides:
       zen / 禅 (Japanese)
     right: |
       Four Chinese renderings:
-      禪那 — full transliteration
-      禪 — abbreviation (became school name)
-      禪定 — hybrid (sound + meaning)
-      靜慮 — Xuanzang's semantic: "quiet contemplation"
+      禪那 channa — full transliteration
+      禪 chan — abbreviation (became school name)
+      禪定 chanding — hybrid (sound + meaning)
+      靜慮 jinglu — Xuanzang's semantic: "quiet contemplation"
     notes: >
       If I could show you only one mapping case, it would be this one.
       Dhyana — sustained meditation — traveled from Sanskrit to Pali to
@@ -236,7 +242,7 @@ slides:
       Chinese translators developed four different renderings. The full
       transliteration channa. The abbreviation chan. A hybrid, chanding,
       pairing the foreign sound with a native Chinese word meaning
-      "stability." And Xuanzang's semantic translation jinglü, meaning
+      "stability." And Xuanzang's semantic translation jinglu, meaning
       "quiet contemplation" — a 7th-century attempt to recover the precise
       meaning. And here's the doctrinal shift: in the Yoga Sutras, dhyana
       is one specific stage — limb 7 of 8. In Chinese Buddhism, chan expanded
@@ -246,7 +252,7 @@ slides:
   # ── SLIDE 11: AVIDYA ──
 
   - type: two_column
-    title: "avidya to wuming — Translation as Interpretation"
+    title: "अविद्या avidya to 無明 wuming"
     left: |
       Sanskrit: a- ("not") + vidya ("knowledge")
       = "non-knowledge"
@@ -254,10 +260,10 @@ slides:
       = 無明 wuming = "without brightness"
       A morphological mirror — almost piece by piece
     right: |
-      But the translators chose "brightness" over "knowledge"
+      The translators chose "brightness" over "knowledge"
       Sanskrit image: epistemological — a failure of knowing
       Chinese image: phenomenological — an absence of light
-      Small shift, real consequences
+      Small shift, real consequences for practice
       Even faithful translation is interpretation
     notes: >
       Avidya — non-knowledge — was rendered as wuming, "without brightness."
@@ -277,11 +283,11 @@ slides:
   # ── SLIDE 12: SVARUPA CONTRAST ──
 
   - type: two_column
-    title: "svarupa vs. zixing — When the Gap Is the Finding"
+    title: "svarupa vs. 自性 zixing — When the Gap Is the Finding"
     left: |
       Yoga Sutras: svarupa = "own form"
       YS 1.3: "The seer abides in its own form"
-      Purusha has a real essential nature
+      Purusa has a real essential nature
       Meditation reveals it
     right: |
       Chinese Madhyamaka: 自性 zixing = "own nature"
@@ -290,7 +296,7 @@ slides:
       Meditation sees through the illusion of it
     notes: >
       My last mapping case is a cautionary one. Svarupa in the Yoga Sutras
-      means "own form" — it's what purusha, pure awareness, actually is.
+      means "own form" — it's what purusa, pure awareness, actually is.
       Yoga Sutra 1.3 says: when meditation succeeds, the seer abides in its
       own form. The closest Chinese candidate is zixing, "own nature." Sounds
       like a reasonable match. But in Chinese Madhyamaka Buddhism, zixing is
