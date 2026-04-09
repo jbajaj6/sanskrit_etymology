@@ -1,9 +1,10 @@
-# Term Analyses — Batch 01
+# Term Analyses — Batches 01–02
 # Sanskrit Etymology Project
-# Generated: 2026-04-08
+# Generated: 2026-04-08, updated 2026-04-08
 # Schema version: 1.0 (see docs/output_schema.md)
 #
-# Terms: samādhi, dhyāna, citta, nirodha, prajñā
+# Batch 01: samādhi, dhyāna, citta, nirodha, prajñā
+# Batch 02: vṛtti, viveka-khyāti, kleśa, avidyā, saṃskāra, kaivalya, abhyāsa
 # Evidence sources: GRETIL (buddha-cli), SARIT (buddha-cli), CBETA (buddha-cli),
 #   Monier-Williams Sanskrit-English Dictionary, Apte Practical Sanskrit-English Dictionary
 
@@ -400,3 +401,555 @@ analyses:
       - "T01n0026 (中阿含經): 般若"
       - "T08n0223 (摩訶般若波羅蜜經, Kumārajīva tr.): entire text built on 般若"
       - "Three trainings formula: 戒定慧 (śīla, samādhi, prajñā)"
+
+  # ═══════════════════════════════════════════
+  # 6. VṚTTI
+  # ═══════════════════════════════════════════
+
+  - id: vrtti
+    devanagari: वृत्ति
+    transliteration: vṛtti
+
+    chapter: "YS 1.2, 1.4–1.11, 1.41, 2.11, 2.15, 2.50, 3.43, 4.18"
+    source_context: >
+      YS 1.2: yogaś citta-vṛtti-nirodhaḥ ("Yoga is the cessation of the
+      fluctuations of citta"). YS 1.5–1.11: vṛttayaḥ pañcatayyaḥ kliṣṭākliṣṭāḥ
+      ("The vṛttis are fivefold, painful and non-painful"): pramāṇa (valid
+      cognition), viparyaya (error), vikalpa (conceptualization), nidrā (sleep),
+      smṛti (memory).
+
+    segmentation: "√vṛt + -ti"
+    roots:
+      - root: "√vṛt"
+        devanagari: "√वृत्"
+        meaning: "to turn, revolve, move, exist, happen"
+        dhatu_number: null
+    prefixes: []
+    suffixes:
+      - suffix: "-ti"
+        meaning: "action noun suffix (kṛt pratyaya)"
+        grammatical_function: "forms a feminine abstract noun denoting the action or manner of the verbal root"
+    compound_type: null
+
+    literal_gloss: "a turning; a revolving; the manner in which something moves or operates"
+    philosophical_gloss: >
+      In the Yoga Sutras, vṛtti denotes the fluctuations, turnings, or
+      modulations of citta — the ongoing activity of the mind-field.
+      Patañjali enumerates five types (YS 1.5–1.11): valid cognition
+      (pramāṇa), error (viparyaya), conceptual construction (vikalpa),
+      sleep (nidrā), and memory (smṛti). Crucially, vṛttis are classified
+      as either painful (kliṣṭa) or non-painful (akliṣṭa), but all vṛttis —
+      even correct ones — must be stilled for yoga to occur. The goal is not
+      to have only good thoughts but to quiet the entire mechanism of mental
+      turning. Outside the Yoga Sutras, vṛtti has a broad range of meanings
+      including "livelihood," "commentary" (as in a literary vṛtti), and
+      "mode of conduct."
+    doctrinal_significance: >
+      Vṛtti is the object of yogic work — it is what must be stilled. Without
+      understanding vṛtti, the central claim of YS 1.2 is unintelligible.
+      The fivefold classification (YS 1.5–1.11) provides the map of what
+      the mind does, which the practitioner must learn to observe and quiet.
+
+    ambiguity_notes: >
+      The derivation √vṛt + -ti is uncontroversial. The translation choice
+      is consequential: "fluctuation" (Feuerstein), "modification" (Taimni),
+      "whirlpool" (Satchidananda), "turning" (literal). Each translation
+      implies a different image of mental activity — "whirlpool" suggests
+      violence, "modification" suggests neutral change, "fluctuation"
+      suggests oscillation. The Sanskrit root √vṛt simply means "to turn"
+      and does not inherently privilege any of these connotations. This is
+      a case where the English translation carries more interpretive weight
+      than the Sanskrit original.
+    confidence: high
+
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+      - "No standard Chinese Buddhist equivalent — vṛtti is a Yoga Sutras technical term"
+      - "Deferred to mapping stage"
+
+  # ═══════════════════════════════════════════
+  # 7. VIVEKA-KHYĀTI
+  # ═══════════════════════════════════════════
+
+  - id: viveka_khyati
+    devanagari: विवेकख्याति
+    transliteration: viveka-khyāti
+
+    chapter: "YS 2.26, 2.28, 4.29"
+    source_context: >
+      YS 2.26: viveka-khyātir aviplavā hānopāyaḥ ("Unbroken discriminative
+      discernment is the means of removal [of ignorance]"). YS 2.28: yogāṅgā-
+      nuṣṭhānād aśuddhi-kṣaye jñāna-dīptir ā viveka-khyāteḥ ("From the
+      practice of the limbs of yoga, as impurity diminishes, the light of
+      knowledge [grows] up to discriminative discernment"). Found in Sāṃkhya
+      commentary literature (GRETIL: Tattvavivecana) and Brahmasūtra sub-
+      commentary confirming cross-system usage.
+
+    segmentation: "vi + √vic + -a | √khyā + -ti"
+    roots:
+      - root: "√vic"
+        devanagari: "√विच्"
+        meaning: "to sift, separate, discriminate"
+        dhatu_number: null
+      - root: "√khyā"
+        devanagari: "√ख्या"
+        meaning: "to be known, to appear, to declare"
+        dhatu_number: null
+    prefixes:
+      - prefix: "vi-"
+        meaning: "apart, asunder (intensifying the separative action of √vic)"
+    suffixes:
+      - suffix: "-a (in viveka)"
+        meaning: "action noun suffix (ghañ pratyaya)"
+        grammatical_function: "forms a masculine noun from vi + √vic → viveka"
+      - suffix: "-ti (in khyāti)"
+        meaning: "action noun suffix (kṛt pratyaya)"
+        grammatical_function: "forms a feminine noun from √khyā → khyāti"
+    compound_type: "tatpuruṣa (ṣaṣṭhī — genitive relationship: 'the vision of discrimination')"
+
+    literal_gloss: "the vision/appearance of discrimination; the seeing that arises from sifting-apart"
+    philosophical_gloss: >
+      Viveka-khyāti is the culminating insight of the Yoga Sutras' epistemology:
+      the direct, unbroken perception that puruṣa (pure awareness) and prakṛti
+      (material nature, including the mind) are fundamentally distinct. This is
+      not intellectual knowledge but a sustained perceptual clarity that, once
+      established without interruption (aviplavā), destroys ignorance (avidyā)
+      and leads to liberation (kaivalya). It is the Sāṃkhya-Yoga equivalent
+      of what Vedānta calls ātma-jñāna — but grounded in a dualist rather
+      than non-dualist metaphysics.
+    doctrinal_significance: >
+      Viveka-khyāti is the hinge between practice and liberation. It is what
+      the eight limbs of yoga ultimately produce, and it is the direct cause
+      of kaivalya. Without it, all other practices remain preparatory. It
+      also marks one of the sharpest divergences from Buddhist soteriology:
+      Buddhist insight (vipaśyanā) sees emptiness and non-self, while
+      viveka-khyāti sees the eternal distinctness of a real self (puruṣa).
+
+    ambiguity_notes: >
+      The compound analysis is standard: viveka (discrimination) + khyāti
+      (vision/perception) in a genitive tatpuruṣa. Some translators render
+      viveka-khyāti as a single concept ("discriminative discernment") rather
+      than parsing the compound, which is reasonable for a non-technical
+      audience but obscures the two-part structure. The root of viveka is
+      sometimes given as √vic (Monier-Williams) and sometimes as √vij;
+      √vic ("to sift, separate") is the standard attribution.
+    confidence: high
+
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+      - "No standard Chinese Buddhist equivalent — this is a Sāṃkhya-Yoga technical term"
+      - "GRETIL: found in Sāṃkhyatattvavivecana and Brahmasūtra sub-commentary"
+      - "Deferred to mapping stage"
+
+  # ═══════════════════════════════════════════
+  # 8. KLEŚA
+  # ═══════════════════════════════════════════
+
+  - id: klesa
+    devanagari: क्लेश
+    transliteration: kleśa
+
+    chapter: "YS 1.24, 2.2–2.9, 2.12–2.13, 2.28, 4.28, 4.30"
+    source_context: >
+      YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ ("The kleśas are:
+      ignorance, ego-sense, attachment, aversion, and clinging to life").
+      YS 2.2: samādhi-bhāvanārthaḥ kleśa-tanū-karaṇārthaś ca ("For the
+      purpose of cultivating samādhi and for the purpose of attenuating
+      the kleśas"). Found across GRETIL and SARIT in Buddhist stotra and
+      medical literature contexts as well.
+
+    segmentation: "√kliś + -a"
+    roots:
+      - root: "√kliś"
+        devanagari: "√क्लिश्"
+        meaning: "to torment, afflict, cause pain"
+        dhatu_number: null
+    prefixes: []
+    suffixes:
+      - suffix: "-a"
+        meaning: "action/result noun suffix (ghañ pratyaya)"
+        grammatical_function: "forms a masculine noun denoting the result of the verbal action: 'that which afflicts'"
+    compound_type: null
+
+    literal_gloss: "affliction; that which torments or causes pain"
+    philosophical_gloss: >
+      In the Yoga Sutras, kleśa is a technical term for the five root causes
+      of suffering: avidyā (ignorance), asmitā (ego-sense), rāga (attachment),
+      dveṣa (aversion), and abhiniveśa (clinging to life). These are not
+      passing emotions but deep structural distortions in how citta relates
+      to experience. Avidyā is the root kleśa from which the other four
+      grow (YS 2.4). The kleśas can exist in four states: dormant (prasupta),
+      attenuated (tanu), alternating (vicchinna), or fully active (udāra).
+      In Buddhist usage, kleśa (Pali: kilesa) similarly denotes mental
+      afflictions, though the specific enumeration differs (three root
+      poisons: rāga, dveṣa, moha).
+    doctrinal_significance: >
+      The kleśas explain why beings suffer and why yoga is necessary.
+      They are not sins or moral failings but psychological structures —
+      habitual patterns of misperception. The goal of practice is not to
+      suppress them but to attenuate and eventually uproot them through
+      the combined force of abhyāsa (practice) and viveka-khyāti
+      (discriminative discernment).
+
+    ambiguity_notes: >
+      The derivation √kliś + -a is standard (Monier-Williams s.v. kleśa).
+      The vowel change from kliś to kleś follows guṇa ablaut rules.
+      No morphological controversy. The cross-tradition comparison is
+      important: both Yoga and Buddhism use kleśa for mental afflictions,
+      but enumerate them differently. The shared term suggests historical
+      contact or common inheritance from pre-systematic śramaṇa traditions.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "煩惱"
+        pinyin: "fánnǎo"
+        mapping_type: semantic
+        source: "Standard Chinese Buddhist rendering of kleśa. Literally 'vexation-affliction.' Found ubiquitously: T01n0001, T01n0002, T01n0003."
+    mapping_type: semantic
+    phonetic_evidence: null
+    semantic_evidence: >
+      Chinese 煩惱 (fánnǎo) is a semantic translation: 煩 ("vexed, troubled")
+      + 惱 ("distressed, annoyed"). The compound captures the experiential
+      quality of kleśa — the felt sense of being afflicted — rather than
+      attempting a phonetic rendering. This is one of the most stable and
+      well-attested semantic mappings in Chinese Buddhist translation.
+    citation_trail:
+      - "T01n0001 (長阿含經): 煩惱"
+      - "T01n0002 (遊行經): 煩惱"
+      - "T01n0003 (大本經): 煩惱"
+      - "Ubiquitous across all Chinese Buddhist literature"
+
+  # ═══════════════════════════════════════════
+  # 9. AVIDYĀ
+  # ═══════════════════════════════════════════
+
+  - id: avidya
+    devanagari: अविद्या
+    transliteration: avidyā
+
+    chapter: "YS 2.3–2.5, 2.24, 2.34"
+    source_context: >
+      YS 2.4: avidyā kṣetram uttareṣāṃ prasupta-tanu-vicchinnodārāṇām
+      ("Ignorance is the field for the others [kleśas], whether dormant,
+      attenuated, alternating, or fully active"). YS 2.5: anityāśuci-
+      duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā ("Ignorance is
+      seeing the non-eternal as eternal, the impure as pure, the painful
+      as pleasant, and the non-self as self"). Found in GRETIL Paramārthasāra:
+      "dvaitavikalpabhrāntir avidyā" — "the delusion of dualistic conceptualization
+      is avidyā."
+
+    segmentation: "a + √vid + -yā"
+    roots:
+      - root: "√vid"
+        devanagari: "√विद्"
+        meaning: "to know, to find, to understand"
+        dhatu_number: null
+    prefixes:
+      - prefix: "a-"
+        meaning: "not, without (nañ prefix — negation)"
+    suffixes:
+      - suffix: "-yā"
+        meaning: "abstract noun suffix (feminine)"
+        grammatical_function: "forms a feminine abstract noun: vidyā ('knowledge') → avidyā ('non-knowledge')"
+    compound_type: null
+
+    literal_gloss: "non-knowledge; the absence or opposite of true seeing"
+    philosophical_gloss: >
+      Avidyā in the Yoga Sutras is not mere ignorance in the sense of lacking
+      information. It is a positive misperception — actively seeing things
+      as they are not. Patañjali's fourfold definition (YS 2.5) is precise:
+      avidyā is taking the impermanent for permanent, the impure for pure,
+      suffering for pleasure, and the non-self for the self. This is the
+      root kleśa from which all others grow (YS 2.4). In Advaita Vedānta,
+      avidyā plays a similar but metaphysically different role: it is the
+      cosmic power of illusion (māyā) that causes the appearance of
+      multiplicity. In Buddhism, avidyā (Pali: avijjā) is the first link
+      in dependent origination (pratītyasamutpāda) — the fundamental
+      ignorance that drives the entire cycle of rebirth. All three traditions
+      agree that avidyā is the root problem; they disagree about what it
+      conceals.
+    doctrinal_significance: >
+      Avidyā is the root cause in Patañjali's system — the source from which
+      the other four kleśas arise. It is what viveka-khyāti (discriminative
+      discernment) destroys. The removal of avidyā is, in effect, synonymous
+      with liberation. This makes it the single most important diagnostic
+      concept in the Yoga Sutras.
+
+    ambiguity_notes: >
+      The derivation a- + vidyā (itself from √vid + -yā) is uncontested.
+      The interpretive complexity is philosophical: Patañjali's avidyā is
+      a psychological misperception (taking non-self for self), while
+      Śaṅkara's avidyā is a cosmic ontological principle (the power that
+      projects the world-illusion). These are very different claims wearing
+      the same word. Buddhist avidyā is different again — it is ignorance
+      of the Four Noble Truths and dependent origination, not ignorance of
+      a true self. For this project, the Yoga Sutras definition (YS 2.5)
+      is primary.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "無明"
+        pinyin: "wúmíng"
+        mapping_type: semantic
+        source: "Standard Buddhist Chinese rendering. Literally 'without brightness/clarity.' Found in dependent origination passages: T01n0001, T01n0003, T01n0007."
+    mapping_type: semantic
+    phonetic_evidence: null
+    semantic_evidence: >
+      Chinese 無明 (wúmíng) is a semantic calque: 無 ("without") + 明
+      ("brightness, clarity, understanding"). This mirrors the Sanskrit
+      structure a- ("without") + vidyā ("knowledge") closely. The Chinese
+      rendering foregrounds the metaphor of darkness/obscuration rather than
+      the absence of knowledge per se. This is one of the most important
+      terms in Chinese Buddhist doctrine, appearing in virtually every
+      discussion of dependent origination (十二因緣). CBETA confirms its
+      presence in the formula: 無明滅則行滅 ("when avidyā ceases, saṃskāra
+      ceases") — T01n0001.
+    citation_trail:
+      - "T01n0001 (長阿含經): 若無明滅盡是時則無行 (dependent origination formula)"
+      - "T01n0003 (大本經): 從無明支有"
+      - "T01n0007 (大般涅槃經): 無明及愛"
+      - "Twelve links of dependent origination: ubiquitous"
+
+  # ═══════════════════════════════════════════
+  # 10. SAṂSKĀRA
+  # ═══════════════════════════════════════════
+
+  - id: samskara
+    devanagari: संस्कार
+    transliteration: saṃskāra
+
+    chapter: "YS 1.18, 1.50, 3.9–3.10, 3.18, 4.9, 4.27"
+    source_context: >
+      YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ
+      ("The other [asamprajñāta samādhi] is preceded by the practice of
+      cessation, [and only] a residue of saṃskāras remains"). YS 1.50:
+      taj-jaḥ saṃskāro 'nya-saṃskāra-pratibandhī ("The saṃskāra born
+      of that [truth-bearing wisdom] obstructs other saṃskāras"). Found
+      in GRETIL: Āṅgirasasmṛti uses saṃskāra in the ritual-consecration
+      sense; Ānandakanda uses it for alchemical purification — showing the
+      word's broad semantic range.
+
+    segmentation: "sam + √kṛ + -a"
+    roots:
+      - root: "√kṛ"
+        devanagari: "√कृ"
+        meaning: "to do, make, perform"
+        dhatu_number: null
+    prefixes:
+      - prefix: "sam-"
+        meaning: "together, completely, well (here: thorough preparation or formation)"
+    suffixes:
+      - suffix: "-a (with guṇa of root)"
+        meaning: "action/result noun suffix (ghañ pratyaya)"
+        grammatical_function: "forms a masculine noun; √kṛ → kāra with guṇa; sam + s + kāra = saṃskāra"
+    compound_type: null
+
+    literal_gloss: "a putting-together; a thorough making, preparation, or formation"
+    philosophical_gloss: >
+      Saṃskāra has an enormous semantic range in Sanskrit. In ritual contexts
+      it means "consecration" or "sacrament" (the saṃskāras of life: birth,
+      initiation, marriage, death). In grammar, it means "refinement" (saṃskṛta =
+      "refined" = Sanskrit, the "perfected" language). In the Yoga Sutras,
+      saṃskāra is a psychological term: latent impressions or subliminal
+      traces left in citta by every experience and action. These traces
+      accumulate and shape future perception, desire, and behavior —
+      functioning as a kind of unconscious programming. Crucially, saṃskāras
+      from samādhi can overwrite saṃskāras from ordinary experience (YS 1.50),
+      which is the mechanism by which practice gradually transforms the mind.
+      In Buddhism (Pali: saṅkhāra), the term is the second link in dependent
+      origination and one of the five aggregates (skandhas), meaning
+      "volitional formations" or "conditioned mental activities."
+    doctrinal_significance: >
+      Saṃskāra explains the persistence of habit and the mechanism of
+      karmic continuity. It is why liberation requires sustained practice
+      (abhyāsa) rather than a single insight — old saṃskāras must be
+      overwritten by new ones born of meditative wisdom. The concept also
+      explains why the same experience affects different people differently:
+      each person's citta carries a unique accumulation of saṃskāras.
+
+    ambiguity_notes: >
+      The morphology sam + √kṛ → saṃskāra involves an epenthetic 's' between
+      the prefix sam- and the root kṛ (sam + s + kāra). This is standard
+      sandhi and well documented (Monier-Williams s.v. saṃskāra). The real
+      complexity is semantic: saṃskāra means very different things in ritual,
+      grammatical, philosophical, and Buddhist contexts. For the Yoga Sutras,
+      the psychological reading ("latent impression") is correct. The Buddhist
+      saṅkhāra overlaps but is not identical — in the five aggregates
+      (skandhas), saṅkhāra includes active volitional formations, not just
+      latent traces.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "行"
+        pinyin: "xíng"
+        mapping_type: semantic
+        source: "Used for saṅkhāra in the Buddhist five aggregates (五蘊: 色受想行識) and twelve links of dependent origination. Literally 'movement, action, formation.' T01n0001."
+    mapping_type: semantic
+    phonetic_evidence: null
+    semantic_evidence: >
+      Chinese 行 (xíng, "action, movement, formation") renders Buddhist
+      saṅkhāra in two major doctrinal lists: the five aggregates (五蘊,
+      where 行 = saṃskāra-skandha) and the twelve links of dependent
+      origination (十二因緣, where 無明緣行 = "avidyā conditions saṃskāra").
+      The Chinese character 行 foregrounds the "active formation" dimension
+      of the term. It does not capture the Yogic sense of "latent subliminal
+      trace." This mapping applies to the Buddhist usage; there is no
+      standard Chinese rendering of the Yoga Sutras' saṃskāra.
+    citation_trail:
+      - "T01n0001 (長阿含經): 無明滅盡是時則無行 (dependent origination)"
+      - "Five aggregates formula: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)"
+      - "Provisional — Yogic-specific mapping deferred"
+
+  # ═══════════════════════════════════════════
+  # 11. KAIVALYA
+  # ═══════════════════════════════════════════
+
+  - id: kaivalya
+    devanagari: कैवल्य
+    transliteration: kaivalya
+
+    chapter: "YS 2.25, 3.50, 3.55, 4.26, 4.34"
+    source_context: >
+      YS 4.34: puruṣārtha-śūnyānāṃ guṇānāṃ pratiprasavaḥ kaivalyaṃ
+      svarūpa-pratiṣṭhā vā citi-śakteḥ iti ("Kaivalya is the return of
+      the guṇas to their source, [their] purpose for puruṣa being exhausted —
+      or [equivalently], the power of consciousness established in its own
+      nature"). Found in SARIT: Aṣṭāvakragītā 11.6 ("kaivalyamiva saṃprāpto")
+      and Bhoja's Rājamārtaṇḍa commentary on YS ("kaivalyamaśnute").
+
+    segmentation: "kevala + -ya"
+    roots:
+      - root: "kevala"
+        devanagari: "केवल"
+        meaning: "alone, exclusive, entire, absolute (adjective — not a verbal root)"
+        dhatu_number: null
+    prefixes: []
+    suffixes:
+      - suffix: "-ya (taddhita)"
+        meaning: "abstract noun suffix"
+        grammatical_function: "forms a neuter abstract noun from the adjective kevala: 'the state of being kevala'"
+    compound_type: null
+
+    literal_gloss: "aloneness; the state of being exclusively oneself"
+    philosophical_gloss: >
+      Kaivalya is the telos of Patañjali's Yoga Sutras — the final
+      liberation. It is not union (yoga in the popular sense) but isolation:
+      puruṣa (pure awareness) stands free in its own nature, permanently
+      disentangled from prakṛti (material nature, including the mind). The
+      guṇas — the three fundamental qualities of prakṛti — return to their
+      latent state, having served their purpose of providing experience and
+      eventually prompting liberation. Kaivalya is thus not a blissful
+      experience but the end of all experience-for-puruṣa: awareness aware
+      of itself alone. This differs sharply from Vedāntic mokṣa (which is
+      union with Brahman) and Buddhist nirvāṇa (which is the cessation of
+      craving and the end of the rebirth cycle without positing a permanent self).
+    doctrinal_significance: >
+      Kaivalya names where the entire system is heading. It titles the
+      fourth and final chapter of the Yoga Sutras (Kaivalya Pāda). Understanding
+      kaivalya is essential because it reveals the dualist metaphysics
+      underlying Patañjali's system: the goal is not merger but separation —
+      the aloneness of consciousness free from material entanglement.
+
+    ambiguity_notes: >
+      Kaivalya is derived from the adjective kevala, not from a verbal root.
+      This is morphologically straightforward (Monier-Williams s.v. kaivalya).
+      The interpretive challenge is that "aloneness" or "isolation" can sound
+      negative or nihilistic to modern ears, but in Sāṃkhya-Yoga it is the
+      highest positive state: awareness freed from all that is not itself.
+      Some translators soften this to "independence" or "absolute freedom"
+      to avoid the negative connotation, which is reasonable but loses the
+      precision of "aloneness" (kevala = alone).
+    confidence: high
+
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+      - "No standard Chinese Buddhist equivalent — kaivalya is a Sāṃkhya-Yoga technical term"
+      - "Buddhist liberation is nirvāṇa (涅槃), not kaivalya"
+      - "SARIT: Aṣṭāvakragītā 11.6, Bhoja Rājamārtaṇḍa"
+      - "Deferred to mapping stage"
+
+  # ═══════════════════════════════════════════
+  # 12. ABHYĀSA
+  # ═══════════════════════════════════════════
+
+  - id: abhyasa
+    devanagari: अभ्यास
+    transliteration: abhyāsa
+
+    chapter: "YS 1.12–1.14, 1.18, 1.32"
+    source_context: >
+      YS 1.12: abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ ("That cessation [of
+      citta-vṛtti] is [achieved] by abhyāsa and vairāgya"). YS 1.13:
+      tatra sthitau yatno 'bhyāsaḥ ("Abhyāsa is the effort toward
+      steadiness there [in the stilling of vṛttis]"). YS 1.14: sa tu
+      dīrgha-kāla-nairantarya-satkārāsevito dṛḍha-bhūmiḥ ("But that
+      [abhyāsa] becomes firmly grounded when cultivated for a long time,
+      without interruption, and with devotion"). Found in GRETIL: Ānandakanda
+      ("abhyāsanirato") and Dhvanyāloka commentary ("abhyāsaḥ paunaḥpunyam").
+
+    segmentation: "abhi + ā + √as + -a"
+    roots:
+      - root: "√as"
+        devanagari: "√अस्"
+        meaning: "to throw, cast, shoot"
+        dhatu_number: null
+    prefixes:
+      - prefix: "abhi-"
+        meaning: "toward, over, upon (here: intensive — repeated direction toward)"
+      - prefix: "ā-"
+        meaning: "unto, toward (reinforcing directionality)"
+    suffixes:
+      - suffix: "-a"
+        meaning: "action noun suffix (ghañ pratyaya)"
+        grammatical_function: "forms a masculine action noun denoting the process of repeated throwing-toward"
+    compound_type: null
+
+    literal_gloss: "a repeated casting-toward; a throwing oneself at [something] again and again"
+    philosophical_gloss: >
+      Abhyāsa in the Yoga Sutras is one of the two foundational means to
+      nirodha, paired with vairāgya (non-attachment) in YS 1.12. Patañjali
+      defines it precisely as "the effort toward steadiness" (sthitau yatnaḥ,
+      YS 1.13) — the sustained, intentional return to the practice of stilling
+      the mind. Three conditions make abhyāsa firm: long duration
+      (dīrgha-kāla), unbroken continuity (nairantarya), and reverent
+      dedication (satkāra). This is not mere repetition but committed,
+      devoted, patient practice sustained over time. The term appears in
+      other Sanskrit literature for "repeated study" or "exercise" generally,
+      but Patañjali gives it a specific technical meaning.
+    doctrinal_significance: >
+      Abhyāsa answers the practical question: how does one actually achieve
+      nirodha? The answer is sustained practice paired with non-attachment.
+      This makes abhyāsa one of the most practically important terms in the
+      entire text — it is the instruction that converts philosophy into
+      discipline. YS 1.14's three conditions (long time, no interruption,
+      devotion) also manage student expectations: this is not a quick fix.
+
+    ambiguity_notes: >
+      The root √as ("to throw") is sometimes confused with √as ("to be,"
+      class 2). The derivation abhi + ā + √as (4th class, "to throw")
+      yielding abhyāsa ("a repeated throwing-toward") is the standard
+      analysis (Monier-Williams s.v. abhyāsa). The alternative root √as
+      ("to sit"), yielding a sense of "sitting near" (as in upāsana), has
+      been proposed but is not the mainstream derivation. Apte and
+      Monier-Williams both give √as ("to throw, cast") as primary.
+      The Dhvanyāloka commentary gloss "paunaḥpunya" ("repetition")
+      confirms the iterative sense.
+    confidence: medium
+
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+      - "No standard Chinese Buddhist equivalent — abhyāsa is a Yoga Sutras technical term"
+      - "GRETIL: Ānandakanda (abhyāsanirato), Dhvanyāloka (abhyāsaḥ paunaḥpunyam)"
+      - "Deferred to mapping stage"
