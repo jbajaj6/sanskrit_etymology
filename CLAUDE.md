@@ -40,6 +40,18 @@ docs/              — Documentation and presentation materials
 - `/philology-presentation-writer` — Generate presentation materials for class
 - `/source-discipline` — Audit sourcing rigor on any output
 
+## PowerPoint Generation
+
+Generate .pptx presentations from YAML slide specs:
+
+```
+/opt/homebrew/bin/python3.11 src/utils/generate_pptx.py <input.yaml> <output.pptx>
+```
+
+Supported slide types: `title`, `section`, `content`, `two_column`, `table`, `quote`.
+Theme colors, fonts, and speaker notes are configurable in the YAML.
+Requires: `python-pptx` and `pyyaml` (installed in `/opt/homebrew/lib/python3.11/`).
+
 ## MCP Servers
 
 - `buddha` — buddha-cli (formerly daizo-mcp). Full Buddhist text MCP: search, fetch, and index across CBETA, GRETIL, SARIT, MUKTABODHA, Pali Tipitaka. This is the primary domain-specific tool.
