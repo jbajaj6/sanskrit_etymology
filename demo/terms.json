@@ -1,0 +1,1186 @@
+[
+  {
+    "id": "samadhi",
+    "devanagari": "समाधि",
+    "transliteration": "samādhi",
+    "chapter": "YS 1.20, 1.46, 2.2, 2.29, 2.45, 3.3, 3.11, 3.37, 4.1, 4.29",
+    "segmentation": "sam + ā + √dhā + -i",
+    "roots": [
+      {
+        "root": "√dhā",
+        "devanagari": "√धा",
+        "meaning": "to place, put, set, hold",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "sam-",
+        "meaning": "together, completely, perfectly"
+      },
+      {
+        "prefix": "ā-",
+        "meaning": "toward, unto (intensifying directional prefix)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-i",
+        "meaning": "action noun suffix (kṛt pratyaya)",
+        "grammatical_function": "forms a masculine action noun from the verbal base samādhā-"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a complete placing-together; a total settling or composing",
+    "philosophical_gloss": "In Patañjali's Yoga Sutras, samādhi is the highest of the eight limbs (aṣṭāṅga) and the culmination of the internal triad (dhāraṇā → dhyāna → samādhi). It denotes a state where the meditator's awareness merges with the object of meditation so completely that the distinction between subject, act of meditation, and object dissolves. Patañjali distinguishes samādhi with cognitive content (samprajñāta, YS 1.17) from objectless samādhi (asamprajñāta, YS 1.18). In Buddhist usage, samādhi refers more broadly to meditative concentration and appears as the last element of the Noble Eightfold Path (sammā-samādhi in Pali).",
+    "doctrinal_significance": "Samādhi is the telos of yogic practice in Patañjali's system. It is not merely a technique but the state in which liberating knowledge (prajñā) arises. The entire architecture of the Yoga Sutras moves toward samādhi as the condition for kaivalya (liberation).",
+    "ambiguity_notes": "The prefix analysis sam + ā is standard (Monier-Williams s.v. samādhi), but some modern teachers gloss samādhi as \"equal-placing\" (sama + ādhi), treating sama as \"equal/even\" rather than the prefix sam-. This folk etymology is not supported by traditional Sanskrit grammar (Pāṇini) or standard dictionaries. The derivation from sam + ā + √dhā is well established.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "三摩地",
+        "pinyin": "sānmódì",
+        "mapping_type": "phonetic",
+        "source": "Xuanzang (7th c. CE) standardized transliteration. Found in T01n0002, T01n0003."
+      },
+      {
+        "characters": "三昧",
+        "pinyin": "sānmèi",
+        "mapping_type": "phonetic",
+        "source": "Older transliteration from Prakrit samāhi (loss of final -dhi). Found in T01n0001, T01n0006, T01n0007. Extremely common in Chinese Buddhist canon."
+      }
+    ],
+    "mapping": {
+      "overall_type": "transliteration",
+      "overall_confidence": "high",
+      "candidates": [
+        {
+          "characters": "三昧",
+          "pinyin": "sānmèi",
+          "historical_reading_notes": "Middle Chinese approximately *sam-muəi (Baxter-Sagart) or *sam-mwoj. Reflects a Prakrit or Gāndhārī form closer to samāi or samāhi, with loss of the final dental -dhi. This is the older and more widespread transliteration.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0001 (長阿含經, Dīrghāgama): 三昧",
+            "T01n0006: 三昧",
+            "T01n0007 (大般涅槃經): 三昧而般涅槃"
+          ],
+          "mapping_type": "transliteration",
+          "phonetic_evidence": "三昧 is a phonetic transliteration. The Middle Chinese reading *sam-muəi maps to a Prakrit form samāi/samāhi rather than classical Sanskrit samādhi. The loss of the dental stop -dhi and the vowel shift ā → əi/èi is consistent with Gāndhārī or early Prakrit transmission. This is the most common rendering across the Chinese Buddhist canon and was used by early translators including Lokakṣema (2nd c. CE) and Kumārajīva (early 5th c. CE).\n",
+          "semantic_evidence": null,
+          "translation_strategy": "sound_preserving",
+          "doctrinal_shift_notes": "In Chinese Buddhist usage, 三昧 became a broad term for any meditative attainment, sometimes losing the specific technical precision it carries in the Yoga Sutras (where samādhi is the eighth limb and the final stage of the inner triad). Chinese texts speak of hundreds of named samādhis (e.g., 法華三昧, Lotus Samādhi; 念佛三昧, Buddhānusmṛti Samādhi), expanding the concept beyond Patañjali's framework.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "三摩地",
+          "pinyin": "sānmódì",
+          "historical_reading_notes": "Middle Chinese approximately *sam-ma-dijH. A closer syllable-by- syllable match to Sanskrit samādhi. Standardized by Xuanzang (7th c. CE) as part of his systematic retranslation project.\n",
+          "source_tradition": "Xuanzang school (新譯, new translation)",
+          "attestation_source": [
+            "T01n0002 (遊行經): 三摩地",
+            "T01n0003 (大本經): 入三摩地",
+            "T01n0009: 三摩地受用法",
+            "T01n0010: 入三摩地",
+            "T01n0012: 三三摩地 (three samādhis)"
+          ],
+          "mapping_type": "transliteration",
+          "phonetic_evidence": "三摩地 is Xuanzang's standardized transliteration, designed to more faithfully reproduce the Sanskrit samādhi syllable by syllable: 三 (sān) ≈ sam, 摩 (mó) ≈ mā, 地 (dì) ≈ dhi. Xuanzang explicitly preferred this over the older 三昧 as part of his philological reform of Chinese Buddhist terminology.\n",
+          "semantic_evidence": null,
+          "translation_strategy": "sound_preserving",
+          "doctrinal_shift_notes": "三摩地 is functionally equivalent to 三昧 in doctrinal content. The difference is one of transliteration accuracy, not meaning. Xuanzang-lineage texts prefer 三摩地; earlier and more popular texts use 三昧. Both coexist in the canon.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "定",
+          "pinyin": "dìng",
+          "historical_reading_notes": "Native Chinese character meaning \"stability, fixedness, settling.\" Not a transliteration but a semantic rendering sometimes used for samādhi, especially in compound forms like 禪定 and in the three trainings formula 戒定慧.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0003: 入定思惟 ('entered samādhi and contemplated')",
+            "Three trainings formula: 戒定慧 (śīla, samādhi, prajñā)"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "定 (dìng) captures the \"settling\" or \"fixedness\" aspect of samādhi. It is used as a standalone semantic equivalent in some contexts and as the semantic component in the hybrid 禪定. However, 定 alone is broader than samādhi — it can mean any kind of stability or determination, not only meditative absorption.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "When used alone, 定 loses the specific connotation of \"placing- together\" (sam + ā + √dhā) and becomes a more general \"fixedness.\" In the three trainings (戒定慧), 定 functions as a category label encompassing all concentration practices, broader than Patañjali's specific eighth limb.\n",
+          "confidence": "medium",
+          "ambiguity_notes": "定 alone is ambiguous — it can render samādhi, samāpatti, or dhyāna depending on context. It functions as a generic term for meditative stabilization rather than a precise equivalent of any single Sanskrit term.\n"
+        }
+      ]
+    },
+    "search_aliases": [
+      "samadhi",
+      "samādhi"
+    ]
+  },
+  {
+    "id": "dhyana",
+    "devanagari": "ध्यान",
+    "transliteration": "dhyāna",
+    "chapter": "YS 2.11, 2.29, 3.2, 4.6",
+    "segmentation": "√dhyai + -ana",
+    "roots": [
+      {
+        "root": "√dhyai",
+        "devanagari": "√ध्यै",
+        "meaning": "to think, contemplate, meditate upon",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ana",
+        "meaning": "action/process noun suffix (kṛt pratyaya)",
+        "grammatical_function": "forms a neuter noun denoting the act or process of the verbal action"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "the act of contemplating; sustained thinking-upon",
+    "philosophical_gloss": "In the Yoga Sutras, dhyāna is the seventh limb and the middle stage of the internal triad. It is defined specifically as the unbroken flow (ekatānatā) of awareness toward a single object, following the initial fixing of attention (dhāraṇā) and preceding full absorption (samādhi). In Buddhist usage, dhyāna (Pali: jhāna) refers to the four progressive stages of meditative absorption (the four jhānas / four dhyānas), each with specific factors that are progressively stilled.",
+    "doctrinal_significance": "Dhyāna is the pivotal practice between concentration and absorption. Its cross-cultural importance is extraordinary: the Sanskrit dhyāna became Pali jhāna, Chinese 禪 (chán), and Japanese 禅 (zen), making it one of the most consequential loanwords in the history of Asian religions.",
+    "ambiguity_notes": "The root is sometimes cited as √dhī (\"to think, perceive\") rather than √dhyai. Monier-Williams lists dhyāna under √dhyai (class 1 parasmaipada), which is itself related to √dhī. The distinction is minor and does not affect the semantic analysis.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "禪",
+        "pinyin": "chán",
+        "mapping_type": "phonetic",
+        "source": "Abbreviated from 禪那 (chánnà), itself a transliteration of dhyāna. Ubiquitous in Chinese Buddhism."
+      },
+      {
+        "characters": "禪那",
+        "pinyin": "chánnà",
+        "mapping_type": "phonetic",
+        "source": "Full phonetic transliteration of dhyāna. Found in early translation literature."
+      },
+      {
+        "characters": "禪定",
+        "pinyin": "chándìng",
+        "mapping_type": "hybrid",
+        "source": "Hybrid: 禪 (phonetic from dhyāna) + 定 (semantic, 'stability/settling', translating samādhi). Found in T01n0001, T01n0002."
+      }
+    ],
+    "mapping": {
+      "overall_type": "transliteration",
+      "overall_confidence": "high",
+      "candidates": [
+        {
+          "characters": "禪那",
+          "pinyin": "chánnà",
+          "historical_reading_notes": "Middle Chinese approximately *dʑian-na (Baxter-Sagart). Maps to Pali/Prakrit jhāna rather than classical Sanskrit dhyāna. The initial *dʑ- reflects the Prakrit palatalization dhy → jh → dʑ.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T03n0158: 禪那波羅蜜 (dhyāna-pāramitā)",
+            "General usage across Āgama and early Mahāyāna literature"
+          ],
+          "mapping_type": "transliteration",
+          "phonetic_evidence": "The transmission chain is exceptionally well documented: Sanskrit dhyāna → Pali jhāna (palatalization of aspirate cluster dhy- → jh-) → Middle Chinese *dʑian-na (禪那, chánnà). The Middle Chinese initial *dʑ- is the standard Chinese approximation of the Prakrit palatal jh-. This is one of the most studied phonetic transmission cases in Sino-Indian linguistic contact. The intermediate Prakrit/Gāndhārī stage is well attested in manuscript evidence from Central Asia.\n",
+          "semantic_evidence": null,
+          "translation_strategy": "sound_preserving",
+          "doctrinal_shift_notes": null,
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "禪",
+          "pinyin": "chán",
+          "historical_reading_notes": "Abbreviated from 禪那. Middle Chinese *dʑian. Became the name of an entire school of Buddhism (禪宗, Chánzōng → Japanese Zen).\n",
+          "source_tradition": "pan-Buddhist, especially Chan/Zen",
+          "attestation_source": [
+            "Ubiquitous across all periods of Chinese Buddhist literature",
+            "禪宗 (Chan school) — institutional usage from ~7th c. CE onward"
+          ],
+          "mapping_type": "transliteration",
+          "phonetic_evidence": "禪 retains only the first syllable of 禪那 (*dʑian from *dʑian-na). Abbreviation of multi-syllable transliterations to a single character is common in Chinese Buddhist terminology (cf. 佛 for buddha from 佛陀).\n",
+          "semantic_evidence": null,
+          "translation_strategy": "sound_preserving",
+          "doctrinal_shift_notes": "As an abbreviated form, 禪 underwent significant semantic expansion. In the Chan/Zen school, 禪 came to denote not just meditative absorption but an entire approach to practice and realization — one that paradoxically sometimes de-emphasized seated meditation in favor of sudden awakening. The Yoga Sutras' dhyāna (a specific stage of concentration) and Chan/Zen's 禪 (a total orientation toward awakening) are historically connected but doctrinally quite different.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "禪定",
+          "pinyin": "chándìng",
+          "historical_reading_notes": "Hybrid compound: 禪 (phonetic, from dhyāna) + 定 (semantic, \"stability/settling,\" rendering samādhi or samāpatti).\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0001 (長阿含經): 禪定",
+            "T01n0002 (遊行經): 禪定解脫之法"
+          ],
+          "mapping_type": "hybrid",
+          "phonetic_evidence": "禪 component is phonetic (from dhyāna via jhāna).\n",
+          "semantic_evidence": "定 component is semantic (\"settling, stability\"), functioning as a Chinese gloss that clarifies the meaning of the foreign phonetic element. The compound pairs a Sanskrit-derived sound with a native Chinese meaning — a characteristic translation strategy of early Chinese Buddhist translators.\n",
+          "translation_strategy": "mixed",
+          "doctrinal_shift_notes": "禪定 blends dhyāna and samādhi into a single compound, which obscures the distinction Patañjali draws between them (dhyāna = limb 7, samādhi = limb 8). In Chinese Buddhist usage, 禪定 functions as a general term for meditative concentration without the specific limb-by-limb sequence of the Yoga Sutras.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "靜慮",
+          "pinyin": "jìnglǜ",
+          "historical_reading_notes": "Semantic rendering: 靜 (\"quiet, still\") + 慮 (\"contemplation, thought\"). Xuanzang's preferred meaning-based translation.\n",
+          "source_tradition": "Xuanzang school (新譯)",
+          "attestation_source": [
+            "T05n0220a (大般若波羅蜜多經): 靜慮波羅蜜多",
+            "T06n0220b: 靜慮",
+            "T07n0220c: 四靜慮 (four dhyānas)"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "靜慮 analyzes dhyāna as \"quiet contemplation\" — 靜 captures the stilling aspect, 慮 captures the cognitive aspect. This is Xuanzang's attempt to render the meaning rather than the sound, part of his broader project of producing more precise translations. The rendering foregrounds the contemplative dimension of dhyāna rather than the concentration dimension.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "靜慮 shifts the connotation of dhyāna slightly toward intellectual contemplation (慮 = \"deliberation, thought\") rather than pure absorption. This may better capture the Yoga Sutras' definition of dhyāna as \"continuous flow of a single cognition\" (pratyaya- ekatānatā) than the more generic 禪定. However, 靜慮 never displaced 禪 in general usage.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        }
+      ]
+    },
+    "search_aliases": [
+      "dhyana",
+      "dhyāna"
+    ]
+  },
+  {
+    "id": "citta",
+    "devanagari": "चित्त",
+    "transliteration": "citta",
+    "chapter": "YS 1.2, 1.30, 1.33, 1.37, 2.54, 3.1, 3.9, 3.11–3.12, 3.34, 4.4–4.5, 4.15–4.18, 4.21–4.26",
+    "segmentation": "√cit + -ta",
+    "roots": [
+      {
+        "root": "√cit",
+        "devanagari": "√चित्",
+        "meaning": "to perceive, be conscious of, think",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ta",
+        "meaning": "past passive participle suffix (kṛdanta)",
+        "grammatical_function": "Forms a past participle ('that which has been thought/perceived'), which is then substantivized to mean 'the mind' or 'consciousness-stuff'\n"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "that which has been perceived/thought; the accumulated field of consciousness",
+    "philosophical_gloss": "Citta in the Yoga Sutras is not identical to Western \"mind.\" It is the entire apparatus of inner experience — encompassing intellect (buddhi), ego-sense (ahaṃkāra), and the thinking faculty (manas) — as understood through the Sāṃkhya framework that Patañjali presupposes. Citta belongs to prakṛti (material nature), not to puruṣa (pure consciousness). Its fluctuations (vṛtti) are what yoga aims to still. In Buddhist Abhidharma, citta refers more specifically to the momentary unit of consciousness, differing significantly from the Yoga Sutras' usage.",
+    "doctrinal_significance": "Citta is the locus of all yogic work. The entire project of the Yoga Sutras is framed as the progressive stilling of citta's activity. Without understanding what citta is, the rest of the system — vṛtti, nirodha, samādhi — cannot be understood.",
+    "ambiguity_notes": "The derivation from √cit + -ta is uncontroversial. However, the philosophical scope of citta is debated: Vyāsa's Bhāṣya treats it as essentially equivalent to buddhi (the intellect), while later commentators sometimes treat it as a broader term encompassing all three \"inner instruments\" (antaḥkaraṇa). This is a doctrinal question, not a morphological one.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "心",
+        "pinyin": "xīn",
+        "mapping_type": "semantic",
+        "source": "Standard semantic translation. 心 covers 'heart-mind' in Chinese, broader than citta."
+      }
+    ],
+    "mapping": {
+      "overall_type": "broad_equivalent",
+      "overall_confidence": "medium",
+      "candidates": [
+        {
+          "characters": "心",
+          "pinyin": "xīn",
+          "historical_reading_notes": "Native Chinese character. Original meaning: \"heart\" (the organ); extended to \"heart-mind\" — the seat of thought, feeling, and intention in Chinese. No phonetic relationship to Sanskrit citta.\n",
+          "source_tradition": "pan-Buddhist and pre-Buddhist Chinese",
+          "attestation_source": [
+            "Ubiquitous across all Chinese Buddhist literature",
+            "Pre-Buddhist usage in Confucian and Daoist texts"
+          ],
+          "mapping_type": "broad_equivalent",
+          "phonetic_evidence": null,
+          "semantic_evidence": "心 is the standard Chinese rendering of citta in Buddhist translation, but the mapping is approximate. Chinese 心 (xīn) denotes \"heart-mind\" — an undivided concept encompassing cognition, emotion, volition, and even moral sensibility. Sanskrit citta in the Yoga Sutras is more specifically the cognitive-perceptual apparatus (encompassing buddhi, ahaṃkāra, and manas) and belongs to prakṛti (material nature). The Chinese term does not carry the Sāṃkhya metaphysical framework: 心 is not understood as material in Chinese Buddhist thought the way citta-as-prakṛti is in Yoga. Furthermore, Buddhist Abhidharma uses citta for momentary units of consciousness, a usage that partially influenced how 心 functions in Chinese Abhidharma translations but without perfect alignment.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "The mapping of citta → 心 introduces three significant shifts: (1) 心 includes emotional and volitional dimensions that the Yoga Sutras' citta does not foreground; (2) 心 does not carry the Sāṃkhya framework of citta as material (prakṛti); (3) the Chinese \"heart-mind\" tradition (Mencius, Wang Yangming) brings connotations of moral cultivation that are absent from Patañjali's usage. A Chinese reader encountering 心 would not automatically understand the Yoga Sutras' claim that the mind is material and must be distinguished from the witnessing self.\n",
+          "confidence": "medium",
+          "ambiguity_notes": "心 also renders other Sanskrit terms: manas (\"thinking mind\"), hṛdaya (\"heart\"), and sometimes vijñāna (\"consciousness\"). It is a broad catch-all in Chinese Buddhist translation, not a precise equivalent of citta alone. Any future analysis must specify which Sanskrit term is being rendered in a given passage.\n"
+        }
+      ]
+    },
+    "search_aliases": [
+      "citta",
+      "citta"
+    ]
+  },
+  {
+    "id": "nirodha",
+    "devanagari": "निरोध",
+    "transliteration": "nirodha",
+    "chapter": "YS 1.2, 1.12, 1.51, 3.9",
+    "segmentation": "ni + √rudh + -a",
+    "roots": [
+      {
+        "root": "√rudh",
+        "devanagari": "√रुध्",
+        "meaning": "to obstruct, stop, restrain, confine",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "ni-",
+        "meaning": "down, into, back (here: intensifying — complete restraint)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine action noun denoting the process or result of the verbal action"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a holding-back; a complete stopping or restraining",
+    "philosophical_gloss": "Nirodha in the Yoga Sutras means the cessation or stilling of the fluctuations (vṛtti) of citta. It is not annihilation of the mind but the quieting of its habitual activity, allowing puruṣa (pure awareness) to rest in its own nature. In Buddhist usage, nirodha is the third Noble Truth — the cessation of duḥkha (suffering). The Buddhist nirodha-samāpatti (\"attainment of cessation\") is a specific meditative state where all mental activity temporarily ceases. While both traditions use \"cessation,\" the metaphysical frameworks differ: Yoga Sutras presuppose a permanent puruṣa revealed by cessation; Buddhist thought does not.",
+    "doctrinal_significance": "Nirodha is the operative word in the Yoga Sutras' definition of yoga itself (YS 1.2). It names what yoga does. The entire text can be read as an elaboration of how nirodha is achieved, what it reveals, and what obstructs it.",
+    "ambiguity_notes": "The derivation ni + √rudh is standard (Monier-Williams s.v. nirodha). The interpretive question is whether nirodha means \"suppression\" (forceful stopping) or \"cessation\" (natural settling). Most modern scholars favor \"cessation\" or \"stilling,\" reading Patañjali's system as describing a progressive calming rather than forceful suppression. This is a philosophical interpretation question, not a morphological dispute.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "滅",
+        "pinyin": "miè",
+        "mapping_type": "semantic",
+        "source": "Used for Buddhist nirodha in the Four Noble Truths context (苦集滅道). Semantic: 'extinction, cessation.'"
+      }
+    ],
+    "mapping": {
+      "overall_type": "semantic_translation",
+      "overall_confidence": "medium",
+      "candidates": [
+        {
+          "characters": "滅",
+          "pinyin": "miè",
+          "historical_reading_notes": "Native Chinese character meaning \"to extinguish, put out (a fire), perish, cease.\" Used for nirodha in the Four Noble Truths formula.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "Four Noble Truths: 苦集滅道 (duḥkha, samudaya, nirodha, mārga)",
+            "Ubiquitous across Āgama, Abhidharma, and Mahāyāna literature"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "滅 captures the \"cessation\" aspect of nirodha but introduces a connotation of extinction or annihilation that the Sanskrit does not necessarily carry. Sanskrit nirodha (ni + √rudh, \"to hold back, restrain\") is closer to \"restraint\" or \"stilling\" than to \"putting out a fire.\" The Chinese rendering shifts the image from active restraint to passive extinction. This matters doctrinally: 滅 can suggest nihilistic annihilation, which is precisely the misreading of nirvāṇa that Buddhist teachers have historically warned against.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "The use of 滅 for Buddhist nirodha (third Noble Truth) is well established and accurate in context: suffering *ceases*. But the Yoga Sutras' nirodha (YS 1.2: citta-vṛtti-nirodhaḥ) is more precisely \"restraint\" or \"stilling\" of mental fluctuations — not their extinction. The Chinese 滅 applied to the Yogic concept would overstate the case: Patañjali's nirodha does not destroy the mind, it quiets it. There is no standard Chinese rendering of the Yoga Sutras' nirodha because the text was not systematically translated into Chinese. The mapping applies primarily to Buddhist contexts.\n",
+          "confidence": "medium",
+          "ambiguity_notes": "The gap between Buddhist nirodha (cessation of suffering) and Yogic nirodha (restraint of mental activity) is significant. 滅 works well for the Buddhist sense but would misrepresent the Yogic sense. Any presentation should distinguish the two usages.\n"
+        }
+      ]
+    },
+    "search_aliases": [
+      "nirodha",
+      "nirodha"
+    ]
+  },
+  {
+    "id": "prajna",
+    "devanagari": "प्रज्ञा",
+    "transliteration": "prajñā",
+    "chapter": "YS 1.20, 1.48–1.49, 2.27, 3.5",
+    "segmentation": "pra + √jñā",
+    "roots": [
+      {
+        "root": "√jñā",
+        "devanagari": "√ज्ञा",
+        "meaning": "to know, perceive, understand",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "pra-",
+        "meaning": "forth, forward, intensifying (here: 'higher' or 'superior')"
+      }
+    ],
+    "suffixes": [],
+    "compound_type": null,
+    "literal_gloss": "higher knowing; a knowing that goes forth or beyond ordinary cognition",
+    "philosophical_gloss": "In the Yoga Sutras, prajñā refers specifically to the direct, non-inferential wisdom that arises in samādhi. It is distinguished from knowledge gained by scripture (śruta) or reasoning (anumāna) — it is experiential insight into the nature of reality. Patañjali calls it ṛtaṃbharā (\"truth-bearing\"), meaning it carries truth directly, without the mediation of concepts. In Buddhist usage, prajñā (Pali: paññā) is one of the three trainings (along with śīla and samādhi) and is central to the Prajñāpāramitā literature, where it denotes the perfection of wisdom that perceives śūnyatā (emptiness).",
+    "doctrinal_significance": "Prajñā is the fruit of samādhi in the Yoga Sutras — it is what meditative absorption produces. The term bridges the Yoga and Buddhist traditions as a shared concept (though with different metaphysical content), making it essential for cross-cultural analysis.",
+    "ambiguity_notes": "The derivation pra + √jñā is straightforward and uncontested. The word has no suffix — prajñā is formed directly from the prefixed root, with the feminine -ā ending marking it as a feminine abstract noun. The interpretive complexity lies entirely in the philosophical domain: Yogic prajñā reveals the distinction of puruṣa from prakṛti, while Buddhist prajñā reveals emptiness (śūnyatā) — these are fundamentally different metaphysical claims using the same word.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "般若",
+        "pinyin": "bōrě",
+        "mapping_type": "phonetic",
+        "source": "Phonetic transliteration, likely from a Prakrit form (paññā or similar). 般若 is one of the most important loanwords in Chinese Buddhism, preserved rather than translated to signal its special doctrinal status. Found in T01n0025, T01n0026, and throughout the vast Prajñāpāramitā corpus.\n"
+      },
+      {
+        "characters": "慧",
+        "pinyin": "huì",
+        "mapping_type": "semantic",
+        "source": "Semantic translation meaning 'wisdom'. Used in some contexts, especially as part of the three trainings (戒定慧 = śīla, samādhi, prajñā).\n"
+      }
+    ],
+    "mapping": {
+      "overall_type": "transliteration",
+      "overall_confidence": "high",
+      "candidates": [
+        {
+          "characters": "般若",
+          "pinyin": "bōrě",
+          "historical_reading_notes": "Middle Chinese approximately *puan-ɲia (Baxter-Sagart) or *ban-nja. The modern reading bōrě is irregular and preserves an archaic pronunciation. Standard modern Mandarin for these characters would be bānruò, but the traditional Buddhist reading bōrě is used in all liturgical and scholarly contexts.\n",
+          "source_tradition": "pan-Buddhist, especially Prajñāpāramitā literature",
+          "attestation_source": [
+            "T01n0025 (中阿含經): 般若",
+            "T01n0026 (中阿含經): 般若",
+            "T08n0223 (摩訶般若波羅蜜經, Kumārajīva): entire text",
+            "T05n0220a–T07n0220c (大般若波羅蜜多經, Xuanzang): 600-fascicle magnum opus"
+          ],
+          "mapping_type": "transliteration",
+          "phonetic_evidence": "般若 reflects a Prakrit or Gāndhārī pronunciation closer to paññā (Pali) than classical Sanskrit prajñā. The Middle Chinese *puan-ɲia maps well to paññā: *puan ≈ pañ, *ɲia ≈ ñā. The consonant cluster pr- in prajñā does not survive in Prakrit, and the Chinese transliteration follows the Prakrit form. The preservation of the phonetic rendering (rather than translation) is itself significant — Chinese translators judged the concept too important and too foreign to render with a native Chinese word.\n",
+          "semantic_evidence": null,
+          "translation_strategy": "sound_preserving",
+          "doctrinal_shift_notes": "般若 in Chinese Buddhism carries the full weight of the Prajñāpāramitā tradition — it denotes the perfection of wisdom that perceives śūnyatā (emptiness). This is a specifically Buddhist doctrinal content. The Yoga Sutras' prajñā (the truth- bearing wisdom that arises in samādhi, YS 1.48) perceives the distinction between puruṣa and prakṛti — a fundamentally different metaphysical claim. 般若 in Chinese carries the Buddhist sense, not the Yogic sense.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        },
+        {
+          "characters": "慧",
+          "pinyin": "huì",
+          "historical_reading_notes": "Native Chinese character meaning \"wisdom, intelligence, understanding.\" No phonetic relationship to prajñā.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "Three trainings: 戒定慧 (śīla, samādhi, prajñā)",
+            "Used in Abhidharma contexts for prajñā as a mental factor"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "慧 is the semantic translation of prajñā, used when the phonetic prestige rendering 般若 is not required. In the three trainings formula (戒定慧), 慧 functions as a category label for all wisdom-related practices and attainments. However, 慧 is a more general term than 般若 — it covers ordinary intelligence and understanding, while 般若 signals specifically the highest Buddhist wisdom.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "The coexistence of 般若 and 慧 for the same Sanskrit term illustrates a key translation principle: when a concept was judged to be doctrinally irreducible, Chinese translators preserved the foreign sound (般若) rather than domesticating it (慧). The phonetic rendering signals \"this concept requires special understanding\" — a kind of semantic quarantine that prevents false equivalence with existing Chinese ideas.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        }
+      ]
+    },
+    "search_aliases": [
+      "prajna",
+      "prajñā"
+    ]
+  },
+  {
+    "id": "vrtti",
+    "devanagari": "वृत्ति",
+    "transliteration": "vṛtti",
+    "chapter": "YS 1.2, 1.4–1.11, 1.41, 2.11, 2.15, 2.50, 3.43, 4.18",
+    "segmentation": "√vṛt + -ti",
+    "roots": [
+      {
+        "root": "√vṛt",
+        "devanagari": "√वृत्",
+        "meaning": "to turn, revolve, move, exist, happen",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ti",
+        "meaning": "action noun suffix (kṛt pratyaya)",
+        "grammatical_function": "forms a feminine abstract noun denoting the action or manner of the verbal root"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a turning; a revolving; the manner in which something moves or operates",
+    "philosophical_gloss": "In the Yoga Sutras, vṛtti denotes the fluctuations, turnings, or modulations of citta — the ongoing activity of the mind-field. Patañjali enumerates five types (YS 1.5–1.11): valid cognition (pramāṇa), error (viparyaya), conceptual construction (vikalpa), sleep (nidrā), and memory (smṛti). Crucially, vṛttis are classified as either painful (kliṣṭa) or non-painful (akliṣṭa), but all vṛttis — even correct ones — must be stilled for yoga to occur. The goal is not to have only good thoughts but to quiet the entire mechanism of mental turning. Outside the Yoga Sutras, vṛtti has a broad range of meanings including \"livelihood,\" \"commentary\" (as in a literary vṛtti), and \"mode of conduct.\"",
+    "doctrinal_significance": "Vṛtti is the object of yogic work — it is what must be stilled. Without understanding vṛtti, the central claim of YS 1.2 is unintelligible. The fivefold classification (YS 1.5–1.11) provides the map of what the mind does, which the practitioner must learn to observe and quiet.",
+    "ambiguity_notes": "The derivation √vṛt + -ti is uncontroversial. The translation choice is consequential: \"fluctuation\" (Feuerstein), \"modification\" (Taimni), \"whirlpool\" (Satchidananda), \"turning\" (literal). Each translation implies a different image of mental activity — \"whirlpool\" suggests violence, \"modification\" suggests neutral change, \"fluctuation\" suggests oscillation. The Sanskrit root √vṛt simply means \"to turn\" and does not inherently privilege any of these connotations. This is a case where the English translation carries more interpretive weight than the Sanskrit original.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "vrtti",
+      "vṛtti"
+    ]
+  },
+  {
+    "id": "viveka_khyati",
+    "devanagari": "विवेकख्याति",
+    "transliteration": "viveka-khyāti",
+    "chapter": "YS 2.26, 2.28, 4.29",
+    "segmentation": "vi + √vic + -a | √khyā + -ti",
+    "roots": [
+      {
+        "root": "√vic",
+        "devanagari": "√विच्",
+        "meaning": "to sift, separate, discriminate",
+        "dhatu_number": null
+      },
+      {
+        "root": "√khyā",
+        "devanagari": "√ख्या",
+        "meaning": "to be known, to appear, to declare",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "vi-",
+        "meaning": "apart, asunder (intensifying the separative action of √vic)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a (in viveka)",
+        "meaning": "action noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine noun from vi + √vic → viveka"
+      },
+      {
+        "suffix": "-ti (in khyāti)",
+        "meaning": "action noun suffix (kṛt pratyaya)",
+        "grammatical_function": "forms a feminine noun from √khyā → khyāti"
+      }
+    ],
+    "compound_type": "tatpuruṣa (ṣaṣṭhī — genitive relationship: 'the vision of discrimination')",
+    "literal_gloss": "the vision/appearance of discrimination; the seeing that arises from sifting-apart",
+    "philosophical_gloss": "Viveka-khyāti is the culminating insight of the Yoga Sutras' epistemology: the direct, unbroken perception that puruṣa (pure awareness) and prakṛti (material nature, including the mind) are fundamentally distinct. This is not intellectual knowledge but a sustained perceptual clarity that, once established without interruption (aviplavā), destroys ignorance (avidyā) and leads to liberation (kaivalya). It is the Sāṃkhya-Yoga equivalent of what Vedānta calls ātma-jñāna — but grounded in a dualist rather than non-dualist metaphysics.",
+    "doctrinal_significance": "Viveka-khyāti is the hinge between practice and liberation. It is what the eight limbs of yoga ultimately produce, and it is the direct cause of kaivalya. Without it, all other practices remain preparatory. It also marks one of the sharpest divergences from Buddhist soteriology: Buddhist insight (vipaśyanā) sees emptiness and non-self, while viveka-khyāti sees the eternal distinctness of a real self (puruṣa).",
+    "ambiguity_notes": "The compound analysis is standard: viveka (discrimination) + khyāti (vision/perception) in a genitive tatpuruṣa. Some translators render viveka-khyāti as a single concept (\"discriminative discernment\") rather than parsing the compound, which is reasonable for a non-technical audience but obscures the two-part structure. The root of viveka is sometimes given as √vic (Monier-Williams) and sometimes as √vij; √vic (\"to sift, separate\") is the standard attribution.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "viveka_khyati",
+      "viveka-khyāti",
+      "viveka-khyati"
+    ]
+  },
+  {
+    "id": "klesa",
+    "devanagari": "क्लेश",
+    "transliteration": "kleśa",
+    "chapter": "YS 1.24, 2.2–2.9, 2.12–2.13, 2.28, 4.28, 4.30",
+    "segmentation": "√kliś + -a",
+    "roots": [
+      {
+        "root": "√kliś",
+        "devanagari": "√क्लिश्",
+        "meaning": "to torment, afflict, cause pain",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action/result noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine noun denoting the result of the verbal action: 'that which afflicts'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "affliction; that which torments or causes pain",
+    "philosophical_gloss": "In the Yoga Sutras, kleśa is a technical term for the five root causes of suffering: avidyā (ignorance), asmitā (ego-sense), rāga (attachment), dveṣa (aversion), and abhiniveśa (clinging to life). These are not passing emotions but deep structural distortions in how citta relates to experience. Avidyā is the root kleśa from which the other four grow (YS 2.4). The kleśas can exist in four states: dormant (prasupta), attenuated (tanu), alternating (vicchinna), or fully active (udāra). In Buddhist usage, kleśa (Pali: kilesa) similarly denotes mental afflictions, though the specific enumeration differs (three root poisons: rāga, dveṣa, moha).",
+    "doctrinal_significance": "The kleśas explain why beings suffer and why yoga is necessary. They are not sins or moral failings but psychological structures — habitual patterns of misperception. The goal of practice is not to suppress them but to attenuate and eventually uproot them through the combined force of abhyāsa (practice) and viveka-khyāti (discriminative discernment).",
+    "ambiguity_notes": "The derivation √kliś + -a is standard (Monier-Williams s.v. kleśa). The vowel change from kliś to kleś follows guṇa ablaut rules. No morphological controversy. The cross-tradition comparison is important: both Yoga and Buddhism use kleśa for mental afflictions, but enumerate them differently. The shared term suggests historical contact or common inheritance from pre-systematic śramaṇa traditions.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "煩惱",
+        "pinyin": "fánnǎo",
+        "mapping_type": "semantic",
+        "source": "Standard Chinese Buddhist rendering of kleśa. Literally 'vexation-affliction.' Found ubiquitously: T01n0001, T01n0002, T01n0003."
+      }
+    ],
+    "mapping": {
+      "overall_type": "semantic_translation",
+      "overall_confidence": "high",
+      "candidates": [
+        {
+          "characters": "煩惱",
+          "pinyin": "fánnǎo",
+          "historical_reading_notes": "Native Chinese compound: 煩 (\"vexed, troubled, agitated\") + 惱 (\"distressed, afflicted, annoyed\"). Both characters predate Buddhist usage.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0001 (長阿含經): 無煩惱",
+            "T01n0002 (遊行經): 斷盡諸煩惱",
+            "T01n0003 (大本經): 煩惱",
+            "T03n0159: 煩惱障 (kleśāvaraṇa, 'affliction-obstruction')",
+            "T03n0160: 煩惱障"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "煩惱 captures the experiential quality of kleśa — the felt sense of being vexed and troubled. The compound is semantically apt: both characters independently convey distress, and together they create a strong impression of mental affliction. The mapping is remarkably stable across the entire Chinese Buddhist canon, from the earliest translations (2nd c. CE) through the latest. It also appears in compounds that mirror Sanskrit: 煩惱障 (kleśāvaraṇa, \"affliction-obstruction\"), confirming the systematic nature of the equivalence.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "The Chinese 煩惱 emphasizes the subjective feeling of being afflicted, while the Sanskrit kleśa (from √kliś, \"to torment\") has a slightly more objective or structural sense — it denotes the cause of suffering, not just the feeling. In the Yoga Sutras, the five kleśas are structural categories (avidyā, asmitā, rāga, dveṣa, abhiniveśa), not passing emotional states. The Chinese rendering, with its emphasis on felt distress, slightly shifts the concept toward emotional experience. This shift is minor and does not distort the basic meaning.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        }
+      ]
+    },
+    "search_aliases": [
+      "klesa",
+      "kleśa"
+    ]
+  },
+  {
+    "id": "avidya",
+    "devanagari": "अविद्या",
+    "transliteration": "avidyā",
+    "chapter": "YS 2.3–2.5, 2.24, 2.34",
+    "segmentation": "a + √vid + -yā",
+    "roots": [
+      {
+        "root": "√vid",
+        "devanagari": "√विद्",
+        "meaning": "to know, to find, to understand",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "a-",
+        "meaning": "not, without (nañ prefix — negation)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-yā",
+        "meaning": "abstract noun suffix (feminine)",
+        "grammatical_function": "forms a feminine abstract noun: vidyā ('knowledge') → avidyā ('non-knowledge')"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "non-knowledge; the absence or opposite of true seeing",
+    "philosophical_gloss": "Avidyā in the Yoga Sutras is not mere ignorance in the sense of lacking information. It is a positive misperception — actively seeing things as they are not. Patañjali's fourfold definition (YS 2.5) is precise: avidyā is taking the impermanent for permanent, the impure for pure, suffering for pleasure, and the non-self for the self. This is the root kleśa from which all others grow (YS 2.4). In Advaita Vedānta, avidyā plays a similar but metaphysically different role: it is the cosmic power of illusion (māyā) that causes the appearance of multiplicity. In Buddhism, avidyā (Pali: avijjā) is the first link in dependent origination (pratītyasamutpāda) — the fundamental ignorance that drives the entire cycle of rebirth. All three traditions agree that avidyā is the root problem; they disagree about what it conceals.",
+    "doctrinal_significance": "Avidyā is the root cause in Patañjali's system — the source from which the other four kleśas arise. It is what viveka-khyāti (discriminative discernment) destroys. The removal of avidyā is, in effect, synonymous with liberation. This makes it the single most important diagnostic concept in the Yoga Sutras.",
+    "ambiguity_notes": "The derivation a- + vidyā (itself from √vid + -yā) is uncontested. The interpretive complexity is philosophical: Patañjali's avidyā is a psychological misperception (taking non-self for self), while Śaṅkara's avidyā is a cosmic ontological principle (the power that projects the world-illusion). These are very different claims wearing the same word. Buddhist avidyā is different again — it is ignorance of the Four Noble Truths and dependent origination, not ignorance of a true self. For this project, the Yoga Sutras definition (YS 2.5) is primary.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "無明",
+        "pinyin": "wúmíng",
+        "mapping_type": "semantic",
+        "source": "Standard Buddhist Chinese rendering. Literally 'without brightness/clarity.' Found in dependent origination passages: T01n0001, T01n0003, T01n0007."
+      }
+    ],
+    "mapping": {
+      "overall_type": "semantic_translation",
+      "overall_confidence": "high",
+      "candidates": [
+        {
+          "characters": "無明",
+          "pinyin": "wúmíng",
+          "historical_reading_notes": "Native Chinese compound: 無 (\"without, lacking\") + 明 (\"brightness, clarity, understanding\"). A structural calque mirroring the Sanskrit: a- (\"without\") + vidyā (\"knowledge\").\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0001 (長阿含經): 若無明滅盡是時則無行",
+            "T01n0003 (大本經): 從無明支有",
+            "T01n0007 (大般涅槃經): 無明及愛",
+            "T02n0099 (雜阿含經): 無明緣行行緣識",
+            "T02n0124: 無明緣行",
+            "Twelve links formula: ubiquitous"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "無明 is a structural calque — it mirrors the morphological structure of the Sanskrit exactly: 無 (\"without\") = a- (\"not\"), 明 (\"brightness/clarity\") = vidyā (\"knowledge\"). The Chinese rendering chooses \"brightness\" (明) rather than \"knowledge\" as the base metaphor, foregrounding an image of obscuration/darkness rather than absence of knowing. This is a subtle but real interpretive choice: the Sanskrit emphasizes epistemological failure (not-knowing), while the Chinese emphasizes perceptual obscuration (without-clarity). Both are valid readings of the concept, but they carry different phenomenological weight.\n",
+          "translation_strategy": "meaning_preserving",
+          "doctrinal_shift_notes": "In Chinese Buddhist usage, 無明 is the first link of dependent origination (十二因緣) and the fundamental ignorance that drives the rebirth cycle. The CBETA evidence powerfully confirms the canonical formula: 無明緣行 (\"avidyā conditions saṃskāra\"), attested in T01n0003, T02n0099, T02n0124. In the Yoga Sutras, avidyā is the root kleśa (YS 2.4) and a fourfold misperception (YS 2.5) — structurally similar but metaphysically different. The Chinese 無明 carries the Buddhist dependent origination framework, not the Yoga Sutras' Sāṃkhya framework.\n",
+          "confidence": "high",
+          "ambiguity_notes": null
+        }
+      ]
+    },
+    "search_aliases": [
+      "avidya",
+      "avidyā"
+    ]
+  },
+  {
+    "id": "samskara",
+    "devanagari": "संस्कार",
+    "transliteration": "saṃskāra",
+    "chapter": "YS 1.18, 1.50, 3.9–3.10, 3.18, 4.9, 4.27",
+    "segmentation": "sam + √kṛ + -a",
+    "roots": [
+      {
+        "root": "√kṛ",
+        "devanagari": "√कृ",
+        "meaning": "to do, make, perform",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "sam-",
+        "meaning": "together, completely, well (here: thorough preparation or formation)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a (with guṇa of root)",
+        "meaning": "action/result noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine noun; √kṛ → kāra with guṇa; sam + s + kāra = saṃskāra"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a putting-together; a thorough making, preparation, or formation",
+    "philosophical_gloss": "Saṃskāra has an enormous semantic range in Sanskrit. In ritual contexts it means \"consecration\" or \"sacrament\" (the saṃskāras of life: birth, initiation, marriage, death). In grammar, it means \"refinement\" (saṃskṛta = \"refined\" = Sanskrit, the \"perfected\" language). In the Yoga Sutras, saṃskāra is a psychological term: latent impressions or subliminal traces left in citta by every experience and action. These traces accumulate and shape future perception, desire, and behavior — functioning as a kind of unconscious programming. Crucially, saṃskāras from samādhi can overwrite saṃskāras from ordinary experience (YS 1.50), which is the mechanism by which practice gradually transforms the mind. In Buddhism (Pali: saṅkhāra), the term is the second link in dependent origination and one of the five aggregates (skandhas), meaning \"volitional formations\" or \"conditioned mental activities.\"",
+    "doctrinal_significance": "Saṃskāra explains the persistence of habit and the mechanism of karmic continuity. It is why liberation requires sustained practice (abhyāsa) rather than a single insight — old saṃskāras must be overwritten by new ones born of meditative wisdom. The concept also explains why the same experience affects different people differently: each person's citta carries a unique accumulation of saṃskāras.",
+    "ambiguity_notes": "The morphology sam + √kṛ → saṃskāra involves an epenthetic 's' between the prefix sam- and the root kṛ (sam + s + kāra). This is standard sandhi and well documented (Monier-Williams s.v. saṃskāra). The real complexity is semantic: saṃskāra means very different things in ritual, grammatical, philosophical, and Buddhist contexts. For the Yoga Sutras, the psychological reading (\"latent impression\") is correct. The Buddhist saṅkhāra overlaps but is not identical — in the five aggregates (skandhas), saṅkhāra includes active volitional formations, not just latent traces.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "行",
+        "pinyin": "xíng",
+        "mapping_type": "semantic",
+        "source": "Used for saṅkhāra in the Buddhist five aggregates (五蘊: 色受想行識) and twelve links of dependent origination. Literally 'movement, action, formation.' T01n0001."
+      }
+    ],
+    "mapping": {
+      "overall_type": "semantic_translation",
+      "overall_confidence": "medium",
+      "candidates": [
+        {
+          "characters": "行",
+          "pinyin": "xíng",
+          "historical_reading_notes": "Native Chinese character. Primary meanings: \"to walk, travel, move; to do, act, perform; action, conduct, movement.\" One of the most polysemous characters in the language.\n",
+          "source_tradition": "pan-Buddhist",
+          "attestation_source": [
+            "T01n0001 (長阿含經): 無明滅盡是時則無行",
+            "T01n0003 (大本經): 無明緣行",
+            "T02n0099 (雜阿含經): 無明緣行行緣識",
+            "T02n0124: 無明緣行",
+            "Five aggregates: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)"
+          ],
+          "mapping_type": "semantic_translation",
+          "phonetic_evidence": null,
+          "semantic_evidence": "行 captures the \"doing/forming\" dimension of saṃskāra but not the \"latent trace\" dimension. In the five aggregates (五蘊, pañca-skandha), 行 renders saṃskāra-skandha — the aggregate of volitional formations. In the twelve links of dependent origination (十二因緣), 行 is the second link, conditioned by 無明 (avidyā). In both cases, 行 foregrounds active formation and volitional movement, not the passive residue of past experience that the Yoga Sutras emphasize.\n",
+          "translation_strategy": "doctrinal_adaptation",
+          "doctrinal_shift_notes": "This mapping involves a significant doctrinal shift. Sanskrit saṃskāra has (at minimum) three major senses: (1) ritual consecration, (2) latent subliminal impression (Yoga Sutras), (3) volitional formation (Buddhist Abhidharma). Chinese 行 captures sense (3) well but does not capture sense (2) at all. The Yoga Sutras' saṃskāra — the unconscious trace that shapes future perception — has no neat Chinese equivalent because the Yoga Sutras were not translated into Chinese. When Chinese Buddhist texts use 行 for saṃskāra, they mean \"active volitional formations,\" not \"latent impressions.\" This is one of the most consequential doctrinal shifts in the project: the same Sanskrit word, filtered through different traditions, yields different Chinese meanings depending on which sense of the Sanskrit is being rendered.\n",
+          "confidence": "medium",
+          "ambiguity_notes": "行 is one of the most overloaded characters in Chinese Buddhist translation. It can render saṃskāra, but also carya (\"conduct\"), caryā (\"practice\"), and other Sanskrit terms involving action or movement. Context is essential for disambiguation. The character's extreme polysemy means that 行 → saṃskāra is never a simple one-to-one mapping.\n"
+        }
+      ]
+    },
+    "search_aliases": [
+      "samskara",
+      "saṃskāra"
+    ]
+  },
+  {
+    "id": "kaivalya",
+    "devanagari": "कैवल्य",
+    "transliteration": "kaivalya",
+    "chapter": "YS 2.25, 3.50, 3.55, 4.26, 4.34",
+    "segmentation": "kevala + -ya",
+    "roots": [
+      {
+        "root": "kevala",
+        "devanagari": "केवल",
+        "meaning": "alone, exclusive, entire, absolute (adjective — not a verbal root)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ya (taddhita)",
+        "meaning": "abstract noun suffix",
+        "grammatical_function": "forms a neuter abstract noun from the adjective kevala: 'the state of being kevala'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "aloneness; the state of being exclusively oneself",
+    "philosophical_gloss": "Kaivalya is the telos of Patañjali's Yoga Sutras — the final liberation. It is not union (yoga in the popular sense) but isolation: puruṣa (pure awareness) stands free in its own nature, permanently disentangled from prakṛti (material nature, including the mind). The guṇas — the three fundamental qualities of prakṛti — return to their latent state, having served their purpose of providing experience and eventually prompting liberation. Kaivalya is thus not a blissful experience but the end of all experience-for-puruṣa: awareness aware of itself alone. This differs sharply from Vedāntic mokṣa (which is union with Brahman) and Buddhist nirvāṇa (which is the cessation of craving and the end of the rebirth cycle without positing a permanent self).",
+    "doctrinal_significance": "Kaivalya names where the entire system is heading. It titles the fourth and final chapter of the Yoga Sutras (Kaivalya Pāda). Understanding kaivalya is essential because it reveals the dualist metaphysics underlying Patañjali's system: the goal is not merger but separation — the aloneness of consciousness free from material entanglement.",
+    "ambiguity_notes": "Kaivalya is derived from the adjective kevala, not from a verbal root. This is morphologically straightforward (Monier-Williams s.v. kaivalya). The interpretive challenge is that \"aloneness\" or \"isolation\" can sound negative or nihilistic to modern ears, but in Sāṃkhya-Yoga it is the highest positive state: awareness freed from all that is not itself. Some translators soften this to \"independence\" or \"absolute freedom\" to avoid the negative connotation, which is reasonable but loses the precision of \"aloneness\" (kevala = alone).",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "kaivalya",
+      "kaivalya"
+    ]
+  },
+  {
+    "id": "abhyasa",
+    "devanagari": "अभ्यास",
+    "transliteration": "abhyāsa",
+    "chapter": "YS 1.12–1.14, 1.18, 1.32",
+    "segmentation": "abhi + ā + √as + -a",
+    "roots": [
+      {
+        "root": "√as",
+        "devanagari": "√अस्",
+        "meaning": "to throw, cast, shoot",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "abhi-",
+        "meaning": "toward, over, upon (here: intensive — repeated direction toward)"
+      },
+      {
+        "prefix": "ā-",
+        "meaning": "unto, toward (reinforcing directionality)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine action noun denoting the process of repeated throwing-toward"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a repeated casting-toward; a throwing oneself at [something] again and again",
+    "philosophical_gloss": "Abhyāsa in the Yoga Sutras is one of the two foundational means to nirodha, paired with vairāgya (non-attachment) in YS 1.12. Patañjali defines it precisely as \"the effort toward steadiness\" (sthitau yatnaḥ, YS 1.13) — the sustained, intentional return to the practice of stilling the mind. Three conditions make abhyāsa firm: long duration (dīrgha-kāla), unbroken continuity (nairantarya), and reverent dedication (satkāra). This is not mere repetition but committed, devoted, patient practice sustained over time. The term appears in other Sanskrit literature for \"repeated study\" or \"exercise\" generally, but Patañjali gives it a specific technical meaning.",
+    "doctrinal_significance": "Abhyāsa answers the practical question: how does one actually achieve nirodha? The answer is sustained practice paired with non-attachment. This makes abhyāsa one of the most practically important terms in the entire text — it is the instruction that converts philosophy into discipline. YS 1.14's three conditions (long time, no interruption, devotion) also manage student expectations: this is not a quick fix.",
+    "ambiguity_notes": "The root √as (\"to throw\") is sometimes confused with √as (\"to be,\" class 2). The derivation abhi + ā + √as (4th class, \"to throw\") yielding abhyāsa (\"a repeated throwing-toward\") is the standard analysis (Monier-Williams s.v. abhyāsa). The alternative root √as (\"to sit\"), yielding a sense of \"sitting near\" (as in upāsana), has been proposed but is not the mainstream derivation. Apte and Monier-Williams both give √as (\"to throw, cast\") as primary. The Dhvanyāloka commentary gloss \"paunaḥpunya\" (\"repetition\") confirms the iterative sense.",
+    "confidence": "medium",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "abhyasa",
+      "abhyāsa"
+    ]
+  },
+  {
+    "id": "vairagya",
+    "devanagari": "वैराग्य",
+    "transliteration": "vairāgya",
+    "chapter": "YS 1.12, 1.15–1.16, 3.50",
+    "segmentation": "vi + rāga + -ya",
+    "roots": [
+      {
+        "root": "√rañj",
+        "devanagari": "√रञ्ज्",
+        "meaning": "to be colored, dyed, excited, attached, passionate",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "vi-",
+        "meaning": "apart, away, without (here: negation/absence — 'without coloring')"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-ya (taddhita)",
+        "meaning": "abstract noun suffix",
+        "grammatical_function": "forms a neuter abstract noun from the adjective/noun virāga → vairāgya: 'the state of being without rāga'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "the state of being without coloring; freedom from passionate attachment",
+    "philosophical_gloss": "Vairāgya is one of the two foundational means to nirodha, paired with abhyāsa in YS 1.12. If abhyāsa is the active effort (doing), vairāgya is the corresponding release (letting go). Patañjali describes two levels: ordinary vairāgya is freedom from craving for sensory objects (YS 1.15); the higher vairāgya (para-vairāgya, YS 1.16) is freedom from craving for the guṇas themselves — for any experience at all, however subtle. This higher vairāgya arises only from direct knowledge of puruṣa. The etymological image is striking: rāga literally means \"coloring\" or \"dyeing\" — the way desire tinges or stains awareness. Vairāgya is the removal of that coloring, leaving awareness clear.",
+    "doctrinal_significance": "Vairāgya prevents practice from becoming another form of grasping. Without it, even meditation can become an object of attachment. The pairing of abhyāsa and vairāgya is one of the Yoga Sutras' most psychologically astute insights: effort without non-attachment is strain; non-attachment without effort is passivity. Both are required together.",
+    "ambiguity_notes": "The derivation is transparent: virāga (\"absence of rāga\") → vairāgya (abstract noun via vṛddhi of the initial vowel: vi → vai). The root √rañj → rāga is well established (Monier-Williams s.v. rāga, vairāgya). The only interpretive question is whether vairāgya implies active renunciation (giving things up) or a natural falling-away of craving. Patañjali's language (\"vaśīkāra-saṃjñā\" = mastery-consciousness) suggests the latter: it is not suppression but mastery, a state where desire simply no longer arises.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "vairagya",
+      "vairāgya"
+    ]
+  },
+  {
+    "id": "dharana",
+    "devanagari": "धारणा",
+    "transliteration": "dhāraṇā",
+    "chapter": "YS 2.29, 2.53, 3.1",
+    "segmentation": "√dhṛ + -ana + -ā",
+    "roots": [
+      {
+        "root": "√dhṛ",
+        "devanagari": "√धृ",
+        "meaning": "to hold, bear, support, maintain",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ana",
+        "meaning": "action noun suffix (kṛt pratyaya)",
+        "grammatical_function": "forms a noun denoting the action or instrument of the root (dhṛ → dhāraṇa with guṇa)"
+      },
+      {
+        "suffix": "-ā",
+        "meaning": "feminine ending",
+        "grammatical_function": "marks the feminine gender; the feminine form dhāraṇā emphasizes the process/practice aspect"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a holding; the act of holding steady or maintaining [attention] in place",
+    "philosophical_gloss": "Dhāraṇā is the sixth limb of Patañjali's eight-limbed yoga and the first of the three inner limbs (antaraṅga). It is defined with striking simplicity: \"binding citta to a place\" (deśa-bandha, YS 3.1). The \"place\" can be an external object or an internal point of focus (the navel, the heart center, the tip of the nose, etc.). Dhāraṇā is concentration in the strict sense: fixing awareness on a single locus. When that fixed attention becomes a continuous, unbroken stream, it transitions into dhyāna. When the object alone shines and the sense of self as separate observer dissolves, it becomes samādhi. The three are thus stages of a single deepening process, not separate practices.",
+    "doctrinal_significance": "Dhāraṇā occupies a pivotal position in the eight-limb structure: it is the bridge between the preparatory external practices (yama, niyama, āsana, prāṇāyāma, pratyāhāra) and the culminating internal experiences (dhyāna, samādhi). For a meditation practitioner, dhāraṇā is where practice becomes recognizably \"meditation\" — the moment of choosing an object and holding attention there.",
+    "ambiguity_notes": "The derivation from √dhṛ is straightforward (Monier-Williams s.v. dhāraṇā). Note that the same root √dhṛ gives us dharma (that which upholds) — dhāraṇā and dharma are cognate. The guṇa strengthening dhṛ → dhār is standard. No morphological controversy. The only interpretive question is how rigid \"binding\" (bandha) should be read: as forceful fixation or gentle placement. Most meditation teachers favor the latter, though Patañjali's language is concise enough to support either reading.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "dharana",
+      "dhāraṇā"
+    ]
+  },
+  {
+    "id": "samyama",
+    "devanagari": "संयम",
+    "transliteration": "saṃyama",
+    "chapter": "YS 3.4, 3.16–3.53",
+    "segmentation": "sam + √yam + -a",
+    "roots": [
+      {
+        "root": "√yam",
+        "devanagari": "√यम्",
+        "meaning": "to restrain, hold in, control, check",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "sam-",
+        "meaning": "together, completely (here: total integration)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine noun denoting the action: 'a complete holding-together'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a complete holding-together; total restraint or integration",
+    "philosophical_gloss": "Saṃyama is Patañjali's technical term for the simultaneous application of dhāraṇā, dhyāna, and samādhi to a single object. It is not a separate practice but the name for the three inner limbs operating as a unified process. The Vibhūti Pāda (YS chapter 3) is essentially a catalogue of what happens when saṃyama is directed at various objects: applied to the three transformations (pariṇāma), it yields knowledge of past and future; applied to the distinction between word, meaning, and concept, it yields understanding of all beings' speech; and so on. Outside the Yoga Sutras, saṃyama means \"self-restraint\" or \"self-control\" more generally (as in the Jātakamālā usage found in GRETIL).",
+    "doctrinal_significance": "Saṃyama is the operative concept of the Vibhūti Pāda — it is the mechanism by which meditative absorption produces knowledge and powers (siddhis). Understanding saṃyama as a compound practice (not a fourth thing beyond dhāraṇā-dhyāna-samādhi but their integration) is key to understanding YS chapter 3's structure.",
+    "ambiguity_notes": "The derivation sam + √yam is uncontroversial (Monier-Williams s.v. saṃyama). The root √yam also gives us yama (the first limb: ethical restraints) and niyama (the second limb: observances). All three — yama, niyama, saṃyama — share the root notion of \"holding\" or \"restraining.\" The compound structure is simple (prefixed root + noun suffix), not a nominal compound. The interpretive question is whether the \"restraint\" connotation or the \"integration\" connotation is primary in Patañjali's usage — given the definition in YS 3.4 (\"the three together\"), \"integration\" seems more apt than \"restraint.\"",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "samyama",
+      "saṃyama"
+    ]
+  },
+  {
+    "id": "pratyahara",
+    "devanagari": "प्रत्याहार",
+    "transliteration": "pratyāhāra",
+    "chapter": "YS 2.29, 2.54–2.55",
+    "segmentation": "prati + ā + √hṛ + -a",
+    "roots": [
+      {
+        "root": "√hṛ",
+        "devanagari": "√हृ",
+        "meaning": "to take, seize, carry, bear",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "prati-",
+        "meaning": "back, against, in return (here: drawing back, withdrawal)"
+      },
+      {
+        "prefix": "ā-",
+        "meaning": "toward, unto (here: toward oneself — drawing back inward)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine action noun: 'the act of drawing back toward'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a drawing-back-toward; a gathering inward; withdrawal",
+    "philosophical_gloss": "Pratyāhāra is the fifth limb — the turning point between the outer and inner practices. It describes the process by which the senses disengage from their objects and follow the inward movement of citta. Patañjali's definition (YS 2.54) uses a striking simile: the senses \"imitate the own-form of citta\" (svarūpānukāra iva). Just as bees follow the queen, the senses follow the mind when it withdraws. This is not forceful suppression of sensory experience but a natural turning- inward: when citta withdraws from external engagement, the senses follow. The result is \"supreme mastery over the senses\" (paramā vaśyatā, YS 2.55). In Sanskrit grammar, pratyāhāra also means an abbreviatory formula (the Māheśvara sūtras), though this technical usage is unrelated to the yogic meaning.",
+    "doctrinal_significance": "Pratyāhāra is the hinge of the eight-limb system. The first four limbs (yama, niyama, āsana, prāṇāyāma) are external preparations; the last three (dhāraṇā, dhyāna, samādhi) are internal absorptions. Pratyāhāra is the bridge — the moment where attention shifts from outer to inner. For a meditation practitioner, it corresponds to the transition from \"settling in\" to actual meditative work.",
+    "ambiguity_notes": "The derivation prati + ā + √hṛ is standard (Monier-Williams s.v. pratyāhāra). The prefix combination prati + ā creates the sense of \"drawing back toward [oneself].\" No morphological controversy. The grammatical homonym (pratyāhāra as abbreviatory device in Pāṇini's system) shares the same etymology — \"gathering together\" — but applies it to phonemes rather than senses. This is a case of the same word serving entirely different technical domains.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "pratyahara",
+      "pratyāhāra"
+    ]
+  },
+  {
+    "id": "purusa",
+    "devanagari": "पुरुष",
+    "transliteration": "puruṣa",
+    "chapter": "YS 1.16, 1.24, 3.35, 3.49, 3.55, 4.18, 4.34",
+    "segmentation": "puru + √ṣa (disputed; see ambiguity notes)",
+    "roots": [
+      {
+        "root": "puruṣa",
+        "devanagari": "पुरुष",
+        "meaning": "person, man, self, consciousness (derivation debated — see notes)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [],
+    "compound_type": null,
+    "literal_gloss": "the person; the indwelling one; the one who lies in the city [of the body] (folk etymology: puri-śaya)",
+    "philosophical_gloss": "Puruṣa is the metaphysical foundation of the Yoga Sutras: pure, unchanging consciousness, radically distinct from prakṛti (material nature). Puruṣa does not act, think, or change — it witnesses. The mind (citta), the body, the senses, and all experience belong to prakṛti. Puruṣa's apparent entanglement with prakṛti is the root error (avidyā), and its disentanglement is liberation (kaivalya). Patañjali inherits this framework from Sāṃkhya philosophy but adds a practical soteriological path (yoga). Key differences from other systems: unlike Vedāntic ātman, puruṣa in Sāṃkhya-Yoga is one of many (each being has its own puruṣa); unlike Buddhist anātman (\"no-self\"), Sāṃkhya-Yoga affirms a real, permanent self. Patañjali also posits a special puruṣa (puruṣa-viśeṣa) called Īśvara — a consciousness never entangled with prakṛti (YS 1.24).",
+    "doctrinal_significance": "Puruṣa is the \"who\" of the Yoga Sutras — the one for whose sake the entire system exists. Without understanding puruṣa, the purpose of yoga is unintelligible: why still the mind? Because puruṣa, which is not the mind, is currently misidentified with it. Stilling the mind reveals that puruṣa was always free. This is also the major point of divergence from Buddhism, which denies a permanent self altogether.",
+    "ambiguity_notes": "The etymology of puruṣa is genuinely debated among scholars. Major proposals include: (1) puri-śaya, \"one who lies in the city [of the body]\" — a folk etymology found in the Bṛhadāraṇyaka Upaniṣad and widely cited but not linguistically standard; (2) connection to puru (\"much, full\") + a nominal suffix, yielding \"the full one\" or \"the abundant one\"; (3) derivation from √pṝ (\"to fill\") via pūru; (4) a very old word without a transparent etymology, possibly pre-Indo- European or borrowed. Monier-Williams lists the word without committing to a single derivation. Mayrhofer's Etymological Dictionary treats it as of uncertain origin. This is one of the rare cases where honest morphological analysis must say: the etymology is not settled. The confidence rating is for the philosophical analysis, not the morphological derivation.",
+    "confidence": "medium",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "purusa",
+      "puruṣa"
+    ]
+  },
+  {
+    "id": "svarupa",
+    "devanagari": "स्वरूप",
+    "transliteration": "svarūpa",
+    "chapter": "YS 1.3, 1.43, 2.23, 2.54, 3.3, 3.44, 3.46, 4.12, 4.34",
+    "segmentation": "sva + rūpa",
+    "roots": [
+      {
+        "root": "sva",
+        "devanagari": "स्व",
+        "meaning": "own, one's own (pronomial adjective)",
+        "dhatu_number": null
+      },
+      {
+        "root": "rūpa",
+        "devanagari": "रूप",
+        "meaning": "form, appearance, nature (from √rūp, 'to form, figure')",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [],
+    "compound_type": "karmadhāraya (descriptive: 'own form' — adjective + noun treated as a unit)",
+    "literal_gloss": "own form; one's own nature or essential character",
+    "philosophical_gloss": "Svarūpa is one of the most important technical terms in the Yoga Sutras despite its apparent simplicity. YS 1.3 says that when yoga succeeds, \"the seer abides in its own form\" (svarūpe 'vasthānam). This means puruṣa recognizes itself as what it always was — pure awareness, not the mind or body with which it was previously confused. Conversely, YS 1.4 says that at other times, puruṣa takes on the form of the vṛttis (vṛtti-sārūpyam) — it seems to become its thoughts. The interplay between svarūpa (own form) and sārūpya (same-form, identification with something else) is the core dialectic of the text. In YS 3.3, samādhi is described as \"svarūpa-śūnyam iva\" — \"as if empty of its own form.\" This means that in samādhi, the meditator's awareness loses its sense of being a separate observer and becomes transparent to the object. The Buddhist usage of svarūpa/svabhāva (\"own-nature\") is almost precisely opposite: Mādhyamaka philosophy argues that nothing has svarūpa — the absence of inherent nature (svabhāva-śūnyatā) is the central insight.",
+    "doctrinal_significance": "Svarūpa answers the question \"what am I, really?\" in the Yoga Sutras. The entire arc of practice moves from misidentification (vṛtti-sārūpya, taking on the form of one's thoughts) to recognition (svarūpe 'vasthānam, resting in one's own nature). For a meditation-focused class, this is the term that names what meditation reveals.",
+    "ambiguity_notes": "The compound sva + rūpa is transparent and uncontested (karmadhāraya compound, Monier-Williams s.v. svarūpa). The philosophical ambiguity lies in the tension between YS 1.3 (puruṣa rests in its svarūpa = own nature) and YS 3.3 (samādhi is svarūpa-śūnya = empty of own form). These are not contradictory: in YS 1.3, it is puruṣa's svarūpa (which is real); in YS 3.3, it is the meditator-as-observer's svarūpa (which dissolves). The same word operates at different levels. The contrast with Buddhist svabhāva-śūnyatā (\"emptiness of own-nature\") is one of the deepest philosophical fissures between the traditions.",
+    "confidence": "high",
+    "chinese_counterparts": [
+      {
+        "characters": "自性",
+        "pinyin": "zìxìng",
+        "mapping_type": "semantic",
+        "source": "Used in Chinese Buddhist texts for svabhāva ('own-nature'), which is closely related to but not identical with svarūpa. CBETA: found in T02n0099 and T03n0157 (自性清淨, 'inherently pure nature'). The mapping is approximate — Chinese Buddhism uses 自性 primarily in the context of debating whether things have inherent nature, which is a different question than Patañjali's."
+      }
+    ],
+    "mapping": {
+      "overall_type": "broad_equivalent",
+      "overall_confidence": "low",
+      "candidates": [
+        {
+          "characters": "自性",
+          "pinyin": "zìxìng",
+          "historical_reading_notes": "Native Chinese compound: 自 (\"self, own\") + 性 (\"nature, character, essence\"). Corresponds more precisely to svabhāva (\"own-being\") than to svarūpa (\"own-form\"), but the two Sanskrit terms overlap.\n",
+          "source_tradition": "pan-Buddhist, especially Mādhyamaka and Chan/Zen",
+          "attestation_source": [
+            "T02n0099 (雜阿含經): 自性",
+            "T03n0157: 自性清淨 ('inherently pure nature')",
+            "Mādhyamaka: 自性空 (svabhāva-śūnyatā, 'empty of own-nature')",
+            "Chan/Zen: 見性 (jiànxìng, 'seeing one's nature')"
+          ],
+          "mapping_type": "broad_equivalent",
+          "phonetic_evidence": null,
+          "semantic_evidence": "自性 maps primarily to svabhāva (\"own-being, inherent nature\") rather than svarūpa (\"own-form\"). The two Sanskrit terms overlap in meaning — both denote the essential nature of something — but differ in nuance: svarūpa emphasizes appearance/form (rūpa), while svabhāva emphasizes being/existence (bhāva). In Chinese Buddhist usage, 自性 appears overwhelmingly in the context of the svabhāva debate: does anything have inherent nature? Mādhyamaka answers no (自性空, \"empty of own-nature\"). The Yoga Sutras' svarūpa (YS 1.3: \"the seer abides in its own form\") affirms that puruṣa *does* have an essential nature, which is precisely what Mādhyamaka denies.\n",
+          "translation_strategy": "doctrinal_adaptation",
+          "doctrinal_shift_notes": "Mapping svarūpa to 自性 is philosophically treacherous. In the Yoga Sutras, svarūpa is affirmed — puruṣa has a real own-nature, and recognizing it is liberation. In Chinese Mādhyamaka, 自性 is negated — nothing has inherent nature, and seeing this is liberation. The same Chinese term is used to *affirm* what the Yoga Sutras claim and to *deny* what Mādhyamaka claims. The Chan/Zen expression 見性 (jiànxìng, \"seeing one's nature\") adds further complexity: it superficially resembles svarūpe 'vasthānam (YS 1.3) but rests on entirely different metaphysics. Any presentation of this mapping must emphasize that the Chinese term occupies a contested philosophical space.\n",
+          "confidence": "low",
+          "ambiguity_notes": "自性 is an imprecise mapping: (1) it renders svabhāva more than svarūpa; (2) it is used in Chinese Buddhism primarily to *deny* inherent nature, while the Yoga Sutras use svarūpa to *affirm* it; (3) the Chan/Zen 見性 looks similar to YS 1.3 but the metaphysics are opposed. This mapping is included because the conceptual overlap is real, but it should not be presented as a clean equivalence. It is better understood as evidence of how the same philosophical question (does anything have an essential nature?) received opposite answers in different traditions.\n"
+        }
+      ]
+    },
+    "search_aliases": [
+      "svarupa",
+      "svarūpa"
+    ]
+  },
+  {
+    "id": "abhinivesa",
+    "devanagari": "अभिनिवेश",
+    "transliteration": "abhiniveśa",
+    "chapter": "YS 2.3, 2.9",
+    "segmentation": "abhi + ni + √viś + -a",
+    "roots": [
+      {
+        "root": "√viś",
+        "devanagari": "√विश्",
+        "meaning": "to enter, settle into, take possession of",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "abhi-",
+        "meaning": "toward, over, upon (here: intensifying — emphatic settling-into)"
+      },
+      {
+        "prefix": "ni-",
+        "meaning": "down, into (here: deep insertion — settling down into)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action/result noun suffix (ghañ pratyaya)",
+        "grammatical_function": "forms a masculine noun: 'the act or state of settling deeply into'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "a settling-deeply-into; a thorough taking-possession; a deep clinging",
+    "philosophical_gloss": "Abhiniveśa is the fifth and final kleśa (affliction) in Patañjali's system. It is usually translated as \"clinging to life\" or \"fear of death,\" but the Sanskrit is more precise: it is the instinctive, deep-seated will to continue existing. Patañjali's description (YS 2.9) is psychologically remarkable: abhiniveśa \"flows by its own momentum\" (sva-rasa-vāhī) and is \"firmly established even in the wise\" (viduṣo 'pi tathārūḍhaḥ). This means it is not a product of reasoning or experience — even someone who intellectually understands that death is not to be feared still instinctively recoils from it. Patañjali implies that abhiniveśa is rooted in saṃskāras from past lives: the memory of having died before (even if not consciously accessible) generates an automatic survival drive. This is one of the Yoga Sutras' most original psychological observations — a description of what modern psychology might call a hardwired survival instinct, but explained through the mechanism of karmic memory.",
+    "doctrinal_significance": "Abhiniveśa reveals that the kleśas are not merely intellectual errors but embodied, instinctual patterns. Even knowledge cannot dissolve the fifth kleśa by itself — this is why sustained practice (abhyāsa) is necessary in addition to insight. For a meditation-focused class, abhiniveśa names the deepest resistance a practitioner encounters: the organism's refusal to let go.",
+    "ambiguity_notes": "The derivation abhi + ni + √viś is standard (Monier-Williams s.v. abhiniveśa). The triple prefix structure (abhi + ni + root) is relatively uncommon and creates an intensified sense of \"settling deeply into\" — appropriate for the concept. The translation choice between \"clinging to life\" and \"fear of death\" matters: \"clinging to life\" better captures the Sanskrit (which emphasizes attachment rather than fear), but \"fear of death\" is more immediately communicative. Both are interpretive compressions of sva-rasa-vāhī (\"flowing by its own flavor/momentum\").",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "abhinivesa",
+      "abhiniveśa"
+    ]
+  },
+  {
+    "id": "asamprajnata",
+    "devanagari": "असम्प्रज्ञात",
+    "transliteration": "asamprajñāta",
+    "chapter": "YS 1.18",
+    "segmentation": "a + sam + pra + √jñā + -ta",
+    "roots": [
+      {
+        "root": "√jñā",
+        "devanagari": "√ज्ञा",
+        "meaning": "to know, perceive, understand",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "a-",
+        "meaning": "not, without (nañ prefix — negating the entire compound)"
+      },
+      {
+        "prefix": "sam-",
+        "meaning": "together, completely (intensifying)"
+      },
+      {
+        "prefix": "pra-",
+        "meaning": "forth, forward (here: thorough or higher knowing)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-ta",
+        "meaning": "past passive participle suffix (kṛdanta)",
+        "grammatical_function": "forms a past participle: samprajñāta = 'thoroughly known/cognized'; asamprajñāta = 'not-thoroughly-cognized'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "not-fully-cognized; without the cognitive content of complete knowing",
+    "philosophical_gloss": "Asamprajñāta-samādhi is the higher of the two broad types of samādhi in the Yoga Sutras. In samprajñāta-samādhi (YS 1.17), awareness is absorbed but still has a cognitive object — there is something being known. In asamprajñāta-samādhi, even that cognitive content drops away. What remains is awareness without an object: no vitarka (deliberation), no vicāra (reflection), no ānanda (bliss as experienced), no asmitā (the sense of \"I am\"). Only a residue of saṃskāras remains (YS 1.18). This is the state closest to kaivalya within meditative experience. It is important to note that the term \"asamprajñāta\" itself does not appear in the sutras — Patañjali says only \"the other\" (anyaḥ). The label comes from Vyāsa's commentary, which has been treated as virtually canonical by the tradition.",
+    "doctrinal_significance": "Asamprajñāta-samādhi represents the deepest level of meditative absorption in Patañjali's system — the point where even the subtlest cognitive activity ceases. It is the experiential threshold of liberation. For a meditation-focused class, this term names what lies beyond the deepest meditation with content: a state that cannot be described because there is no cognitive act occurring that could become a description.",
+    "ambiguity_notes": "The morphological analysis (a + sam + pra + √jñā + -ta) is straightforward: it negates the past participle samprajñāta (\"fully cognized\"). The significant ambiguity is doctrinal, not morphological. There is an ongoing scholarly debate about whether asamprajñāta-samādhi is: (1) a distinct, stable state qualitatively different from samprajñāta; (2) the moment of transition between samprajñāta stages, when one cognitive support has been released and another not yet taken up; or (3) identical with nirbīja-samādhi (\"seedless samādhi,\" YS 1.51) or a precursor to it. Vyāsa treats it as a stable state. Some modern scholars (e.g., Whicher) argue for the transitional reading. The Yoga Sutras' own text is too terse to resolve this definitively, which is why the commentary tradition became so important. Additionally, Jīva Gosvāmī (Gauḍīya Vaiṣṇava tradition, found in GRETIL) explicitly distinguishes asamprajñāta from brahma-samādhi, showing that even within Indian philosophy the term's scope was debated.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "asamprajnata",
+      "asamprajñāta"
+    ]
+  }
+]
