@@ -311,7 +311,35 @@ slides:
       of mapping, and it shows that these are genuinely different traditions,
       not one tradition in two languages.
 
-  # ── SLIDE 13: CONCLUSION ──
+  # ── SLIDE 13: DEMO ──
+
+  - type: content
+    title: "Live Demo — Sanskrit Word Explorer"
+    body: |
+      **84 terms from all 4 chapters of the Yoga Sutras**
+      - Search by English, IAST, or Devanagari
+      - Color-coded morphological segmentation
+      - Root, prefix, and suffix breakdown cards
+      - Philosophical meaning and Yoga Sutras references
+      - Chinese Buddhist equivalents where attested
+      **Works offline — no installation needed**
+      - Available for you to explore after class
+    notes: >
+      Let me show you something quickly. I built an interactive tool that
+      lets you explore all of these terms yourself. It has 84 terms —
+      every term from your Yoga Sutras vocabulary lists, all four chapters.
+      Let me switch to the browser and show you.
+      [Switch to browser, open demo/index.html]
+      Type "samadhi" — show the full breakdown card. Point out the
+      segmentation strip (color-coded prefixes, root, suffixes), the
+      morphology grid, the philosophical meaning, the Chinese equivalents.
+      Click "karma" from the browse grid to show it works for any term.
+      Point out that karma and samskara share the root kr ("to do/make").
+      "This is available for you to explore after class — it's just an
+      HTML file, works offline, no installation needed."
+      [Switch back to slides]
+
+  # ── SLIDE 14: CONCLUSION ──
 
   - type: content
     title: "What the Words Know"

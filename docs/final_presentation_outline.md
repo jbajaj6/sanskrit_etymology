@@ -92,14 +92,24 @@ Three takeaways:
 2. **Translation is always interpretation.** Every Chinese rendering chose an emphasis: sound or meaning, felt experience or structural cause, darkness or ignorance.
 3. **Cross-cultural transmission is partial.** The strongest connections are real (dhyāna → zen). But the Yoga Sutras' specialized vocabulary has no Chinese counterpart — these are different traditions sharing a vocabulary, not a single tradition in two languages.
 
-## Section 7: Limits and Caution (30 sec)
+## Section 7: Live Demo (1 min)
+
+**Slide**: Switch to browser — open `demo/index.html`
+
+- Show the Sanskrit Word Explorer — 84 terms from all 4 chapters of the Yoga Sutras
+- Type "samadhi" and show the full breakdown card: Devanagari, segmentation strip, morphology grid, philosophical meaning, Chinese equivalents
+- Click a chip from the browse grid (e.g., "karma" or "ahimsa") to show it works for any term in the dataset
+- Point out the segmentation strip: color-coded prefixes, roots, suffixes
+- Brief: "Every term in the Yoga Sutras vocabulary list is in here — you can explore them after class"
+
+## Section 8: Limits and Caution (30 sec)
 
 - The Yoga Sutras were never systematically translated into Chinese
 - Chinese Buddhist renderings reflect Buddhist usage, not Yogic usage
 - Phonetic similarity is not proof of transmission
 - This project maps terms, not entire philosophical systems
 
-## Section 8: Conclusion (30 sec)
+## Section 9: Conclusion (30 sec)
 
 Return to YS 1.2. Now the audience can hear each word differently:
 

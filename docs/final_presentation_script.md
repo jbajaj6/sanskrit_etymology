@@ -136,13 +136,37 @@ Third, cross-cultural transmission is real but partial. The dhyāna → zen conn
 
 ---
 
-## 7. LIMITS (~ 30 sec)
+## 7. LIVE DEMO (~ 1 min)
+
+Let me show you something quickly. I built an interactive tool that lets you explore all of these terms yourself.
+
+[Switch to browser — open demo/index.html]
+
+This is the Sanskrit Word Explorer. It has 84 terms — every term from your Yoga Sutras vocabulary lists, all four chapters. Let me type "samadhi"...
+
+[Type "samadhi", press Enter]
+
+You can see the full breakdown: Devanagari script at the top, the segmentation strip showing how the word is built — prefixes in red, root in white, suffix in blue — the morphological components, the philosophical meaning, and down here, the Chinese Buddhist equivalents with their translation type.
+
+Let me try one more — let's click "karma."
+
+[Click karma chip]
+
+Same structure: the root √kṛ, "to do" — and notice that saṃskāra comes from the same root. The connections between terms become visible when you can see their shared roots.
+
+This is available for you to explore after class — it's just an HTML file, works offline, no installation needed.
+
+[Switch back to slides]
+
+---
+
+## 8. LIMITS (~ 30 sec)
 
 A few honest caveats. The Yoga Sutras were never systematically translated into Chinese, so all the Chinese mappings are from Buddhist sources, not Yogic ones. Phonetic similarity between words is not proof of historical connection. And this project maps individual terms, not entire philosophical systems — the traditions have deep structural differences that no word-level analysis can capture.
 
 ---
 
-## 8. CLOSING (~ 30 sec)
+## 9. CLOSING (~ 30 sec)
 
 Let me end where we started. Yoga Sutra 1.2:
 
