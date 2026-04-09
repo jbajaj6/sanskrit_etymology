@@ -1,0 +1,752 @@
+# Sanskrit-Chinese Term Mappings — Stage 01
+# Sanskrit Etymology Project
+# Generated: 2026-04-09
+#
+# Terms mapped: samādhi, dhyāna, citta, nirodha, prajñā, kleśa, avidyā,
+#   saṃskāra, svarūpa
+#
+# Evidence sources: CBETA (buddha-cli), GRETIL (buddha-cli), SARIT (buddha-cli),
+#   Monier-Williams, Edgerton Buddhist Hybrid Sanskrit Dictionary,
+#   William Edward Soothill & Lewis Hodous — A Dictionary of Chinese Buddhist Terms
+#
+# Controlled vocabularies:
+#   mapping_type: transliteration | semantic_translation | hybrid |
+#                 broad_equivalent | inconclusive
+#   translation_strategy: sound_preserving | meaning_preserving | mixed |
+#                         doctrinal_adaptation | unknown
+#   confidence: high | medium | low
+
+mappings:
+
+  # ═══════════════════════════════════════════
+  # 1. SAMĀDHI
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: samādhi
+    devanagari: समाधि
+    normalized_slug: samadhi
+
+    chinese_candidates:
+
+      - characters: "三昧"
+        pinyin: "sānmèi"
+        historical_reading_notes: >
+          Middle Chinese approximately *sam-muəi (Baxter-Sagart) or *sam-mwoj.
+          Reflects a Prakrit or Gāndhārī form closer to samāi or samāhi,
+          with loss of the final dental -dhi. This is the older and more
+          widespread transliteration.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0001 (長阿含經, Dīrghāgama): 三昧"
+          - "T01n0006: 三昧"
+          - "T01n0007 (大般涅槃經): 三昧而般涅槃"
+        mapping_type: transliteration
+        phonetic_evidence: >
+          三昧 is a phonetic transliteration. The Middle Chinese reading
+          *sam-muəi maps to a Prakrit form samāi/samāhi rather than classical
+          Sanskrit samādhi. The loss of the dental stop -dhi and the vowel
+          shift ā → əi/èi is consistent with Gāndhārī or early Prakrit
+          transmission. This is the most common rendering across the Chinese
+          Buddhist canon and was used by early translators including
+          Lokakṣema (2nd c. CE) and Kumārajīva (early 5th c. CE).
+        semantic_evidence: null
+        translation_strategy: sound_preserving
+        doctrinal_shift_notes: >
+          In Chinese Buddhist usage, 三昧 became a broad term for any
+          meditative attainment, sometimes losing the specific technical
+          precision it carries in the Yoga Sutras (where samādhi is
+          the eighth limb and the final stage of the inner triad). Chinese
+          texts speak of hundreds of named samādhis (e.g., 法華三昧,
+          Lotus Samādhi; 念佛三昧, Buddhānusmṛti Samādhi), expanding
+          the concept beyond Patañjali's framework.
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "三摩地"
+        pinyin: "sānmódì"
+        historical_reading_notes: >
+          Middle Chinese approximately *sam-ma-dijH. A closer syllable-by-
+          syllable match to Sanskrit samādhi. Standardized by Xuanzang
+          (7th c. CE) as part of his systematic retranslation project.
+        source_tradition: Xuanzang school (新譯, new translation)
+        attestation_source:
+          - "T01n0002 (遊行經): 三摩地"
+          - "T01n0003 (大本經): 入三摩地"
+          - "T01n0009: 三摩地受用法"
+          - "T01n0010: 入三摩地"
+          - "T01n0012: 三三摩地 (three samādhis)"
+        mapping_type: transliteration
+        phonetic_evidence: >
+          三摩地 is Xuanzang's standardized transliteration, designed to
+          more faithfully reproduce the Sanskrit samādhi syllable by syllable:
+          三 (sān) ≈ sam, 摩 (mó) ≈ mā, 地 (dì) ≈ dhi. Xuanzang explicitly
+          preferred this over the older 三昧 as part of his philological
+          reform of Chinese Buddhist terminology.
+        semantic_evidence: null
+        translation_strategy: sound_preserving
+        doctrinal_shift_notes: >
+          三摩地 is functionally equivalent to 三昧 in doctrinal content.
+          The difference is one of transliteration accuracy, not meaning.
+          Xuanzang-lineage texts prefer 三摩地; earlier and more popular
+          texts use 三昧. Both coexist in the canon.
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "定"
+        pinyin: "dìng"
+        historical_reading_notes: >
+          Native Chinese character meaning "stability, fixedness, settling."
+          Not a transliteration but a semantic rendering sometimes used for
+          samādhi, especially in compound forms like 禪定 and in the three
+          trainings formula 戒定慧.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0003: 入定思惟 ('entered samādhi and contemplated')"
+          - "Three trainings formula: 戒定慧 (śīla, samādhi, prajñā)"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          定 (dìng) captures the "settling" or "fixedness" aspect of samādhi.
+          It is used as a standalone semantic equivalent in some contexts and
+          as the semantic component in the hybrid 禪定. However, 定 alone is
+          broader than samādhi — it can mean any kind of stability or
+          determination, not only meditative absorption.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          When used alone, 定 loses the specific connotation of "placing-
+          together" (sam + ā + √dhā) and becomes a more general "fixedness."
+          In the three trainings (戒定慧), 定 functions as a category label
+          encompassing all concentration practices, broader than Patañjali's
+          specific eighth limb.
+        confidence: medium
+        ambiguity_notes: >
+          定 alone is ambiguous — it can render samādhi, samāpatti, or
+          dhyāna depending on context. It functions as a generic term for
+          meditative stabilization rather than a precise equivalent of
+          any single Sanskrit term.
+
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: >
+      Samādhi has the strongest and most diversified Chinese mapping of any
+      term in this project: two transliterations (三昧 older/common, 三摩地
+      Xuanzang/precise) and one semantic rendering (定). The transliterations
+      are directly attested across hundreds of canonical texts. The mapping
+      is complicated only by the proliferation of named samādhis in Chinese
+      Buddhism, which expanded the concept beyond its Yoga Sutras scope.
+
+  # ═══════════════════════════════════════════
+  # 2. DHYĀNA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: dhyāna
+    devanagari: ध्यान
+    normalized_slug: dhyana
+
+    chinese_candidates:
+
+      - characters: "禪那"
+        pinyin: "chánnà"
+        historical_reading_notes: >
+          Middle Chinese approximately *dʑian-na (Baxter-Sagart). Maps to
+          Pali/Prakrit jhāna rather than classical Sanskrit dhyāna. The
+          initial *dʑ- reflects the Prakrit palatalization dhy → jh → dʑ.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T03n0158: 禪那波羅蜜 (dhyāna-pāramitā)"
+          - "General usage across Āgama and early Mahāyāna literature"
+        mapping_type: transliteration
+        phonetic_evidence: >
+          The transmission chain is exceptionally well documented:
+          Sanskrit dhyāna → Pali jhāna (palatalization of aspirate cluster
+          dhy- → jh-) → Middle Chinese *dʑian-na (禪那, chánnà). The Middle
+          Chinese initial *dʑ- is the standard Chinese approximation of the
+          Prakrit palatal jh-. This is one of the most studied phonetic
+          transmission cases in Sino-Indian linguistic contact. The
+          intermediate Prakrit/Gāndhārī stage is well attested in
+          manuscript evidence from Central Asia.
+        semantic_evidence: null
+        translation_strategy: sound_preserving
+        doctrinal_shift_notes: null
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "禪"
+        pinyin: "chán"
+        historical_reading_notes: >
+          Abbreviated from 禪那. Middle Chinese *dʑian. Became the name
+          of an entire school of Buddhism (禪宗, Chánzōng → Japanese Zen).
+        source_tradition: pan-Buddhist, especially Chan/Zen
+        attestation_source:
+          - "Ubiquitous across all periods of Chinese Buddhist literature"
+          - "禪宗 (Chan school) — institutional usage from ~7th c. CE onward"
+        mapping_type: transliteration
+        phonetic_evidence: >
+          禪 retains only the first syllable of 禪那 (*dʑian from *dʑian-na).
+          Abbreviation of multi-syllable transliterations to a single
+          character is common in Chinese Buddhist terminology (cf. 佛 for
+          buddha from 佛陀).
+        semantic_evidence: null
+        translation_strategy: sound_preserving
+        doctrinal_shift_notes: >
+          As an abbreviated form, 禪 underwent significant semantic expansion.
+          In the Chan/Zen school, 禪 came to denote not just meditative
+          absorption but an entire approach to practice and realization — one
+          that paradoxically sometimes de-emphasized seated meditation in favor
+          of sudden awakening. The Yoga Sutras' dhyāna (a specific stage of
+          concentration) and Chan/Zen's 禪 (a total orientation toward
+          awakening) are historically connected but doctrinally quite different.
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "禪定"
+        pinyin: "chándìng"
+        historical_reading_notes: >
+          Hybrid compound: 禪 (phonetic, from dhyāna) + 定 (semantic,
+          "stability/settling," rendering samādhi or samāpatti).
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0001 (長阿含經): 禪定"
+          - "T01n0002 (遊行經): 禪定解脫之法"
+        mapping_type: hybrid
+        phonetic_evidence: >
+          禪 component is phonetic (from dhyāna via jhāna).
+        semantic_evidence: >
+          定 component is semantic ("settling, stability"), functioning as
+          a Chinese gloss that clarifies the meaning of the foreign phonetic
+          element. The compound pairs a Sanskrit-derived sound with a
+          native Chinese meaning — a characteristic translation strategy
+          of early Chinese Buddhist translators.
+        translation_strategy: mixed
+        doctrinal_shift_notes: >
+          禪定 blends dhyāna and samādhi into a single compound, which
+          obscures the distinction Patañjali draws between them (dhyāna =
+          limb 7, samādhi = limb 8). In Chinese Buddhist usage, 禪定
+          functions as a general term for meditative concentration without
+          the specific limb-by-limb sequence of the Yoga Sutras.
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "靜慮"
+        pinyin: "jìnglǜ"
+        historical_reading_notes: >
+          Semantic rendering: 靜 ("quiet, still") + 慮 ("contemplation,
+          thought"). Xuanzang's preferred meaning-based translation.
+        source_tradition: Xuanzang school (新譯)
+        attestation_source:
+          - "T05n0220a (大般若波羅蜜多經): 靜慮波羅蜜多"
+          - "T06n0220b: 靜慮"
+          - "T07n0220c: 四靜慮 (four dhyānas)"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          靜慮 analyzes dhyāna as "quiet contemplation" — 靜 captures the
+          stilling aspect, 慮 captures the cognitive aspect. This is
+          Xuanzang's attempt to render the meaning rather than the sound,
+          part of his broader project of producing more precise translations.
+          The rendering foregrounds the contemplative dimension of dhyāna
+          rather than the concentration dimension.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          靜慮 shifts the connotation of dhyāna slightly toward intellectual
+          contemplation (慮 = "deliberation, thought") rather than pure
+          absorption. This may better capture the Yoga Sutras' definition
+          of dhyāna as "continuous flow of a single cognition" (pratyaya-
+          ekatānatā) than the more generic 禪定. However, 靜慮 never
+          displaced 禪 in general usage.
+        confidence: high
+        ambiguity_notes: null
+
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: >
+      Dhyāna has the strongest transmission evidence of any term in this
+      project. The phonetic chain (dhyāna → jhāna → 禪那 → 禪 → chán → zen)
+      is one of the best-documented loanword paths in Asian languages. Four
+      distinct Chinese renderings exist, spanning transliteration (禪那, 禪),
+      hybrid (禪定), and semantic (靜慮). The term's journey from a specific
+      meditation stage to the name of an entire school of Buddhism is itself
+      a major finding for the project.
+
+  # ═══════════════════════════════════════════
+  # 3. CITTA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: citta
+    devanagari: चित्त
+    normalized_slug: citta
+
+    chinese_candidates:
+
+      - characters: "心"
+        pinyin: "xīn"
+        historical_reading_notes: >
+          Native Chinese character. Original meaning: "heart" (the organ);
+          extended to "heart-mind" — the seat of thought, feeling, and
+          intention in Chinese. No phonetic relationship to Sanskrit citta.
+        source_tradition: pan-Buddhist and pre-Buddhist Chinese
+        attestation_source:
+          - "Ubiquitous across all Chinese Buddhist literature"
+          - "Pre-Buddhist usage in Confucian and Daoist texts"
+        mapping_type: broad_equivalent
+        phonetic_evidence: null
+        semantic_evidence: >
+          心 is the standard Chinese rendering of citta in Buddhist
+          translation, but the mapping is approximate. Chinese 心 (xīn)
+          denotes "heart-mind" — an undivided concept encompassing cognition,
+          emotion, volition, and even moral sensibility. Sanskrit citta
+          in the Yoga Sutras is more specifically the cognitive-perceptual
+          apparatus (encompassing buddhi, ahaṃkāra, and manas) and belongs
+          to prakṛti (material nature). The Chinese term does not carry the
+          Sāṃkhya metaphysical framework: 心 is not understood as material
+          in Chinese Buddhist thought the way citta-as-prakṛti is in Yoga.
+          Furthermore, Buddhist Abhidharma uses citta for momentary units
+          of consciousness, a usage that partially influenced how 心 functions
+          in Chinese Abhidharma translations but without perfect alignment.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          The mapping of citta → 心 introduces three significant shifts:
+          (1) 心 includes emotional and volitional dimensions that the Yoga
+          Sutras' citta does not foreground; (2) 心 does not carry the
+          Sāṃkhya framework of citta as material (prakṛti); (3) the Chinese
+          "heart-mind" tradition (Mencius, Wang Yangming) brings connotations
+          of moral cultivation that are absent from Patañjali's usage.
+          A Chinese reader encountering 心 would not automatically understand
+          the Yoga Sutras' claim that the mind is material and must be
+          distinguished from the witnessing self.
+        confidence: medium
+        ambiguity_notes: >
+          心 also renders other Sanskrit terms: manas ("thinking mind"),
+          hṛdaya ("heart"), and sometimes vijñāna ("consciousness"). It is
+          a broad catch-all in Chinese Buddhist translation, not a precise
+          equivalent of citta alone. Any future analysis must specify which
+          Sanskrit term is being rendered in a given passage.
+
+    overall_mapping_type: broad_equivalent
+    overall_confidence: medium
+    overall_notes: >
+      Citta → 心 is a real and ubiquitous mapping, but it is broad rather
+      than precise. The Chinese term carries connotations and metaphysical
+      baggage that the Sanskrit term does not, and vice versa. This is a
+      case where the translation works for communication but obscures
+      important philosophical differences. Flagged for careful treatment
+      in any presentation.
+
+  # ═══════════════════════════════════════════
+  # 4. NIRODHA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: nirodha
+    devanagari: निरोध
+    normalized_slug: nirodha
+
+    chinese_candidates:
+
+      - characters: "滅"
+        pinyin: "miè"
+        historical_reading_notes: >
+          Native Chinese character meaning "to extinguish, put out (a fire),
+          perish, cease." Used for nirodha in the Four Noble Truths formula.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "Four Noble Truths: 苦集滅道 (duḥkha, samudaya, nirodha, mārga)"
+          - "Ubiquitous across Āgama, Abhidharma, and Mahāyāna literature"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          滅 captures the "cessation" aspect of nirodha but introduces a
+          connotation of extinction or annihilation that the Sanskrit does
+          not necessarily carry. Sanskrit nirodha (ni + √rudh, "to hold
+          back, restrain") is closer to "restraint" or "stilling" than to
+          "putting out a fire." The Chinese rendering shifts the image from
+          active restraint to passive extinction. This matters doctrinally:
+          滅 can suggest nihilistic annihilation, which is precisely the
+          misreading of nirvāṇa that Buddhist teachers have historically
+          warned against.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          The use of 滅 for Buddhist nirodha (third Noble Truth) is well
+          established and accurate in context: suffering *ceases*. But the
+          Yoga Sutras' nirodha (YS 1.2: citta-vṛtti-nirodhaḥ) is more
+          precisely "restraint" or "stilling" of mental fluctuations —
+          not their extinction. The Chinese 滅 applied to the Yogic
+          concept would overstate the case: Patañjali's nirodha does not
+          destroy the mind, it quiets it. There is no standard Chinese
+          rendering of the Yoga Sutras' nirodha because the text was not
+          systematically translated into Chinese. The mapping applies
+          primarily to Buddhist contexts.
+        confidence: medium
+        ambiguity_notes: >
+          The gap between Buddhist nirodha (cessation of suffering) and
+          Yogic nirodha (restraint of mental activity) is significant.
+          滅 works well for the Buddhist sense but would misrepresent the
+          Yogic sense. Any presentation should distinguish the two usages.
+
+    overall_mapping_type: semantic_translation
+    overall_confidence: medium
+    overall_notes: >
+      Nirodha → 滅 is attested and stable in Buddhist contexts (the Four
+      Noble Truths formula is ubiquitous). However, the mapping is context-
+      dependent: it works for Buddhist nirodha (cessation of duḥkha) but
+      distorts Yogic nirodha (stilling of citta-vṛtti). The connotation of
+      "extinction" in 滅 is stronger than the "restraint" in nirodha. This
+      is a case where the Chinese translation introduces a genuine doctrinal
+      shift — the kind of evidence that is valuable for the project.
+
+  # ═══════════════════════════════════════════
+  # 5. PRAJÑĀ
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: prajñā
+    devanagari: प्रज्ञा
+    normalized_slug: prajna
+
+    chinese_candidates:
+
+      - characters: "般若"
+        pinyin: "bōrě"
+        historical_reading_notes: >
+          Middle Chinese approximately *puan-ɲia (Baxter-Sagart) or *ban-nja.
+          The modern reading bōrě is irregular and preserves an archaic
+          pronunciation. Standard modern Mandarin for these characters
+          would be bānruò, but the traditional Buddhist reading bōrě is
+          used in all liturgical and scholarly contexts.
+        source_tradition: pan-Buddhist, especially Prajñāpāramitā literature
+        attestation_source:
+          - "T01n0025 (中阿含經): 般若"
+          - "T01n0026 (中阿含經): 般若"
+          - "T08n0223 (摩訶般若波羅蜜經, Kumārajīva): entire text"
+          - "T05n0220a–T07n0220c (大般若波羅蜜多經, Xuanzang): 600-fascicle magnum opus"
+        mapping_type: transliteration
+        phonetic_evidence: >
+          般若 reflects a Prakrit or Gāndhārī pronunciation closer to
+          paññā (Pali) than classical Sanskrit prajñā. The Middle Chinese
+          *puan-ɲia maps well to paññā: *puan ≈ pañ, *ɲia ≈ ñā. The
+          consonant cluster pr- in prajñā does not survive in Prakrit,
+          and the Chinese transliteration follows the Prakrit form.
+          The preservation of the phonetic rendering (rather than
+          translation) is itself significant — Chinese translators
+          judged the concept too important and too foreign to render
+          with a native Chinese word.
+        semantic_evidence: null
+        translation_strategy: sound_preserving
+        doctrinal_shift_notes: >
+          般若 in Chinese Buddhism carries the full weight of the
+          Prajñāpāramitā tradition — it denotes the perfection of wisdom
+          that perceives śūnyatā (emptiness). This is a specifically
+          Buddhist doctrinal content. The Yoga Sutras' prajñā (the truth-
+          bearing wisdom that arises in samādhi, YS 1.48) perceives the
+          distinction between puruṣa and prakṛti — a fundamentally
+          different metaphysical claim. 般若 in Chinese carries the
+          Buddhist sense, not the Yogic sense.
+        confidence: high
+        ambiguity_notes: null
+
+      - characters: "慧"
+        pinyin: "huì"
+        historical_reading_notes: >
+          Native Chinese character meaning "wisdom, intelligence,
+          understanding." No phonetic relationship to prajñā.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "Three trainings: 戒定慧 (śīla, samādhi, prajñā)"
+          - "Used in Abhidharma contexts for prajñā as a mental factor"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          慧 is the semantic translation of prajñā, used when the
+          phonetic prestige rendering 般若 is not required. In the three
+          trainings formula (戒定慧), 慧 functions as a category label for
+          all wisdom-related practices and attainments. However, 慧 is a
+          more general term than 般若 — it covers ordinary intelligence
+          and understanding, while 般若 signals specifically the highest
+          Buddhist wisdom.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          The coexistence of 般若 and 慧 for the same Sanskrit term
+          illustrates a key translation principle: when a concept was
+          judged to be doctrinally irreducible, Chinese translators
+          preserved the foreign sound (般若) rather than domesticating
+          it (慧). The phonetic rendering signals "this concept requires
+          special understanding" — a kind of semantic quarantine that
+          prevents false equivalence with existing Chinese ideas.
+        confidence: high
+        ambiguity_notes: null
+
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: >
+      Prajñā has strong mapping evidence with a clear two-track system:
+      般若 (phonetic, prestige) for doctrinally loaded contexts, and 慧
+      (semantic) for more general usage. The deliberate preservation of
+      the foreign sound in 般若 is itself a significant finding — it
+      reveals how Chinese translators signaled doctrinal importance. The
+      distinction between Buddhist prajñā (perceiving emptiness) and
+      Yogic prajñā (perceiving puruṣa-prakṛti distinction) should be
+      noted in any presentation.
+
+  # ═══════════════════════════════════════════
+  # 6. KLEŚA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: kleśa
+    devanagari: क्लेश
+    normalized_slug: klesa
+
+    chinese_candidates:
+
+      - characters: "煩惱"
+        pinyin: "fánnǎo"
+        historical_reading_notes: >
+          Native Chinese compound: 煩 ("vexed, troubled, agitated") +
+          惱 ("distressed, afflicted, annoyed"). Both characters predate
+          Buddhist usage.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0001 (長阿含經): 無煩惱"
+          - "T01n0002 (遊行經): 斷盡諸煩惱"
+          - "T01n0003 (大本經): 煩惱"
+          - "T03n0159: 煩惱障 (kleśāvaraṇa, 'affliction-obstruction')"
+          - "T03n0160: 煩惱障"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          煩惱 captures the experiential quality of kleśa — the felt sense
+          of being vexed and troubled. The compound is semantically apt:
+          both characters independently convey distress, and together they
+          create a strong impression of mental affliction. The mapping is
+          remarkably stable across the entire Chinese Buddhist canon, from
+          the earliest translations (2nd c. CE) through the latest. It
+          also appears in compounds that mirror Sanskrit: 煩惱障
+          (kleśāvaraṇa, "affliction-obstruction"), confirming the
+          systematic nature of the equivalence.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          The Chinese 煩惱 emphasizes the subjective feeling of being
+          afflicted, while the Sanskrit kleśa (from √kliś, "to torment")
+          has a slightly more objective or structural sense — it denotes
+          the cause of suffering, not just the feeling. In the Yoga Sutras,
+          the five kleśas are structural categories (avidyā, asmitā, rāga,
+          dveṣa, abhiniveśa), not passing emotional states. The Chinese
+          rendering, with its emphasis on felt distress, slightly shifts
+          the concept toward emotional experience. This shift is minor
+          and does not distort the basic meaning.
+        confidence: high
+        ambiguity_notes: null
+
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: >
+      Kleśa → 煩惱 is one of the most stable and well-attested semantic
+      mappings in Chinese Buddhist translation. It appears consistently
+      from the earliest translated texts and persists through all periods.
+      The compound 煩惱障 (kleśāvaraṇa) confirms systematic usage. The
+      slight doctrinal shift (from structural cause to felt experience)
+      is worth noting but does not undermine the mapping.
+
+  # ═══════════════════════════════════════════
+  # 7. AVIDYĀ
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: avidyā
+    devanagari: अविद्या
+    normalized_slug: avidya
+
+    chinese_candidates:
+
+      - characters: "無明"
+        pinyin: "wúmíng"
+        historical_reading_notes: >
+          Native Chinese compound: 無 ("without, lacking") + 明 ("brightness,
+          clarity, understanding"). A structural calque mirroring the
+          Sanskrit: a- ("without") + vidyā ("knowledge").
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0001 (長阿含經): 若無明滅盡是時則無行"
+          - "T01n0003 (大本經): 從無明支有"
+          - "T01n0007 (大般涅槃經): 無明及愛"
+          - "T02n0099 (雜阿含經): 無明緣行行緣識"
+          - "T02n0124: 無明緣行"
+          - "Twelve links formula: ubiquitous"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          無明 is a structural calque — it mirrors the morphological
+          structure of the Sanskrit exactly: 無 ("without") = a- ("not"),
+          明 ("brightness/clarity") = vidyā ("knowledge"). The Chinese
+          rendering chooses "brightness" (明) rather than "knowledge" as
+          the base metaphor, foregrounding an image of obscuration/darkness
+          rather than absence of knowing. This is a subtle but real
+          interpretive choice: the Sanskrit emphasizes epistemological
+          failure (not-knowing), while the Chinese emphasizes perceptual
+          obscuration (without-clarity). Both are valid readings of the
+          concept, but they carry different phenomenological weight.
+        translation_strategy: meaning_preserving
+        doctrinal_shift_notes: >
+          In Chinese Buddhist usage, 無明 is the first link of dependent
+          origination (十二因緣) and the fundamental ignorance that drives
+          the rebirth cycle. The CBETA evidence powerfully confirms the
+          canonical formula: 無明緣行 ("avidyā conditions saṃskāra"),
+          attested in T01n0003, T02n0099, T02n0124. In the Yoga Sutras,
+          avidyā is the root kleśa (YS 2.4) and a fourfold misperception
+          (YS 2.5) — structurally similar but metaphysically different.
+          The Chinese 無明 carries the Buddhist dependent origination
+          framework, not the Yoga Sutras' Sāṃkhya framework.
+        confidence: high
+        ambiguity_notes: null
+
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: >
+      Avidyā → 無明 is structurally elegant (a morphological calque),
+      doctrinally stable, and massively attested in the Chinese Buddhist
+      canon. The dependent origination formula (無明緣行) is confirmed
+      across multiple Āgama and sūtra collections. The light/darkness
+      metaphor (明 = brightness) is a genuine interpretive choice by the
+      translators, not just a neutral transfer. This mapping is one of
+      the strongest in the project.
+
+  # ═══════════════════════════════════════════
+  # 8. SAṂSKĀRA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: saṃskāra
+    devanagari: संस्कार
+    normalized_slug: samskara
+
+    chinese_candidates:
+
+      - characters: "行"
+        pinyin: "xíng"
+        historical_reading_notes: >
+          Native Chinese character. Primary meanings: "to walk, travel,
+          move; to do, act, perform; action, conduct, movement." One of
+          the most polysemous characters in the language.
+        source_tradition: pan-Buddhist
+        attestation_source:
+          - "T01n0001 (長阿含經): 無明滅盡是時則無行"
+          - "T01n0003 (大本經): 無明緣行"
+          - "T02n0099 (雜阿含經): 無明緣行行緣識"
+          - "T02n0124: 無明緣行"
+          - "Five aggregates: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)"
+        mapping_type: semantic_translation
+        phonetic_evidence: null
+        semantic_evidence: >
+          行 captures the "doing/forming" dimension of saṃskāra but not
+          the "latent trace" dimension. In the five aggregates (五蘊,
+          pañca-skandha), 行 renders saṃskāra-skandha — the aggregate of
+          volitional formations. In the twelve links of dependent
+          origination (十二因緣), 行 is the second link, conditioned by
+          無明 (avidyā). In both cases, 行 foregrounds active formation
+          and volitional movement, not the passive residue of past
+          experience that the Yoga Sutras emphasize.
+        translation_strategy: doctrinal_adaptation
+        doctrinal_shift_notes: >
+          This mapping involves a significant doctrinal shift. Sanskrit
+          saṃskāra has (at minimum) three major senses: (1) ritual
+          consecration, (2) latent subliminal impression (Yoga Sutras),
+          (3) volitional formation (Buddhist Abhidharma). Chinese 行
+          captures sense (3) well but does not capture sense (2) at all.
+          The Yoga Sutras' saṃskāra — the unconscious trace that shapes
+          future perception — has no neat Chinese equivalent because the
+          Yoga Sutras were not translated into Chinese. When Chinese
+          Buddhist texts use 行 for saṃskāra, they mean "active volitional
+          formations," not "latent impressions." This is one of the most
+          consequential doctrinal shifts in the project: the same Sanskrit
+          word, filtered through different traditions, yields different
+          Chinese meanings depending on which sense of the Sanskrit is
+          being rendered.
+        confidence: medium
+        ambiguity_notes: >
+          行 is one of the most overloaded characters in Chinese Buddhist
+          translation. It can render saṃskāra, but also carya ("conduct"),
+          caryā ("practice"), and other Sanskrit terms involving action or
+          movement. Context is essential for disambiguation. The character's
+          extreme polysemy means that 行 → saṃskāra is never a simple
+          one-to-one mapping.
+
+    overall_mapping_type: semantic_translation
+    overall_confidence: medium
+    overall_notes: >
+      Saṃskāra → 行 is well attested in Buddhist contexts but involves
+      a significant narrowing: the Chinese captures "volitional formation"
+      but not "latent impression." This is not a translation error — it
+      reflects a genuine doctrinal difference between how Buddhist
+      Abhidharma and Yoga Sutras understand saṃskāra. The polysemy of
+      both the Sanskrit and the Chinese makes this the most complex
+      mapping case in the batch. Vulnerable to overstatement if presented
+      as a clean equivalence.
+
+  # ═══════════════════════════════════════════
+  # 9. SVARŪPA
+  # ═══════════════════════════════════════════
+
+  - sanskrit_term: svarūpa
+    devanagari: स्वरूप
+    normalized_slug: svarupa
+
+    chinese_candidates:
+
+      - characters: "自性"
+        pinyin: "zìxìng"
+        historical_reading_notes: >
+          Native Chinese compound: 自 ("self, own") + 性 ("nature, character,
+          essence"). Corresponds more precisely to svabhāva ("own-being")
+          than to svarūpa ("own-form"), but the two Sanskrit terms overlap.
+        source_tradition: pan-Buddhist, especially Mādhyamaka and Chan/Zen
+        attestation_source:
+          - "T02n0099 (雜阿含經): 自性"
+          - "T03n0157: 自性清淨 ('inherently pure nature')"
+          - "Mādhyamaka: 自性空 (svabhāva-śūnyatā, 'empty of own-nature')"
+          - "Chan/Zen: 見性 (jiànxìng, 'seeing one's nature')"
+        mapping_type: broad_equivalent
+        phonetic_evidence: null
+        semantic_evidence: >
+          自性 maps primarily to svabhāva ("own-being, inherent nature")
+          rather than svarūpa ("own-form"). The two Sanskrit terms overlap
+          in meaning — both denote the essential nature of something — but
+          differ in nuance: svarūpa emphasizes appearance/form (rūpa),
+          while svabhāva emphasizes being/existence (bhāva). In Chinese
+          Buddhist usage, 自性 appears overwhelmingly in the context of the
+          svabhāva debate: does anything have inherent nature? Mādhyamaka
+          answers no (自性空, "empty of own-nature"). The Yoga Sutras'
+          svarūpa (YS 1.3: "the seer abides in its own form") affirms
+          that puruṣa *does* have an essential nature, which is precisely
+          what Mādhyamaka denies.
+        translation_strategy: doctrinal_adaptation
+        doctrinal_shift_notes: >
+          Mapping svarūpa to 自性 is philosophically treacherous. In the
+          Yoga Sutras, svarūpa is affirmed — puruṣa has a real own-nature,
+          and recognizing it is liberation. In Chinese Mādhyamaka, 自性 is
+          negated — nothing has inherent nature, and seeing this is
+          liberation. The same Chinese term is used to *affirm* what the
+          Yoga Sutras claim and to *deny* what Mādhyamaka claims. The
+          Chan/Zen expression 見性 (jiànxìng, "seeing one's nature")
+          adds further complexity: it superficially resembles svarūpe
+          'vasthānam (YS 1.3) but rests on entirely different metaphysics.
+          Any presentation of this mapping must emphasize that the
+          Chinese term occupies a contested philosophical space.
+        confidence: low
+        ambiguity_notes: >
+          自性 is an imprecise mapping: (1) it renders svabhāva more than
+          svarūpa; (2) it is used in Chinese Buddhism primarily to *deny*
+          inherent nature, while the Yoga Sutras use svarūpa to *affirm*
+          it; (3) the Chan/Zen 見性 looks similar to YS 1.3 but the
+          metaphysics are opposed. This mapping is included because the
+          conceptual overlap is real, but it should not be presented as
+          a clean equivalence. It is better understood as evidence of
+          how the same philosophical question (does anything have an
+          essential nature?) received opposite answers in different
+          traditions.
+
+    overall_mapping_type: broad_equivalent
+    overall_confidence: low
+    overall_notes: >
+      Svarūpa → 自性 is the weakest mapping in this batch. The Chinese
+      term corresponds more precisely to svabhāva than svarūpa, and in
+      Chinese Buddhist usage it typically appears in contexts that *deny*
+      inherent nature — the opposite of the Yoga Sutras' affirmation.
+      The mapping is included because the philosophical overlap is
+      genuine and illuminating, but it must be presented with heavy
+      caveats. This is a case where the gap between the traditions is
+      more instructive than the connection.
