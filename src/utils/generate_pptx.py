@@ -219,20 +219,20 @@ def make_two_column_slide(prs, spec, theme):
     # Left accent stripe
     add_side_stripe(slide, hex_to_rgb(theme["color_heading"]))
 
-    # Title
-    txBox = slide.shapes.add_textbox(Inches(0.8), Inches(0.35), Inches(8.8), Inches(0.9))
+    # Title — allow enough height for two-line titles with CJK
+    txBox = slide.shapes.add_textbox(Inches(0.8), Inches(0.35), Inches(11.5), Inches(1.1))
     tf = txBox.text_frame
     tf.word_wrap = True
-    make_para(tf, spec.get("title", ""), theme["font_heading"], 30,
+    make_para(tf, spec.get("title", ""), theme["font_heading"], 28,
               hex_to_rgb(theme["color_heading"]), bold=True)
 
     # Accent bar under title
-    add_accent_bar(slide, Inches(0.8), Inches(1.3), Inches(2.0), Pt(4),
+    add_accent_bar(slide, Inches(0.8), Inches(1.5), Inches(2.0), Pt(4),
                    hex_to_rgb(theme["color_accent"]))
 
     # Vertical divider line between columns
     divider = slide.shapes.add_shape(
-        MSO_SHAPE.RECTANGLE, Inches(4.85), Inches(1.6), Pt(1.5), Inches(5.2)
+        MSO_SHAPE.RECTANGLE, Inches(4.85), Inches(1.8), Pt(1.5), Inches(5.0)
     )
     divider.fill.solid()
     divider.fill.fore_color.rgb = RGBColor(0xD0, 0xD0, 0xD0)
@@ -240,7 +240,7 @@ def make_two_column_slide(prs, spec, theme):
 
     # Left column
     left_lines = [l for l in spec.get("left", "").strip().split("\n") if l.strip()]
-    txBox_l = slide.shapes.add_textbox(Inches(0.8), Inches(1.65), Inches(3.9), Inches(5.3))
+    txBox_l = slide.shapes.add_textbox(Inches(0.8), Inches(1.85), Inches(3.9), Inches(5.1))
     tf_l = txBox_l.text_frame
     tf_l.word_wrap = True
     add_body_text(tf_l, left_lines, theme["font_body"], 18,
@@ -248,7 +248,7 @@ def make_two_column_slide(prs, spec, theme):
 
     # Right column
     right_lines = [l for l in spec.get("right", "").strip().split("\n") if l.strip()]
-    txBox_r = slide.shapes.add_textbox(Inches(5.1), Inches(1.65), Inches(4.5), Inches(5.3))
+    txBox_r = slide.shapes.add_textbox(Inches(5.1), Inches(1.85), Inches(4.5), Inches(5.1))
     tf_r = txBox_r.text_frame
     tf_r.word_wrap = True
     add_body_text(tf_r, right_lines, theme["font_body"], 18,
