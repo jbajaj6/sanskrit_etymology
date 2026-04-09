@@ -436,8 +436,7 @@ searchEl.addEventListener('input', () => {
 });
 
 searchEl.addEventListener('keydown', (e) => {
-  const list = sugEl.querySelector('.suggestions-list');
-  const items = list ? list.querySelectorAll('.suggestion-item') : [];
+  const items = sugEl.querySelectorAll('.suggestion-item');
   if (e.key === 'ArrowDown' && items.length) {
     e.preventDefault();
     activeIdx = Math.min(activeIdx + 1, items.length - 1);
@@ -471,9 +470,9 @@ function updateActive(items) {
 
 function showSuggestions(matches) {
   if (!matches.length) {
-    sugEl.querySelector('.suggestions-list').innerHTML =
+    sugEl.innerHTML =
       '<div class="no-results">No matching terms</div>';
-    sugEl.querySelector('.suggestions-list').style.display = 'block';
+    sugEl.style.display = 'block';
     return;
   }
   const html = matches.slice(0, 8).map(t => `
@@ -483,12 +482,12 @@ function showSuggestions(matches) {
       <span class="suggestion-gloss">${truncate(t.literal_gloss, 40)}</span>
     </div>
   `).join('');
-  sugEl.querySelector('.suggestions-list').innerHTML = html;
-  sugEl.querySelector('.suggestions-list').style.display = 'block';
+  sugEl.innerHTML = html;
+  sugEl.style.display = 'block';
 }
 
 function hideSuggestions() {
-  sugEl.querySelector('.suggestions-list').style.display = 'none';
+  sugEl.style.display = 'none';
 }
 
 function truncate(s, n) {
