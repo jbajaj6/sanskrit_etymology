@@ -1,0 +1,337 @@
+title: "What Sanskrit Words Know"
+subtitle: "Morphology, Meditation, and the Journey from India to China"
+author: "Jai Bajaj"
+date: "2026"
+
+theme:
+  font_heading: "Helvetica"
+  font_body: "Helvetica"
+  color_heading: "1a1a2e"
+  color_accent: "8b1a1a"
+  color_body: "2c3e50"
+  color_bg: "faf9f6"
+
+slides:
+
+  # ── SLIDE 1: TITLE ──
+
+  - type: title
+    title: "What Sanskrit Words Know"
+    subtitle: "Morphology, Meditation, and the Journey from India to China"
+    notes: >
+      Good morning/afternoon. My project looks at the internal structure of
+      Sanskrit philosophical words — especially from the Yoga Sutras and
+      Buddhist meditation traditions — and asks two questions. First: does the
+      way a Sanskrit word is built tell us something about what it means
+      philosophically? And second: when those concepts traveled to China,
+      what happened to them? I'll walk you through a few case studies that
+      I think show something genuinely interesting about the relationship
+      between language and philosophy.
+
+  # ── SLIDE 2: CORE CLAIM ──
+
+  - type: content
+    title: "The Core Claim"
+    body: |
+      Sanskrit philosophical terms are not arbitrary labels
+      Their internal structure — roots, prefixes, suffixes — encodes substantive claims about what concepts mean
+      This matters especially in the Yoga Sutras, where every word carries extraordinary weight
+      When these concepts crossed into Chinese, translation choices reshaped philosophy
+    notes: >
+      The Yoga Sutras are among the most concise texts in Indian philosophy —
+      196 aphorisms covering a complete theory of mind, suffering, and
+      liberation. That brevity means individual words carry extraordinary
+      weight. My claim is that the internal architecture of these words is
+      not just a linguistic curiosity. It's a window into philosophical
+      meaning. And when we trace some of these words into Chinese Buddhist
+      translation, we can see how translation choices — sound versus meaning,
+      one metaphor versus another — actually changed the philosophy.
+
+  # ── SLIDE 3: THE TEXT ──
+
+  - type: quote
+    title: "The Defining Sutra"
+    quote: "yogas citta-vrtti-nirodhah"
+    attribution: "Yoga Sutra 1.2 — \"Yoga is the cessation of the turnings of the mind\""
+    notes: >
+      Let me ground this in a sentence most of you already know: Yoga Sutra
+      1.2, the definition of yoga itself. This single sentence contains three
+      technical terms — citta, vrtti, nirodha — each built from specific
+      roots and prefixes. By the end of this talk, I want you to hear each
+      of those words differently. Let's start by looking at how the
+      breakdown works.
+
+  # ── SLIDE 4: METHOD ──
+
+  - type: content
+    title: "How Sanskrit Word-Building Works"
+    body: |
+      Root (dhatu): the core verb that carries primary meaning
+      Prefixes (upasarga): particles that modify direction or intensity
+      Suffixes (pratyaya): endings that determine grammatical category
+      Compound structure: how multiple words join into one
+      The literal meaning built from parts often illuminates the philosophical meaning
+    notes: >
+      Sanskrit words are built by combining a verbal root with prefixes and
+      suffixes. The root carries the core meaning — like a verb in English.
+      Prefixes modify direction or intensity. Suffixes determine whether
+      the word is a noun, an adjective, an action. And compounds join
+      multiple words into complex units. What I found is that when you
+      take a philosophical term apart this way, the literal meaning
+      built from the parts often tells you something precise about what
+      the concept claims. Let me show you.
+
+  # ── SLIDE 5: SAMADHI ──
+
+  - type: two_column
+    title: "samadhi — \"A Complete Placing-Together\""
+    left: |
+      Root: dha — "to place, put"
+      Prefixes: sam- ("together") + a- ("toward")
+      Suffix: -i (action noun)
+      Literal: "a complete placing-together"
+    right: |
+      The word's architecture argues for its meaning
+      Not a metaphor added later — built into the word itself
+      Common folk etymology sama + adhi ("equal placing") is incorrect
+      Standard derivation: sam + a + dha (Monier-Williams)
+    notes: >
+      Samadhi — the culmination of yogic practice. Built from the root dha,
+      "to place," with two prefixes: sam meaning "together" or "completely,"
+      and a meaning "toward." Plus the suffix -i making it an action noun.
+      So literally: a complete placing-together. A total composing or settling
+      of awareness. Notice what the word is doing — it's not just naming a
+      state, it's describing a process: the gathering and settling of
+      dispersed awareness into unified focus. Quick sidebar: you'll sometimes
+      hear samadhi glossed as "equal placing" from sama plus adhi. That's a
+      folk etymology — the standard dictionaries derive it from the prefixes
+      sam plus a plus the root dha. This is exactly the kind of correction
+      that morphological analysis is good for.
+
+  # ── SLIDE 6: NIRODHA ──
+
+  - type: two_column
+    title: "nirodha — \"A Complete Holding-Back\""
+    left: |
+      Root: rudh — "to hold back, restrain"
+      Prefix: ni- (intensifying)
+      Suffix: -a (action noun)
+      Literal: "a complete restraining"
+    right: |
+      English translations carry different weight:
+      "Cessation" — implies ending
+      "Suppression" — implies force
+      "Stilling" — implies quieting
+      The root rudh favors "stilling" over "destroying"
+    notes: >
+      Nirodha — the operative word in Yoga Sutra 1.2. Built from the prefix
+      ni, which intensifies, plus the root rudh, meaning "to hold back" or
+      "to restrain," plus the suffix -a. So literally: a complete holding-back.
+      Why does this matter? Because different English translations carry very
+      different philosophical implications. "Cessation" implies something ends.
+      "Suppression" implies force. "Stilling" implies a gentle quieting. The
+      root rudh — "to hold back" — is closer to stilling than to either
+      ending or forcing. Patanjali isn't saying the mind is destroyed. He's
+      saying its habitual activity is held in check so that pure awareness
+      can emerge. This becomes even more interesting when we get to the
+      Chinese rendering later.
+
+  # ── SLIDE 7: ABHINIVESA ──
+
+  - type: two_column
+    title: "abhinivesa — \"A Deep Settling-Into\""
+    left: |
+      Root: vis — "to enter, settle into"
+      Prefix: abhi- ("toward, upon")
+      Prefix: ni- ("down, into")
+      Three layers of settling deeper
+    right: |
+      The fifth klesa (affliction)
+      "Flows by its own momentum, even in the wise" (YS 2.9)
+      Not an intellectual error — an embodied survival drive
+      Morphology physically enacts the concept
+    notes: >
+      This is my favorite case for showing why morphology matters. Abhinivesa
+      is the fifth klesa — usually translated as clinging to life or fear of
+      death. It's built from the root vis, "to enter or settle into," with
+      two prefixes stacked on top: abhi meaning "toward" and ni meaning "down
+      into." Three layers of settling: you go toward, you go down, you enter.
+      The morphology physically enacts what the concept describes —
+      consciousness that has settled so deeply into the survival drive that
+      it can't easily extract itself. And Patanjali says something remarkable
+      about it: abhinivesa flows by its own momentum and is firmly established
+      even in the wise. Even someone who intellectually understands that death
+      is nothing to fear still instinctively recoils. This is not an
+      intellectual error. It's what we might today call a hardwired survival
+      instinct. For meditation practice, this names the deepest resistance
+      you'll encounter: the organism's refusal to let go.
+
+  # ── SLIDE 8: SAMSKARA ──
+
+  - type: content
+    title: "samskara — \"A Thorough Making\""
+    body: |
+      Root: kr — "to do, make"    Prefix: sam- ("completely")
+      Three lives of one word:
+      - Ritual: consecration, sacrament (the samskaras of life)
+      - Grammar: refinement (samskrta = "Sanskrit" = the "well-made" language)
+      - Yoga Sutras: latent impressions — the unconscious residue of experience
+      In Patanjali: the traces that shape perception without our awareness
+      Samskaras from samadhi can overwrite samskaras from ordinary experience (YS 1.50)
+    notes: >
+      One more Sanskrit case. Samskara — sam plus the root kr, "to make,"
+      plus the suffix -a. Literally: a thorough making, a complete
+      preparation. This word has three completely different lives depending
+      on context. In ritual, it means consecration — the sacraments of birth,
+      marriage, death. In grammar, it means refinement — the word Sanskrit
+      itself, samskrta, means "well-made." And in the Yoga Sutras, it means
+      latent impression — the subliminal trace that every experience leaves
+      in the mind, shaping future perception and behavior without your
+      awareness. This is strikingly close to what modern psychology calls
+      unconscious conditioning. And crucially, Patanjali says that samskaras
+      from samadhi can overwrite samskaras from ordinary experience — which
+      is the mechanism by which practice actually transforms the mind. Not
+      by destroying old patterns, but by laying down new, deeper ones.
+
+  # ── SLIDE 9: TRANSITION TO MAPPING ──
+
+  - type: section
+    title: "When Concepts Cross Languages"
+    notes: >
+      So that's the Sanskrit side — the internal structure of these words
+      carries philosophical weight. Now I want to show you what happens when
+      some of these concepts traveled from India to China. Beginning in the
+      first centuries CE, Chinese translators faced the challenge of
+      rendering Sanskrit philosophical vocabulary in a completely different
+      language. They had two basic strategies: approximate the sound of the
+      Sanskrit word, or translate its meaning using native Chinese words.
+      Each choice shaped how the concept was understood. Let me show you
+      three cases — one strong transmission, one subtle interpretation, and
+      one instructive failure.
+
+  # ── SLIDE 10: DHYANA ──
+
+  - type: two_column
+    title: "dhyana to chan to zen"
+    left: |
+      The phonetic chain:
+      dhyana (Sanskrit)
+      jhana (Pali/Prakrit)
+      channa / 禪那 (Chinese)
+      chan / 禪 (abbreviated)
+      zen / 禅 (Japanese)
+    right: |
+      Four Chinese renderings:
+      禪那 — full transliteration
+      禪 — abbreviation (became school name)
+      禪定 — hybrid (sound + meaning)
+      靜慮 — Xuanzang's semantic: "quiet contemplation"
+    notes: >
+      If I could show you only one mapping case, it would be this one.
+      Dhyana — sustained meditation — traveled from Sanskrit to Pali to
+      Chinese to Japanese, and at each stage the pronunciation shifted.
+      Dhyana became jhana in Pali, then channa in Chinese, then the
+      abbreviated chan, then Japanese zen. An entire school of Buddhism takes
+      its name from this single Sanskrit word. What's fascinating is that
+      Chinese translators developed four different renderings. The full
+      transliteration channa. The abbreviation chan. A hybrid, chanding,
+      pairing the foreign sound with a native Chinese word meaning
+      "stability." And Xuanzang's semantic translation jinglü, meaning
+      "quiet contemplation" — a 7th-century attempt to recover the precise
+      meaning. And here's the doctrinal shift: in the Yoga Sutras, dhyana
+      is one specific stage — limb 7 of 8. In Chinese Buddhism, chan expanded
+      until it named an entire orientation toward awakening. The word
+      traveled, but its scope changed dramatically.
+
+  # ── SLIDE 11: AVIDYA ──
+
+  - type: two_column
+    title: "avidya to wuming — Translation as Interpretation"
+    left: |
+      Sanskrit: a- ("not") + vidya ("knowledge")
+      = "non-knowledge"
+      Chinese: 無 ("without") + 明 ("brightness")
+      = 無明 wuming = "without brightness"
+      A morphological mirror — almost piece by piece
+    right: |
+      But the translators chose "brightness" over "knowledge"
+      Sanskrit image: epistemological — a failure of knowing
+      Chinese image: phenomenological — an absence of light
+      Small shift, real consequences
+      Even faithful translation is interpretation
+    notes: >
+      Avidya — non-knowledge — was rendered as wuming, "without brightness."
+      It's a structural calque: wu means "without," matching the Sanskrit
+      prefix a-; ming means "brightness" or "clarity," matching vidya,
+      "knowledge." Almost piece by piece. But the translators made a quiet
+      interpretive choice. They chose brightness instead of knowledge. The
+      Sanskrit image is epistemological — a failure of knowing, a mistake.
+      The Chinese image is phenomenological — an absence of light, a darkness.
+      A practitioner shaped by the Chinese image might experience avidya as
+      darkness to be dispelled — a clearing of vision. A practitioner shaped
+      by the Sanskrit might experience it as a mistake to be corrected — a
+      realignment of understanding. Both are valid. But they orient practice
+      differently. This is what I mean when I say translation is always
+      interpretation — even very faithful translation.
+
+  # ── SLIDE 12: SVARUPA CONTRAST ──
+
+  - type: two_column
+    title: "svarupa vs. zixing — When the Gap Is the Finding"
+    left: |
+      Yoga Sutras: svarupa = "own form"
+      YS 1.3: "The seer abides in its own form"
+      Purusha has a real essential nature
+      Meditation reveals it
+    right: |
+      Chinese Madhyamaka: 自性 zixing = "own nature"
+      Central insight: 自性空 — "empty of own-nature"
+      Nothing has inherent nature
+      Meditation sees through the illusion of it
+    notes: >
+      My last mapping case is a cautionary one. Svarupa in the Yoga Sutras
+      means "own form" — it's what purusha, pure awareness, actually is.
+      Yoga Sutra 1.3 says: when meditation succeeds, the seer abides in its
+      own form. The closest Chinese candidate is zixing, "own nature." Sounds
+      like a reasonable match. But in Chinese Madhyamaka Buddhism, zixing is
+      the thing that nothing has. The central Madhyamaka insight is
+      svabhava-shunyata — emptiness of own-nature. The Yoga Sutras say you
+      find your essential nature. Madhyamaka says you see through the illusion
+      that anything has one. Same philosophical question — does anything have
+      an essential nature? — opposite answers. I include this case because the
+      gap is more instructive than any smooth connection. It shows the limits
+      of mapping, and it shows that these are genuinely different traditions,
+      not one tradition in two languages.
+
+  # ── SLIDE 13: CONCLUSION ──
+
+  - type: content
+    title: "What the Words Know"
+    body: |
+      Sanskrit word-structure carries philosophical weight
+      - Roots and prefixes compress arguments about what concepts mean
+      Translation is always interpretation
+      - Sound vs. meaning, darkness vs. ignorance, extinction vs. restraint
+      Cross-cultural transmission is real but partial
+      - dhyana to zen is rock-solid; the Yoga Sutras' vocabulary has no Chinese equivalent
+      The most instructive cases are sometimes the failures
+    notes: >
+      Three takeaways. First, Sanskrit word-structure carries philosophical
+      weight. When you break samadhi into "a complete placing-together" or
+      abhinivesa into "a deep settling-into," you're not just doing
+      linguistics — you're recovering an argument about what these concepts
+      mean that the original language encodes and English translations flatten.
+      Second, translation is always interpretation. Every Chinese rendering
+      made choices — sound or meaning, darkness or ignorance, extinction or
+      restraint. Those choices shaped how millions of people understood these
+      concepts. Third, cross-cultural transmission is real but partial. The
+      dhyana-to-zen connection is rock-solid. But the Yoga Sutras' specialized
+      vocabulary has no Chinese counterpart at all. These are different
+      traditions sharing a vocabulary, not one tradition in two languages.
+      And sometimes the most instructive case is the failure — the place
+      where the gap between traditions reveals their deepest commitments.
+      Let me end where I started. Yoga Sutra 1.2. After this project, I hear
+      it differently. Citta is not just "mind" — it's "the perceived." Vrtti
+      is not "thoughts" — it's "turnings." Nirodha is not "stopping" — it's
+      "holding back." The words knew what they meant all along. We just had
+      to learn how to listen. Thank you.
