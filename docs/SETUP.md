@@ -90,7 +90,7 @@ Git initialized. No initial commit made yet.
      }
      ```
 
-3. **Initial commit**: When ready, ask Claude Code to commit the scaffold.
+3. **Initial commit**: Done (2026-04-08). Scaffold committed as `fed0bd2`.
 
 ## What Was Installed as a Side Effect
 

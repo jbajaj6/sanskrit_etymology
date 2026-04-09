@@ -1,0 +1,402 @@
+# Term Analyses — Batch 01
+# Sanskrit Etymology Project
+# Generated: 2026-04-08
+# Schema version: 1.0 (see docs/output_schema.md)
+#
+# Terms: samādhi, dhyāna, citta, nirodha, prajñā
+# Evidence sources: GRETIL (buddha-cli), SARIT (buddha-cli), CBETA (buddha-cli),
+#   Monier-Williams Sanskrit-English Dictionary, Apte Practical Sanskrit-English Dictionary
+
+analyses:
+
+  # ═══════════════════════════════════════════
+  # 1. SAMĀDHI
+  # ═══════════════════════════════════════════
+
+  - id: samadhi
+    devanagari: समाधि
+    transliteration: samādhi
+
+    chapter: "YS 1.20, 1.46, 2.2, 2.29, 2.45, 3.3, 3.11, 3.37, 4.1, 4.29"
+    source_context: >
+      YS 1.20: śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām
+      ("For others [not born with it], it is preceded by faith, vigor,
+      memory, samādhi, and wisdom"). YS 3.3: tad evārthamātranirbhāsaṃ
+      svarūpaśūnyam iva samādhiḥ ("When that same [meditation] shines
+      forth as the object alone, as if empty of its own form, that is samādhi").
+
+    segmentation: "sam + ā + √dhā + -i"
+    roots:
+      - root: "√dhā"
+        devanagari: "√धा"
+        meaning: "to place, put, set, hold"
+        dhatu_number: null
+    prefixes:
+      - prefix: "sam-"
+        meaning: "together, completely, perfectly"
+      - prefix: "ā-"
+        meaning: "toward, unto (intensifying directional prefix)"
+    suffixes:
+      - suffix: "-i"
+        meaning: "action noun suffix (kṛt pratyaya)"
+        grammatical_function: "forms a masculine action noun from the verbal base samādhā-"
+    compound_type: null
+
+    literal_gloss: "a complete placing-together; a total settling or composing"
+    philosophical_gloss: >
+      In Patañjali's Yoga Sutras, samādhi is the highest of the eight limbs
+      (aṣṭāṅga) and the culmination of the internal triad (dhāraṇā → dhyāna
+      → samādhi). It denotes a state where the meditator's awareness merges
+      with the object of meditation so completely that the distinction between
+      subject, act of meditation, and object dissolves. Patañjali distinguishes
+      samādhi with cognitive content (samprajñāta, YS 1.17) from objectless
+      samādhi (asamprajñāta, YS 1.18). In Buddhist usage, samādhi refers more
+      broadly to meditative concentration and appears as the last element of
+      the Noble Eightfold Path (sammā-samādhi in Pali).
+    doctrinal_significance: >
+      Samādhi is the telos of yogic practice in Patañjali's system. It is not
+      merely a technique but the state in which liberating knowledge (prajñā)
+      arises. The entire architecture of the Yoga Sutras moves toward samādhi
+      as the condition for kaivalya (liberation).
+
+    ambiguity_notes: >
+      The prefix analysis sam + ā is standard (Monier-Williams s.v. samādhi),
+      but some modern teachers gloss samādhi as "equal-placing" (sama + ādhi),
+      treating sama as "equal/even" rather than the prefix sam-. This folk
+      etymology is not supported by traditional Sanskrit grammar (Pāṇini) or
+      standard dictionaries. The derivation from sam + ā + √dhā is well established.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "三摩地"
+        pinyin: "sānmódì"
+        mapping_type: phonetic
+        source: "Xuanzang (7th c. CE) standardized transliteration. Found in T01n0002, T01n0003."
+      - characters: "三昧"
+        pinyin: "sānmèi"
+        mapping_type: phonetic
+        source: "Older transliteration from Prakrit samāhi (loss of final -dhi). Found in T01n0001, T01n0006, T01n0007. Extremely common in Chinese Buddhist canon."
+    mapping_type: phonetic
+    phonetic_evidence: >
+      Both 三摩地 and 三昧 are phonetic transliterations. 三摩地 (sānmódì)
+      closely mirrors the Sanskrit samādhi syllable-by-syllable. 三昧 (sānmèi)
+      reflects an earlier borrowing, likely from a Prakrit or Gāndhārī form
+      where the final -dhi was reduced. Xuanzang explicitly preferred 三摩地
+      as the more accurate rendering.
+    semantic_evidence: null
+    citation_trail:
+      - "T01n0001 (Dīrghāgama, 長阿含經): 三昧"
+      - "T01n0002 (遊行經): 三摩地"
+      - "Xuanzang, 大唐西域記 — standardization of transliteration conventions"
+
+  # ═══════════════════════════════════════════
+  # 2. DHYĀNA
+  # ═══════════════════════════════════════════
+
+  - id: dhyana
+    devanagari: ध्यान
+    transliteration: dhyāna
+
+    chapter: "YS 2.11, 2.29, 3.2, 4.6"
+    source_context: >
+      YS 3.2: tatra pratyayaikatānatā dhyānam ("There [in dhāraṇā], the
+      continuous flow of a single cognition is dhyāna"). This defines dhyāna
+      as the sustained, unbroken stream of attention on a single object.
+
+    segmentation: "√dhyai + -ana"
+    roots:
+      - root: "√dhyai"
+        devanagari: "√ध्यै"
+        meaning: "to think, contemplate, meditate upon"
+        dhatu_number: null
+    prefixes: []
+    suffixes:
+      - suffix: "-ana"
+        meaning: "action/process noun suffix (kṛt pratyaya)"
+        grammatical_function: "forms a neuter noun denoting the act or process of the verbal action"
+    compound_type: null
+
+    literal_gloss: "the act of contemplating; sustained thinking-upon"
+    philosophical_gloss: >
+      In the Yoga Sutras, dhyāna is the seventh limb and the middle stage of
+      the internal triad. It is defined specifically as the unbroken flow
+      (ekatānatā) of awareness toward a single object, following the initial
+      fixing of attention (dhāraṇā) and preceding full absorption (samādhi).
+      In Buddhist usage, dhyāna (Pali: jhāna) refers to the four progressive
+      stages of meditative absorption (the four jhānas / four dhyānas), each
+      with specific factors that are progressively stilled.
+    doctrinal_significance: >
+      Dhyāna is the pivotal practice between concentration and absorption. Its
+      cross-cultural importance is extraordinary: the Sanskrit dhyāna became
+      Pali jhāna, Chinese 禪 (chán), and Japanese 禅 (zen), making it one of
+      the most consequential loanwords in the history of Asian religions.
+
+    ambiguity_notes: >
+      The root is sometimes cited as √dhī ("to think, perceive") rather than
+      √dhyai. Monier-Williams lists dhyāna under √dhyai (class 1 parasmaipada),
+      which is itself related to √dhī. The distinction is minor and does not
+      affect the semantic analysis.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "禪"
+        pinyin: "chán"
+        mapping_type: phonetic
+        source: "Abbreviated from 禪那 (chánnà), itself a transliteration of dhyāna. Ubiquitous in Chinese Buddhism."
+      - characters: "禪那"
+        pinyin: "chánnà"
+        mapping_type: phonetic
+        source: "Full phonetic transliteration of dhyāna. Found in early translation literature."
+      - characters: "禪定"
+        pinyin: "chándìng"
+        mapping_type: hybrid
+        source: "Hybrid: 禪 (phonetic from dhyāna) + 定 (semantic, 'stability/settling', translating samādhi). Found in T01n0001, T01n0002."
+    mapping_type: phonetic
+    phonetic_evidence: >
+      Dhyāna → jhāna (Pali/Prakrit, loss of aspirate cluster dhy → jh) →
+      禪那 chánnà (Middle Chinese *dʑian-na, close match to jhāna). The
+      abbreviated 禪 (chán) retains only the first syllable and became the
+      name of an entire school of Buddhism (Chán/Zen).
+    semantic_evidence: >
+      In the compound 禪定 (chándìng), the second character 定 (dìng, "settling,
+      stability") adds a semantic gloss equivalent to samādhi/samāpatti,
+      reflecting the Chinese tendency to pair a phonetic loan with a semantic
+      clarification.
+    citation_trail:
+      - "T01n0001 (長阿含經): 禪定"
+      - "T01n0002 (遊行經): 禪定"
+      - "Kumārajīva translations (5th c. CE): widespread use of 禪"
+
+  # ═══════════════════════════════════════════
+  # 3. CITTA
+  # ═══════════════════════════════════════════
+
+  - id: citta
+    devanagari: चित्त
+    transliteration: citta
+
+    chapter: "YS 1.2, 1.30, 1.33, 1.37, 2.54, 3.1, 3.9, 3.11–3.12, 3.34, 4.4–4.5, 4.15–4.18, 4.21–4.26"
+    source_context: >
+      YS 1.2: yogaś citta-vṛtti-nirodhaḥ ("Yoga is the cessation of the
+      fluctuations of citta"). This is the defining sutra of the entire
+      system, and citta is its central psychological term.
+
+    segmentation: "√cit + -ta"
+    roots:
+      - root: "√cit"
+        devanagari: "√चित्"
+        meaning: "to perceive, be conscious of, think"
+        dhatu_number: null
+    prefixes: []
+    suffixes:
+      - suffix: "-ta"
+        meaning: "past passive participle suffix (kṛdanta)"
+        grammatical_function: >
+          Forms a past participle ('that which has been thought/perceived'),
+          which is then substantivized to mean 'the mind' or 'consciousness-stuff'
+    compound_type: null
+
+    literal_gloss: "that which has been perceived/thought; the accumulated field of consciousness"
+    philosophical_gloss: >
+      Citta in the Yoga Sutras is not identical to Western "mind." It is the
+      entire apparatus of inner experience — encompassing intellect (buddhi),
+      ego-sense (ahaṃkāra), and the thinking faculty (manas) — as understood
+      through the Sāṃkhya framework that Patañjali presupposes. Citta belongs
+      to prakṛti (material nature), not to puruṣa (pure consciousness). Its
+      fluctuations (vṛtti) are what yoga aims to still. In Buddhist Abhidharma,
+      citta refers more specifically to the momentary unit of consciousness,
+      differing significantly from the Yoga Sutras' usage.
+    doctrinal_significance: >
+      Citta is the locus of all yogic work. The entire project of the Yoga
+      Sutras is framed as the progressive stilling of citta's activity. Without
+      understanding what citta is, the rest of the system — vṛtti, nirodha,
+      samādhi — cannot be understood.
+
+    ambiguity_notes: >
+      The derivation from √cit + -ta is uncontroversial. However, the
+      philosophical scope of citta is debated: Vyāsa's Bhāṣya treats it as
+      essentially equivalent to buddhi (the intellect), while later commentators
+      sometimes treat it as a broader term encompassing all three "inner
+      instruments" (antaḥkaraṇa). This is a doctrinal question, not a
+      morphological one.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "心"
+        pinyin: "xīn"
+        mapping_type: semantic
+        source: "Standard semantic translation. 心 covers 'heart-mind' in Chinese, broader than citta."
+    mapping_type: semantic
+    phonetic_evidence: null
+    semantic_evidence: >
+      Chinese 心 (xīn) is a semantic translation, not a phonetic one. It maps
+      approximately to citta but carries the broader Chinese connotation of
+      "heart-mind" that includes emotional and volitional dimensions not
+      necessarily foregrounded in the Yoga Sutras' usage. This is a provisional
+      mapping; a more careful analysis belongs to the mapping stage.
+    citation_trail:
+      - "Provisional — full citation trail deferred to mapping stage"
+
+  # ═══════════════════════════════════════════
+  # 4. NIRODHA
+  # ═══════════════════════════════════════════
+
+  - id: nirodha
+    devanagari: निरोध
+    transliteration: nirodha
+
+    chapter: "YS 1.2, 1.12, 1.51, 3.9"
+    source_context: >
+      YS 1.2: yogaś citta-vṛtti-nirodhaḥ. YS 1.12: abhyāsa-vairāgyābhyāṃ
+      tan-nirodhaḥ ("That cessation [is achieved] by practice and
+      non-attachment"). YS 3.9: nirodha-pariṇāma describes the transformation
+      of citta as it moves toward cessation.
+
+    segmentation: "ni + √rudh + -a"
+    roots:
+      - root: "√rudh"
+        devanagari: "√रुध्"
+        meaning: "to obstruct, stop, restrain, confine"
+        dhatu_number: null
+    prefixes:
+      - prefix: "ni-"
+        meaning: "down, into, back (here: intensifying — complete restraint)"
+    suffixes:
+      - suffix: "-a"
+        meaning: "action noun suffix (ghañ pratyaya)"
+        grammatical_function: "forms a masculine action noun denoting the process or result of the verbal action"
+    compound_type: null
+
+    literal_gloss: "a holding-back; a complete stopping or restraining"
+    philosophical_gloss: >
+      Nirodha in the Yoga Sutras means the cessation or stilling of the
+      fluctuations (vṛtti) of citta. It is not annihilation of the mind but
+      the quieting of its habitual activity, allowing puruṣa (pure awareness)
+      to rest in its own nature. In Buddhist usage, nirodha is the third Noble
+      Truth — the cessation of duḥkha (suffering). The Buddhist nirodha-samāpatti
+      ("attainment of cessation") is a specific meditative state where all
+      mental activity temporarily ceases. While both traditions use "cessation,"
+      the metaphysical frameworks differ: Yoga Sutras presuppose a permanent
+      puruṣa revealed by cessation; Buddhist thought does not.
+    doctrinal_significance: >
+      Nirodha is the operative word in the Yoga Sutras' definition of yoga
+      itself (YS 1.2). It names what yoga does. The entire text can be read
+      as an elaboration of how nirodha is achieved, what it reveals, and
+      what obstructs it.
+
+    ambiguity_notes: >
+      The derivation ni + √rudh is standard (Monier-Williams s.v. nirodha).
+      The interpretive question is whether nirodha means "suppression"
+      (forceful stopping) or "cessation" (natural settling). Most modern
+      scholars favor "cessation" or "stilling," reading Patañjali's system
+      as describing a progressive calming rather than forceful suppression.
+      This is a philosophical interpretation question, not a morphological
+      dispute.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "滅"
+        pinyin: "miè"
+        mapping_type: semantic
+        source: "Used for Buddhist nirodha in the Four Noble Truths context (苦集滅道). Semantic: 'extinction, cessation.'"
+    mapping_type: semantic
+    phonetic_evidence: null
+    semantic_evidence: >
+      Chinese 滅 (miè, "to extinguish, cease") is the standard rendering of
+      nirodha in the Buddhist Four Noble Truths (苦集滅道 = duḥkha, samudaya,
+      nirodha, mārga). This is a semantic translation. In Yogic (non-Buddhist)
+      contexts, nirodha may not have a single standard Chinese equivalent, as
+      the Yoga Sutras were not systematically translated into Chinese.
+      This mapping is provisional and applies primarily to the Buddhist usage.
+    citation_trail:
+      - "Four Noble Truths formula: 苦集滅道 — ubiquitous in Chinese Āgama and Abhidharma literature"
+      - "Provisional — Yoga Sutras-specific mapping deferred"
+
+  # ═══════════════════════════════════════════
+  # 5. PRAJÑĀ
+  # ═══════════════════════════════════════════
+
+  - id: prajna
+    devanagari: प्रज्ञा
+    transliteration: prajñā
+
+    chapter: "YS 1.20, 1.48–1.49, 2.27, 3.5"
+    source_context: >
+      YS 1.48: ṛtaṃbharā tatra prajñā ("The wisdom there [in that samādhi]
+      is truth-bearing"). YS 1.49: śrutānumānaprajñābhyām anyaviṣayā
+      viśeṣārthatvāt ("This [truth-bearing wisdom] has a different domain
+      from the knowledge gained by scripture or inference, because it relates
+      to particulars").
+
+    segmentation: "pra + √jñā"
+    roots:
+      - root: "√jñā"
+        devanagari: "√ज्ञा"
+        meaning: "to know, perceive, understand"
+        dhatu_number: null
+    prefixes:
+      - prefix: "pra-"
+        meaning: "forth, forward, intensifying (here: 'higher' or 'superior')"
+    suffixes: []
+    compound_type: null
+
+    literal_gloss: "higher knowing; a knowing that goes forth or beyond ordinary cognition"
+    philosophical_gloss: >
+      In the Yoga Sutras, prajñā refers specifically to the direct,
+      non-inferential wisdom that arises in samādhi. It is distinguished from
+      knowledge gained by scripture (śruta) or reasoning (anumāna) — it is
+      experiential insight into the nature of reality. Patañjali calls it
+      ṛtaṃbharā ("truth-bearing"), meaning it carries truth directly, without
+      the mediation of concepts. In Buddhist usage, prajñā (Pali: paññā)
+      is one of the three trainings (along with śīla and samādhi) and is
+      central to the Prajñāpāramitā literature, where it denotes the
+      perfection of wisdom that perceives śūnyatā (emptiness).
+    doctrinal_significance: >
+      Prajñā is the fruit of samādhi in the Yoga Sutras — it is what
+      meditative absorption produces. The term bridges the Yoga and Buddhist
+      traditions as a shared concept (though with different metaphysical
+      content), making it essential for cross-cultural analysis.
+
+    ambiguity_notes: >
+      The derivation pra + √jñā is straightforward and uncontested. The word
+      has no suffix — prajñā is formed directly from the prefixed root, with
+      the feminine -ā ending marking it as a feminine abstract noun. The
+      interpretive complexity lies entirely in the philosophical domain:
+      Yogic prajñā reveals the distinction of puruṣa from prakṛti, while
+      Buddhist prajñā reveals emptiness (śūnyatā) — these are fundamentally
+      different metaphysical claims using the same word.
+    confidence: high
+
+    chinese_counterparts:
+      - characters: "般若"
+        pinyin: "bōrě"
+        mapping_type: phonetic
+        source: >
+          Phonetic transliteration, likely from a Prakrit form (paññā or similar).
+          般若 is one of the most important loanwords in Chinese Buddhism, preserved
+          rather than translated to signal its special doctrinal status. Found in
+          T01n0025, T01n0026, and throughout the vast Prajñāpāramitā corpus.
+      - characters: "慧"
+        pinyin: "huì"
+        mapping_type: semantic
+        source: >
+          Semantic translation meaning 'wisdom'. Used in some contexts, especially
+          as part of the three trainings (戒定慧 = śīla, samādhi, prajñā).
+    mapping_type: phonetic
+    phonetic_evidence: >
+      般若 (bōrě in modern Mandarin; Middle Chinese reconstruction approximately
+      *ban-nja or *puan-ɲia) reflects a Prakrit or Gāndhārī pronunciation
+      closer to paññā than the standard Sanskrit prajñā. The preservation of
+      the phonetic form rather than translation (unlike most terms) signals
+      the special doctrinal weight Chinese Buddhists placed on this concept.
+    semantic_evidence: >
+      The alternative semantic rendering 慧 (huì, "wisdom") is used in
+      formulaic contexts like the three trainings (戒定慧) but does not carry
+      the same doctrinal weight as 般若. In practice, 般若 became the prestige
+      term precisely because it was not translated — it marked the concept as
+      irreducibly foreign and requiring special understanding.
+    citation_trail:
+      - "T01n0025 (中阿含經): 般若"
+      - "T01n0026 (中阿含經): 般若"
+      - "T08n0223 (摩訶般若波羅蜜經, Kumārajīva tr.): entire text built on 般若"
+      - "Three trainings formula: 戒定慧 (śīla, samādhi, prajñā)"

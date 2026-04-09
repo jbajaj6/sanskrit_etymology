@@ -1,0 +1,351 @@
+# Canonical Seed Term List
+# Sanskrit Etymology Project — Meditation & Philosophical Vocabulary
+# Generated: 2026-04-08
+#
+# Priority buckets:
+#   must    — Core terms for initial analysis passes
+#   nice    — Important but can wait for batch 2+
+#   stretch — Advanced compounds and specialized terms
+#
+# Thematic buckets:
+#   meditation_core, mind_psychology, affliction_obstacle,
+#   practice_discipline, insight_knowledge, liberation_metaphysics,
+#   advanced_compound
+
+terms:
+
+  # ── MUST ANALYZE (12 terms) ──
+
+  - id: samadhi
+    devanagari: समाधि
+    transliteration: samādhi
+    normalized_slug: samadhi
+    priority_bucket: must
+    chapter: YS 1, 2, 3
+    professor_gloss: "meditative absorption; the culmination of yogic practice"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Central to the project's meditation emphasis. Multiple Chinese renderings (三摩地, 三昧)."
+
+  - id: dhyana
+    devanagari: ध्यान
+    transliteration: dhyāna
+    normalized_slug: dhyana
+    priority_bucket: must
+    chapter: YS 2.11, 3.2
+    professor_gloss: "sustained meditation; contemplation"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Source of Chinese 禪 (chán) and Japanese zen. Critical for transmission analysis."
+
+  - id: citta
+    devanagari: चित्त
+    transliteration: citta
+    normalized_slug: citta
+    priority_bucket: must
+    chapter: YS 1.2, 1.33, 1.37
+    professor_gloss: "mind-stuff; the field of consciousness"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    notes: "Appears in the defining sutra YS 1.2. Key to understanding vṛtti and nirodha."
+
+  - id: vrtti
+    devanagari: वृत्ति
+    transliteration: vṛtti
+    normalized_slug: vrtti
+    priority_bucket: must
+    chapter: YS 1.2, 1.5–1.11
+    professor_gloss: "fluctuations or turnings of the mind"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    notes: "Five types enumerated in YS 1.5–1.11."
+
+  - id: nirodha
+    devanagari: निरोध
+    transliteration: nirodha
+    normalized_slug: nirodha
+    priority_bucket: must
+    chapter: YS 1.2, 1.12, 1.51, 3.9
+    professor_gloss: "cessation; restraint of mental fluctuations"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Shared with Buddhist nirodha (third noble truth). Important cross-tradition term."
+
+  - id: prajna
+    devanagari: प्रज्ञा
+    transliteration: prajñā
+    normalized_slug: prajna
+    priority_bucket: must
+    chapter: YS 1.20, 1.48–1.49, 2.27
+    professor_gloss: "wisdom; higher insight born of practice"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: high
+    notes: "Chinese 般若 (bōrě) is a major phonetic borrowing. Prajñāpāramitā literature."
+
+  - id: viveka_khyati
+    devanagari: विवेकख्याति
+    transliteration: viveka-khyāti
+    normalized_slug: viveka-khyati
+    priority_bucket: must
+    chapter: YS 2.26, 2.28, 4.29
+    professor_gloss: "discriminative discernment; the vision that separates puruṣa from prakṛti"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    notes: "Compound of viveka + khyāti. Technical Sāṃkhya-Yoga term."
+
+  - id: klesa
+    devanagari: क्लेश
+    transliteration: kleśa
+    normalized_slug: klesa
+    priority_bucket: must
+    chapter: YS 2.2–2.9, 2.12
+    professor_gloss: "afflictions; the root causes of suffering"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Five kleśas enumerated in YS 2.3. Buddhist parallel: kleśāvaraṇa."
+
+  - id: avidya
+    devanagari: अविद्या
+    transliteration: avidyā
+    normalized_slug: avidya
+    priority_bucket: must
+    chapter: YS 2.3–2.5, 2.24
+    professor_gloss: "ignorance; misidentification of self with non-self"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "First and root kleśa. Buddhist parallel concept but different metaphysics."
+
+  - id: samskara
+    devanagari: संस्कार
+    transliteration: saṃskāra
+    normalized_slug: samskara
+    priority_bucket: must
+    chapter: YS 1.18, 1.50, 3.9–3.10, 4.9
+    professor_gloss: "latent impressions; subliminal activators from past experience"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    notes: "Deep psychological concept. Buddhist saṅkhāra is a parallel but distinct usage."
+
+  - id: kaivalya
+    devanagari: कैवल्य
+    transliteration: kaivalya
+    normalized_slug: kaivalya
+    priority_bucket: must
+    chapter: YS 2.25, 3.50, 3.55, 4.34
+    professor_gloss: "absolute freedom; aloneness of pure awareness"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    notes: "The telos of Patañjali's system. Titles YS chapter 4."
+
+  - id: abhyasa
+    devanagari: अभ्यास
+    transliteration: abhyāsa
+    normalized_slug: abhyasa
+    priority_bucket: must
+    chapter: YS 1.12–1.14
+    professor_gloss: "repeated practice; sustained effort over time"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Paired with vairāgya in YS 1.12 as the two means to nirodha."
+
+  # ── NICE TO ANALYZE (8 terms) ──
+
+  - id: vairagya
+    devanagari: वैराग्य
+    transliteration: vairāgya
+    normalized_slug: vairagya
+    priority_bucket: nice
+    chapter: YS 1.12, 1.15–1.16
+    professor_gloss: "non-attachment; dispassion"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Counterpart to abhyāsa."
+
+  - id: dharana
+    devanagari: धारणा
+    transliteration: dhāraṇā
+    normalized_slug: dharana
+    priority_bucket: nice
+    chapter: YS 3.1
+    professor_gloss: "concentration; fixing the mind on a single point"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    notes: "First of the three inner limbs (dhāraṇā, dhyāna, samādhi)."
+
+  - id: samyama
+    devanagari: संयम
+    transliteration: saṃyama
+    normalized_slug: samyama
+    priority_bucket: nice
+    chapter: YS 3.4
+    professor_gloss: "the combined practice of dhāraṇā, dhyāna, and samādhi"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    notes: "Technical umbrella term for the three inner limbs together."
+
+  - id: pratyahara
+    devanagari: प्रत्याहार
+    transliteration: pratyāhāra
+    normalized_slug: pratyahara
+    priority_bucket: nice
+    chapter: YS 2.54–2.55
+    professor_gloss: "sense withdrawal; turning the senses inward"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Bridge between outer and inner limbs of yoga."
+
+  - id: purusa
+    devanagari: पुरुष
+    transliteration: puruṣa
+    normalized_slug: purusa
+    priority_bucket: nice
+    chapter: YS 1.16, 1.24, 3.35, 4.18
+    professor_gloss: "pure consciousness; the witness-self"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    notes: "Sāṃkhya-Yoga metaphysical foundation. Not easily mapped to Chinese Buddhist terms."
+
+  - id: svarupa
+    devanagari: स्वरूप
+    transliteration: svarūpa
+    normalized_slug: svarupa
+    priority_bucket: nice
+    chapter: YS 1.3, 2.23, 2.54, 3.3, 3.44
+    professor_gloss: "own form; essential nature"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    notes: "Appears in the key sutra YS 1.3 (tadā draṣṭuḥ svarūpe 'vasthānam)."
+
+  - id: abhinivesa
+    devanagari: अभिनिवेश
+    transliteration: abhiniveśa
+    normalized_slug: abhinivesa
+    priority_bucket: nice
+    chapter: YS 2.3, 2.9
+    professor_gloss: "clinging to life; fear of death"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: low
+    notes: "Fifth kleśa. Unique psychological insight of the Yoga Sutras."
+
+  - id: asamprajnata
+    devanagari: असम्प्रज्ञात
+    transliteration: asamprajñāta
+    normalized_slug: asamprajnata
+    priority_bucket: nice
+    chapter: YS 1.18
+    professor_gloss: "objectless absorption; samādhi without cognitive content"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    notes: "Contrasts with samprajñāta. Debated interpretation among commentators."
+
+  # ── STRETCH TERMS (10 terms) ──
+
+  - id: samprajnata
+    devanagari: सम्प्रज्ञात
+    transliteration: samprajñāta
+    normalized_slug: samprajnata
+    priority_bucket: stretch
+    chapter: YS 1.17
+    professor_gloss: "cognitive samādhi with an object of awareness"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    notes: "Four subtypes: vitarka, vicāra, ānanda, asmitā."
+
+  - id: dharmamegha_samadhi
+    devanagari: धर्ममेघसमाधि
+    transliteration: dharmamegha-samādhi
+    normalized_slug: dharmamegha-samadhi
+    priority_bucket: stretch
+    chapter: YS 4.29
+    professor_gloss: "cloud-of-dharma samādhi; the final meditative attainment"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Multi-member compound. Also appears in Buddhist Daśabhūmika literature."
+
+  - id: alabdhabhumikatva
+    devanagari: अलब्धभूमिकत्व
+    transliteration: alabdhabhūmikatva
+    normalized_slug: alabdhabhumikatva
+    priority_bucket: stretch
+    chapter: YS 1.30
+    professor_gloss: "inability to attain a stage; failure to find ground"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: low
+    notes: "One of the nine obstacles (antarāya). Complex compound."
+
+  - id: anavasthitatva
+    devanagari: अनवस्थितत्व
+    transliteration: anavasthitatva
+    normalized_slug: anavasthitatva
+    priority_bucket: stretch
+    chapter: YS 1.30
+    professor_gloss: "instability; inability to maintain a stage once attained"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: low
+    notes: "Paired with alabdhabhūmikatva among the nine obstacles."
+
+  - id: nirodha_parinama
+    devanagari: निरोधपरिणाम
+    transliteration: nirodha-pariṇāma
+    normalized_slug: nirodha-parinama
+    priority_bucket: stretch
+    chapter: YS 3.9
+    professor_gloss: "the transformation toward cessation"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "First of three pariṇāmas in YS 3.9–3.12."
+
+  - id: samadhi_parinama
+    devanagari: समाधिपरिणाम
+    transliteration: samādhi-pariṇāma
+    normalized_slug: samadhi-parinama
+    priority_bucket: stretch
+    chapter: YS 3.11
+    professor_gloss: "the transformation into meditative absorption"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Second of three pariṇāmas."
+
+  - id: ekagrata
+    devanagari: एकाग्रता
+    transliteration: ekāgratā
+    normalized_slug: ekagrata
+    priority_bucket: stretch
+    chapter: YS 3.12
+    professor_gloss: "one-pointedness of mind"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    notes: "Third pariṇāma. Ekāgratā-pariṇāma in context."
+
+  - id: viveka
+    devanagari: विवेक
+    transliteration: viveka
+    normalized_slug: viveka
+    priority_bucket: stretch
+    chapter: YS 2.26, 2.28, 4.26
+    professor_gloss: "discrimination; discernment between puruṣa and prakṛti"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    notes: "Root component of viveka-khyāti."
+
+  - id: pranayama
+    devanagari: प्राणायाम
+    transliteration: prāṇāyāma
+    normalized_slug: pranayama
+    priority_bucket: stretch
+    chapter: YS 2.49–2.53
+    professor_gloss: "breath regulation; expansion of vital energy"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Compound of prāṇa + āyāma. Fourth limb of aṣṭāṅga yoga."
+
+  - id: kriya_yoga
+    devanagari: क्रियायोग
+    transliteration: kriyā-yoga
+    normalized_slug: kriya-yoga
+    priority_bucket: stretch
+    chapter: YS 2.1
+    professor_gloss: "the yoga of action — tapas, svādhyāya, and īśvarapraṇidhāna"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Opens Sādhana Pāda. Practical entry point to the system."
