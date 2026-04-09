@@ -4,12 +4,12 @@ author: "Jai Bajaj"
 date: "2026"
 
 theme:
-  font_heading: "Helvetica"
-  font_body: "Helvetica"
-  color_heading: "1a1a2e"
-  color_accent: "8b1a1a"
+  font_heading: "Georgia"
+  font_body: "Calibri"
+  color_heading: "1E2761"
+  color_accent: "7B2D26"
   color_body: "2c3e50"
-  color_bg: "faf9f6"
+  color_bg: "f7f6f2"
 
 slides:
 
@@ -174,15 +174,17 @@ slides:
   # ── SLIDE 8: SAMSKARA ──
 
   - type: content
-    title: "samskara — Latent Impressions"
+    title: "saṃskāra — Latent Impressions"
     body: |
-      Root: √kr — "to do, make"    Prefix: sam- ("completely")
-      Literal: "a thorough making"     Philosophical: accumulated subliminal traces
+      Root: √kṛ — "to do, make"
+      Prefix: sam- ("completely, thoroughly")
+      Literal: "a thorough making"
+      Philosophical: accumulated subliminal traces that shape perception
       Three lives of one word:
-      - Ritual: consecration, sacrament (the samskaras of life)
-      - Grammar: refinement (samskrta = "Sanskrit" = the "well-made" language)
-      - Yoga Sutras: latent impressions — the unconscious residue of experience
-      Samskaras from samadhi can overwrite samskaras from ordinary experience (YS 1.50)
+      - Ritual: consecration, sacrament
+      - Grammar: refinement — saṃskṛta = "Sanskrit" = the "well-made" language
+      - Yoga Sutras: the unconscious residue of experience
+      Saṃskāras from samādhi overwrite saṃskāras from ordinary experience (YS 1.50)
     notes: >
       One more Sanskrit case. Samskara — sam plus the root kr, "to make,"
       plus the suffix -a. Literally: a thorough making. Philosophically: the
