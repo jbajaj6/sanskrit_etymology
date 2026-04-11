@@ -8,6 +8,16 @@ from .paths import DEMO_DIR
 from .repository import transliteration_aliases
 
 
+def _normalize_payload(value: object) -> object:
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, list):
+        return [_normalize_payload(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _normalize_payload(item) for key, item in value.items()}
+    return value
+
+
 def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
     analyses_by_id = {analysis.id: analysis for analysis in repo.analyses}
     mappings_by_slug = {mapping.normalized_slug: mapping for mapping in repo.mappings}
@@ -91,7 +101,7 @@ def write_demo_artifacts(
 ) -> tuple[Path, Path]:
     target_json = json_path or DEMO_DIR / "terms.json"
     target_inline = inline_path or DEMO_DIR / "terms_inline.js"
-    payload = [term.to_dict() for term in sort_demo_terms(terms)]
+    payload = [_normalize_payload(term.to_dict()) for term in sort_demo_terms(terms)]
 
     target_json.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
