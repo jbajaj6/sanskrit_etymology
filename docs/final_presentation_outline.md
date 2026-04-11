@@ -96,11 +96,11 @@ Three takeaways:
 
 **Slide**: Switch to browser — open `demo/index.html`
 
-- Show the Sanskrit Word Explorer — 84 terms from all 4 chapters of the Yoga Sutras
+- Show the Sanskrit Word Explorer — the 30 canonical terms tracked by the project
 - Type "samadhi" and show the full breakdown card: Devanagari, segmentation strip, morphology grid, philosophical meaning, Chinese equivalents
-- Click a chip from the browse grid (e.g., "karma" or "ahimsa") to show it works for any term in the dataset
+- Click a chip from the browse grid (e.g., "abhyasa" or "vairagya") to show it works for any term in the dataset
 - Point out the segmentation strip: color-coded prefixes, roots, suffixes
-- Brief: "Every term in the Yoga Sutras vocabulary list is in here — you can explore them after class"
+- Brief: "This is the project's canonical vocabulary set — you can explore the analyzed terms after class"
 
 ## Section 8: Limits and Caution (30 sec)
 

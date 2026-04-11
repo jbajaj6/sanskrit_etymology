@@ -22,14 +22,14 @@ Philosophy professor with a meditation emphasis (samadhi meditation). Very littl
 ## Directory Structure
 
 ```
-data/raw/          — Original source texts (TEI-XML, plain text)
-data/processed/    — Cleaned and structured data
-src/ingest/        — Text ingestion and parsing
-src/lexicon/       — Term analysis and morphological breakdown
-src/mapping/       — Sanskrit-Chinese term mapping
-src/utils/         — Shared utilities
-notebooks/         — Exploratory analysis
-docs/              — Documentation and presentation materials
+data/raw/                           — Original source texts (TEI-XML, plain text)
+data/processed/                     — Cleaned and structured data
+data/seed_terms.yaml                — Canonical term catalog
+data/analyses/term_analyses.yaml    — Canonical term analyses
+data/mappings/*.yaml                — Canonical mapping data
+src/sanskrit_etymology/             — Package code, CLI, validators, demo builders
+demo/                               — Static demo and generated artifacts
+docs/                               — Documentation and research materials
 ```
 
 ## Available Skills
@@ -40,20 +40,30 @@ docs/              — Documentation and presentation materials
 - `/philology-presentation-writer` — Generate presentation materials for class
 - `/source-discipline` — Audit sourcing rigor on any output
 
-## PowerPoint Generation
+## Software Commands
 
-Generate .pptx presentations from YAML slide specs:
+Validate canonical data:
 
 ```
-/opt/homebrew/bin/python3.11 src/utils/generate_pptx.py <input.yaml> <output.pptx>
+sanskrit-etymology validate-data
 ```
 
-Supported slide types: `title`, `section`, `content`, `two_column`, `table`, `quote`.
-Theme colors, fonts, and speaker notes are configurable in the YAML.
-Requires: `python-pptx` and `pyyaml` (installed in `/opt/homebrew/lib/python3.11/`).
+Build demo artifacts from canonical YAML:
+
+```
+sanskrit-etymology build-demo
+```
+
+Print dataset stats:
+
+```
+sanskrit-etymology stats
+```
 
 ## MCP Servers
 
 - `buddha` — buddha-cli (formerly daizo-mcp). Full Buddhist text MCP: search, fetch, and index across CBETA, GRETIL, SARIT, MUKTABODHA, Pali Tipitaka. This is the primary domain-specific tool.
 - `fetch` — General web content retrieval (for online references not covered by buddha)
 - `filesystem` — Local file access scoped to this project
+
+Treat the MCP stack as optional. The repo should remain usable through the packaged CLI even when MCP servers are unavailable.

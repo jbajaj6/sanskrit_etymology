@@ -19,6 +19,7 @@ node_modules/
 # IDE
 .vscode/
 .idea/
+.mcp.local.json
 
 # Jupyter
 .ipynb_checkpoints/

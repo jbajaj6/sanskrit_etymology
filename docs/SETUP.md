@@ -2,6 +2,8 @@
 
 Date: 2026-04-08 (revised)
 
+This file documents the original Claude/MCP workspace setup. It is now historical reference material; the primary software workflow is the packaged CLI described in `README.md`.
+
 ## What Was Set Up
 
 ### MCP Servers (in `.mcp.json`)

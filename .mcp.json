@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "buddha": {
-      "command": "/Users/jaibajaj/.buddha/bin/buddha",
+      "command": "buddha",
       "args": ["mcp"]
     },
     "fetch": {
@@ -13,7 +13,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/Users/jaibajaj/Desktop/RealDesktop/sanskrit_etymology"
+        "."
       ]
     }
   }

@@ -1,60 +1,88 @@
 # Sanskrit Etymology & Buddhist Transmission Project
 
-Computational philology tooling for analyzing Sanskrit meditation vocabulary and tracing Buddhist concept transmission from India to China.
+Validated data pipeline and static demo for analyzing Sanskrit meditation vocabulary and tracing Buddhist concept transmission from India to China.
 
-## Setup
+## What This Repo Contains
 
-This project is designed to be used with [Claude Code](https://claude.com/claude-code).
+- Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml)
+- Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
+- Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
+- A generated browser demo in [demo/](demo/)
+- Research notes and presentation materials in [docs/](docs/)
+
+The software surface is now a small Python package with validation and build commands. The Claude/MCP setup remains optional for interactive research work, but it is no longer the primary way to use the repo.
+
+## Quick Start
 
 ### Prerequisites
 
-- Node.js (v18+)
-- Python 3.9+ with `uvx` (for MCP fetch server)
-- Rust toolchain (installed automatically by buddha-cli bootstrap)
-- Claude Code CLI
+- Python 3.11+
+- `pip`
 
-### MCP Servers
+### Install
 
-Configured in `.mcp.json`:
-
-| Server | Purpose | Status |
-|--------|---------|--------|
-| `buddha` | Buddhist text corpus search/fetch (CBETA, GRETIL, SARIT, MUKTABODHA, Tipitaka) | Installed and indexed |
-| `fetch` | General web content retrieval | Configured |
-| `filesystem` | Local file read/write scoped to project | Configured |
-
-### Custom Skills
-
-Located in `.claude/skills/<name>/SKILL.md`:
-
-| Skill | Purpose |
-|-------|---------|
-| `sanskrit-term-breakdown` | Morphological + philosophical analysis of Sanskrit terms |
-| `buddhist-term-mapper` | Map Sanskrit to Chinese Buddhist equivalents |
-| `corpus-ingest-tei` | Parse TEI-XML source texts |
-| `philology-presentation-writer` | Generate class presentation materials |
-| `source-discipline` | Enforce sourcing rigor on all outputs |
-
-### Directory Structure
-
-```
-data/raw/          — Original source texts
-data/processed/    — Cleaned structured data
-src/ingest/        — Text ingestion
-src/lexicon/       — Term analysis
-src/mapping/       — Sanskrit-Chinese mapping
-src/utils/         — Shared utilities
-notebooks/         — Exploratory analysis
-docs/              — Documentation and presentations
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
 ```
 
-## Usage
+### Validate Canonical Data
 
-Start Claude Code in this directory. The skills and MCP servers will be available automatically.
+```bash
+sanskrit-etymology validate-data
+```
 
-Example commands:
+### Build Demo Artifacts
+
+```bash
+sanskrit-etymology build-demo
+python3 -m http.server 8000 --directory demo
 ```
-/sanskrit-term-breakdown samadhi
-/buddhist-term-mapper dhyana
-/philology-presentation-writer
+
+Then open `http://localhost:8000`.
+
+## Supported Commands
+
+```bash
+sanskrit-etymology validate-data
+sanskrit-etymology build-demo
+sanskrit-etymology stats
 ```
+
+## Project Layout
+
+```text
+data/
+  analyses/        Canonical morphological analyses
+  mappings/        Canonical Sanskrit-Chinese mappings
+  seed_terms.yaml  Canonical term catalog
+demo/
+  assets/          Static CSS/JS for the browser demo
+  terms.json       Generated demo dataset
+  terms_inline.js  Generated offline-friendly demo payload
+docs/              Research notes, paper draft, presentation scripts
+src/
+  sanskrit_etymology/
+                   Package code, validation, and build pipeline
+tests/             Pipeline regression tests
+```
+
+## Data Flow
+
+The canonical sources of truth are:
+
+1. `data/seed_terms.yaml`
+2. `data/analyses/term_analyses.yaml`
+3. `data/mappings/sanskrit_chinese_mappings.yaml`
+
+The demo artifacts are derived from those files. Do not edit `demo/terms.json` or `demo/terms_inline.js` by hand; regenerate them with `sanskrit-etymology build-demo`.
+
+## Optional Claude / MCP Workflow
+
+If you use Claude Code, the repo still includes:
+
+- `.claude/skills/` for philology-specific prompts and guardrails
+- `.mcp.json` for optional MCP server wiring
+
+Those files are now auxiliary to the core package/CLI workflow rather than the definition of the project itself.

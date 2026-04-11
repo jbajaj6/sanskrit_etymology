@@ -142,17 +142,17 @@ Let me show you something quickly. I built an interactive tool that lets you exp
 
 [Switch to browser — open demo/index.html]
 
-This is the Sanskrit Word Explorer. It has 84 terms — every term from your Yoga Sutras vocabulary lists, all four chapters. Let me type "samadhi"...
+This is the Sanskrit Word Explorer. It has the 30 canonical terms tracked by the project. Let me type "samadhi"...
 
 [Type "samadhi", press Enter]
 
 You can see the full breakdown: Devanagari script at the top, the segmentation strip showing how the word is built — prefixes in red, root in white, suffix in blue — the morphological components, the philosophical meaning, and down here, the Chinese Buddhist equivalents with their translation type.
 
-Let me try one more — let's click "karma."
+Let me try one more — let's click "abhyasa."
 
-[Click karma chip]
+[Click abhyasa chip]
 
-Same structure: the root √kṛ, "to do" — and notice that saṃskāra comes from the same root. The connections between terms become visible when you can see their shared roots.
+Same structure: the prefixes, root, and suffix are all visible at once, and you can compare that with the philosophical gloss below. The point is that the morphology and the doctrinal interpretation are kept side by side instead of being split across notes.
 
 This is available for you to explore after class — it's just an HTML file, works offline, no installation needed.
 

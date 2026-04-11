@@ -5,6 +5,8 @@ Date: 2026-04-08
 
 Every term analysis produced by this project must conform to the fields below. This schema ensures consistency across batches and makes future aggregation possible.
 
+Run `sanskrit-etymology validate-data` to enforce the canonical data checks in code.
+
 ## Required Fields
 
 ### Identity
