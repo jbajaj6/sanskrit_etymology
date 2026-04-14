@@ -86,7 +86,7 @@ The words knew what they meant. But what they meant depended, in part, on who wa
 
 ## Appendix: Interactive Demo
 
-An accompanying interactive tool — the Sanskrit Word Explorer — allows readers to search and browse the project's 30 canonical seed terms. For each term, the tool displays the Devanagari script, IAST transliteration, morphological segmentation (when a canonical analysis exists), literal and philosophical glosses, Yoga Sutras references, and Chinese Buddhist equivalents where available. The tool runs as a standalone HTML file with no installation required and is available at `demo/index.html`.
+An accompanying interactive tool — the Sanskrit Word Explorer — allows readers to search and browse an 84-term bundle spanning all four chapters of the Yoga Sutras. For each term, the tool displays the Devanagari script, IAST transliteration, morphological segmentation, literal and philosophical glosses, Yoga Sutras references, and Chinese Buddhist equivalents where available. The tool runs as a standalone HTML file with no installation required and is available at `demo/index.html`.
 
 ---
 

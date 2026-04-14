@@ -7,6 +7,7 @@ Validated data pipeline and static demo for analyzing Sanskrit meditation vocabu
 - Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml)
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
+- An 84-term demo source bundle in [data/demo_terms.json](data/demo_terms.json)
 - A generated browser demo in [demo/](demo/)
 - Research notes and presentation materials in [docs/](docs/)
 
@@ -55,6 +56,7 @@ sanskrit-etymology stats
 ```text
 data/
   analyses/        Canonical morphological analyses
+  demo_terms.json  Source bundle for the 84-term browser demo
   mappings/        Canonical Sanskrit-Chinese mappings
   seed_terms.yaml  Canonical term catalog
 demo/
@@ -70,13 +72,13 @@ tests/             Pipeline regression tests
 
 ## Data Flow
 
-The canonical sources of truth are:
+The canonical philology sources of truth are:
 
 1. `data/seed_terms.yaml`
 2. `data/analyses/term_analyses.yaml`
 3. `data/mappings/sanskrit_chinese_mappings.yaml`
 
-The demo artifacts are derived from those files. Do not edit `demo/terms.json` or `demo/terms_inline.js` by hand; regenerate them with `sanskrit-etymology build-demo`.
+The browser demo is built from `data/demo_terms.json`, with canonical analyses and mappings merged in where IDs overlap. Do not edit `demo/terms.json` or `demo/terms_inline.js` by hand; regenerate them with `sanskrit-etymology build-demo`.
 
 ## Optional Claude / MCP Workflow
 

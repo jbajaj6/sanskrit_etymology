@@ -142,7 +142,7 @@ Let me show you something quickly. I built an interactive tool that lets you exp
 
 [Switch to browser — open demo/index.html]
 
-This is the Sanskrit Word Explorer. It has the 30 canonical terms tracked by the project. Let me type "samadhi"...
+This is the Sanskrit Word Explorer. It has 84 terms from all four chapters of the Yoga Sutras. Let me type "samadhi"...
 
 [Type "samadhi", press Enter]
 
