@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import json
 import unicodedata
 from pathlib import Path
 from typing import Any
@@ -8,7 +9,7 @@ from typing import Any
 import yaml
 
 from .models import ProjectRepository, SeedTerm, SanskritChineseMapping, TermAnalysis
-from .paths import DATA_DIR
+from .paths import DATA_DIR, DEMO_SOURCE_PATH
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -40,6 +41,12 @@ def load_repository() -> ProjectRepository:
         analyses=load_analyses(),
         mappings=load_mappings(),
     )
+
+
+def load_demo_bundle(path: Path | None = None) -> list[dict[str, Any]]:
+    json_path = path or DEMO_SOURCE_PATH
+    with json_path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
 
 
 def normalized_slug(text: str) -> str:

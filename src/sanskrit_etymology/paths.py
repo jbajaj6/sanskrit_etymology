@@ -6,6 +6,7 @@ SRC_DIR = PACKAGE_DIR.parent
 PROJECT_ROOT = SRC_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 DEMO_DIR = PROJECT_ROOT / "demo"
+DEMO_SOURCE_PATH = DATA_DIR / "demo_terms.json"
 
 
 def relative_to_root(path: Path) -> str:

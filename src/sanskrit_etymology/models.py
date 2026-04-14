@@ -232,8 +232,8 @@ class DemoTerm:
     confidence: str
     chinese_counterparts: list[dict[str, Any]] | None
     search_aliases: list[str]
-    priority_bucket: str
-    thematic_bucket: str
+    priority_bucket: str | None
+    thematic_bucket: str | None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

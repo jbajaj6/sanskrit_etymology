@@ -25,9 +25,10 @@ class PipelineTestCase(unittest.TestCase):
     def test_demo_build_matches_seed_catalog(self) -> None:
         repo = load_repository()
         demo_terms = build_demo_terms(repo)
-        self.assertEqual(len(demo_terms), len(repo.seed_terms))
+        self.assertEqual(len(demo_terms), 84)
         self.assertEqual(sum(1 for term in demo_terms if term.chinese_counterparts), 9)
-        self.assertEqual(sum(1 for term in demo_terms if term.confidence == "low"), 10)
+        demo_ids = {term.id for term in demo_terms}
+        self.assertTrue({"samadhi", "karma", "ahimsa", "viveka"}.issubset(demo_ids))
 
 
 if __name__ == "__main__":

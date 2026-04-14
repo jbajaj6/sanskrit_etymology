@@ -68,11 +68,13 @@ def cmd_build_demo() -> int:
 def cmd_stats() -> int:
     repo = load_repository()
     demo_terms = build_demo_terms(repo)
-    bucket_counts = Counter(term.priority_bucket for term in demo_terms)
+    bucket_counts = Counter(term.priority_bucket for term in demo_terms if term.priority_bucket)
+    demo_only_terms = sum(1 for term in demo_terms if not term.priority_bucket)
     print(f"Seed terms: {len(repo.seed_terms)}")
     print(f"Analyses: {len(repo.analyses)}")
     print(f"Mappings: {len(repo.mappings)}")
     print(f"Demo terms: {len(demo_terms)}")
+    print(f"Demo-only bundle terms: {demo_only_terms}")
     print(f"Priority buckets: {dict(sorted(bucket_counts.items()))}")
     print(f"Terms with Chinese mappings: {sum(1 for term in demo_terms if term.chinese_counterparts)}")
     return 0
