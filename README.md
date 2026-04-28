@@ -43,6 +43,26 @@ python3 -m http.server 8000 --directory demo
 
 Then open `http://localhost:8000`.
 
+## Free Demo Deployment
+
+This repo is set up for GitHub Pages, which can host the static browser demo for free from a public repository.
+
+1. Push `main` to GitHub:
+
+```bash
+git push origin main
+```
+
+2. In GitHub, open `Settings -> Pages`.
+3. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+4. Open the `Actions` tab and run or wait for `Deploy demo to GitHub Pages`.
+
+After the workflow succeeds, the class demo should be available at:
+
+```text
+https://jbajaj6.github.io/sanskrit_etymology/
+```
+
 ## Supported Commands
 
 ```bash
