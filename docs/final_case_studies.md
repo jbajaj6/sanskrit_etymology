@@ -9,8 +9,8 @@ From 20 analyzed terms and 9 cross-cultural mappings, these 7 cases were chosen 
 ### Sanskrit Morphology Cases (4)
 
 #### 1. samādhi — "A complete placing-together"
-**Role in presentation**: Opening case. The flagship term.
-**Why selected**: Most important term for a meditation-focused class. The morphological breakdown (sam + ā + √dhā + -i) directly reveals the philosophical meaning — a total composing of awareness. Also corrects the common folk etymology (sama + ādhi = "equal placing"). Bridges naturally into the Chinese mapping section because it has two competing transliterations.
+**Role in presentation**: Opening case and proof of method.
+**Why selected**: Most important term for a meditation-focused class. The morphological breakdown (sam + ā + √dhā + -i) directly reveals the philosophical meaning — a total composing of awareness. Also corrects the common folk etymology (sama + ādhi = "equal placing"). This is the best term for showing the audience what the project's actual workflow looks like before moving into the more dramatic case studies.
 
 #### 2. nirodha — "A complete holding-back"
 **Role in presentation**: The "translation changes philosophy" example.

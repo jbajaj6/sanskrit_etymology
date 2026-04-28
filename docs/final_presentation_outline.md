@@ -13,18 +13,33 @@
 
 - Open with the most famous sutra: yogaś citta-vṛtti-nirodhaḥ
 - Point out that this single sentence contains three technical terms (citta, vṛtti, nirodha), each built from specific roots and prefixes
-- Claim: the *structure* of these words is not linguistic trivia — it is a compressed philosophical argument
+- Claim: these are not just words to translate; they are compact philosophical constructions
+- Framing line: this project is close reading at the scale of a single word
 
 ## Section 2: What This Project Studies (1 min)
 
-- 30 Sanskrit terms from the Yoga Sutras and Buddhist meditation traditions
-- 20 fully analyzed for morphological structure and philosophical meaning
+- Not a general history of yoga, but a word-level philology project
+- 30 core Sanskrit terms selected as the canonical research set
+- 20 fully analyzed for morphology + philosophical use
 - 9 traced into Chinese Buddhist vocabulary
-- Method: break each word into root + prefix + suffix, then compare the literal meaning with the philosophical meaning
+- Public-facing explorer expanded to 84 Yoga Sutra terms for class use and browsing
+- Technical framing: a small AI-assisted research pipeline, not just a stack of manual notes
 
-## Section 3: How Sanskrit Word-Building Works (1.5 min)
+## Section 3: How I Actually Broke a Word Open (1.5 min)
 
-**Case study: samādhi**
+**Slide**: The breakdown workflow
+
+- AI used for structured first-pass analysis, not as a final authority
+- One workflow proposed Sanskrit breakdowns in a fixed schema; another surfaced candidate Chinese Buddhist equivalents
+- Verification layer: dictionaries, grammatical tradition, and Buddhist corpus attestations
+- Start with the word in a specific textual context, not as an abstract dictionary entry
+- Separate the visible parts: root, prefixes, suffixes, compound members
+- Test whether that segmentation is grammatically defensible using standard dictionaries/grammar
+- Build the literal meaning from the parts, then compare it with the philosophical use in the sutra
+- If the term traveled, check whether Chinese translators preserved sound, meaning, or both
+- Key line: each term is treated like a small piece of philosophical engineering
+
+**Quick proof of method: samādhi**
 
 - Root: √dhā ("to place")
 - Prefixes: sam- ("together") + ā- ("toward")
@@ -33,7 +48,7 @@
 - Philosophical: meditative absorption where knower, knowing, and known merge
 - Sidebar: correct the folk etymology (sama + ādhi ≠ "equal placing")
 
-**Key point**: The word's architecture *argues* for its meaning. "Placing together" is not a metaphor added later — it is built into the word.
+**Key point**: The workflow is disciplined enough to reject attractive but weak readings, and flexible enough to recover why a term felt philosophically powerful in the first place.
 
 ## Section 4: Sanskrit Case Studies (3 min)
 
@@ -89,8 +104,9 @@
 Three takeaways:
 
 1. **Sanskrit word-structure carries philosophical weight.** Roots and prefixes are not decoration — they compress arguments about what concepts mean.
-2. **Translation is always interpretation.** Every Chinese rendering chose an emphasis: sound or meaning, felt experience or structural cause, darkness or ignorance.
-3. **Cross-cultural transmission is partial.** The strongest connections are real (dhyāna → zen). But the Yoga Sutras' specialized vocabulary has no Chinese counterpart — these are different traditions sharing a vocabulary, not a single tradition in two languages.
+2. **Method matters.** This is not free-association about beautiful Sanskrit words; each reading had to survive grammatical and textual checks.
+3. **Translation is always interpretation.** Every Chinese rendering chose an emphasis: sound or meaning, felt experience or structural cause, darkness or ignorance.
+4. **Cross-cultural transmission is partial.** The strongest connections are real (dhyāna → zen). But the Yoga Sutras' specialized vocabulary has no Chinese counterpart — these are different traditions sharing a vocabulary, not a single tradition in two languages.
 
 ## Section 7: Live Demo (1 min)
 
@@ -101,6 +117,7 @@ Three takeaways:
 - Click a chip from the browse grid (e.g., "abhyasa" or "vairagya") to show it works for any term in the dataset
 - Point out the segmentation strip: color-coded prefixes, roots, suffixes
 - Brief: "This is the project's 84-term vocabulary explorer — you can browse the full bundle after class"
+- Technical line: "This is the AI-assisted analysis pipeline turned into a visible interface"
 
 ## Section 8: Limits and Caution (30 sec)
 

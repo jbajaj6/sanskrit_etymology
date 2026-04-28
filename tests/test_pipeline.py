@@ -30,6 +30,29 @@ class PipelineTestCase(unittest.TestCase):
         demo_ids = {term.id for term in demo_terms}
         self.assertTrue({"samadhi", "karma", "ahimsa", "viveka"}.issubset(demo_ids))
 
+    def test_demo_audit_normalizes_known_edge_cases(self) -> None:
+        repo = load_repository()
+        demo_by_id = {term.id: term for term in build_demo_terms(repo)}
+
+        self.assertEqual(
+            demo_by_id["drashta"].segmentation,
+            "√dṛś + -tṛ → nominative singular draṣṭā",
+        )
+        self.assertEqual(
+            demo_by_id["svadhyaya"].segmentation,
+            "sva + adhyāya",
+        )
+        self.assertEqual(
+            demo_by_id["vyadhi"].segmentation,
+            "√vyadh + -i",
+        )
+        self.assertEqual(
+            demo_by_id["purusa"].segmentation,
+            "puruṣa (lexical noun; etymology disputed)",
+        )
+        self.assertIn("practice", demo_by_id["abhyasa"].literal_gloss)
+        self.assertEqual(demo_by_id["nidra"].confidence, "medium")
+
 
 if __name__ == "__main__":
     unittest.main()

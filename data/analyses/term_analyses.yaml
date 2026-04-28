@@ -901,7 +901,7 @@ analyses:
     roots:
       - root: "√as"
         devanagari: "√अस्"
-        meaning: "to throw, cast, shoot"
+        meaning: "to throw, cast, direct"
         dhatu_number: null
     prefixes:
       - prefix: "abhi-"
@@ -911,10 +911,10 @@ analyses:
     suffixes:
       - suffix: "-a"
         meaning: "action noun suffix (ghañ pratyaya)"
-        grammatical_function: "forms a masculine action noun denoting the process of repeated throwing-toward"
+        grammatical_function: "forms a masculine action noun denoting repeated application or practice"
     compound_type: null
 
-    literal_gloss: "a repeated casting-toward; a throwing oneself at [something] again and again"
+    literal_gloss: "repeated application; repeated exercise; sustained practice"
     philosophical_gloss: >
       Abhyāsa in the Yoga Sutras is one of the two foundational means to
       nirodha, paired with vairāgya (non-attachment) in YS 1.12. Patañjali
@@ -943,7 +943,9 @@ analyses:
       been proposed but is not the mainstream derivation. Apte and
       Monier-Williams both give √as ("to throw, cast") as primary.
       The Dhvanyāloka commentary gloss "paunaḥpunya" ("repetition")
-      confirms the iterative sense.
+      confirms the iterative sense. For presentation purposes, the lexical
+      sense "repeated practice" is clearer than forcing the etymology into an
+      overly literal English paraphrase.
     confidence: medium
 
     chinese_counterparts: null
@@ -1271,17 +1273,17 @@ analyses:
       (guṇapuruṣavibhāgajñe — "for one who knows the distinction of guṇa
       and puruṣa").
 
-    segmentation: "puru + √ṣa (disputed; see ambiguity notes)"
+    segmentation: "puruṣa (lexical noun; etymology disputed)"
     roots:
       - root: "puruṣa"
         devanagari: "पुरुष"
-        meaning: "person, man, self, consciousness (derivation debated — see notes)"
+        meaning: "person, conscious subject, self (lexical noun; derivation debated — see notes)"
         dhatu_number: null
     prefixes: []
     suffixes: []
     compound_type: null
 
-    literal_gloss: "the person; the indwelling one; the one who lies in the city [of the body] (folk etymology: puri-śaya)"
+    literal_gloss: "person; conscious subject; self"
     philosophical_gloss: >
       Puruṣa is the metaphysical foundation of the Yoga Sutras: pure,
       unchanging consciousness, radically distinct from prakṛti (material

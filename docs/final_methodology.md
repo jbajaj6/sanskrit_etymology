@@ -21,6 +21,18 @@ Putting these together: sam + ā + √dhā + -i = samādhi = "a complete placing
 
 The breakdown is not just a linguistic exercise. It reveals how the ancient grammarians and philosophers *thought about* the concept. The structure of the word is a compressed argument about what the concept means.
 
+In presentation terms, you can think of this as a form of word-level philology: each term is treated like a small constructed object. The analysis asks what parts are present, which of them are structurally important, and what philosophical claim becomes visible once the word is taken apart and put back together.
+
+## Where AI Entered the Workflow
+
+This project did use AI, but in a constrained way.
+
+- A custom Sanskrit analysis workflow generated first-pass breakdowns in a fixed structure: root, prefixes, suffixes, compound type, literal meaning, philosophical meaning, and key textual occurrences.
+- A second workflow proposed candidate Chinese Buddhist renderings and classified them as phonetic, semantic, hybrid, or broader equivalents.
+- Corpus tools were then used to check whether proposed Chinese forms were actually attested in Buddhist texts and whether the mapping strategy was defensible.
+
+The important point is that AI generated hypotheses and structure, not final authority. Every claim still had to pass through dictionaries, grammatical reference works, and textual evidence.
+
 ## How the Chinese Mapping Works
 
 For terms that entered Chinese through Buddhist translation, we evaluate:
