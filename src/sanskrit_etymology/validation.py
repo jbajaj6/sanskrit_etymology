@@ -6,7 +6,9 @@ from .models import ProjectRepository, ValidationIssue
 from .repository import normalized_slug
 
 
-ALLOWED_PRIORITY_BUCKETS = {"must", "nice", "stretch"}
+ALLOWED_PRIORITY_BUCKETS = {"must", "nice", "stretch", "extended"}
+# Buckets that are not expected to carry a canonical analysis yet.
+UNQUEUED_PRIORITY_BUCKETS = {"stretch", "extended"}
 ALLOWED_THEMATIC_BUCKETS = {
     "meditation_core",
     "mind_psychology",
@@ -180,15 +182,35 @@ def validate_repository(repo: ProjectRepository) -> list[ValidationIssue]:
                     )
                 )
 
-    missing_analyses = [
-        seed.id for seed in repo.seed_terms if seed.id not in analysis_ids and seed.priority_bucket != "stretch"
-    ]
-    for term_id in missing_analyses:
+    missing_analyses = sorted(
+        seed.id
+        for seed in repo.seed_terms
+        if seed.id not in analysis_ids and seed.priority_bucket not in UNQUEUED_PRIORITY_BUCKETS
+    )
+    if missing_analyses:
         issues.append(
             ValidationIssue(
                 severity="warning",
-                location=f"seed:{term_id}",
-                message="non-stretch seed term is missing a canonical analysis entry",
+                location="data/seed_terms.yaml",
+                message=(
+                    f"{len(missing_analyses)} queued seed term(s) still lack a canonical "
+                    f"analysis entry: {', '.join(missing_analyses)}"
+                ),
+            )
+        )
+
+    unverified = sorted(
+        seed.id for seed in repo.seed_terms if seed.id not in analysis_ids
+    )
+    if unverified:
+        issues.append(
+            ValidationIssue(
+                severity="warning",
+                location="data/seed_terms.yaml",
+                message=(
+                    f"{len(unverified)} of {len(repo.seed_terms)} seed term(s) are not "
+                    "source-verified; the explorer labels these 'unverified'"
+                ),
             )
         )
 

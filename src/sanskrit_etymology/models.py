@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from typing import Any
 
 
@@ -234,6 +234,10 @@ class DemoTerm:
     search_aliases: list[str]
     priority_bucket: str | None
     thematic_bucket: str | None
+    source_context: str | None = None
+    citation_trail: list[str] = field(default_factory=list)
+    verification: str = "unverified"
+    professor_gloss: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

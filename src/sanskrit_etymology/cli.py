@@ -69,13 +69,24 @@ def cmd_stats() -> int:
     repo = load_repository()
     demo_terms = build_demo_terms(repo)
     bucket_counts = Counter(term.priority_bucket for term in demo_terms if term.priority_bucket)
+    theme_counts = Counter(term.thematic_bucket for term in demo_terms if term.thematic_bucket)
     demo_only_terms = sum(1 for term in demo_terms if not term.priority_bucket)
+    verified = sum(1 for term in demo_terms if term.verification == "source-verified")
+    unsorted_terms = sum(1 for term in demo_terms if not term.thematic_bucket)
+
     print(f"Seed terms: {len(repo.seed_terms)}")
     print(f"Analyses: {len(repo.analyses)}")
     print(f"Mappings: {len(repo.mappings)}")
     print(f"Demo terms: {len(demo_terms)}")
     print(f"Demo-only bundle terms: {demo_only_terms}")
     print(f"Priority buckets: {dict(sorted(bucket_counts.items()))}")
+    print(f"Thematic buckets: {dict(sorted(theme_counts.items()))}")
+    if unsorted_terms:
+        print(f"Demo terms with no thematic bucket: {unsorted_terms}")
+    print(
+        f"Source-verified: {verified}/{len(demo_terms)} "
+        f"({verified * 100 // max(len(demo_terms), 1)}%)"
+    )
     print(f"Terms with Chinese mappings: {sum(1 for term in demo_terms if term.chinese_counterparts)}")
     return 0
 

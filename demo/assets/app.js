@@ -7,16 +7,36 @@
   const browseEl = document.getElementById("browse");
   const resultEl = document.getElementById("result");
   const termGridEl = document.getElementById("termGrid");
+  const filterBarEl = document.getElementById("filterBar");
+  const browseCountEl = document.getElementById("browseCount");
+
+  const THEMES = [
+    { id: "all", label: "All terms" },
+    { id: "meditation_core", label: "Meditation" },
+    { id: "mind_psychology", label: "Mind" },
+    { id: "affliction_obstacle", label: "Afflictions" },
+    { id: "practice_discipline", label: "Practice" },
+    { id: "insight_knowledge", label: "Knowledge" },
+    { id: "liberation_metaphysics", label: "Liberation" },
+    { id: "advanced_compound", label: "Compounds" },
+  ];
 
   let activeIndex = -1;
+  let activeTheme = "all";
+  let verifiedOnly = false;
 
   if (!terms.length) {
     resultEl.style.display = "block";
-    resultEl.innerHTML = '<div class="empty-state">Demo data not loaded. Run <code>sanskrit-etymology build-demo</code>.</div>';
+    resultEl.innerHTML =
+      '<div class="empty-state">Demo data not loaded. Run <code>sanskrit-etymology build-demo</code>.</div>';
     return;
   }
 
+  renderFilters();
   renderGrid();
+  routeFromHash();
+
+  window.addEventListener("hashchange", routeFromHash);
 
   searchEl.addEventListener("input", () => {
     const query = searchEl.value.trim().toLowerCase();
@@ -25,13 +45,7 @@
       hideSuggestions();
       return;
     }
-
-    const matches = terms.filter((term) =>
-      (term.search_aliases || []).some((alias) => alias.startsWith(query)) ||
-      (term.devanagari || "").includes(query) ||
-      (term.transliteration || "").toLowerCase().includes(query)
-    );
-    showSuggestions(matches);
+    showSuggestions(searchTerms(query));
   });
 
   searchEl.addEventListener("keydown", (event) => {
@@ -50,14 +64,19 @@
       return;
     }
 
+    if (event.key === "Escape") {
+      hideSuggestions();
+      return;
+    }
+
     if (event.key === "Enter") {
       event.preventDefault();
       if (activeIndex >= 0 && items[activeIndex]) {
-        selectTerm(items[activeIndex].dataset.id);
+        openTerm(items[activeIndex].dataset.id);
         return;
       }
       if (items.length > 0) {
-        selectTerm(items[0].dataset.id);
+        openTerm(items[0].dataset.id);
       }
     }
   });
@@ -65,38 +84,150 @@
   document.addEventListener("click", (event) => {
     const suggestion = event.target.closest(".suggestion-item");
     if (suggestion) {
-      selectTerm(suggestion.dataset.id);
+      openTerm(suggestion.dataset.id);
       return;
     }
 
     const chip = event.target.closest(".term-chip");
     if (chip) {
-      selectTerm(chip.dataset.id);
+      openTerm(chip.dataset.id);
       return;
     }
 
-    const backButton = event.target.closest(".back-btn");
-    if (backButton) {
+    const filter = event.target.closest(".filter-btn");
+    if (filter) {
+      activeTheme = filter.dataset.theme;
+      renderFilters();
+      renderGrid();
+      return;
+    }
+
+    const toggle = event.target.closest(".verified-toggle");
+    if (toggle) {
+      verifiedOnly = !verifiedOnly;
+      renderFilters();
+      renderGrid();
+      return;
+    }
+
+    if (event.target.closest(".back-btn")) {
       goBack();
       return;
     }
 
-    if (!event.target.closest(".search-container") && !event.target.closest(".suggestions")) {
+    if (
+      !event.target.closest(".search-container") &&
+      !event.target.closest(".suggestions")
+    ) {
       hideSuggestions();
     }
   });
 
-  function renderGrid() {
-    termGridEl.innerHTML = terms
-      .map(
-        (term) => `
-          <div class="term-chip" data-id="${term.id}">
-            <span class="chip-deva">${term.devanagari}</span>
-            ${term.transliteration}
-          </div>
-        `
-      )
-      .join("");
+  /* ---------- routing ---------- */
+
+  function routeFromHash() {
+    const slug = decodeURIComponent(window.location.hash.replace(/^#/, "")).trim();
+    if (!slug) {
+      showBrowse();
+      return;
+    }
+    const term = findTerm(slug);
+    if (!term) {
+      showBrowse();
+      return;
+    }
+    showCard(term);
+  }
+
+  function openTerm(termId) {
+    const term = findTerm(termId);
+    if (!term) {
+      return;
+    }
+    // Let the hashchange handler do the rendering so that back/forward,
+    // direct links, and clicks all take the same path.
+    if (decodeURIComponent(window.location.hash.replace(/^#/, "")) === term.id) {
+      showCard(term);
+      return;
+    }
+    window.location.hash = encodeURIComponent(term.id);
+  }
+
+  function goBack() {
+    if (window.location.hash) {
+      window.history.back();
+      return;
+    }
+    showBrowse();
+  }
+
+  function findTerm(slug) {
+    const needle = String(slug).toLowerCase();
+    return (
+      terms.find((term) => term.id.toLowerCase() === needle) ||
+      terms.find((term) => (term.search_aliases || []).includes(needle))
+    );
+  }
+
+  /* ---------- views ---------- */
+
+  function showBrowse() {
+    hideSuggestions();
+    resultEl.style.display = "none";
+    resultEl.innerHTML = "";
+    browseEl.style.display = "block";
+  }
+
+  function showCard(term) {
+    hideSuggestions();
+    searchEl.value = "";
+    browseEl.style.display = "none";
+    resultEl.style.display = "block";
+    resultEl.innerHTML = renderCard(term);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  /* ---------- search ---------- */
+
+  function searchTerms(query) {
+    const scored = [];
+    terms.forEach((term) => {
+      const aliases = term.search_aliases || [];
+      const translit = (term.transliteration || "").toLowerCase();
+      let rank = null;
+
+      if (aliases.some((alias) => alias === query)) {
+        rank = 0;
+      } else if (aliases.some((alias) => alias.startsWith(query))) {
+        rank = 1;
+      } else if (translit.includes(query) || (term.devanagari || "").includes(query)) {
+        rank = 2;
+      } else if (query.length >= 3 && glossText(term).includes(query)) {
+        // Meaning search: someone who knows "absorption" but not "samadhi".
+        rank = 3;
+      }
+
+      if (rank !== null) {
+        scored.push({ term, rank });
+      }
+    });
+
+    scored.sort(
+      (a, b) => a.rank - b.rank || a.term.transliteration.localeCompare(b.term.transliteration)
+    );
+    return scored;
+  }
+
+  function glossText(term) {
+    return [
+      term.literal_gloss,
+      term.professor_gloss,
+      term.philosophical_gloss,
+      term.doctrinal_significance,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
   }
 
   function showSuggestions(matches) {
@@ -109,11 +240,12 @@
     suggestionsEl.innerHTML = matches
       .slice(0, 8)
       .map(
-        (term) => `
-          <div class="suggestion-item" data-id="${term.id}">
-            <span class="suggestion-deva">${term.devanagari}</span>
-            <span class="suggestion-iast">${term.transliteration}</span>
-            <span class="suggestion-gloss">${truncate(term.literal_gloss, 40)}</span>
+        ({ term, rank }) => `
+          <div class="suggestion-item" data-id="${esc(term.id)}">
+            <span class="suggestion-deva">${esc(term.devanagari)}</span>
+            <span class="suggestion-iast">${esc(term.transliteration)}</span>
+            <span class="suggestion-gloss">${esc(truncate(term.literal_gloss, 40))}</span>
+            ${rank === 3 ? '<span class="suggestion-why">meaning</span>' : ""}
           </div>
         `
       )
@@ -131,88 +263,181 @@
     });
   }
 
-  function selectTerm(termId) {
-    const term = terms.find((candidate) => candidate.id === termId);
-    if (!term) {
-      return;
-    }
+  /* ---------- browse grid ---------- */
 
-    hideSuggestions();
-    searchEl.value = "";
-    browseEl.style.display = "none";
-    resultEl.style.display = "block";
-    resultEl.innerHTML = renderCard(term);
-    resultEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  function renderFilters() {
+    const counts = {};
+    terms.forEach((term) => {
+      const key = term.thematic_bucket || "unsorted";
+      counts[key] = (counts[key] || 0) + 1;
+    });
+
+    const buttons = THEMES.filter(
+      (theme) => theme.id === "all" || counts[theme.id]
+    )
+      .map((theme) => {
+        const count = theme.id === "all" ? terms.length : counts[theme.id];
+        const active = theme.id === activeTheme ? " active" : "";
+        return `<button class="filter-btn${active}" data-theme="${theme.id}">
+          ${esc(theme.label)} <span class="filter-count">${count}</span>
+        </button>`;
+      })
+      .join("");
+
+    const verifiedCount = terms.filter(isVerified).length;
+    const toggle = `<button class="verified-toggle${verifiedOnly ? " active" : ""}"
+      aria-pressed="${verifiedOnly}">
+      Source-verified only <span class="filter-count">${verifiedCount}</span>
+    </button>`;
+
+    filterBarEl.innerHTML = `<div class="filter-row">${buttons}</div>
+      <div class="filter-row filter-row-secondary">${toggle}</div>`;
   }
 
-  function goBack() {
-    resultEl.style.display = "none";
-    resultEl.innerHTML = "";
-    browseEl.style.display = "block";
-    searchEl.focus();
+  function visibleTerms() {
+    return terms.filter((term) => {
+      if (activeTheme !== "all" && term.thematic_bucket !== activeTheme) {
+        return false;
+      }
+      if (verifiedOnly && !isVerified(term)) {
+        return false;
+      }
+      return true;
+    });
   }
+
+  function renderGrid() {
+    const shown = visibleTerms();
+    browseCountEl.textContent = shown.length
+      ? `${shown.length} of ${terms.length} terms`
+      : "No terms match this filter";
+
+    termGridEl.innerHTML = shown
+      .map(
+        (term) => `
+          <a class="term-chip${isVerified(term) ? " chip-verified" : ""}"
+             href="#${encodeURIComponent(term.id)}"
+             data-id="${esc(term.id)}">
+            <span class="chip-deva">${esc(term.devanagari)}</span>
+            ${esc(term.transliteration)}
+          </a>
+        `
+      )
+      .join("");
+  }
+
+  function isVerified(term) {
+    return term.verification === "source-verified";
+  }
+
+  /* ---------- term card ---------- */
 
   function renderCard(term) {
-    const segmentation = buildSegmentation(term);
-    const morphologyCards = buildMorphologyCards(term);
-    const chineseSection = buildChineseSection(term);
-    const compoundSection = term.compound_type
-      ? `
-        <div class="card-section">
-          <div class="section-label">Compound Type</div>
-          <div class="section-content">${term.compound_type}</div>
-        </div>
-      `
-      : "";
-    const ambiguitySection = term.ambiguity_notes
-      ? `
-        <div class="card-section">
-          <div class="section-label">Scholarly Notes</div>
-          <div class="section-content serif">${term.ambiguity_notes}</div>
-        </div>
-      `
-      : "";
     const confidenceClass =
-      term.confidence === "high" ? "conf-high" : term.confidence === "medium" ? "conf-medium" : "conf-low";
+      term.confidence === "high"
+        ? "conf-high"
+        : term.confidence === "medium"
+        ? "conf-medium"
+        : "conf-low";
 
     return `
-      <button class="back-btn">← Back to term list</button>
+      <button class="back-btn">&larr; Back to term list</button>
       <div class="result-card">
         <div class="card-header">
-          <span class="card-confidence ${confidenceClass}">${term.confidence} confidence</span>
-          <div class="card-deva">${term.devanagari || ""}</div>
-          <div class="card-iast">${term.transliteration || ""}</div>
-          <div class="card-gloss-short">${term.literal_gloss || ""}</div>
+          <div class="card-badges">
+            ${renderVerificationBadge(term)}
+            <span class="card-confidence ${confidenceClass}">${esc(
+      term.confidence
+    )} confidence</span>
+          </div>
+          <div class="card-deva">${esc(term.devanagari)}</div>
+          <div class="card-iast">${esc(term.transliteration)}</div>
+          <div class="card-gloss-short">${esc(term.literal_gloss)}</div>
         </div>
 
-        <div class="segmentation-strip">${segmentation}</div>
+        <div class="segmentation-strip">${buildSegmentation(term)}</div>
 
         <div class="card-body">
           <div class="card-section">
             <div class="section-label">Morphological Components</div>
-            <div class="morph-grid">${morphologyCards}</div>
+            <div class="morph-grid">${buildMorphologyCards(term)}</div>
           </div>
 
-          ${compoundSection}
+          ${
+            term.compound_type
+              ? section("Compound Type", esc(term.compound_type))
+              : ""
+          }
 
-          <div class="card-section">
-            <div class="section-label">Yoga Sutras Reference</div>
-            <div class="section-content"><span class="chapter-ref">${term.chapter}</span></div>
-          </div>
+          ${buildSourceSection(term)}
 
-          <div class="card-section">
-            <div class="section-label">Philosophical Meaning</div>
-            <div class="section-content serif">${term.philosophical_gloss}</div>
-          </div>
+          ${section("Philosophical Meaning", esc(term.philosophical_gloss), "serif")}
+          ${section("Doctrinal Significance", esc(term.doctrinal_significance), "serif")}
 
-          <div class="card-section">
-            <div class="section-label">Doctrinal Significance</div>
-            <div class="section-content serif">${term.doctrinal_significance}</div>
-          </div>
-
-          ${chineseSection}
-          ${ambiguitySection}
+          ${buildChineseSection(term)}
+          ${
+            term.ambiguity_notes
+              ? section("Scholarly Notes", esc(term.ambiguity_notes), "serif")
+              : ""
+          }
+          ${buildCitationSection(term)}
         </div>
+      </div>
+    `;
+  }
+
+  function section(label, content, extraClass) {
+    return `
+      <div class="card-section">
+        <div class="section-label">${label}</div>
+        <div class="section-content ${extraClass || ""}">${content}</div>
+      </div>
+    `;
+  }
+
+  function renderVerificationBadge(term) {
+    if (isVerified(term)) {
+      return '<span class="card-verified verified-yes">source-verified</span>';
+    }
+    return '<span class="card-verified verified-no">not yet source-verified</span>';
+  }
+
+  function buildSourceSection(term) {
+    const chapter = `<span class="chapter-ref">${esc(term.chapter)}</span>`;
+
+    if (!term.source_context) {
+      return `
+        <div class="card-section">
+          <div class="section-label">Where It Appears</div>
+          <div class="section-content">${chapter}</div>
+          <div class="source-missing">
+            This term has not yet been checked against the text. The passage
+            references above come from the working bundle, and no quoted sutra
+            has been recorded for it.
+          </div>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="card-section">
+        <div class="section-label">Where It Appears</div>
+        <div class="section-content">${chapter}</div>
+        <blockquote class="source-quote serif">${esc(term.source_context)}</blockquote>
+      </div>
+    `;
+  }
+
+  function buildCitationSection(term) {
+    const trail = term.citation_trail || [];
+    if (!trail.length) {
+      return "";
+    }
+    const items = trail.map((entry) => `<li>${esc(entry)}</li>`).join("");
+    return `
+      <div class="card-section">
+        <div class="section-label">Citation Trail</div>
+        <ul class="citation-list">${items}</ul>
       </div>
     `;
   }
@@ -253,9 +478,9 @@
       .map(
         (card) => `
           <div class="morph-item">
-            <div class="morph-type">${card.type}</div>
-            <div class="morph-value">${card.value}</div>
-            <div class="morph-meaning">${card.meaning}</div>
+            <div class="morph-type">${esc(card.type)}</div>
+            <div class="morph-value">${esc(card.value)}</div>
+            <div class="morph-meaning">${esc(card.meaning)}</div>
           </div>
         `
       )
@@ -273,10 +498,10 @@
         const mappingType = candidate.mapping_type || "";
         return `
           <div class="chinese-card">
-            <div class="chinese-chars">${candidate.characters}</div>
-            <div class="chinese-pinyin">${candidate.pinyin}</div>
-            <span class="chinese-type type-${mappingType.replace(/\s/g, "_")}">
-              ${mappingType.replace(/_/g, " ")}
+            <div class="chinese-chars">${esc(candidate.characters)}</div>
+            <div class="chinese-pinyin">${esc(candidate.pinyin)}</div>
+            <span class="chinese-type type-${esc(mappingType.replace(/\s/g, "_"))}">
+              ${esc(mappingType.replace(/_/g, " "))}
             </span>
           </div>
         `;
@@ -314,9 +539,21 @@
         }
 
         const plus = index < parts.length - 1 ? '<span class="seg-plus">+</span>' : "";
-        return `<span class="seg-piece"><span class="seg-label ${cssClass}">${part}</span>${plus}</span>`;
+        return `<span class="seg-piece"><span class="seg-label ${cssClass}">${esc(
+          part
+        )}</span>${plus}</span>`;
       })
       .join("");
+  }
+
+  /* ---------- helpers ---------- */
+
+  function esc(value) {
+    return String(value === null || value === undefined ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function truncate(text, maxLength) {

@@ -18,6 +18,10 @@ Philosophy professor with a meditation emphasis (samadhi meditation). Very littl
 - Citations: Yoga Sutras by number (YS 1.2), Buddhist texts by Taisho number (T.1579)
 - Never fabricate etymologies, citations, or translator attributions
 - Use `source-discipline` skill standards on all outputs
+- A term is only "source-verified" if it has an entry in
+  `data/analyses/term_analyses.yaml` with a quoted `source_context` and a
+  `citation_trail`. The explorer labels everything else "not yet source-verified".
+  Never present an unsourced term as though it were checked.
 
 ## Directory Structure
 
@@ -54,10 +58,16 @@ Build demo artifacts from canonical YAML:
 sanskrit-etymology build-demo
 ```
 
-Print dataset stats:
+Print dataset stats, including source-verification coverage:
 
 ```
 sanskrit-etymology stats
+```
+
+Install the CLI (needed once, otherwise the commands above are not on PATH):
+
+```
+pip install -e .
 ```
 
 ## MCP Servers

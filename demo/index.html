@@ -9,7 +9,7 @@
   <body>
     <header>
       <h1>Sanskrit Word Explorer</h1>
-      <p>Browse the project's 84-term Sanskrit demo bundle</p>
+      <p>Meditation and philosophical vocabulary from the Yoga Sutras</p>
     </header>
 
     <div class="search-container">
@@ -17,7 +17,7 @@
         id="search"
         class="search-box"
         type="text"
-        placeholder="Try: samadhi, dhyana, nirodha, kaivalya..."
+        placeholder="Search a term or a meaning: samadhi, absorption, affliction..."
         autocomplete="off"
         spellcheck="false"
       >
@@ -28,13 +28,23 @@
     </div>
 
     <div id="browse">
+      <div id="filterBar" class="filter-bar"></div>
+      <div id="browseCount" class="browse-count"></div>
       <div id="termGrid" class="term-grid"></div>
     </div>
 
     <div id="result" class="result-container"></div>
 
     <footer>
-      Rebuilt from the 84-term demo bundle with canonical analysis and mapping overlays.
+      <p>
+        Terms marked <strong>source-verified</strong> have a quoted passage and a
+        citation trail recorded against them. The rest are working entries that
+        have not yet been checked against the text.
+      </p>
+      <p class="footer-tip">
+        Every term has its own link &mdash; open one and copy the address to point
+        straight at it.
+      </p>
     </footer>
 
     <script src="terms_inline.js"></script>

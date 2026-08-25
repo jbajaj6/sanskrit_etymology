@@ -4,7 +4,7 @@ Validated data pipeline and static demo for analyzing Sanskrit meditation vocabu
 
 ## What This Repo Contains
 
-- Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml)
+- Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — covers every term the explorer shows
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
 - An 84-term demo source bundle in [data/demo_terms.json](data/demo_terms.json)
@@ -42,6 +42,30 @@ python3 -m http.server 8000 --directory demo
 ```
 
 Then open `http://localhost:8000`.
+
+## Reading the Explorer
+
+Every term gets its own address. Opening samādhi puts `#samadhi` in the URL, so a
+single term can be linked from a syllabus, a slide, or an email:
+
+```text
+https://jbajaj6.github.io/sanskrit_etymology/#samadhi
+```
+
+Two labels appear on each term card, and they mean different things:
+
+- **Source-verified / not yet source-verified** — whether a passage from the text
+  has actually been quoted and cited for this term. Only terms with an entry in
+  `data/analyses/term_analyses.yaml` earn this. Currently 20 of 84.
+- **Confidence** — how settled the *morphological* analysis is. A term can have a
+  high-confidence etymology and still be unsourced; the two are independent.
+
+`sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
+and `sanskrit-etymology stats` reports the coverage percentage.
+
+Browsing is filtered by thematic bucket (meditation, mind, afflictions, practice,
+knowledge, liberation, compounds), and search matches English meanings as well as
+Sanskrit — typing `absorption` or `fear of death` finds the relevant terms.
 
 ## Free Demo Deployment
 
@@ -99,6 +123,17 @@ The canonical philology sources of truth are:
 3. `data/mappings/sanskrit_chinese_mappings.yaml`
 
 The browser demo is built from `data/demo_terms.json`, with canonical analyses and mappings merged in where IDs overlap. Do not edit `demo/terms.json` or `demo/terms_inline.js` by hand; regenerate them with `sanskrit-etymology build-demo`.
+
+A term reaches the explorer as *source-verified* only by way of
+`data/analyses/term_analyses.yaml`, which is the file that carries `source_context`
+and `citation_trail`. Adding a term to `data/demo_terms.json` alone makes it
+browsable but leaves it explicitly labelled unverified on the page. Promoting a
+term is therefore a deliberate act: write the analysis entry, quote the passage,
+record the citations.
+
+`priority_bucket` values are `must`, `nice`, `stretch`, and `extended`. The first
+three are the analysis queue; `extended` marks terms that are carried in the
+explorer without being queued for canonical analysis.
 
 ## Optional Claude / MCP Workflow
 

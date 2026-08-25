@@ -349,3 +349,666 @@ terms:
     thematic_bucket: practice_discipline
     cross_cultural_priority: low
     notes: "Opens Sādhana Pāda. Practical entry point to the system."
+
+  # ── EXTENDED EXPLORER BUNDLE (60 terms) ──
+  # Present in the 84-term explorer, awaiting canonical analysis.
+
+  - id: ahamkara
+    devanagari: अहंकार
+    transliteration: ahaṃkāra
+    normalized_slug: ahamkara
+    priority_bucket: extended
+    chapter: YS 2.6 (implied via asmitā), Sāṃkhya framework
+    professor_gloss: "I-making"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: ahimsa
+    devanagari: अहिंसा
+    transliteration: ahiṃsā
+    normalized_slug: ahimsa
+    priority_bucket: extended
+    chapter: YS 2.30, 2.35
+    professor_gloss: "non-harming"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: anumana
+    devanagari: अनुमान
+    transliteration: anumāna
+    normalized_slug: anumana
+    priority_bucket: extended
+    chapter: YS 1.7, 1.49
+    professor_gloss: "a measuring-after"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: aparigraha
+    devanagari: अपरिग्रह
+    transliteration: aparigraha
+    normalized_slug: aparigraha
+    priority_bucket: extended
+    chapter: YS 2.30, 2.39
+    professor_gloss: "non-grasping-from-all-sides"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: asmita
+    devanagari: अस्मिता
+    transliteration: asmitā
+    normalized_slug: asmita
+    priority_bucket: extended
+    chapter: YS 1.17, 2.3, 2.6, 4.4
+    professor_gloss: "I-am-ness"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: asteya
+    devanagari: अस्तेय
+    transliteration: asteya
+    normalized_slug: asteya
+    priority_bucket: extended
+    chapter: YS 2.30, 2.37
+    professor_gloss: "non-stealing"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: atha
+    devanagari: अथ
+    transliteration: atha
+    normalized_slug: atha
+    priority_bucket: extended
+    chapter: YS 1.1
+    professor_gloss: "now"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: avasthanam
+    devanagari: अवस्थानम्
+    transliteration: avasthānam
+    normalized_slug: avasthanam
+    priority_bucket: extended
+    chapter: YS 1.3
+    professor_gloss: "a settled abiding"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: avirati
+    devanagari: अविरति
+    transliteration: avirati
+    normalized_slug: avirati
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "non-cessation"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: bandha
+    devanagari: बन्ध
+    transliteration: bandha
+    normalized_slug: bandha
+    priority_bucket: extended
+    chapter: YS 3.1, 3.38
+    professor_gloss: "binding"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: bhranti_darshana
+    devanagari: भ्रान्तिदर्शन
+    transliteration: bhrānti-darśana
+    normalized_slug: bhranti-darsana
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "confused seeing"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: brahmacarya
+    devanagari: ब्रह्मचर्य
+    transliteration: brahmacarya
+    normalized_slug: brahmacarya
+    priority_bucket: extended
+    chapter: YS 2.30, 2.38
+    professor_gloss: "walking in Brahman"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: drashta
+    devanagari: द्रष्टा
+    transliteration: draṣṭā
+    normalized_slug: drasta
+    priority_bucket: extended
+    chapter: YS 1.3, 2.17, 2.20, 4.23
+    professor_gloss: "the seer"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: dvesha
+    devanagari: द्वेष
+    transliteration: dveṣa
+    normalized_slug: dvesa
+    priority_bucket: extended
+    chapter: YS 2.3, 2.8
+    professor_gloss: "hatred"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: guna
+    devanagari: गुण
+    transliteration: guṇa
+    normalized_slug: guna
+    priority_bucket: extended
+    chapter: YS 1.16, 2.15, 2.19, 4.13, 4.32, 4.34
+    professor_gloss: "strand"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: karma
+    devanagari: कर्म
+    transliteration: karma
+    normalized_slug: karma
+    priority_bucket: extended
+    chapter: YS 1.24, 2.12, 3.22, 4.7, 4.30
+    professor_gloss: "action"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: karmashaya
+    devanagari: कर्माशय
+    transliteration: karmāśaya
+    normalized_slug: karmasaya
+    priority_bucket: extended
+    chapter: YS 2.12
+    professor_gloss: "the resting-place of karma"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: moksha
+    devanagari: मोक्ष
+    transliteration: mokṣa
+    normalized_slug: moksa
+    priority_bucket: extended
+    chapter: YS 4 (concept, not the term Patañjali uses — he says kaivalya)
+    professor_gloss: "release"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: nidra
+    devanagari: निद्रा
+    transliteration: nidrā
+    normalized_slug: nidra
+    priority_bucket: extended
+    chapter: YS 1.6, 1.10, 1.38
+    professor_gloss: "sleep"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: niyama
+    devanagari: नियम
+    transliteration: niyama
+    normalized_slug: niyama
+    priority_bucket: extended
+    chapter: YS 2.29, 2.32
+    professor_gloss: "inner restraint"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: parinama
+    devanagari: परिणाम
+    transliteration: pariṇāma
+    normalized_slug: parinama
+    priority_bucket: extended
+    chapter: YS 2.15, 3.9–3.16, 4.2, 4.14, 4.32–4.33
+    professor_gloss: "a bending-around"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: prakrti
+    devanagari: प्रकृति
+    transliteration: prakṛti
+    normalized_slug: prakrti
+    priority_bucket: extended
+    chapter: YS 1.19, 4.2–4.3
+    professor_gloss: "the primal maker"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: pramada
+    devanagari: प्रमाद
+    transliteration: pramāda
+    normalized_slug: pramada
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "thorough intoxication"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: pramana
+    devanagari: प्रमाण
+    transliteration: pramāṇa
+    normalized_slug: pramana
+    priority_bucket: extended
+    chapter: YS 1.6, 1.7
+    professor_gloss: "a means of right measurement"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: pratyaksha
+    devanagari: प्रत्यक्ष
+    transliteration: pratyakṣa
+    normalized_slug: pratyaksa
+    priority_bucket: extended
+    chapter: YS 1.7
+    professor_gloss: "before the eyes"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: pranidhana
+    devanagari: प्रणिधान
+    transliteration: praṇidhāna
+    normalized_slug: pranidhana
+    priority_bucket: extended
+    chapter: YS 1.23, 2.1, 2.32, 2.45
+    professor_gloss: "a placing-down-before"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: rajas
+    devanagari: रजस्
+    transliteration: rajas
+    normalized_slug: rajas
+    priority_bucket: extended
+    chapter: YS 2.15 (implied through guṇa theory)
+    professor_gloss: "dust"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: raga
+    devanagari: राग
+    transliteration: rāga
+    normalized_slug: raga
+    priority_bucket: extended
+    chapter: YS 2.3, 2.7
+    professor_gloss: "coloring"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: santosha
+    devanagari: सन्तोष
+    transliteration: santoṣa
+    normalized_slug: santosa
+    priority_bucket: extended
+    chapter: YS 2.32, 2.42
+    professor_gloss: "complete satisfaction"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: sattva
+    devanagari: सत्त्व
+    transliteration: sattva
+    normalized_slug: sattva
+    priority_bucket: extended
+    chapter: YS 2.41, 3.35, 3.49, 3.55
+    professor_gloss: "being-ness"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: satya
+    devanagari: सत्य
+    transliteration: satya
+    normalized_slug: satya
+    priority_bucket: extended
+    chapter: YS 2.30, 2.36
+    professor_gloss: "truth-ness"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: samshaya
+    devanagari: संशय
+    transliteration: saṃśaya
+    normalized_slug: samsaya
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "lying-together"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: siddhi
+    devanagari: सिद्धि
+    transliteration: siddhi
+    normalized_slug: siddhi
+    priority_bucket: extended
+    chapter: YS 2.43, 3.37, 4.1
+    professor_gloss: "accomplishment"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: smrti
+    devanagari: स्मृति
+    transliteration: smṛti
+    normalized_slug: smrti
+    priority_bucket: extended
+    chapter: YS 1.6, 1.11, 1.20
+    professor_gloss: "remembering"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: styana
+    devanagari: स्त्यान
+    transliteration: styāna
+    normalized_slug: styana
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "stiffening"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: svadhyaya
+    devanagari: स्वाध्याय
+    transliteration: svādhyāya
+    normalized_slug: svadhyaya
+    priority_bucket: extended
+    chapter: YS 2.1, 2.32, 2.44
+    professor_gloss: "one's own study/recitation"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: tamas
+    devanagari: तमस्
+    transliteration: tamas
+    normalized_slug: tamas
+    priority_bucket: extended
+    chapter: YS 2.15 (implied through guṇa theory)
+    professor_gloss: "darkness"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: tapas
+    devanagari: तपस्
+    transliteration: tapas
+    normalized_slug: tapas
+    priority_bucket: extended
+    chapter: YS 2.1, 2.32, 2.43
+    professor_gloss: "heat"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vibhuti
+    devanagari: विभूति
+    transliteration: vibhūti
+    normalized_slug: vibhuti
+    priority_bucket: extended
+    chapter: YS 3 (chapter title), 3.16–3.55
+    professor_gloss: "special manifestation"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vicara
+    devanagari: विचार
+    transliteration: vicāra
+    normalized_slug: vicara
+    priority_bucket: extended
+    chapter: YS 1.17, 1.44
+    professor_gloss: "moving-through distinctly"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vikalpa
+    devanagari: विकल्प
+    transliteration: vikalpa
+    normalized_slug: vikalpa
+    priority_bucket: extended
+    chapter: YS 1.6, 1.9, 1.42
+    professor_gloss: "an alternative arrangement"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: viparyaya
+    devanagari: विपर्यय
+    transliteration: viparyaya
+    normalized_slug: viparyaya
+    priority_bucket: extended
+    chapter: YS 1.6, 1.8
+    professor_gloss: "a going-wrongly-around"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vipaka
+    devanagari: विपाक
+    transliteration: vipāka
+    normalized_slug: vipaka
+    priority_bucket: extended
+    chapter: YS 1.24, 2.13, 4.8
+    professor_gloss: "thorough ripening"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vitarka
+    devanagari: वितर्क
+    transliteration: vitarka
+    normalized_slug: vitarka
+    priority_bucket: extended
+    chapter: YS 1.17, 1.42, 2.33, 2.34
+    professor_gloss: "distinct reasoning"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vyadhi
+    devanagari: व्याधि
+    transliteration: vyādhi
+    normalized_slug: vyadhi
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "affliction"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vasana
+    devanagari: वासना
+    transliteration: vāsanā
+    normalized_slug: vasana
+    priority_bucket: extended
+    chapter: YS 2.13, 4.8, 4.24
+    professor_gloss: "a lingering fragrance"
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: virya
+    devanagari: वीर्य
+    transliteration: vīrya
+    normalized_slug: virya
+    priority_bucket: extended
+    chapter: YS 1.20, 2.38
+    professor_gloss: "heroic quality"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: vrtti_sarupyam
+    devanagari: वृत्तिसारूप्यम्
+    transliteration: vṛtti-sārūpyam
+    normalized_slug: vrtti-sarupyam
+    priority_bucket: extended
+    chapter: YS 1.4
+    professor_gloss: "having-the-same-form as the mental fluctuations"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: yama
+    devanagari: यम
+    transliteration: yama
+    normalized_slug: yama
+    priority_bucket: extended
+    chapter: YS 2.29, 2.30
+    professor_gloss: "restraint"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: yoga
+    devanagari: योग
+    transliteration: yoga
+    normalized_slug: yoga
+    priority_bucket: extended
+    chapter: YS 1.1, 1.2, 2.1, 2.28
+    professor_gloss: "yoking"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: yoganushasanam
+    devanagari: योगानुशासनम्
+    transliteration: yogānuśāsanam
+    normalized_slug: yoganusasanam
+    priority_bucket: extended
+    chapter: YS 1.1
+    professor_gloss: "a systematic instruction following [the tradition of] yoga"
+    thematic_bucket: advanced_compound
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: agama
+    devanagari: आगम
+    transliteration: āgama
+    normalized_slug: agama
+    priority_bucket: extended
+    chapter: YS 1.7
+    professor_gloss: "that which has come down"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: alasya
+    devanagari: आलस्य
+    transliteration: ālasya
+    normalized_slug: alasya
+    priority_bucket: extended
+    chapter: YS 1.30
+    professor_gloss: "laziness"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: aloka
+    devanagari: आलोक
+    transliteration: āloka
+    normalized_slug: aloka
+    priority_bucket: extended
+    chapter: YS 3.5, 3.25
+    professor_gloss: "full illumination"
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: ananda
+    devanagari: आनन्द
+    transliteration: ānanda
+    normalized_slug: ananda
+    priority_bucket: extended
+    chapter: YS 1.17
+    professor_gloss: "complete rejoicing"
+    thematic_bucket: meditation_core
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: asana
+    devanagari: आसन
+    transliteration: āsana
+    normalized_slug: asana
+    priority_bucket: extended
+    chapter: YS 2.29, 2.46–2.48
+    professor_gloss: "a sitting"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: avarana
+    devanagari: आवरण
+    transliteration: āvaraṇa
+    normalized_slug: avarana
+    priority_bucket: extended
+    chapter: YS 2.52, 3.43, 4.30
+    professor_gloss: "a covering"
+    thematic_bucket: affliction_obstacle
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: ishvara
+    devanagari: ईश्वर
+    transliteration: īśvara
+    normalized_slug: isvara
+    priority_bucket: extended
+    chapter: YS 1.23–1.26, 2.1, 2.32, 2.45
+    professor_gloss: "the lord"
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: shauca
+    devanagari: शौच
+    transliteration: śauca
+    normalized_slug: sauca
+    priority_bucket: extended
+    chapter: YS 2.32, 2.40–2.41
+    professor_gloss: "cleanliness"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  - id: shraddha
+    devanagari: श्रद्धा
+    transliteration: śraddhā
+    normalized_slug: sraddha
+    priority_bucket: extended
+    chapter: YS 1.20
+    professor_gloss: "placing one's heart"
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: high
+    notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."

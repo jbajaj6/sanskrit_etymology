@@ -42,7 +42,15 @@
       "abhyāsa"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "practice_discipline"
+    "thematic_bucket": "practice_discipline",
+    "source_context": "YS 1.12: abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ (\"That cessation [of citta-vṛtti] is [achieved] by abhyāsa and vairāgya\"). YS 1.13: tatra sthitau yatno 'bhyāsaḥ (\"Abhyāsa is the effort toward steadiness there [in the stilling of vṛttis]\"). YS 1.14: sa tu dīrgha-kāla-nairantarya-satkārāsevito dṛḍha-bhūmiḥ (\"But that [abhyāsa] becomes firmly grounded when cultivated for a long time, without interruption, and with devotion\"). Found in GRETIL: Ānandakanda (\"abhyāsanirato\") and Dhvanyāloka commentary (\"abhyāsaḥ paunaḥpunyam\").",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — abhyāsa is a Yoga Sutras technical term",
+      "GRETIL: Ānandakanda (abhyāsanirato), Dhvanyāloka (abhyāsaḥ paunaḥpunyam)",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "repeated practice; sustained effort over time"
   },
   {
     "id": "avidya",
@@ -90,7 +98,16 @@
       "avidyā"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "affliction_obstacle"
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": "YS 2.4: avidyā kṣetram uttareṣāṃ prasupta-tanu-vicchinnodārāṇām (\"Ignorance is the field for the others [kleśas], whether dormant, attenuated, alternating, or fully active\"). YS 2.5: anityāśuci- duḥkhānātmasu nitya-śuci-sukhātma-khyātir avidyā (\"Ignorance is seeing the non-eternal as eternal, the impure as pure, the painful as pleasant, and the non-self as self\"). Found in GRETIL Paramārthasāra: \"dvaitavikalpabhrāntir avidyā\" — \"the delusion of dualistic conceptualization is avidyā.\"",
+    "citation_trail": [
+      "T01n0001 (長阿含經): 若無明滅盡是時則無行 (dependent origination formula)",
+      "T01n0003 (大本經): 從無明支有",
+      "T01n0007 (大般涅槃經): 無明及愛",
+      "Twelve links of dependent origination: ubiquitous"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "ignorance; misidentification of self with non-self"
   },
   {
     "id": "citta",
@@ -132,7 +149,13 @@
       "citta"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "mind_psychology"
+    "thematic_bucket": "mind_psychology",
+    "source_context": "YS 1.2: yogaś citta-vṛtti-nirodhaḥ (\"Yoga is the cessation of the fluctuations of citta\"). This is the defining sutra of the entire system, and citta is its central psychological term.",
+    "citation_trail": [
+      "Provisional — full citation trail deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "mind-stuff; the field of consciousness"
   },
   {
     "id": "dhyana",
@@ -193,7 +216,15 @@
       "dhyāna"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 3.2: tatra pratyayaikatānatā dhyānam (\"There [in dhāraṇā], the continuous flow of a single cognition is dhyāna\"). This defines dhyāna as the sustained, unbroken stream of attention on a single object.",
+    "citation_trail": [
+      "T01n0001 (長阿含經): 禪定",
+      "T01n0002 (遊行經): 禪定",
+      "Kumārajīva translations (5th c. CE): widespread use of 禪"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "sustained meditation; contemplation"
   },
   {
     "id": "kaivalya",
@@ -228,7 +259,16 @@
       "kaivalya"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "liberation_metaphysics"
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "YS 4.34: puruṣārtha-śūnyānāṃ guṇānāṃ pratiprasavaḥ kaivalyaṃ svarūpa-pratiṣṭhā vā citi-śakteḥ iti (\"Kaivalya is the return of the guṇas to their source, [their] purpose for puruṣa being exhausted — or [equivalently], the power of consciousness established in its own nature\"). Found in SARIT: Aṣṭāvakragītā 11.6 (\"kaivalyamiva saṃprāpto\") and Bhoja's Rājamārtaṇḍa commentary on YS (\"kaivalyamaśnute\").",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — kaivalya is a Sāṃkhya-Yoga technical term",
+      "Buddhist liberation is nirvāṇa (涅槃), not kaivalya",
+      "SARIT: Aṣṭāvakragītā 11.6, Bhoja Rājamārtaṇḍa",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "absolute freedom; aloneness of pure awareness"
   },
   {
     "id": "klesa",
@@ -271,7 +311,16 @@
       "kleśa"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "affliction_obstacle"
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": "YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ (\"The kleśas are: ignorance, ego-sense, attachment, aversion, and clinging to life\"). YS 2.2: samādhi-bhāvanārthaḥ kleśa-tanū-karaṇārthaś ca (\"For the purpose of cultivating samādhi and for the purpose of attenuating the kleśas\"). Found across GRETIL and SARIT in Buddhist stotra and medical literature contexts as well.",
+    "citation_trail": [
+      "T01n0001 (長阿含經): 煩惱",
+      "T01n0002 (遊行經): 煩惱",
+      "T01n0003 (大本經): 煩惱",
+      "Ubiquitous across all Chinese Buddhist literature"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "afflictions; the root causes of suffering"
   },
   {
     "id": "nirodha",
@@ -318,7 +367,14 @@
       "nirodha"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 1.2: yogaś citta-vṛtti-nirodhaḥ. YS 1.12: abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ (\"That cessation [is achieved] by practice and non-attachment\"). YS 3.9: nirodha-pariṇāma describes the transformation of citta as it moves toward cessation.",
+    "citation_trail": [
+      "Four Noble Truths formula: 苦集滅道 — ubiquitous in Chinese Āgama and Abhidharma literature",
+      "Provisional — Yoga Sutras-specific mapping deferred"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "cessation; restraint of mental fluctuations"
   },
   {
     "id": "prajna",
@@ -366,7 +422,16 @@
       "prajñā"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "insight_knowledge"
+    "thematic_bucket": "insight_knowledge",
+    "source_context": "YS 1.48: ṛtaṃbharā tatra prajñā (\"The wisdom there [in that samādhi] is truth-bearing\"). YS 1.49: śrutānumānaprajñābhyām anyaviṣayā viśeṣārthatvāt (\"This [truth-bearing wisdom] has a different domain from the knowledge gained by scripture or inference, because it relates to particulars\").",
+    "citation_trail": [
+      "T01n0025 (中阿含經): 般若",
+      "T01n0026 (中阿含經): 般若",
+      "T08n0223 (摩訶般若波羅蜜經, Kumārajīva tr.): entire text built on 般若",
+      "Three trainings formula: 戒定慧 (śīla, samādhi, prajñā)"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "wisdom; higher insight born of practice"
   },
   {
     "id": "samadhi",
@@ -430,7 +495,15 @@
       "samādhi"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 1.20: śraddhā-vīrya-smṛti-samādhi-prajñā-pūrvaka itareṣām (\"For others [not born with it], it is preceded by faith, vigor, memory, samādhi, and wisdom\"). YS 3.3: tad evārthamātranirbhāsaṃ svarūpaśūnyam iva samādhiḥ (\"When that same [meditation] shines forth as the object alone, as if empty of its own form, that is samādhi\").",
+    "citation_trail": [
+      "T01n0001 (Dīrghāgama, 長阿含經): 三昧",
+      "T01n0002 (遊行經): 三摩地",
+      "Xuanzang, 大唐西域記 — standardization of transliteration conventions"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "meditative absorption; the culmination of yogic practice"
   },
   {
     "id": "samskara",
@@ -478,7 +551,15 @@
       "saṃskāra"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "mind_psychology"
+    "thematic_bucket": "mind_psychology",
+    "source_context": "YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ (\"The other [asamprajñāta samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). YS 1.50: taj-jaḥ saṃskāro 'nya-saṃskāra-pratibandhī (\"The saṃskāra born of that [truth-bearing wisdom] obstructs other saṃskāras\"). Found in GRETIL: Āṅgirasasmṛti uses saṃskāra in the ritual-consecration sense; Ānandakanda uses it for alchemical purification — showing the word's broad semantic range.",
+    "citation_trail": [
+      "T01n0001 (長阿含經): 無明滅盡是時則無行 (dependent origination)",
+      "Five aggregates formula: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)",
+      "Provisional — Yogic-specific mapping deferred"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "latent impressions; subliminal activators from past experience"
   },
   {
     "id": "viveka_khyati",
@@ -532,7 +613,15 @@
       "viveka_khyati"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "insight_knowledge"
+    "thematic_bucket": "insight_knowledge",
+    "source_context": "YS 2.26: viveka-khyātir aviplavā hānopāyaḥ (\"Unbroken discriminative discernment is the means of removal [of ignorance]\"). YS 2.28: yogāṅgā- nuṣṭhānād aśuddhi-kṣaye jñāna-dīptir ā viveka-khyāteḥ (\"From the practice of the limbs of yoga, as impurity diminishes, the light of knowledge [grows] up to discriminative discernment\"). Found in Sāṃkhya commentary literature (GRETIL: Tattvavivecana) and Brahmasūtra sub- commentary confirming cross-system usage.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — this is a Sāṃkhya-Yoga technical term",
+      "GRETIL: found in Sāṃkhyatattvavivecana and Brahmasūtra sub-commentary",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "discriminative discernment; the vision that separates puruṣa from prakṛti"
   },
   {
     "id": "vrtti",
@@ -568,7 +657,14 @@
       "vṛtti"
     ],
     "priority_bucket": "must",
-    "thematic_bucket": "mind_psychology"
+    "thematic_bucket": "mind_psychology",
+    "source_context": "YS 1.2: yogaś citta-vṛtti-nirodhaḥ (\"Yoga is the cessation of the fluctuations of citta\"). YS 1.5–1.11: vṛttayaḥ pañcatayyaḥ kliṣṭākliṣṭāḥ (\"The vṛttis are fivefold, painful and non-painful\"): pramāṇa (valid cognition), viparyaya (error), vikalpa (conceptualization), nidrā (sleep), smṛti (memory).",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — vṛtti is a Yoga Sutras technical term",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "fluctuations or turnings of the mind"
   },
   {
     "id": "abhinivesa",
@@ -613,7 +709,16 @@
       "abhiniveśa"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "affliction_obstacle"
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": "YS 2.9: sva-rasa-vāhī viduṣo 'pi tathārūḍho 'bhiniveśaḥ (\"Abhiniveśa flows by its own momentum and is firmly established even in the wise\"). YS 2.3 lists it as the fifth kleśa. Found in GRETIL: Āryadeva's Cittaviśuddhiprakaraṇa uses the verbal form abhiniveśana (\"attachment to things\"); Dhvanyāloka commentary discusses abhiniveśa in the context of aesthetic attachment.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — abhiniveśa is a Yoga Sutras technical term",
+      "GRETIL: Āryadeva Cittaviśuddhiprakaraṇa (abhiniveśana in Buddhist context)",
+      "GRETIL: Dhvanyāloka commentary (abhiniveśa in aesthetic context)",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "clinging to life; fear of death"
   },
   {
     "id": "asamprajnata",
@@ -662,7 +767,17 @@
       "asamprajñāta"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ (\"The other [samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). Note: the word \"asamprajñāta\" does not literally appear in YS 1.18 — the sutra says only \"anyaḥ\" (\"the other\"). The term asamprajñāta is supplied by Vyāsa's Bhāṣya commentary. Found in GRETIL: Bhagavadgītā commentaries cross-reference YS 1.18 using the term asamprajñāta; Jīva Gosvāmī's Ṣaṭsandarbha distinguishes asamprajñāta-samādhi from brahma-samādhi.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — asamprajñāta is a Yoga Sutras technical term",
+      "Term supplied by Vyāsa's Bhāṣya, not directly in the sutras",
+      "GRETIL: Bhagavadgītā commentaries cross-reference YS 1.18",
+      "GRETIL: Jīva Gosvāmī Ṣaṭsandarbha (asamprajñāta vs. brahma-samādhi)",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "objectless absorption; samādhi without cognitive content"
   },
   {
     "id": "dharana",
@@ -703,7 +818,16 @@
       "dhāraṇā"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 3.1: deśa-bandhaś cittasya dhāraṇā (\"Dhāraṇā is the binding of citta to a place\"). YS 2.53: dhāraṇāsu ca yogyatā manasaḥ (\"And [from prāṇāyāma arises] fitness of the mind for dhāraṇā\"). Found in SARIT: Bhoja's Rājamārtaṇḍa lists the full eight-limb sequence including dhāraṇā between pratyāhāra and dhyāna.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent as a standalone term",
+      "SARIT: Rājamārtaṇḍa lists dhāraṇā in the full aṣṭāṅga sequence",
+      "GRETIL: Ānandakanda lists dhāraṇā alongside other yoga limbs",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "concentration; fixing the mind on a single point"
   },
   {
     "id": "pratyahara",
@@ -748,7 +872,16 @@
       "pratyāhāra"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "practice_discipline"
+    "thematic_bucket": "practice_discipline",
+    "source_context": "YS 2.54: sva-viṣayāsaṃprayoge cittasya svarūpānukāra ivendriyāṇāṃ pratyāhāraḥ (\"Pratyāhāra is, as it were, the imitation by the senses of citta's own form, through disengagement from their respective objects\"). YS 2.55: tataḥ paramā vaśyatendriyāṇām (\"From that arises supreme mastery over the senses\"). Found in GRETIL: Ānandakanda lists pratyāhāra alongside the other limbs. Found in SARIT: Rājamārtaṇḍa and Brahmapurāṇa.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — pratyāhāra is a Yoga Sutras technical term",
+      "GRETIL: Ānandakanda lists pratyāhāra with other yoga limbs",
+      "SARIT: Rājamārtaṇḍa (aṣṭāṅga sequence), Brahmapurāṇa",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "sense withdrawal; turning the senses inward"
   },
   {
     "id": "purusa",
@@ -778,7 +911,16 @@
       "puruṣa"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "liberation_metaphysics"
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "YS 1.24: kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ (\"Īśvara is a special puruṣa, untouched by kleśas, karma, its fruition, and its residue\"). YS 3.35: sattva-puruṣayor atyantāsaṃkīrṇayoḥ pratyayāviśeṣo bhogaḥ parārthatvāt svārtha- saṃyamāt puruṣa-jñānam (\"Experience exists because sattva and puruṣa are not distinguished; from saṃyama on [puruṣa's] own purpose comes knowledge of puruṣa\"). Found in GRETIL: Paramārthasāra (guṇapuruṣavibhāgajñe — \"for one who knows the distinction of guṇa and puruṣa\").",
+    "citation_trail": [
+      "No Chinese Buddhist equivalent — puruṣa as permanent self is rejected in Buddhist metaphysics",
+      "GRETIL: Paramārthasāra (guṇapuruṣavibhāga — guṇa-puruṣa distinction)",
+      "GRETIL: Āṅgirasasmṛti (puruṣasūktajapa — Ṛgveda puruṣa hymn context)",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "pure consciousness; the witness-self"
   },
   {
     "id": "samyama",
@@ -819,7 +961,15 @@
       "saṃyama"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": "YS 3.4: trayam ekatra saṃyamaḥ (\"The three [dhāraṇā, dhyāna, samādhi] together on a single [object] are saṃyama\"). YS 3.16 onward: saṃyama applied to various objects yields specific insights (pariṇāma-traya- saṃyamāt, atītānāgata-jñānam, etc.). Found in GRETIL: Jātakamālā uses saṃyama in the Buddhist sense of \"restraint/self-control.\"",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent for the Yogic technical sense",
+      "GRETIL: Jātakamālā 4.9 uses saṃyama in the general sense of 'self-restraint'",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the combined practice of dhāraṇā, dhyāna, and samādhi"
   },
   {
     "id": "svarupa",
@@ -862,7 +1012,16 @@
       "svarūpa"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "liberation_metaphysics"
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "YS 1.3: tadā draṣṭuḥ svarūpe 'vasthānam (\"Then the seer abides in its own form\"). This immediately follows YS 1.2 and states what happens when citta-vṛtti-nirodha is achieved: puruṣa rests in svarūpa — its own nature. YS 3.3 defines samādhi as \"svarūpa-śūnyam iva\" — \"as if empty of its own form.\" Found across GRETIL in Buddhist stotras, Āṅgirasasmṛti, and Śaiva Pratyabhijñā literature.",
+    "citation_trail": [
+      "T02n0099 (雜阿含經): 自性",
+      "T03n0157: 自性清淨",
+      "Provisional — svarūpa/svabhāva distinction requires careful treatment",
+      "Chan/Zen 見性 (jiànxìng) comparison deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "own form; essential nature"
   },
   {
     "id": "vairagya",
@@ -903,7 +1062,16 @@
       "vairāgya"
     ],
     "priority_bucket": "nice",
-    "thematic_bucket": "practice_discipline"
+    "thematic_bucket": "practice_discipline",
+    "source_context": "YS 1.15: dṛṣṭānuśravika-viṣaya-vitṛṣṇasya vaśīkāra-saṃjñā vairāgyam (\"Vairāgya is the mastery-consciousness of one who is free from thirst for objects seen or described in scripture\"). YS 1.16: tatparaṃ puruṣa-khyāter guṇa-vaitṛṣṇyam (\"The higher [vairāgya] is freedom from thirst for the guṇas themselves, arising from the vision of puruṣa\"). Found in SARIT: Aṣṭāvakragītā 1.1 — the opening verse asks \"how is vairāgya attained?\" establishing it as the central concern of that text.",
+    "citation_trail": [
+      "No standard Chinese Buddhist equivalent — vairāgya is a Yoga Sutras technical term",
+      "GRETIL: Buddhist stotras (vairāgya alongside prajñā in praise verse)",
+      "SARIT: Aṣṭāvakragītā 1.1 (opening verse: 'kathaṃ prāptam' — 'how is vairāgya attained?')",
+      "Deferred to mapping stage"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "non-attachment; dispassion"
   },
   {
     "id": "dharmamegha_samadhi",
@@ -957,7 +1125,11 @@
       "dharmamegha samadhi"
     ],
     "priority_bucket": "stretch",
-    "thematic_bucket": "advanced_compound"
+    "thematic_bucket": "advanced_compound",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "cloud-of-dharma samādhi; the final meditative attainment"
   },
   {
     "id": "ekagrata",
@@ -999,7 +1171,11 @@
       "ekāgratā"
     ],
     "priority_bucket": "stretch",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "one-pointedness of mind"
   },
   {
     "id": "samprajnata",
@@ -1044,7 +1220,11 @@
       "samprajñāta"
     ],
     "priority_bucket": "stretch",
-    "thematic_bucket": "meditation_core"
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "cognitive samādhi with an object of awareness"
   },
   {
     "id": "viveka",
@@ -1085,7 +1265,11 @@
       "viveka"
     ],
     "priority_bucket": "stretch",
-    "thematic_bucket": "insight_knowledge"
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "discrimination; discernment between puruṣa and prakṛti"
   },
   {
     "id": "ahamkara",
@@ -1125,8 +1309,12 @@
       "ahamkara",
       "ahaṃkāra"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "I-making"
   },
   {
     "id": "ahimsa",
@@ -1166,8 +1354,12 @@
       "ahimsa",
       "ahiṃsā"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "non-harming"
   },
   {
     "id": "anumana",
@@ -1207,8 +1399,12 @@
       "anumana",
       "anumāna"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a measuring-after"
   },
   {
     "id": "aparigraha",
@@ -1252,8 +1448,12 @@
       "aparigraha",
       "aparigraha"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "non-grasping-from-all-sides"
   },
   {
     "id": "asmita",
@@ -1288,8 +1488,12 @@
       "asmita",
       "asmitā"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "I-am-ness"
   },
   {
     "id": "asteya",
@@ -1323,8 +1527,12 @@
       "asteya",
       "asteya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "non-stealing"
   },
   {
     "id": "atha",
@@ -1353,8 +1561,12 @@
       "atha",
       "atha"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "advanced_compound",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "now"
   },
   {
     "id": "avasthanam",
@@ -1394,8 +1606,12 @@
       "avasthanam",
       "avasthānam"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "advanced_compound",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a settled abiding"
   },
   {
     "id": "avirati",
@@ -1439,8 +1655,12 @@
       "avirati",
       "avirati"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "non-cessation"
   },
   {
     "id": "bandha",
@@ -1475,8 +1695,12 @@
       "bandha",
       "bandha"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "binding"
   },
   {
     "id": "bhranti_darshana",
@@ -1520,8 +1744,12 @@
       "darsana",
       "bhranti darsana"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "confused seeing"
   },
   {
     "id": "brahmacarya",
@@ -1556,8 +1784,12 @@
       "brahmacarya",
       "brahmacarya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "walking in Brahman"
   },
   {
     "id": "drashta",
@@ -1593,8 +1825,12 @@
       "draṣṭā",
       "drasta"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "the seer"
   },
   {
     "id": "dvesha",
@@ -1630,8 +1866,12 @@
       "dveṣa",
       "dvesa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "hatred"
   },
   {
     "id": "guna",
@@ -1660,8 +1900,12 @@
       "guna",
       "guṇa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "strand"
   },
   {
     "id": "karma",
@@ -1696,8 +1940,12 @@
       "karma",
       "karma"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "action"
   },
   {
     "id": "karmashaya",
@@ -1738,8 +1986,12 @@
       "karmāśaya",
       "karmasaya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "the resting-place of karma"
   },
   {
     "id": "moksha",
@@ -1775,8 +2027,12 @@
       "mokṣa",
       "moksa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "release"
   },
   {
     "id": "nidra",
@@ -1805,8 +2061,12 @@
       "nidra",
       "nidrā"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "sleep"
   },
   {
     "id": "niyama",
@@ -1846,8 +2106,12 @@
       "niyama",
       "niyama"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "inner restraint"
   },
   {
     "id": "parinama",
@@ -1887,8 +2151,12 @@
       "parinama",
       "pariṇāma"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a bending-around"
   },
   {
     "id": "prakrti",
@@ -1928,8 +2196,12 @@
       "prakrti",
       "prakṛti"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "the primal maker"
   },
   {
     "id": "pramada",
@@ -1969,8 +2241,12 @@
       "pramada",
       "pramāda"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "thorough intoxication"
   },
   {
     "id": "pramana",
@@ -2010,8 +2286,12 @@
       "pramana",
       "pramāṇa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a means of right measurement"
   },
   {
     "id": "pratyaksha",
@@ -2046,8 +2326,12 @@
       "pratyakṣa",
       "pratyaksa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "before the eyes"
   },
   {
     "id": "pranidhana",
@@ -2091,8 +2375,12 @@
       "pranidhana",
       "praṇidhāna"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a placing-down-before"
   },
   {
     "id": "rajas",
@@ -2127,8 +2415,12 @@
       "rajas",
       "rajas"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "dust"
   },
   {
     "id": "raga",
@@ -2163,8 +2455,12 @@
       "raga",
       "rāga"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "coloring"
   },
   {
     "id": "santosha",
@@ -2205,8 +2501,12 @@
       "santoṣa",
       "santosa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "complete satisfaction"
   },
   {
     "id": "sattva",
@@ -2241,8 +2541,12 @@
       "sattva",
       "sattva"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "being-ness"
   },
   {
     "id": "satya",
@@ -2277,8 +2581,12 @@
       "satya",
       "satya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "truth-ness"
   },
   {
     "id": "samshaya",
@@ -2319,8 +2627,12 @@
       "saṃśaya",
       "samsaya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "lying-together"
   },
   {
     "id": "siddhi",
@@ -2355,8 +2667,12 @@
       "siddhi",
       "siddhi"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "accomplishment"
   },
   {
     "id": "smrti",
@@ -2391,8 +2707,12 @@
       "smrti",
       "smṛti"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "remembering"
   },
   {
     "id": "styana",
@@ -2427,8 +2747,12 @@
       "styana",
       "styāna"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "stiffening"
   },
   {
     "id": "svadhyaya",
@@ -2463,8 +2787,12 @@
       "svadhyaya",
       "svādhyāya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "one's own study/recitation"
   },
   {
     "id": "tamas",
@@ -2499,8 +2827,12 @@
       "tamas",
       "tamas"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "darkness"
   },
   {
     "id": "tapas",
@@ -2535,8 +2867,12 @@
       "tapas",
       "tapas"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "heat"
   },
   {
     "id": "vibhuti",
@@ -2576,8 +2912,12 @@
       "vibhuti",
       "vibhūti"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "special manifestation"
   },
   {
     "id": "vicara",
@@ -2617,8 +2957,12 @@
       "vicara",
       "vicāra"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "moving-through distinctly"
   },
   {
     "id": "vikalpa",
@@ -2658,8 +3002,12 @@
       "vikalpa",
       "vikalpa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "an alternative arrangement"
   },
   {
     "id": "viparyaya",
@@ -2703,8 +3051,12 @@
       "viparyaya",
       "viparyaya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a going-wrongly-around"
   },
   {
     "id": "vipaka",
@@ -2744,8 +3096,12 @@
       "vipaka",
       "vipāka"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "thorough ripening"
   },
   {
     "id": "vitarka",
@@ -2785,8 +3141,12 @@
       "vitarka",
       "vitarka"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "distinct reasoning"
   },
   {
     "id": "vyadhi",
@@ -2821,8 +3181,12 @@
       "vyadhi",
       "vyādhi"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "affliction"
   },
   {
     "id": "vasana",
@@ -2857,8 +3221,12 @@
       "vasana",
       "vāsanā"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "mind_psychology",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a lingering fragrance"
   },
   {
     "id": "virya",
@@ -2893,8 +3261,12 @@
       "virya",
       "vīrya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "heroic quality"
   },
   {
     "id": "vrtti_sarupyam",
@@ -2937,8 +3309,12 @@
       "sarupyam",
       "vrtti sarupyam"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "advanced_compound",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "having-the-same-form as the mental fluctuations"
   },
   {
     "id": "yama",
@@ -2973,8 +3349,12 @@
       "yama",
       "yama"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "restraint"
   },
   {
     "id": "yoga",
@@ -3009,8 +3389,12 @@
       "yoga",
       "yoga"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "yoking"
   },
   {
     "id": "yoganushasanam",
@@ -3051,8 +3435,12 @@
       "yogānuśāsanam",
       "yoganusasanam"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "advanced_compound",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a systematic instruction following [the tradition of] yoga"
   },
   {
     "id": "agama",
@@ -3092,8 +3480,12 @@
       "agama",
       "āgama"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "that which has come down"
   },
   {
     "id": "alasya",
@@ -3128,8 +3520,12 @@
       "alasya",
       "ālasya"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "laziness"
   },
   {
     "id": "aloka",
@@ -3169,8 +3565,12 @@
       "aloka",
       "āloka"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "insight_knowledge",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "full illumination"
   },
   {
     "id": "ananda",
@@ -3210,8 +3610,12 @@
       "ananda",
       "ānanda"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "meditation_core",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "complete rejoicing"
   },
   {
     "id": "asana",
@@ -3246,8 +3650,12 @@
       "asana",
       "āsana"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a sitting"
   },
   {
     "id": "avarana",
@@ -3287,8 +3695,12 @@
       "avarana",
       "āvaraṇa"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "a covering"
   },
   {
     "id": "ishvara",
@@ -3324,8 +3736,12 @@
       "īśvara",
       "isvara"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "the lord"
   },
   {
     "id": "shauca",
@@ -3361,8 +3777,12 @@
       "śauca",
       "sauca"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "cleanliness"
   },
   {
     "id": "shraddha",
@@ -3397,7 +3817,11 @@
       "śraddhā",
       "sraddha"
     ],
-    "priority_bucket": null,
-    "thematic_bucket": null
+    "priority_bucket": "extended",
+    "thematic_bucket": "practice_discipline",
+    "source_context": null,
+    "citation_trail": [],
+    "verification": "unverified",
+    "professor_gloss": "placing one's heart"
   }
 ]

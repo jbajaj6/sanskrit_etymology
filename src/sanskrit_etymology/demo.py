@@ -39,6 +39,10 @@ def _demo_term_from_dict(payload: dict[str, Any]) -> DemoTerm:
         search_aliases=list(payload.get("search_aliases", [])),
         priority_bucket=payload.get("priority_bucket"),
         thematic_bucket=payload.get("thematic_bucket"),
+        source_context=payload.get("source_context"),
+        citation_trail=list(payload.get("citation_trail", [])),
+        verification=str(payload.get("verification", "unverified")),
+        professor_gloss=payload.get("professor_gloss"),
     )
 
 
@@ -73,12 +77,20 @@ def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
                     "ambiguity_notes": analysis.ambiguity_notes,
                     "confidence": analysis.confidence,
                     "search_aliases": transliteration_aliases(analysis.id, analysis.transliteration),
+                    "source_context": analysis.source_context,
+                    "citation_trail": list(analysis.citation_trail),
+                    "verification": "source-verified",
                 }
             )
+        else:
+            base_payload.setdefault("source_context", None)
+            base_payload.setdefault("citation_trail", [])
+            base_payload["verification"] = "unverified"
 
         if seed is not None:
             base_payload["priority_bucket"] = seed.priority_bucket
             base_payload["thematic_bucket"] = seed.thematic_bucket
+            base_payload["professor_gloss"] = seed.professor_gloss
         else:
             base_payload.setdefault("priority_bucket", None)
             base_payload.setdefault("thematic_bucket", None)
@@ -99,7 +111,7 @@ def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
 
 
 def sort_demo_terms(terms: list[DemoTerm]) -> list[DemoTerm]:
-    order = {"must": 0, "nice": 1, "stretch": 2}
+    order = {"must": 0, "nice": 1, "stretch": 2, "extended": 3}
     return sorted(
         terms,
         key=lambda term: (order.get(term.priority_bucket or "", 99), term.transliteration.lower()),
