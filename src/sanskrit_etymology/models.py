@@ -75,6 +75,7 @@ class SeedTerm:
     thematic_bucket: str
     cross_cultural_priority: str
     notes: str
+    source_text: str = "yoga_sutras"
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "SeedTerm":
@@ -89,6 +90,7 @@ class SeedTerm:
             thematic_bucket=str(data["thematic_bucket"]),
             cross_cultural_priority=str(data["cross_cultural_priority"]),
             notes=str(data["notes"]),
+            source_text=str(data.get("source_text", "yoga_sutras")),
         )
 
 
@@ -238,6 +240,7 @@ class DemoTerm:
     citation_trail: list[str] = field(default_factory=list)
     verification: str = "unverified"
     professor_gloss: str | None = None
+    source_text: str = "yoga_sutras"
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

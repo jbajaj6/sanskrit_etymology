@@ -1605,3 +1605,1396 @@ analyses:
       - "GRETIL: Bhagavadgītā commentaries cross-reference YS 1.18"
       - "GRETIL: Jīva Gosvāmī Ṣaṭsandarbha (asamprajñāta vs. brahma-samādhi)"
       - "Deferred to mapping stage"
+
+  # ── UPANIṢADIC VOCABULARY (35 analyses) ──
+  # Each source_context is quoted from the GRETIL mūla text named in its
+  # citation_trail. Nothing here is reconstructed from memory.
+  - id: upanisad
+    devanagari: उपनिषद्
+    transliteration: upaniṣad
+    chapter: BṛU 2.4.10, 4.2.1
+    source_context: 'BṛU 2.4.10: ... itihāsaḥ purāṇaṃ vidyā upaniṣadaḥ ślokāḥ sūtrāṇy anuvyākhyānāni
+      vyākhyānāni ("... history, ancient lore, learning, the upaniṣads, verses, aphorisms, explanations
+      and commentaries") — the upaniṣads named among the whole body of learning breathed out
+      by the great being.'
+    segmentation: upa + ni + √sad + -kvip
+    roots:
+    - root: √sad
+      devanagari: √सद्
+      meaning: to sit, settle, sink down
+      dhatu_number: null
+    prefixes:
+    - prefix: upa-
+      meaning: near, close to, alongside
+    - prefix: ni-
+      meaning: down, into
+    suffixes:
+    - suffix: -kvip
+      meaning: zero-suffix forming a feminine action noun
+      grammatical_function: yields a feminine noun from the compounded verbal base upa-ni-ṣad-
+    compound_type: null
+    literal_gloss: a sitting-down-close; the session of sitting near [a teacher]
+    philosophical_gloss: 'The traditional derivation reads upaniṣad as the act of sitting (√sad)
+      down (ni-) near (upa-) a teacher, and by extension the secret doctrine imparted in that
+      setting. Śaṅkara instead derives it from √sad in the sense of ''destroying'' — the teaching
+      that destroys ignorance. In the texts themselves the word usually means something closer
+      to ''hidden connection'' or ''correspondence'': the secret equivalence between a ritual
+      element, a cosmic power, and something in the person. BṛU 2.4.10 lists the upaniṣads among
+      the whole body of learning breathed out by the great being, alongside the Vedas, itihāsa
+      and purāṇa.'
+    doctrinal_significance: The word names both the texts and the mode of their transmission.
+      That the teaching is called a 'sitting near' rather than a treatise marks it as something
+      conveyed between persons rather than published — a point that shapes how the Upaniṣads
+      present knowledge throughout, always inside a dialogue.
+    ambiguity_notes: 'Three derivations compete: ''sitting near'' (traditional and most widely
+      accepted), ''destroying [ignorance]'' (Śaṅkara, drawing on √sad in the sense of avasādana),
+      and ''connection/equivalence'' (favoured by many modern philologists, e.g. Olivelle, on
+      the basis of the word''s actual use in the texts). The morphology alone does not decide
+      between them.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 2.4.10
+    - Olivelle, The Early Upaniṣads (1998), on the sense 'connection'
+  - id: atman
+    devanagari: आत्मन्
+    transliteration: ātman
+    chapter: BṛU 2.4.5, 4.5.15; ChU 8.7.1; MāU 2
+    source_context: 'BṛU 2.4.5: ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyo maitreyi
+      ("The self, Maitreyī, is what should be seen, heard, reflected upon and meditated upon").'
+    segmentation: ātman (lexical noun; etymology disputed)
+    roots: []
+    prefixes: []
+    suffixes:
+    - suffix: -man
+      meaning: primary noun suffix
+      grammatical_function: forms a masculine noun; the base it attaches to is not securely
+        identifiable
+    compound_type: null
+    literal_gloss: self; the breathing one; that which one most truly is
+    philosophical_gloss: 'Ātman is the central term of the Upaniṣads. It begins in the Vedic
+      corpus with the concrete sense of breath or body, and in the Upaniṣads becomes the innermost
+      self — not the personality, not the body, not even the mind, but the witnessing subject
+      that all of these belong to. BṛU 2.4.5 gives the pivotal move: things are dear not for
+      their own sake but for the sake of the self, and therefore it is the self that is to be
+      seen, heard, thought about and meditated upon. MāU 2 identifies it flatly with brahman:
+      ayam ātmā brahma.'
+    doctrinal_significance: 'The identification of ātman with brahman is the core claim of the
+      Upaniṣads and the seed of the whole Vedānta tradition. It reframes liberation as recognition
+      rather than acquisition: nothing is gained, something already the case is finally seen.'
+    ambiguity_notes: The etymology is genuinely unsettled. Proposals connect it to an ('to breathe'),
+      vā ('to blow'), or a lost pronominal base. Standard dictionaries (Monier-Williams) record
+      the uncertainty rather than resolving it, so no root is asserted here.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 2.4.5
+    - 'GRETIL mandup_u (Māṇḍūkya mūla), MāU 2: ayam ātmā brahma'
+    - Monier-Williams s.v. ātman — etymology recorded as uncertain
+  - id: brahman
+    devanagari: ब्रह्मन्
+    transliteration: brahman
+    chapter: ChU 3.14.1; AiU 3.3; MāU 2
+    source_context: 'ChU 3.14.1: sarvaṃ khalv idaṃ brahma tajjalān iti śānta upāsīta ("All this
+      is brahman. One should meditate on it in tranquillity as that from which one is born,
+      into which one dissolves, and by which one breathes").'
+    segmentation: √bṛh + -man
+    roots:
+    - root: √bṛh
+      devanagari: √बृह्
+      meaning: to grow great, swell, expand
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -man
+      meaning: action/agent noun suffix
+      grammatical_function: 'forms a neuter noun: ''that which expands'' or ''the expanding'''
+    compound_type: null
+    literal_gloss: the expanding; that which grows great; the vast
+    philosophical_gloss: 'Brahman moves across Vedic literature from ''sacred formulation''
+      — the potent utterance of the priest — to the ground of all being. ChU 3.14.1 states the
+      mature position: sarvaṃ khalv idaṃ brahma, all this is brahman. AiU 3.3 gives the terse
+      identification with consciousness, prajñānaṃ brahma. The neuter brahman (ultimate reality)
+      must be kept distinct from the masculine brahmán (a priest) and from Brahmā the creator
+      deity.'
+    doctrinal_significance: Brahman and ātman are the two poles the Upaniṣads work to identify.
+      Where ātman is approached from within, brahman is approached from without — as the ground
+      of the cosmos — and the teaching consists in showing that these are one.
+    ambiguity_notes: 'The derivation from √bṛh (''to expand'') is standard but the semantic
+      history is contested: whether the earliest sense is ''sacred utterance'', ''ritual power'',
+      or ''growth/expansion'' is debated. The neuter/masculine distinction (brahman vs. brahmán)
+      is carried by accent, which the GRETIL text does not preserve.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 3.14.1
+    - 'GRETIL aitup__u (Aitareya mūla), AiU 3.3: prajñānaṃ brahma'
+  - id: pranava
+    devanagari: प्रणव
+    transliteration: praṇava
+    chapter: ChU 1.1.1; MāU 1
+    source_context: 'ChU 1.1.1: om ity etad akṣaram udgītham upāsīta | om iti hy udgāyati ("One
+      should meditate on this syllable oṃ as the udgītha, for one sings the high chant beginning
+      with oṃ").'
+    segmentation: pra + √nu + -a
+    roots:
+    - root: √nu
+      devanagari: √नु
+      meaning: to praise, sound, shout
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: forth, forward (intensifying)
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms a masculine noun: ''the sounding-forth'''
+    compound_type: null
+    literal_gloss: the sounding-forth; the sustained utterance
+    philosophical_gloss: 'Praṇava is the technical name for the syllable oṃ (ॐ). The Chāndogya
+      opens by prescribing it as the object of contemplation in its ritual role as the udgītha,
+      the high chant. The Māṇḍūkya then treats the syllable analytically: its three morae a-u-m
+      are mapped onto waking, dream and deep sleep, and the silence beyond them onto turīya,
+      the fourth. The syllable thereby becomes a map of consciousness rather than merely a sound.'
+    doctrinal_significance: Oṃ is where Upaniṣadic meditation is most concrete. The Yoga Sutras
+      take up the same syllable at YS 1.27-28 as the designator of īśvara, whose repetition
+      brings inward-turning — one of the clearest continuities between the two bodies of text
+      in this collection.
+    ambiguity_notes: Praṇava is the name for the syllable, not the syllable itself; the texts
+      far more often simply write oṃ. The derivation pra + √nu is standard, though some grammarians
+      connect it instead to pra + √nū.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 1.1.1
+    - GRETIL mandup_u (Māṇḍūkya mūla), MāU 1-12 — the three morae and the fourth
+  - id: aksara
+    devanagari: अक्षर
+    transliteration: akṣara
+    chapter: BṛU 3.8.8; ChU 1.1.1
+    source_context: 'BṛU 3.8.8: etad vai tad akṣaraṃ gārgi brāhmaṇā abhivadanty asthūlam anaṇv
+      ahrasvam adīrgham ... acakṣuṣkam aśrotram avāg amanaḥ ("This, Gārgī, is that imperishable
+      which the brahmins speak of: not coarse, not fine, not short, not long ... without eye,
+      without ear, without speech, without mind").'
+    segmentation: a- + √kṣar + -a
+    roots:
+    - root: √kṣar
+      devanagari: √क्षर्
+      meaning: to flow away, melt, perish
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not, un- (negating prefix)
+    suffixes:
+    - suffix: -a
+      meaning: adjectival/nominal suffix
+      grammatical_function: 'forms an adjective or noun: ''not-flowing-away'''
+    compound_type: null
+    literal_gloss: the imperishable; that which does not flow away
+    philosophical_gloss: 'Akṣara carries two senses at once, and the Upaniṣads exploit the overlap.
+      Literally ''unflowing'', it means the imperishable — and it is also the ordinary word
+      for a syllable, the indivisible unit of speech. BṛU 3.8.8 gives Yājñavalkya''s famous
+      negative description of the imperishable to Gārgī: not coarse, not fine, not short, not
+      long, without shadow, without darkness. ChU 1.1.1 uses the other sense when it calls oṃ
+      ''this akṣara''.'
+    doctrinal_significance: 'The doubleness is doctrinally productive: the imperishable ground
+      and the imperishable syllable are brought together, so that meditation on oṃ becomes meditation
+      on what does not pass away.'
+    ambiguity_notes: Translators must choose between 'syllable' and 'imperishable' at each occurrence,
+      and the choice is sometimes genuinely undecidable — in ChU 1.1.1 the word plausibly carries
+      both senses simultaneously.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 3.8.8
+    - GRETIL chup___u (Chāndogya mūla), ChU 1.1.1
+  - id: upasana
+    devanagari: उपासन
+    transliteration: upāsana
+    chapter: ChU 1.1.1, 3.14.1
+    source_context: 'ChU 1.1.1: om ity etad akṣaram udgītham upāsīta ("One should meditate on
+      this syllable oṃ as the udgītha"). ChU 3.14.1: sarvaṃ khalv idaṃ brahma ... śānta upāsīta
+      ("All this is brahman ... one should meditate in tranquillity").'
+    segmentation: upa + √ās + -ana
+    roots:
+    - root: √ās
+      devanagari: √आस्
+      meaning: to sit, be seated, abide
+      dhatu_number: null
+    prefixes:
+    - prefix: upa-
+      meaning: near, close to, upon
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix (lyuṭ)
+      grammatical_function: 'forms a neuter noun: ''the act of sitting near'''
+    compound_type: null
+    literal_gloss: a sitting-near; a drawing close and dwelling upon
+    philosophical_gloss: 'Upāsana is the Upaniṣads'' own word for contemplative practice, and
+      it is worth distinguishing from the later technical vocabulary of yoga. It is not the
+      stilling of thought (nirodha) but a sustained dwelling-upon: one takes something — a syllable,
+      a cosmic correspondence, brahman itself — and abides near it until it becomes inwardly
+      real. The optative upāsīta (''one should meditate on'') is the standard instructional
+      form throughout the Chāndogya.'
+    doctrinal_significance: Where the Yoga Sutras move toward emptying the mind of content,
+      Upaniṣadic upāsana works by holding content. The two models of meditation sit side by
+      side in the Indian tradition and are often conflated in modern presentation; keeping them
+      apart clarifies both.
+    ambiguity_notes: Frequently rendered simply as 'worship', which imports a devotional sense
+      the earlier passages do not require. 'Meditation' is closer, provided one does not read
+      into it the later yogic sense of thought-cessation.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 1.1.1 and 3.14.1
+  - id: jagrat
+    devanagari: जाग्रत्
+    transliteration: jāgrat
+    chapter: MāU 3
+    source_context: 'MāU 3: jāgaritasthāno bahiḥprajñaḥ saptāṅga ekonaviṃśatimukhaḥ sthūlabhug
+      vaiśvānaraḥ prathamaḥ pādaḥ ("Grounded in the waking state, aware of what is outside,
+      with seven limbs and nineteen mouths, an eater of the gross — vaiśvānara is the first
+      quarter").'
+    segmentation: √jāgṛ + -at (present participle)
+    roots:
+    - root: √jāgṛ
+      devanagari: √जागृ
+      meaning: to be awake, to wake
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -at
+      meaning: present participle suffix (śatṛ)
+      grammatical_function: 'forms an active participle: ''waking, being awake'''
+    compound_type: null
+    literal_gloss: waking; the one who is awake
+    philosophical_gloss: Jāgrat is the first of the four pādas ('quarters') of the self in the
+      Māṇḍūkya. Its subject is called vaiśvānara, awareness turned outward, cognising gross
+      objects through the sense-gates. The Māṇḍūkya's move is to treat waking not as the baseline
+      of reality but as one state among four, holding no privilege over dream or deep sleep.
+    doctrinal_significance: Demoting waking from 'the real state' to 'the first quarter' is
+      what makes the Māṇḍūkya's argument work. If waking is merely one condition of awareness,
+      then what is real must be sought in what persists across all four.
+    ambiguity_notes: The Māṇḍūkya itself uses the compound jāgaritasthāna ('having the waking
+      state as its ground') rather than the bare participle jāgrat, which becomes standard only
+      in the later Vedāntic handbooks.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL mandup_u (Māṇḍūkya mūla), MāU 3
+  - id: svapna
+    devanagari: स्वप्न
+    transliteration: svapna
+    chapter: MāU 4, 10; BṛU 4.3.9
+    source_context: 'MāU 4 (as read through MāU 10): svapnasthānas taijasa ukāro dvitīyā mātrā
+      ("Grounded in dream, taijasa is the mora u, the second measure"). BṛU 4.3.9: sandhyaṃ
+      tṛtīyaṃ svapnasthānam ("The third, the place of dream, is the junction").'
+    segmentation: √svap + -na
+    roots:
+    - root: √svap
+      devanagari: √स्वप्
+      meaning: to sleep
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -na
+      meaning: action/result noun suffix
+      grammatical_function: 'forms a masculine noun: ''sleep'' and hence ''dream'''
+    compound_type: null
+    literal_gloss: sleep; and by extension, dreaming
+    philosophical_gloss: Svapna is the second quarter, whose subject is taijasa, 'the luminous
+      one' — awareness turned inward, cognising subtle objects made of impressions. BṛU 4.3.9
+      gives the striking image of dream as a third place between this world and the next, where
+      the person 'takes the world apart and builds it himself, by his own brightness, his own
+      light'. The dreamer is thus a maker of worlds, which is precisely why the state matters
+      philosophically.
+    doctrinal_significance: 'Dream supplies the Upaniṣads with their strongest evidence that
+      awareness is not dependent on external objects: in dream, the same consciousness illuminates
+      a world entirely of its own making.'
+    ambiguity_notes: Svapna means both 'sleep' and 'dream'; the Māṇḍūkya's contrast with suṣupti
+      ('deep sleep') fixes it here in the dream sense, but the bare word in other contexts can
+      mean sleep generally.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL mandup_u (Māṇḍūkya mūla), MāU 10
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 4.3.9
+  - id: susupti
+    devanagari: सुषुप्ति
+    transliteration: suṣupti
+    chapter: MāU 5
+    source_context: 'MāU 5: yatra supto na kañcana kāmaṃ kāmayate na kañcana svapnaṃ paśyati
+      tat suṣuptam | suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hy ānandabhuk cetomukhaḥ
+      prājñas tṛtīyaḥ pādaḥ ("Where one asleep desires no desire and sees no dream, that is
+      deep sleep. Grounded in deep sleep, become one, a very mass of knowing, made of bliss
+      and an eater of bliss, with awareness as its mouth — prājña is the third quarter").'
+    segmentation: su + √svap + -ti
+    roots:
+    - root: √svap
+      devanagari: √स्वप्
+      meaning: to sleep
+      dhatu_number: null
+    prefixes:
+    - prefix: su-
+      meaning: well, thoroughly, soundly
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix (ktin)
+      grammatical_function: 'forms a feminine noun: ''sound sleeping'''
+    compound_type: null
+    literal_gloss: sound sleep; a thorough sleeping
+    philosophical_gloss: 'Suṣupti is the third quarter, whose subject is prājña. The Māṇḍūkya''s
+      description is precise and philosophically loaded: here one desires nothing and sees no
+      dream; awareness becomes ''a single mass of knowing'' (prajñānaghana), blissful, and an
+      eater of bliss. Deep sleep is thus not the absence of consciousness but consciousness
+      without an object — which is exactly why it is not yet the goal.'
+    doctrinal_significance: Deep sleep is the Upaniṣads' closest natural analogue to liberation,
+      and their sharpest problem. It has the unity and the absence of suffering, but no knowing;
+      turīya is introduced precisely because suṣupti is not enough.
+    ambiguity_notes: Whether suṣupti involves any awareness at all is one of the most argued
+      questions in Vedānta. That one reports afterwards 'I slept well' is taken by Advaitins
+      as evidence of a witnessing presence; opponents read it as inference rather than memory.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL mandup_u (Māṇḍūkya mūla), MāU 5
+  - id: turiya
+    devanagari: तुरीय
+    transliteration: turīya
+    chapter: MāU 7
+    source_context: 'MāU 7: nāntaḥprajñaṃ na bahiḥprajñaṃ nobhayataḥprajñaṃ na prajñānaghanaṃ
+      na prajñaṃ nāprajñam | adṛṣṭam avyavahāryam agrāhyam alakṣaṇam acintyam avyapadeśyam ekātmapratyayasāraṃ
+      prapañcopaśamaṃ śāntaṃ śivam advaitaṃ caturthaṃ manyante | sa ātmā sa vijñeyaḥ ("Not aware
+      within, not aware without, not aware both ways, not a mass of awareness, not aware, not
+      unaware; unseen, beyond dealings, ungraspable, without mark, unthinkable, indescribable,
+      whose essence is the certainty of the one self, in which the manifold has come to rest,
+      tranquil, benign, without a second — that they consider the fourth. That is the self;
+      that is to be known").'
+    segmentation: turīya (ordinal of catur, 'four')
+    roots: []
+    prefixes: []
+    suffixes:
+    - suffix: -īya
+      meaning: ordinal suffix
+      grammatical_function: forms the ordinal 'fourth' from an older stem of catur
+    compound_type: null
+    literal_gloss: the fourth
+    philosophical_gloss: 'Turīya is named only by its number, and that reticence is the point:
+      it is not a fourth state alongside the other three but their ground, and the text can
+      say what it is not far more easily than what it is. MāU 7 proceeds entirely by negation
+      — not aware of what is within, not aware of what is without, not a mass of knowing, not
+      knowing, not unknowing — and then turns positive only in the barest terms: tranquil, benign,
+      without a second.'
+    doctrinal_significance: 'Turīya is where Upaniṣadic analysis of consciousness arrives, and
+      it is the term through which this material connects most directly to samādhi. Both name
+      a condition in which the subject-object structure of ordinary awareness no longer holds,
+      though the routes differ: the Māṇḍūkya reaches it by analysing states, Patañjali by stilling
+      fluctuations.'
+    ambiguity_notes: MāU 7 itself says caturtha ('fourth'), not turīya; the form turīya becomes
+      standard through Gauḍapāda's kārikās and later Advaita. Both are ordinals of 'four' and
+      the sense is identical, but the mūla text's word is caturtha.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL mandup_u (Māṇḍūkya mūla), MāU 7
+    - Gauḍapāda, Āgamaśāstra (GRETIL sa_gauDapAda-AgamazAstra) — the form turīya
+  - id: sravana
+    devanagari: श्रवण
+    transliteration: śravaṇa
+    chapter: BṛU 2.4.5, 4.5.6
+    source_context: 'BṛU 2.4.5: ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyo maitreyi
+      | ātmano vā are darśanena śravaṇena matyā vijñānenedaṃ sarvaṃ viditam ("The self, Maitreyī,
+      is what should be seen, heard, reflected upon and meditated upon. By the seeing, hearing,
+      thinking and understanding of the self, all this is known").'
+    segmentation: √śru + -ana
+    roots:
+    - root: √śru
+      devanagari: √श्रु
+      meaning: to hear, listen
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix (lyuṭ)
+      grammatical_function: 'forms a neuter noun: ''the act of hearing'''
+    compound_type: null
+    literal_gloss: hearing; listening
+    philosophical_gloss: 'Śravaṇa is the first of the three movements that BṛU 2.4.5 prescribes
+      for the self: it is to be seen, and to that end heard, reflected upon, and meditated upon.
+      Hearing here is not passive reception but the disciplined study of the teaching from a
+      teacher — the reason the tradition is called śruti, ''what is heard''.'
+    doctrinal_significance: The triad śravaṇa–manana–nididhyāsana became the standard account
+      of the Vedāntic path, and it is notable that it begins with hearing rather than with practice.
+      Knowledge is treated as something transmitted before it can be realised.
+    ambiguity_notes: The sūtra gives the gerundives śrotavya, mantavya, nididhyāsitavya; the
+      abstract nouns śravaṇa, manana and nididhyāsana are the tradition's later regularisation
+      of them. BṛU 2.4.5 does use the instrumental śravaṇena in the following clause.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 2.4.5 and the parallel
+      at 4.5.6
+  - id: manana
+    devanagari: मनन
+    transliteration: manana
+    chapter: BṛU 2.4.5, 4.5.6
+    source_context: 'BṛU 2.4.5: ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyo maitreyi
+      ("The self, Maitreyī, is what should be seen, heard, reflected upon and meditated upon").'
+    segmentation: √man + -ana
+    roots:
+    - root: √man
+      devanagari: √मन्
+      meaning: to think, consider, reflect
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix (lyuṭ)
+      grammatical_function: 'forms a neuter noun: ''the act of thinking'''
+    compound_type: null
+    literal_gloss: thinking; reflecting
+    philosophical_gloss: 'Manana is the reasoning that follows hearing: the student turns the
+      received teaching over, tests it against argument and experience, and removes doubt. It
+      is the step that keeps the Vedāntic path from being mere transmission — the teaching must
+      be thought through, not only received.'
+    doctrinal_significance: That reflection is prescribed between hearing and meditation places
+      argument squarely inside contemplative practice. Doubt is to be resolved by thinking,
+      not suppressed by discipline.
+    ambiguity_notes: BṛU 2.4.5 has the gerundive mantavya and the instrumental matyā; the noun
+      manana is the tradition's standardisation. It shares the root √man with manas ('mind'),
+      a connection the texts exploit.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 2.4.5 and the parallel
+      at 4.5.6
+  - id: nididhyasana
+    devanagari: निदिध्यासन
+    transliteration: nididhyāsana
+    chapter: BṛU 2.4.5, 4.5.6
+    source_context: 'BṛU 2.4.5: ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyo maitreyi
+      ("The self, Maitreyī, is what should be seen, heard, reflected upon and meditated upon").'
+    segmentation: ni + √dhyai (desiderative, reduplicated) + -ana
+    roots:
+    - root: √dhyai
+      devanagari: √ध्यै
+      meaning: to meditate, contemplate
+      dhatu_number: null
+    prefixes:
+    - prefix: ni-
+      meaning: down, into (settling inward)
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix (lyuṭ)
+      grammatical_function: forms a neuter noun from the desiderative stem nididhyāsa-
+    compound_type: null
+    literal_gloss: a sustained wishing-to-meditate-down-upon; profound and repeated contemplation
+    philosophical_gloss: 'Nididhyāsana is built on the same root as dhyāna, but with a reduplicated
+      desiderative stem and the prefix ni-, giving a sense of intense, repeated, inward-settling
+      contemplation. It is the third and culminating step: after the teaching has been heard
+      and thought through, it is dwelt upon until it stops being a proposition one accepts and
+      becomes how one sees.'
+    doctrinal_significance: This is the point of closest contact between the Upaniṣadic path
+      and the meditation vocabulary of the Yoga Sutras. The shared root √dhyai links nididhyāsana
+      to dhyāna, though the Upaniṣadic term carries the desiderative intensification the Yoga
+      term does not.
+    ambiguity_notes: The morphology is unusually dense — a desiderative of a reduplicating root,
+      nominalised — and translators vary between 'profound meditation', 'repeated contemplation'
+      and 'deep and constant meditation'. All are attempts at the same intensifying force.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 2.4.5 and the parallel
+      at 4.5.6
+  - id: sat
+    devanagari: सत्
+    transliteration: sat
+    chapter: ChU 6.2.1
+    source_context: 'ChU 6.2.1: sad eva somyedam agra āsīd ekam evādvitīyam | tad dhaika āhur
+      asad evedam agra āsīd ekam evādvitīyam | tasmād asataḥ saj jāyata ("In the beginning,
+      my dear, this was being alone, one only, without a second. Some say that in the beginning
+      this was non-being alone, one only, without a second, and that from that non-being being
+      was born").'
+    segmentation: √as + -at (present participle)
+    roots:
+    - root: √as
+      devanagari: √अस्
+      meaning: to be, exist
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -at
+      meaning: present participle suffix (śatṛ)
+      grammatical_function: forms the participle 'being'; used substantively as 'what is'
+    compound_type: null
+    literal_gloss: being; that which is
+    philosophical_gloss: 'Sat is the present participle of ''to be'' used as a noun: not ''a
+      being'' but being itself, what is. ChU 6.2.1 makes it the starting point of Uddālaka''s
+      cosmology — in the beginning this was being alone, one only, without a second — and explicitly
+      rejects the alternative that it arose from non-being. The argument that follows is one
+      of the earliest sustained pieces of metaphysical reasoning in the tradition.'
+    doctrinal_significance: Sat later joins cit (awareness) and ānanda (bliss) in the formula
+      saccidānanda, but that compound is a post-Upaniṣadic synthesis. In the Chāndogya, sat
+      stands on its own as the irreducible ground.
+    ambiguity_notes: The later triad saccidānanda is often read back into the Upaniṣads; it
+      does not occur as a compound in the principal texts. Sat also carries a moral sense ('good,
+      true') elsewhere, which should not be imported here.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 6.2.1
+  - id: jiva
+    devanagari: जीव
+    transliteration: jīva
+    chapter: ChU 6.3.2
+    source_context: 'ChU 6.3.2: seyaṃ devataikṣata | hantāham imās tisro devatā anena jīvenātmanānupraviśya
+      nāmarūpe vyākaravāṇīti ("That deity thought: come, let me enter these three deities by
+      means of this living self and differentiate name and form").'
+    segmentation: √jīv + -a
+    roots:
+    - root: √jīv
+      devanagari: √जीव्
+      meaning: to live, be alive
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: agent/action noun suffix
+      grammatical_function: 'forms a masculine noun: ''the living one'''
+    compound_type: null
+    literal_gloss: the living one; that which lives
+    philosophical_gloss: 'Jīva names the self considered as an individual living being — embodied,
+      transmigrating, distinguishable from other jīvas. ChU 6.3.2 introduces it in a striking
+      phrase: the deity resolves to enter the three elements ''by this living self'' (anena
+      jīvenātmanā) and thereby to differentiate name and form. The jīva is thus what makes individuation
+      possible.'
+    doctrinal_significance: 'The relation between jīva and ātman/brahman is the question that
+      divides the Vedānta schools: identity for Advaita, difference-in-non-difference for Bhedābheda,
+      real difference for Dvaita. The Upaniṣadic texts themselves speak both ways, which is
+      why the disagreement is durable.'
+    ambiguity_notes: ChU 6.3.2 has the compound jīvenātmanā, 'by the living self', where jīva
+      qualifies ātman rather than standing opposed to it — a reading that already complicates
+      the later sharp jīva/ātman distinction.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 6.3.2
+  - id: maya
+    devanagari: माया
+    transliteration: māyā
+    chapter: ŚvU 4.10
+    source_context: 'ŚvU 4.10: māyāṃ tu prakṛtiṃ vidyān māyinaṃ tu maheśvaram | tasyāvayavabhūtais
+      tu vyāptaṃ sarvam idaṃ jagat ("Know māyā to be primal nature, and the wielder of māyā
+      to be the great lord. This whole world is pervaded by beings that are parts of him").'
+    segmentation: √mā + -yā
+    roots:
+    - root: √mā
+      devanagari: √मा
+      meaning: to measure, to form, to build
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -yā
+      meaning: feminine action noun suffix
+      grammatical_function: 'forms a feminine noun: ''the measuring-out'' or ''fashioning'''
+    compound_type: null
+    literal_gloss: a measuring-out; a fashioning; creative power
+    philosophical_gloss: 'Māyā comes from √mā, ''to measure'', and its earliest sense is closer
+      to creative or artistic power than to deception. ŚvU 4.10 makes the identification that
+      later Vedānta builds on: one should know māyā as prakṛti, and the wielder of māyā as the
+      great lord. Only later, and above all in Advaita, does the term settle into the sense
+      of illusion — the appearance that conceals the one reality.'
+    doctrinal_significance: Everything turns on whether māyā is read as 'creative power' or
+      as 'illusion'. The Śvetāśvatara passage supports the former; the standard modern rendering
+      assumes the latter, and the difference reshapes the whole system.
+    ambiguity_notes: The Śvetāśvatara is the only principal Upaniṣad where māyā carries clear
+      technical weight, and its theistic framing (māyin as maheśvara) is not typical of the
+      older prose Upaniṣads. Reading Advaitic illusionism into this verse is anachronistic.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL svetu_pu (Śvetāśvatara mūla), ŚvU 4.10
+  - id: prajnana
+    devanagari: प्रज्ञान
+    transliteration: prajñāna
+    chapter: AiU 3.3
+    source_context: 'AiU 3.3: sarvaṃ tat prajñānetram | prajñāne pratiṣṭhitam | prajñānetro
+      lokaḥ | prajñā pratiṣṭhā | prajñānaṃ brahma ("All that is guided by consciousness, founded
+      on consciousness. The world is guided by consciousness; consciousness is the foundation.
+      Consciousness is brahman").'
+    segmentation: pra + √jñā + -ana
+    roots:
+    - root: √jñā
+      devanagari: √ज्ञा
+      meaning: to know
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth, forward (intensifying: knowing that goes forth)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix (lyuṭ)
+      grammatical_function: 'forms a neuter noun: ''the act of knowing forth'''
+    compound_type: null
+    literal_gloss: knowing-forth; consciousness as such
+    philosophical_gloss: 'Prajñāna is the term through which the Aitareya makes its great identification:
+      prajñānaṃ brahma, consciousness is brahman. The surrounding passage is remarkable for
+      its scope — gods, elements, animals, everything that moves or stands still, ''all that
+      is guided by consciousness, founded on consciousness''. Awareness is presented not as
+      a property of beings but as what the world rests on.'
+    doctrinal_significance: Along with ayam ātmā brahma (MāU 2) and tat tvam asi (ChU 6), prajñānaṃ
+      brahma is one of the mahāvākyas, the 'great sayings' that later Vedānta treats as the
+      compressed statement of the whole teaching.
+    ambiguity_notes: Prajñāna, prajñā and jñāna are closely related and often rendered alike
+      as 'knowledge' or 'wisdom'. Prajñā is the form that carries into Buddhist usage; prajñāna
+      is the Aitareya's own word here.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL aitup__u (Aitareya mūla), AiU 3.3
+  - id: vidya
+    devanagari: विद्या
+    transliteration: vidyā
+    chapter: ĪśU 11
+    source_context: 'ĪśU 11: vidyāṃ cāvidyāṃ ca yas tad vedobhayaṃ saha | avidyayā mṛtyuṃ tīrtvā
+      vidyayāmṛtam aśnute ("One who knows both knowledge and ignorance together crosses death
+      by ignorance and reaches the deathless by knowledge").'
+    segmentation: √vid + -yā
+    roots:
+    - root: √vid
+      devanagari: √विद्
+      meaning: to know, to find
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -yā
+      meaning: feminine action noun suffix
+      grammatical_function: 'forms a feminine noun: ''knowing, knowledge'''
+    compound_type: null
+    literal_gloss: knowing; knowledge
+    philosophical_gloss: 'Vidyā is the positive counterpart of avidyā, and the Īśa Upaniṣad
+      makes an unexpected claim about the pair: the one who knows both vidyā and avidyā together
+      crosses death by avidyā and reaches the deathless by vidyā. The verse refuses the obvious
+      move of simply discarding ignorance. Commentators generally read avidyā here as ritual
+      action and vidyā as meditative knowledge, both being necessary.'
+    doctrinal_significance: This is one of the few places where the Upaniṣads explicitly refuse
+      to treat knowledge and ignorance as a simple opposition, and it complicates any reading
+      of the tradition as world-denying.
+    ambiguity_notes: What vidyā and avidyā mean in ĪśU 11 is genuinely contested. Śaṅkara reads
+      avidyā as ritual works and vidyā as meditation on deities; others read the pair more literally
+      as knowledge and ignorance, which makes the verse harder to construe.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL isup___u (Īśa mūla), ĪśU 11
+  - id: neti_neti
+    devanagari: नेति नेति
+    transliteration: neti neti
+    chapter: BṛU 3.9.26, 4.5.15
+    source_context: 'BṛU 3.9.26: sa eṣa neti nety ātmā | agṛhyo na hi gṛhyate | aśīryo na hi
+      śīryate | asaṅgo na sajyate | asito na vyathate | na riṣyati ("This self is not this,
+      not this. It is ungraspable, for it is not grasped; undecaying, for it does not decay;
+      unattached, for it does not attach; unbound, it does not tremble, it is not harmed").'
+    segmentation: na + iti + na + iti (phrase, not a compound)
+    roots: []
+    prefixes: []
+    suffixes: []
+    compound_type: phrase — na ('not') + iti (quotative particle), doubled
+    literal_gloss: '''not thus, not thus'''
+    philosophical_gloss: 'Neti neti is not a word but a formula, and the Upaniṣads'' sharpest
+      methodological statement. Having enumerated what the self might be identified with, Yājñavalkya
+      refuses every candidate: ''this self is not this, not this''. What follows in BṛU 3.9.26
+      is a chain of negations — ungraspable, for it is not grasped; undecaying, for it does
+      not decay; unattached, for it does not attach itself. The self is reached by subtraction.'
+    doctrinal_significance: 'This is the origin of apophatic method in Indian philosophy and
+      the direct ancestor of Advaita''s procedure of negating all superimpositions. It also
+      marks a limit: what is doing the negating cannot itself be negated.'
+    ambiguity_notes: The phrase is sometimes read as denying that the self exists; the texts
+      intend the opposite — it denies every identification, precisely in order to isolate what
+      cannot be denied. Note also that iti is a quotative particle, so the phrase is literally
+      'not-so, not-so' as reported speech.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 3.9.26 and the parallel
+      at 4.5.15
+  - id: saksin
+    devanagari: साक्षिन्
+    transliteration: sākṣin
+    chapter: ŚvU 6.11
+    source_context: 'ŚvU 6.11: eko devaḥ sarvabhūteṣu gūḍhaḥ sarvavyāpī sarvabhūtāntarātmā |
+      karmādhyakṣaḥ sarvabhūtādhivāsaḥ sākṣī cetā kevalo nirguṇaś ca ("One god, hidden in all
+      beings, all-pervading, the inner self of all beings, overseer of action, dwelling in all
+      beings, the witness, the knower, alone and without qualities").'
+    segmentation: sa + akṣi + -in
+    roots: []
+    prefixes:
+    - prefix: sa-
+      meaning: with, together with
+    suffixes:
+    - suffix: -in
+      meaning: possessive suffix
+      grammatical_function: 'forms a masculine noun from sa-akṣi: ''the one who is with the
+        eye'', i.e. an eyewitness'
+    compound_type: null
+    literal_gloss: one who is present with the eye; an eyewitness
+    philosophical_gloss: 'Sākṣin is built from sa (''with'') and akṣi (''eye''): the one who
+      was there and saw. ŚvU 6.11 places it in a chain of epithets for the one god hidden in
+      all beings — overseer of actions, dwelling in all beings, the witness, the knower, alone
+      and without qualities. The witness watches but does not participate, which is what makes
+      it the term of choice for consciousness considered apart from its contents.'
+    doctrinal_significance: Sākṣin becomes the central technical term of later Advaita for the
+      unaffected witnessing awareness, and it is the closest Upaniṣadic parallel to the Yoga
+      Sutras' draṣṭṛ, the 'seer' of YS 1.3 — both name awareness by the fact that it sees rather
+      than by anything it does.
+    ambiguity_notes: In ŚvU 6.11 sākṣin is an epithet of a personal deity, not yet the abstract
+      witness-consciousness of later Advaita. The technical development is post-Upaniṣadic.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL svetu_pu (Śvetāśvatara mūla), ŚvU 6.11
+  - id: samsara
+    devanagari: संसार
+    transliteration: saṃsāra
+    chapter: KaU 3.7; ŚvU 6.16
+    source_context: 'KaU 3.7: yas tv avijñānavān bhavaty amanaskaḥ sadāśuciḥ | na sa tat padam
+      āpnoti saṃsāraṃ cādhigacchati ("But one who is without understanding, unmindful and ever
+      impure does not reach that state, and comes instead to the round of rebirth").'
+    segmentation: sam + √sṛ + -a
+    roots:
+    - root: √sṛ
+      devanagari: √सृ
+      meaning: to flow, run, move
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: 'together, completely (here: round and round)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix (ghañ)
+      grammatical_function: 'forms a masculine noun: ''a running-around'''
+    compound_type: null
+    literal_gloss: a running-around; a continuous flowing-through
+    philosophical_gloss: 'Saṃsāra is literally a running-around: sam- (completely, round) with
+      √sṛ (to flow or run). It names the repeated passage through birth and death that the Upaniṣads
+      treat as the condition to be escaped. KaU 3.7 states the price of failure plainly — one
+      who is without understanding, unmindful and impure does not reach the goal but comes to
+      saṃsāra.'
+    doctrinal_significance: 'Saṃsāra and mokṣa form the frame within which nearly all later
+      Indian soteriology operates, and the Kaṭha passage shows the frame already assembled:
+      a goal, a disqualifying condition, and a default outcome for those who fall short.'
+    ambiguity_notes: The noun saṃsāra is comparatively rare in the older prose Upaniṣads; the
+      doctrine of rebirth is present earlier (BṛU 6.2, ChU 5.10) but expressed without this
+      term. Its currency belongs to the later verse Upaniṣads and after.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL kathop_u (Kaṭha mūla), KaU 3.7
+    - GRETIL svetu_pu (Śvetāśvatara mūla), ŚvU 6.16
+  - id: amrta
+    devanagari: अमृत
+    transliteration: amṛta
+    chapter: BṛU 1.3.28; ĪśU 11
+    source_context: 'BṛU 1.3.28: asato mā sad gamaya, tamaso mā jyotir gamaya, mṛtyor mā amṛtaṃ
+      gamaya ("From the unreal lead me to the real, from darkness lead me to light, from death
+      lead me to the deathless").'
+    segmentation: a- + √mṛ + -ta
+    roots:
+    - root: √mṛ
+      devanagari: √मृ
+      meaning: to die
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not, un- (negating prefix)
+    suffixes:
+    - suffix: -ta
+      meaning: past participle suffix (kta)
+      grammatical_function: 'forms a participle used as noun/adjective: ''not dead, deathless'''
+    compound_type: null
+    literal_gloss: the undying; deathlessness
+    philosophical_gloss: 'Amṛta is the negation of the past participle of √mṛ, ''to die'': what
+      has not died and will not. It names both the condition sought and, in older Vedic usage,
+      the draught that confers it. BṛU 1.3.28 preserves one of the most quoted lines in the
+      corpus, a prayer to be led from the unreal to the real, from darkness to light, from death
+      to the deathless — and then, characteristically, glosses each clause.'
+    doctrinal_significance: Amṛta is the positive term for what mokṣa names negatively. That
+      the Upaniṣads gloss 'lead me from death to the deathless' as 'make me immortal' rather
+      than 'let me not die' indicates that a change of state, not mere continuation, is meant.
+    ambiguity_notes: Amṛta has a concrete Vedic sense (the drink of the gods, later amṛta/soma)
+      alongside the abstract one. In the Upaniṣads the abstract sense dominates, but the older
+      resonance is never entirely absent.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 1.3.28
+    - GRETIL isup___u (Īśa mūla), ĪśU 11
+  - id: mrtyu
+    devanagari: मृत्यु
+    transliteration: mṛtyu
+    chapter: BṛU 1.3.28; ChU 8.12.1
+    source_context: 'ChU 8.12.1: maghavan martyaṃ vā idaṃ śarīram āttaṃ mṛtyunā | tad asyāmṛtasyāśarīrasyātmano
+      ''dhiṣṭhānam ("Maghavan, this body is mortal, seized by death. Yet it is the seat of that
+      deathless, bodiless self").'
+    segmentation: √mṛ + -tyu
+    roots:
+    - root: √mṛ
+      devanagari: √मृ
+      meaning: to die
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -tyu
+      meaning: primary noun suffix
+      grammatical_function: 'forms a masculine noun: ''death'', also personified as Death'
+    compound_type: null
+    literal_gloss: death
+    philosophical_gloss: 'Mṛtyu is death, and in the Upaniṣads it is frequently a character
+      rather than an abstraction: in the Kaṭha, Death himself is Naciketas''s teacher, which
+      frames the entire text as instruction received from mortality. ChU 8.12.1 gives the analytic
+      counterpart — this body is mortal, seized by death, but it is the seat of the deathless,
+      bodiless self.'
+    doctrinal_significance: The Upaniṣads consistently locate the deathless by contrast with
+      the body rather than by denying death. The teaching is not that one does not die but that
+      what dies was never the self.
+    ambiguity_notes: Mṛtyu is personified to varying degrees across the corpus — a cosmic principle
+      in BṛU 1.2, a named interlocutor (Yama/Mṛtyu) in the Kaṭha, a plain noun elsewhere. Translations
+      that flatten this lose the Kaṭha's dramatic structure.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 8.12.1
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 1.3.28
+  - id: loka
+    devanagari: लोक
+    transliteration: loka
+    chapter: ĪśU 3; ChU 8.7.1
+    source_context: 'ĪśU 3: asuryā nāma te lokā andhena tamasāvṛtāḥ | tāṃs te pretyābhigacchanti
+      ye ke cātmahano janāḥ ("Sunless are those worlds, wrapped in blind darkness. To them,
+      after death, go those people who are slayers of the self").'
+    segmentation: loka (lexical noun; cognate with Latin lūcus, 'clearing')
+    roots: []
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: an open space; a world
+    philosophical_gloss: 'Loka begins as ''open space'' or ''clearing'' — it is cognate with
+      Latin lūcus — and comes to mean a world or sphere of existence. In the Upaniṣads it is
+      above all what one wins or fails to win: ĪśU 3 assigns the ''sunless worlds, wrapped in
+      blind darkness'' to those who slay the self, while ChU 8.7.1 promises that whoever knows
+      the self ''obtains all worlds and all desires''.'
+    doctrinal_significance: The plural lokāḥ carries the whole eschatological machinery of the
+      tradition. That the same word denotes both a cosmological region and an attained condition
+      is what allows the Upaniṣads to reinterpret ritual promises of heavenly worlds as states
+      of knowledge.
+    ambiguity_notes: Loka slides between a spatial sense (a region of the cosmos), a social
+      sense (the world of people), and an attained sense (a condition won by knowledge or action).
+      Context alone distinguishes them.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL isup___u (Īśa mūla), ĪśU 3
+    - GRETIL chup___u (Chāndogya mūla), ChU 8.7.1
+  - id: prana
+    devanagari: प्राण
+    transliteration: prāṇa
+    chapter: BṛU 6.1.1, 1.5.3; ChU 3.15.3
+    source_context: 'BṛU 6.1.1: yo ha vai jyeṣṭhaṃ ca śreṣṭhaṃ ca veda jyeṣṭhaś ca śreṣṭhaś
+      ca svānāṃ bhavati | prāṇo vai jyeṣṭhaś ca śreṣṭhaś ca ("One who knows the eldest and best
+      becomes the eldest and best among his own. Breath, truly, is the eldest and the best").'
+    segmentation: pra + √an + -a
+    roots:
+    - root: √an
+      devanagari: √अन्
+      meaning: to breathe
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: forth, forward
+    suffixes:
+    - suffix: -a
+      meaning: action/agent noun suffix
+      grammatical_function: 'forms a masculine noun: ''the breathing-forth'''
+    compound_type: null
+    literal_gloss: breathing-forth; breath; vital air
+    philosophical_gloss: 'Prāṇa is breath understood as the living principle. BṛU 6.1 stages
+      a contest among the faculties — speech, sight, hearing, mind — each departing in turn
+      to prove its indispensability; the body survives each loss until breath prepares to leave,
+      at which point all the others give way. The conclusion is stated at the outset: prāṇa
+      is the eldest and best. BṛU 1.5.3 gives the fivefold analysis into prāṇa, apāna, vyāna,
+      udāna and samāna.'
+    doctrinal_significance: 'Prāṇa is where the Upaniṣads locate the unity of the living person,
+      and it becomes the bridge to the later yogic disciplines of prāṇāyāma. It is also the
+      term that keeps their psychology embodied: the self is approached through breath, not
+      apart from it.'
+    ambiguity_notes: Prāṇa names both the generic life-breath and, within the fivefold scheme,
+      one specific breath among five. BṛU 1.5.3 uses it in both senses within a single passage.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 6.1.1 and 1.5.3
+  - id: kosa
+    devanagari: कोश
+    transliteration: kośa
+    chapter: ChU 3.15.3
+    source_context: 'ChU 3.15.3: ariṣṭaṃ kośaṃ prapadye ''munāmunāmunā ("I take refuge in the
+      unfailing sheath, by this one, by this one, by this one").'
+    segmentation: kośa (lexical noun)
+    roots: []
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: a container; sheath; treasury
+    philosophical_gloss: 'Kośa is an ordinary word for a container, sheath or treasury, which
+      the tradition takes up as a model of the person: the self wrapped in successive coverings.
+      ChU 3.15.3 uses it in a protective invocation, ''I take refuge in the unfailing sheath''.
+      The systematic five-sheath scheme — made of food, breath, mind, understanding and bliss
+      — belongs to the Taittirīya Upaniṣad rather than to this passage.'
+    doctrinal_significance: 'The sheath model gives Vedānta its standard method of analysis
+      by successive removal: each layer is examined and set aside as not-self, which is the
+      constructive counterpart of neti neti.'
+    ambiguity_notes: The famous pañcakośa scheme is Taittirīya (TaU 2.1-2.5), which is not among
+      the mūla texts available in the corpus used here; the passage cited is the Chāndogya's
+      non-technical use of the word. The five-sheath doctrine is therefore reported, not source-verified,
+      in this entry.
+    confidence: medium
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 3.15.3
+    - Taittirīya Upaniṣad 2.1-2.5 for the pañcakośa scheme — not verified here; the Taittirīya
+      mūla is not in the corpus consulted
+  - id: buddhi
+    devanagari: बुद्धि
+    transliteration: buddhi
+    chapter: KaU 3.3, 3.9
+    source_context: 'KaU 3.3: ātmānaṃ rathinaṃ viddhi śarīraṃ ratham eva tu | buddhiṃ tu sārathiṃ
+      viddhi manaḥ pragraham eva ca ("Know the self as the rider in the chariot, and the body
+      as the chariot; know the intellect as the charioteer, and the mind as the reins").'
+    segmentation: √budh + -ti
+    roots:
+    - root: √budh
+      devanagari: √बुध्
+      meaning: to wake, to be aware, to understand
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix (ktin)
+      grammatical_function: 'forms a feminine noun: ''awakening, understanding''; ti > dhi by
+        sandhi with the root-final'
+    compound_type: null
+    literal_gloss: waking-up; understanding; the faculty that discerns
+    philosophical_gloss: 'Buddhi is the faculty of understanding and decision, and the Kaṭha
+      gives it its most memorable placement in the chariot simile: know the self as the rider,
+      the body as the chariot, the intellect as the charioteer, and the mind as the reins. The
+      intellect drives; the mind merely transmits. The ordering matters — buddhi is above manas
+      and answerable to the self.'
+    doctrinal_significance: 'The chariot simile fixes the hierarchy that Sāṃkhya and Yoga later
+      formalise: self, intellect, mind, senses, objects. It is the clearest Upaniṣadic anticipation
+      of the psychology the Yoga Sutras assume.'
+    ambiguity_notes: Buddhi in the Kaṭha is a faculty within the person; in classical Sāṃkhya
+      it becomes the first evolute of prakṛti, a cosmological principle. The same word carries
+      quite different weight in the two systems.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL kathop_u (Kaṭha mūla), KaU 3.3 and 3.9
+  - id: manas
+    devanagari: मनस्
+    transliteration: manas
+    chapter: KaU 3.3; BṛU 1.5.3
+    source_context: 'BṛU 1.5.3: anyatramanā abhūvaṃ nādarśam anyatramanā abhūvaṃ nāśrauṣam iti
+      manasā hy eva paśyati manasā śṛṇoti | kāmaḥ saṃkalpo vicikitsā śraddhāśraddhā dhṛtir adhṛtir
+      hrīr dhīr bhīr ity etat sarvaṃ mana eva ("''My mind was elsewhere, I did not see; my mind
+      was elsewhere, I did not hear'' — for it is by the mind that one sees, by the mind that
+      one hears. Desire, resolve, doubt, faith and lack of faith, steadfastness and unsteadiness,
+      shame, reflection, fear — all this is just mind").'
+    segmentation: √man + -as
+    roots:
+    - root: √man
+      devanagari: √मन्
+      meaning: to think
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -as
+      meaning: primary neuter noun suffix
+      grammatical_function: 'forms a neuter noun: ''the thinking [faculty]'''
+    compound_type: null
+    literal_gloss: the thinking; mind
+    philosophical_gloss: 'Manas is the mind considered as the coordinating faculty between the
+      senses and the intellect — in the chariot simile, the reins. BṛU 1.5.3 gives a fuller
+      inventory of what falls under it: desire, resolve, doubt, faith and its absence, steadfastness
+      and its absence, shame, reflection, fear — ''all this is just mind''. It also notes the
+      evidence for mind''s priority: distracted, one does not see or hear what is before one.'
+    doctrinal_significance: 'The Upaniṣadic manas is narrower than the English ''mind'': it
+      is a sense-coordinating instrument, subordinate to buddhi and distinct from the self.
+      The Yoga Sutras'' citta covers overlapping ground with a different architecture.'
+    ambiguity_notes: Manas, citta, buddhi and antaḥkaraṇa are distinguished differently by different
+      schools, and the principal Upaniṣads do not use them with fixed technical values. The
+      precise divisions belong to Sāṃkhya and later Vedānta.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 1.5.3
+    - GRETIL kathop_u (Kaṭha mūla), KaU 3.3
+  - id: indriya
+    devanagari: इन्द्रिय
+    transliteration: indriya
+    chapter: KaU 3.4
+    source_context: 'KaU 3.4: indriyāṇi hayān āhur viṣayāṃs teṣu gocarān | ātmendriyamanoyuktaṃ
+      bhoktety āhur manīṣiṇaḥ ("The senses, they say, are the horses, and sense-objects the
+      paths they range. The self joined to senses and mind, the wise call the experiencer").'
+    segmentation: indra + -iya
+    roots: []
+    prefixes: []
+    suffixes:
+    - suffix: -iya
+      meaning: possessive/relational suffix
+      grammatical_function: 'forms a neuter noun from indra: ''belonging to Indra'', hence ''power,
+        faculty'''
+    compound_type: null
+    literal_gloss: that which belongs to Indra; a power; a sense-faculty
+    philosophical_gloss: 'Indriya is derived from the name of the god Indra and means, literally,
+      what belongs to or partakes of Indra — hence power, and by specialisation the sense-faculties
+      as powers of the person. The Kaṭha''s chariot simile assigns them their place: the senses
+      are the horses, and sense-objects the paths on which they run. Horses are neither the
+      driver nor the passenger; they supply motion and must be governed.'
+    doctrinal_significance: Making the senses horses rather than enemies is characteristic.
+      They are not to be destroyed but held — the same logic that underlies pratyāhāra in the
+      Yoga Sutras, where the senses are withdrawn rather than suppressed.
+    ambiguity_notes: 'The number and classification of indriyas varies: five senses of knowledge,
+      five of action, with manas sometimes counted as an eleventh. The Kaṭha does not enumerate
+      them.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL kathop_u (Kaṭha mūla), KaU 3.4
+  - id: vac
+    devanagari: वाच्
+    transliteration: vāc
+    chapter: BṛU 4.1.2, 1.5.3
+    source_context: 'BṛU 4.1.2: abravīn me jitvā śailiniḥ — vāg vai brahmeti ... vāg evāyatanam
+      ākāśaḥ pratiṣṭhā prajñety enad upāsīta ("Jitvan Śailini told me: speech indeed is brahman
+      ... Speech is its seat, space its support; one should meditate on it as awareness").'
+    segmentation: √vac + -kvip
+    roots:
+    - root: √vac
+      devanagari: √वच्
+      meaning: to speak
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -kvip
+      meaning: zero-suffix
+      grammatical_function: 'forms a feminine root-noun: ''speech''; also personified as the
+        goddess Vāc'
+    compound_type: null
+    literal_gloss: speech; the voice
+    philosophical_gloss: 'Vāc is speech regarded as a power in its own right, and in the Vedic
+      background a goddess. BṛU 4.1.2 records the teaching ''speech is brahman'' and then, characteristically,
+      refuses to leave it there: Yājñavalkya accepts the identification but presses for its
+      seat and support, showing that such equations are provisional footholds rather than final
+      answers. The passage also notes what speech makes possible — by speech a friend is known,
+      the Vedas are known, this world and the next.'
+    doctrinal_significance: The Upaniṣads repeatedly propose an identification (speech is brahman,
+      mind is brahman, breath is brahman) and then supersede it. Vāc is the first in that sequence
+      and shows the method at work.
+    ambiguity_notes: Vāc is both a common noun ('speech') and a goddess in Vedic literature;
+      BṛU 4.1.2 uses it in the former sense while trading on the latter's resonance. The root-noun
+      declension (vāc, vācaḥ) is irregular for learners.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 4.1.2 and 1.5.3
+  - id: acarya
+    devanagari: आचार्य
+    transliteration: ācārya
+    chapter: ChU 6.14.2
+    source_context: 'ChU 6.14.2: sa grāmād grāmaṃ pṛcchan paṇḍito medhāvī gandhārān evopasaṃpadyeta
+      | evam evehācāryavān puruṣo veda ("Asking his way from village to village, learned and
+      discerning, he would reach Gandhāra. Just so, a person who has a teacher knows").'
+    segmentation: ā + √car + -ya
+    roots:
+    - root: √car
+      devanagari: √चर्
+      meaning: to move, to walk, to practise
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: toward, near
+    suffixes:
+    - suffix: -ya
+      meaning: gerundive/agent suffix
+      grammatical_function: 'forms a masculine noun: ''one who is to be approached'', or ''one
+        who makes [the student] practise'''
+    compound_type: null
+    literal_gloss: one to be approached and followed; one who causes practice
+    philosophical_gloss: 'The ācārya is the teacher in the formal sense — the one from whom
+      the tradition is received and under whose direction it is practised. ChU 6.14.2 gives
+      the reason a teacher is structurally necessary, in the parable of the man from Gandhāra
+      led blindfolded into the wilderness: he can find his way home only if someone removes
+      the blindfold and points the direction. ''Just so, a person who has a teacher knows.'''
+    doctrinal_significance: The parable makes the teacher an epistemic condition rather than
+      an optional aid. Given that the self is not available to ordinary observation, the tradition
+      holds that it must be pointed out.
+    ambiguity_notes: 'Ācārya and guru are near-synonyms in later usage but not identical: ācārya
+      emphasises formal instruction and conduct, guru weight or gravity. The principal Upaniṣads
+      available here use ācārya; see also the entry for guru.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 6.14.2
+  - id: prajapati
+    devanagari: प्रजापति
+    transliteration: prajāpati
+    chapter: ChU 8.7.1; BṛU 5.2.1
+    source_context: 'ChU 8.7.1: ya ātmā apahatapāpmā vijaro vimṛtyur viśoko vijighatso ''pipāsaḥ
+      satyakāmaḥ satyasaṃkalpaḥ so ''nveṣṭavyaḥ sa vijijñāsitavyaḥ ... iti ha prajāpatir uvāca
+      ("The self that is free from evil, free from old age and death, free from sorrow, hunger
+      and thirst, whose desire is the real and whose intention is the real — that should be
+      sought out, that should be sought to be known ... so said Prajāpati").'
+    segmentation: prajā + pati (tatpuruṣa compound)
+    roots:
+    - root: √jan
+      devanagari: √जन्
+      meaning: to be born, to generate (in prajā, 'offspring')
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth (in prajā: ''that which is brought forth'')'
+    suffixes: []
+    compound_type: tatpuruṣa — 'lord of offspring'
+    literal_gloss: lord of creatures; lord of offspring
+    philosophical_gloss: 'Prajāpati is ''lord of creatures'', the Vedic creator figure, and
+      in the Upaniṣads he appears above all as a teacher. ChU 8.7-8.12 is his most important
+      appearance: he announces the self that is free from evil, ageless, deathless, sorrowless,
+      and both gods and demons come to learn. BṛU 5.2.1 gives the other famous scene, in which
+      gods, humans and demons each hear the same syllable da and each correctly understand it
+      differently.'
+    doctrinal_significance: 'Prajāpati''s teaching is delivered in stages, and the stages matter:
+      he lets Virocana leave satisfied with a wrong answer while Indra returns four times. The
+      narrative is the Upaniṣads'' own account of why teaching must be graded to the hearer.'
+    ambiguity_notes: Prajāpati's identity shifts across the corpus — creator, year, ritual archetype,
+      teacher. The Upaniṣadic Prajāpati is not straightforwardly the same figure as the Vedic
+      one, and later tradition partly absorbs him into Brahmā.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 8.7.1
+    - GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 5.2.1
+  - id: indra
+    devanagari: इन्द्र
+    transliteration: indra
+    chapter: ChU 8.7.2, 8.12.1
+    source_context: 'ChU 8.7.2: indro haiva devānām abhipravavrāja virocano ''surāṇām | tau
+      hāsaṃvidānāv eva samitpāṇī prajāpatisakāśam ājagmatuḥ ("Indra from among the gods and
+      Virocana from among the demons set out. Without consulting each other, both came into
+      Prajāpati''s presence with kindling in hand").'
+    segmentation: indra (lexical proper noun; etymology disputed)
+    roots: []
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: Indra (the name; no secure derivation)
+    philosophical_gloss: 'Indra is the foremost Vedic god, but the Chāndogya casts him in an
+      unfamiliar role: the student who is not satisfied. Sent by the gods to learn the self
+      from Prajāpati, he receives the answer that the self is the reflection in water — and,
+      unlike Virocana, sees on the way home that it cannot be right. He returns three further
+      times, and only in the fourth teaching (ChU 8.12) is he told of the bodiless self that
+      pleasure and pain do not touch.'
+    doctrinal_significance: Indra's persistence is the point of the narrative. The text makes
+      philosophical dissatisfaction — noticing that an answer will not hold — the engine of
+      understanding, and rewards it over the immediate confidence that satisfies Virocana.
+    ambiguity_notes: Indra is addressed as Maghavan ('the bountiful') in the later stages of
+      the dialogue, which can obscure that the same figure is being taught. The name's etymology
+      is not securely established.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 8.7.2 and 8.12.1
+  - id: virocana
+    devanagari: विरोचन
+    transliteration: virocana
+    chapter: ChU 8.7.2, 8.8.4
+    source_context: 'ChU 8.7.2: indro haiva devānām abhipravavrāja virocano ''surāṇām ("Indra
+      from among the gods and Virocana from among the demons set out").'
+    segmentation: vi + √ruc + -ana
+    roots:
+    - root: √ruc
+      devanagari: √रुच्
+      meaning: to shine, to please
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: apart, distinctly (intensifying)
+    suffixes:
+    - suffix: -ana
+      meaning: agent/action noun suffix
+      grammatical_function: 'forms a masculine noun: ''the shining one'''
+    compound_type: null
+    literal_gloss: the one who shines forth
+    philosophical_gloss: Virocana is the demons' representative in the Chāndogya's teaching
+      narrative, and his function is to be the counter-example. Given the same provisional answer
+      as Indra — that the self is the reflection seen in water — he accepts it, departs satisfied,
+      and teaches the demons that the body is the self, to be adorned and served. Indra alone
+      notices the answer's inadequacy and returns.
+    doctrinal_significance: 'The pairing is deliberate: the same words produce understanding
+      in one hearer and error in another. The Upaniṣads use it to argue that teaching cannot
+      be evaluated apart from the hearer''s readiness to be dissatisfied.'
+    ambiguity_notes: Virocana's error is described as the doctrine that the body is the self
+      — a position the text attributes to the asuras. Whether this is a genuine philosophical
+      school being criticised or a narrative device is not settled.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya mūla), ChU 8.7.2; the outcome at ChU 8.8
+  - id: asrama
+    devanagari: आश्रम
+    transliteration: āśrama
+    chapter: ŚvU 6.21
+    source_context: 'ŚvU 6.21: tapaḥprabhāvād devaprasādāt brahma ha śvetāśvataro ''tha vidvān
+      | atyāśramibhyaḥ paramaṃ pavitraṃ provāca samyag ṛṣisaṅghajuṣṭam ("Through the power of
+      austerity and the grace of the god, Śvetāśvatara, having come to know brahman, proclaimed
+      to those beyond the stages of life that supreme purifier, well approved by the company
+      of seers").'
+    segmentation: ā + √śram + -a
+    roots:
+    - root: √śram
+      devanagari: √श्रम्
+      meaning: to exert oneself, to labour, to become weary
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: toward, thoroughly
+    suffixes:
+    - suffix: -a
+      meaning: action/place noun suffix (ghañ)
+      grammatical_function: 'forms a masculine noun: ''a place of exertion'', hence hermitage
+        and stage of life'
+    compound_type: null
+    literal_gloss: a place of exertion; a hermitage; a stage of disciplined life
+    philosophical_gloss: 'Āśrama is built on √śram, ''to exert oneself'', and names a place
+      or condition of disciplined effort — first a hermitage, later each of the four stages
+      of life (student, householder, forest-dweller, renouncer). The fully articulated four-stage
+      scheme, however, belongs to the Dharmasūtra literature rather than to the principal Upaniṣads.
+      In the corpus consulted here the word occurs essentially once, and negatively: ŚvU 6.21
+      says the teaching was given to those ''beyond the āśramas''.'
+    doctrinal_significance: That the one clear occurrence points past the stages rather than
+      at them is itself instructive. The Upaniṣadic teaching is presented as addressed to those
+      who have gone beyond the ordinary structure of life, not as a stage within it.
+    ambiguity_notes: This entry is honest about a thin attestation. The four-āśrama system is
+      standard in Dharmaśāstra and in the later saṃnyāsa Upaniṣads, but the word is close to
+      absent from the principal Upaniṣads in the corpus checked, appearing there only in the
+      compound atyāśramin. The full scheme is reported here, not source-verified.
+    confidence: medium
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL svetu_pu (Śvetāśvatara mūla), ŚvU 6.21 — the compound atyāśramin
+    - Searched across the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and
+      Śvetāśvatara mūla texts; no other clear occurrence found

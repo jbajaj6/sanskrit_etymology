@@ -21,8 +21,19 @@
     { id: "advanced_compound", label: "Compounds" },
   ];
 
+  const SOURCES = [
+    { id: "all", label: "All sources" },
+    { id: "yoga_sutras", label: "Yoga Sutras" },
+    { id: "upanisads", label: "Upaniṣads" },
+  ];
+  const SOURCE_LABELS = {
+    yoga_sutras: "Yoga Sutras",
+    upanisads: "Upaniṣads",
+  };
+
   let activeIndex = -1;
   let activeTheme = "all";
+  let activeSource = "all";
   let verifiedOnly = false;
 
   if (!terms.length) {
@@ -97,6 +108,14 @@
     const filter = event.target.closest(".filter-btn");
     if (filter) {
       activeTheme = filter.dataset.theme;
+      renderFilters();
+      renderGrid();
+      return;
+    }
+
+    const source = event.target.closest(".source-btn");
+    if (source) {
+      activeSource = source.dataset.source;
       renderFilters();
       renderGrid();
       return;
@@ -267,19 +286,41 @@
 
   function renderFilters() {
     const counts = {};
-    terms.forEach((term) => {
-      const key = term.thematic_bucket || "unsorted";
-      counts[key] = (counts[key] || 0) + 1;
-    });
+    terms
+      .filter((term) => inActiveSource(term))
+      .forEach((term) => {
+        const key = term.thematic_bucket || "unsorted";
+        counts[key] = (counts[key] || 0) + 1;
+      });
 
     const buttons = THEMES.filter(
       (theme) => theme.id === "all" || counts[theme.id]
     )
       .map((theme) => {
-        const count = theme.id === "all" ? terms.length : counts[theme.id];
+        const count =
+          theme.id === "all"
+            ? terms.filter((term) => inActiveSource(term)).length
+            : counts[theme.id];
         const active = theme.id === activeTheme ? " active" : "";
         return `<button class="filter-btn${active}" data-theme="${theme.id}">
           ${esc(theme.label)} <span class="filter-count">${count}</span>
+        </button>`;
+      })
+      .join("");
+
+    const sourceCounts = {};
+    terms.forEach((term) => {
+      const key = term.source_text || "yoga_sutras";
+      sourceCounts[key] = (sourceCounts[key] || 0) + 1;
+    });
+    const sourceButtons = SOURCES.filter(
+      (source) => source.id === "all" || sourceCounts[source.id]
+    )
+      .map((source) => {
+        const count = source.id === "all" ? terms.length : sourceCounts[source.id];
+        const active = source.id === activeSource ? " active" : "";
+        return `<button class="source-btn${active}" data-source="${source.id}">
+          ${esc(source.label)} <span class="filter-count">${count}</span>
         </button>`;
       })
       .join("");
@@ -290,12 +331,20 @@
       Source-verified only <span class="filter-count">${verifiedCount}</span>
     </button>`;
 
-    filterBarEl.innerHTML = `<div class="filter-row">${buttons}</div>
+    filterBarEl.innerHTML = `<div class="filter-row filter-row-source">${sourceButtons}</div>
+      <div class="filter-row">${buttons}</div>
       <div class="filter-row filter-row-secondary">${toggle}</div>`;
+  }
+
+  function inActiveSource(term) {
+    return activeSource === "all" || (term.source_text || "yoga_sutras") === activeSource;
   }
 
   function visibleTerms() {
     return terms.filter((term) => {
+      if (!inActiveSource(term)) {
+        return false;
+      }
       if (activeTheme !== "all" && term.thematic_bucket !== activeTheme) {
         return false;
       }
@@ -403,7 +452,10 @@
   }
 
   function buildSourceSection(term) {
-    const chapter = `<span class="chapter-ref">${esc(term.chapter)}</span>`;
+    const corpus = SOURCE_LABELS[term.source_text] || SOURCE_LABELS.yoga_sutras;
+    const chapter =
+      `<span class="chapter-ref">${esc(term.chapter)}</span>` +
+      `<span class="corpus-tag">${esc(corpus)}</span>`;
 
     if (!term.source_context) {
       return `

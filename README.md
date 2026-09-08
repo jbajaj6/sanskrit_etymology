@@ -1,13 +1,14 @@
 # Sanskrit Etymology & Buddhist Transmission Project
 
-Validated data pipeline and static demo for analyzing Sanskrit meditation vocabulary and tracing Buddhist concept transmission from India to China.
+Validated data pipeline and static demo for analyzing Sanskrit meditation and
+philosophical vocabulary, drawn from the Yoga Sutras and the principal Upanisads.
 
 ## What This Repo Contains
 
 - Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — covers every term the explorer shows
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
-- An 84-term demo source bundle in [data/demo_terms.json](data/demo_terms.json)
+- A working-entry bundle in [data/demo_terms.json](data/demo_terms.json)
 - A generated browser demo in [demo/](demo/)
 - Research notes and presentation materials in [docs/](docs/)
 
@@ -56,9 +57,14 @@ Two labels appear on each term card, and they mean different things:
 
 - **Source-verified / not yet source-verified** — whether a passage from the text
   has actually been quoted and cited for this term. Only terms with an entry in
-  `data/analyses/term_analyses.yaml` earn this. Currently 20 of 84.
+  `data/analyses/term_analyses.yaml` earn this.
 - **Confidence** — how settled the *morphological* analysis is. A term can have a
   high-confidence etymology and still be unsourced; the two are independent.
+
+Terms come from two corpora and the explorer filters by source. Yoga Sutra terms
+cite by sutra number (YS 1.2); Upanisadic terms cite by text and verse (BrU 2.4.5,
+ChU 6.2.1, MaU 7). Every verified Upanisadic passage was checked against the GRETIL
+mula text named in its citation trail, not quoted from memory.
 
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
 and `sanskrit-etymology stats` reports the coverage percentage.

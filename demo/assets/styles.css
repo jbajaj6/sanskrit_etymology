@@ -639,3 +639,44 @@ footer p {
   margin-top: 0.6rem;
   opacity: 0.8;
 }
+
+
+/* ── source-text filter ───────────────────────────────────────── */
+
+.filter-row-source {
+  margin-bottom: 0.9rem;
+}
+
+.source-btn {
+  background: transparent;
+  border: 1px solid var(--light-gray);
+  border-radius: 16px;
+  color: var(--mid-gray);
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+  padding: 0.4rem 1rem;
+  transition: all 0.15s;
+}
+
+.source-btn:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+}
+
+.source-btn.active {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: #fff;
+}
+
+.corpus-tag {
+  border-left: 1px solid var(--light-gray);
+  color: var(--mid-gray);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  margin-left: 0.7rem;
+  padding-left: 0.7rem;
+  text-transform: uppercase;
+}

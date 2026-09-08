@@ -4,7 +4,7 @@ Computational philology project focused on meditation and philosophical vocabula
 
 ## Project Goals
 
-1. Analyze Sanskrit philosophical/meditation terms (especially Yoga Sutras) — roots, prefixes, suffixes, compound structure, transliteration, literal and philosophical meaning.
+1. Analyze Sanskrit philosophical/meditation terms (Yoga Sutras and the principal Upanisads) — roots, prefixes, suffixes, compound structure, transliteration, literal and philosophical meaning.
 2. Trace how meditation and Buddhist concepts moved from India to China — comparing Sanskrit terms with Chinese Buddhist equivalents using phonetic and semantic evidence.
 
 ## Audience
@@ -15,7 +15,8 @@ Philosophy professor with a meditation emphasis (samadhi meditation). Very littl
 
 - Sanskrit: always provide Devanagari + IAST transliteration
 - Chinese: always provide characters + pinyin
-- Citations: Yoga Sutras by number (YS 1.2), Buddhist texts by Taisho number (T.1579)
+- Citations: Yoga Sutras by number (YS 1.2), Upanisads by text and verse (BrU 2.4.5,
+  ChU 6.2.1, MaU 7), Buddhist texts by Taisho number (T.1579)
 - Never fabricate etymologies, citations, or translator attributions
 - Use `source-discipline` skill standards on all outputs
 - A term is only "source-verified" if it has an entry in

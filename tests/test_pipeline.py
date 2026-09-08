@@ -11,7 +11,7 @@ if str(SRC_DIR) not in sys.path:
     sys.path.insert(0, str(SRC_DIR))
 
 from sanskrit_etymology.demo import build_demo_terms
-from sanskrit_etymology.repository import load_repository
+from sanskrit_etymology.repository import load_demo_bundle, load_repository
 from sanskrit_etymology.validation import validate_repository
 
 
@@ -23,12 +23,16 @@ class PipelineTestCase(unittest.TestCase):
         self.assertEqual(errors, [])
 
     def test_demo_build_matches_seed_catalog(self) -> None:
+        """The explorer is the bundle plus any term a canonical analysis covers."""
         repo = load_repository()
         demo_terms = build_demo_terms(repo)
-        self.assertEqual(len(demo_terms), 84)
+        bundle_ids = {str(entry["id"]) for entry in load_demo_bundle()}
+        analysis_ids = {analysis.id for analysis in repo.analyses}
+        self.assertEqual({term.id for term in demo_terms}, bundle_ids | analysis_ids)
         self.assertEqual(sum(1 for term in demo_terms if term.chinese_counterparts), 9)
         demo_ids = {term.id for term in demo_terms}
         self.assertTrue({"samadhi", "karma", "ahimsa", "viveka"}.issubset(demo_ids))
+        self.assertTrue({"atman", "brahman", "turiya", "upanisad"}.issubset(demo_ids))
 
     def test_demo_audit_normalizes_known_edge_cases(self) -> None:
         repo = load_repository()

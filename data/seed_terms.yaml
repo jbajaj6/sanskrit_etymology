@@ -24,6 +24,7 @@ terms:
     chapter: YS 1, 2, 3
     professor_gloss: "meditative absorption; the culmination of yogic practice"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Central to the project's meditation emphasis. Multiple Chinese renderings (三摩地, 三昧)."
 
@@ -35,6 +36,7 @@ terms:
     chapter: YS 2.11, 3.2
     professor_gloss: "sustained meditation; contemplation"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Source of Chinese 禪 (chán) and Japanese zen. Critical for transmission analysis."
 
@@ -46,6 +48,7 @@ terms:
     chapter: YS 1.2, 1.33, 1.37
     professor_gloss: "mind-stuff; the field of consciousness"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Appears in the defining sutra YS 1.2. Key to understanding vṛtti and nirodha."
 
@@ -57,6 +60,7 @@ terms:
     chapter: YS 1.2, 1.5–1.11
     professor_gloss: "fluctuations or turnings of the mind"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Five types enumerated in YS 1.5–1.11."
 
@@ -68,6 +72,7 @@ terms:
     chapter: YS 1.2, 1.12, 1.51, 3.9
     professor_gloss: "cessation; restraint of mental fluctuations"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Shared with Buddhist nirodha (third noble truth). Important cross-tradition term."
 
@@ -79,6 +84,7 @@ terms:
     chapter: YS 1.20, 1.48–1.49, 2.27
     professor_gloss: "wisdom; higher insight born of practice"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Chinese 般若 (bōrě) is a major phonetic borrowing. Prajñāpāramitā literature."
 
@@ -90,6 +96,7 @@ terms:
     chapter: YS 2.26, 2.28, 4.29
     professor_gloss: "discriminative discernment; the vision that separates puruṣa from prakṛti"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Compound of viveka + khyāti. Technical Sāṃkhya-Yoga term."
 
@@ -101,6 +108,7 @@ terms:
     chapter: YS 2.2–2.9, 2.12
     professor_gloss: "afflictions; the root causes of suffering"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Five kleśas enumerated in YS 2.3. Buddhist parallel: kleśāvaraṇa."
 
@@ -112,6 +120,7 @@ terms:
     chapter: YS 2.3–2.5, 2.24
     professor_gloss: "ignorance; misidentification of self with non-self"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "First and root kleśa. Buddhist parallel concept but different metaphysics."
 
@@ -123,6 +132,7 @@ terms:
     chapter: YS 1.18, 1.50, 3.9–3.10, 4.9
     professor_gloss: "latent impressions; subliminal activators from past experience"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Deep psychological concept. Buddhist saṅkhāra is a parallel but distinct usage."
 
@@ -134,6 +144,7 @@ terms:
     chapter: YS 2.25, 3.50, 3.55, 4.34
     professor_gloss: "absolute freedom; aloneness of pure awareness"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "The telos of Patañjali's system. Titles YS chapter 4."
 
@@ -145,6 +156,7 @@ terms:
     chapter: YS 1.12–1.14
     professor_gloss: "repeated practice; sustained effort over time"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Paired with vairāgya in YS 1.12 as the two means to nirodha."
 
@@ -158,6 +170,7 @@ terms:
     chapter: YS 1.12, 1.15–1.16
     professor_gloss: "non-attachment; dispassion"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Counterpart to abhyāsa."
 
@@ -169,6 +182,7 @@ terms:
     chapter: YS 3.1
     professor_gloss: "concentration; fixing the mind on a single point"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "First of the three inner limbs (dhāraṇā, dhyāna, samādhi)."
 
@@ -180,6 +194,7 @@ terms:
     chapter: YS 3.4
     professor_gloss: "the combined practice of dhāraṇā, dhyāna, and samādhi"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Technical umbrella term for the three inner limbs together."
 
@@ -191,6 +206,7 @@ terms:
     chapter: YS 2.54–2.55
     professor_gloss: "sense withdrawal; turning the senses inward"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Bridge between outer and inner limbs of yoga."
 
@@ -202,6 +218,7 @@ terms:
     chapter: YS 1.16, 1.24, 3.35, 4.18
     professor_gloss: "pure consciousness; the witness-self"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Sāṃkhya-Yoga metaphysical foundation. Not easily mapped to Chinese Buddhist terms."
 
@@ -213,6 +230,7 @@ terms:
     chapter: YS 1.3, 2.23, 2.54, 3.3, 3.44
     professor_gloss: "own form; essential nature"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Appears in the key sutra YS 1.3 (tadā draṣṭuḥ svarūpe 'vasthānam)."
 
@@ -224,6 +242,7 @@ terms:
     chapter: YS 2.3, 2.9
     professor_gloss: "clinging to life; fear of death"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Fifth kleśa. Unique psychological insight of the Yoga Sutras."
 
@@ -235,6 +254,7 @@ terms:
     chapter: YS 1.18
     professor_gloss: "objectless absorption; samādhi without cognitive content"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Contrasts with samprajñāta. Debated interpretation among commentators."
 
@@ -248,6 +268,7 @@ terms:
     chapter: YS 1.17
     professor_gloss: "cognitive samādhi with an object of awareness"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Four subtypes: vitarka, vicāra, ānanda, asmitā."
 
@@ -259,6 +280,7 @@ terms:
     chapter: YS 4.29
     professor_gloss: "cloud-of-dharma samādhi; the final meditative attainment"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Multi-member compound. Also appears in Buddhist Daśabhūmika literature."
 
@@ -270,6 +292,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "inability to attain a stage; failure to find ground"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "One of the nine obstacles (antarāya). Complex compound."
 
@@ -281,6 +304,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "instability; inability to maintain a stage once attained"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Paired with alabdhabhūmikatva among the nine obstacles."
 
@@ -292,6 +316,7 @@ terms:
     chapter: YS 3.9
     professor_gloss: "the transformation toward cessation"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "First of three pariṇāmas in YS 3.9–3.12."
 
@@ -303,6 +328,7 @@ terms:
     chapter: YS 3.11
     professor_gloss: "the transformation into meditative absorption"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Second of three pariṇāmas."
 
@@ -314,6 +340,7 @@ terms:
     chapter: YS 3.12
     professor_gloss: "one-pointedness of mind"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Third pariṇāma. Ekāgratā-pariṇāma in context."
 
@@ -325,6 +352,7 @@ terms:
     chapter: YS 2.26, 2.28, 4.26
     professor_gloss: "discrimination; discernment between puruṣa and prakṛti"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Root component of viveka-khyāti."
 
@@ -336,6 +364,7 @@ terms:
     chapter: YS 2.49–2.53
     professor_gloss: "breath regulation; expansion of vital energy"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Compound of prāṇa + āyāma. Fourth limb of aṣṭāṅga yoga."
 
@@ -347,6 +376,7 @@ terms:
     chapter: YS 2.1
     professor_gloss: "the yoga of action — tapas, svādhyāya, and īśvarapraṇidhāna"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Opens Sādhana Pāda. Practical entry point to the system."
 
@@ -361,6 +391,7 @@ terms:
     chapter: YS 2.6 (implied via asmitā), Sāṃkhya framework
     professor_gloss: "I-making"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -372,6 +403,7 @@ terms:
     chapter: YS 2.30, 2.35
     professor_gloss: "non-harming"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -383,6 +415,7 @@ terms:
     chapter: YS 1.7, 1.49
     professor_gloss: "a measuring-after"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -394,6 +427,7 @@ terms:
     chapter: YS 2.30, 2.39
     professor_gloss: "non-grasping-from-all-sides"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -405,6 +439,7 @@ terms:
     chapter: YS 1.17, 2.3, 2.6, 4.4
     professor_gloss: "I-am-ness"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -416,6 +451,7 @@ terms:
     chapter: YS 2.30, 2.37
     professor_gloss: "non-stealing"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -427,6 +463,7 @@ terms:
     chapter: YS 1.1
     professor_gloss: "now"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -438,6 +475,7 @@ terms:
     chapter: YS 1.3
     professor_gloss: "a settled abiding"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -449,6 +487,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "non-cessation"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -460,6 +499,7 @@ terms:
     chapter: YS 3.1, 3.38
     professor_gloss: "binding"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -471,6 +511,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "confused seeing"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -482,6 +523,7 @@ terms:
     chapter: YS 2.30, 2.38
     professor_gloss: "walking in Brahman"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -493,6 +535,7 @@ terms:
     chapter: YS 1.3, 2.17, 2.20, 4.23
     professor_gloss: "the seer"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -504,6 +547,7 @@ terms:
     chapter: YS 2.3, 2.8
     professor_gloss: "hatred"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -515,6 +559,7 @@ terms:
     chapter: YS 1.16, 2.15, 2.19, 4.13, 4.32, 4.34
     professor_gloss: "strand"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -526,6 +571,7 @@ terms:
     chapter: YS 1.24, 2.12, 3.22, 4.7, 4.30
     professor_gloss: "action"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -537,6 +583,7 @@ terms:
     chapter: YS 2.12
     professor_gloss: "the resting-place of karma"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -548,6 +595,7 @@ terms:
     chapter: YS 4 (concept, not the term Patañjali uses — he says kaivalya)
     professor_gloss: "release"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -559,6 +607,7 @@ terms:
     chapter: YS 1.6, 1.10, 1.38
     professor_gloss: "sleep"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -570,6 +619,7 @@ terms:
     chapter: YS 2.29, 2.32
     professor_gloss: "inner restraint"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -581,6 +631,7 @@ terms:
     chapter: YS 2.15, 3.9–3.16, 4.2, 4.14, 4.32–4.33
     professor_gloss: "a bending-around"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -592,6 +643,7 @@ terms:
     chapter: YS 1.19, 4.2–4.3
     professor_gloss: "the primal maker"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -603,6 +655,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "thorough intoxication"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -614,6 +667,7 @@ terms:
     chapter: YS 1.6, 1.7
     professor_gloss: "a means of right measurement"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -625,6 +679,7 @@ terms:
     chapter: YS 1.7
     professor_gloss: "before the eyes"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -636,6 +691,7 @@ terms:
     chapter: YS 1.23, 2.1, 2.32, 2.45
     professor_gloss: "a placing-down-before"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -647,6 +703,7 @@ terms:
     chapter: YS 2.15 (implied through guṇa theory)
     professor_gloss: "dust"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -658,6 +715,7 @@ terms:
     chapter: YS 2.3, 2.7
     professor_gloss: "coloring"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -669,6 +727,7 @@ terms:
     chapter: YS 2.32, 2.42
     professor_gloss: "complete satisfaction"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -680,6 +739,7 @@ terms:
     chapter: YS 2.41, 3.35, 3.49, 3.55
     professor_gloss: "being-ness"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -691,6 +751,7 @@ terms:
     chapter: YS 2.30, 2.36
     professor_gloss: "truth-ness"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -702,6 +763,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "lying-together"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -713,6 +775,7 @@ terms:
     chapter: YS 2.43, 3.37, 4.1
     professor_gloss: "accomplishment"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -724,6 +787,7 @@ terms:
     chapter: YS 1.6, 1.11, 1.20
     professor_gloss: "remembering"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -735,6 +799,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "stiffening"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -746,6 +811,7 @@ terms:
     chapter: YS 2.1, 2.32, 2.44
     professor_gloss: "one's own study/recitation"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -757,6 +823,7 @@ terms:
     chapter: YS 2.15 (implied through guṇa theory)
     professor_gloss: "darkness"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -768,6 +835,7 @@ terms:
     chapter: YS 2.1, 2.32, 2.43
     professor_gloss: "heat"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -779,6 +847,7 @@ terms:
     chapter: YS 3 (chapter title), 3.16–3.55
     professor_gloss: "special manifestation"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -790,6 +859,7 @@ terms:
     chapter: YS 1.17, 1.44
     professor_gloss: "moving-through distinctly"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -801,6 +871,7 @@ terms:
     chapter: YS 1.6, 1.9, 1.42
     professor_gloss: "an alternative arrangement"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -812,6 +883,7 @@ terms:
     chapter: YS 1.6, 1.8
     professor_gloss: "a going-wrongly-around"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -823,6 +895,7 @@ terms:
     chapter: YS 1.24, 2.13, 4.8
     professor_gloss: "thorough ripening"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -834,6 +907,7 @@ terms:
     chapter: YS 1.17, 1.42, 2.33, 2.34
     professor_gloss: "distinct reasoning"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -845,6 +919,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "affliction"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -856,6 +931,7 @@ terms:
     chapter: YS 2.13, 4.8, 4.24
     professor_gloss: "a lingering fragrance"
     thematic_bucket: mind_psychology
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -867,6 +943,7 @@ terms:
     chapter: YS 1.20, 2.38
     professor_gloss: "heroic quality"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -878,6 +955,7 @@ terms:
     chapter: YS 1.4
     professor_gloss: "having-the-same-form as the mental fluctuations"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -889,6 +967,7 @@ terms:
     chapter: YS 2.29, 2.30
     professor_gloss: "restraint"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -900,6 +979,7 @@ terms:
     chapter: YS 1.1, 1.2, 2.1, 2.28
     professor_gloss: "yoking"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -911,6 +991,7 @@ terms:
     chapter: YS 1.1
     professor_gloss: "a systematic instruction following [the tradition of] yoga"
     thematic_bucket: advanced_compound
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -922,6 +1003,7 @@ terms:
     chapter: YS 1.7
     professor_gloss: "that which has come down"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -933,6 +1015,7 @@ terms:
     chapter: YS 1.30
     professor_gloss: "laziness"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -944,6 +1027,7 @@ terms:
     chapter: YS 3.5, 3.25
     professor_gloss: "full illumination"
     thematic_bucket: insight_knowledge
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -955,6 +1039,7 @@ terms:
     chapter: YS 1.17
     professor_gloss: "complete rejoicing"
     thematic_bucket: meditation_core
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -966,6 +1051,7 @@ terms:
     chapter: YS 2.29, 2.46–2.48
     professor_gloss: "a sitting"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: low
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -977,6 +1063,7 @@ terms:
     chapter: YS 2.52, 3.43, 4.30
     professor_gloss: "a covering"
     thematic_bucket: affliction_obstacle
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -988,6 +1075,7 @@ terms:
     chapter: YS 1.23–1.26, 2.1, 2.32, 2.45
     professor_gloss: "the lord"
     thematic_bucket: liberation_metaphysics
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -999,6 +1087,7 @@ terms:
     chapter: YS 2.32, 2.40–2.41
     professor_gloss: "cleanliness"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: medium
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
 
@@ -1010,5 +1099,411 @@ terms:
     chapter: YS 1.20
     professor_gloss: "placing one's heart"
     thematic_bucket: practice_discipline
+    source_text: yoga_sutras
     cross_cultural_priority: high
     notes: "Carried in the explorer bundle since the 84-term expansion. No canonical analysis entry yet, so it is not source-verified."
+
+  # ── UPANIṢADIC VOCABULARY (36 terms) ──
+  # Principal Upaniṣads. Every analysed term's passage was verified against
+  # the GRETIL mūla text cited in its citation_trail.
+  - id: upanisad
+    devanagari: उपनिषद्
+    transliteration: upaniṣad
+    normalized_slug: upanisad
+    priority_bucket: nice
+    chapter: BṛU 2.4.10, 4.2.1
+    professor_gloss: sitting down close to a teacher; the hidden teaching so transmitted
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: atman
+    devanagari: आत्मन्
+    transliteration: ātman
+    normalized_slug: atman
+    priority_bucket: nice
+    chapter: BṛU 2.4.5, 4.5.15; ChU 8.7.1; MāU 2
+    professor_gloss: the self; what a person most truly is, as distinct from body and mind
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: brahman
+    devanagari: ब्रह्मन्
+    transliteration: brahman
+    normalized_slug: brahman
+    priority_bucket: nice
+    chapter: ChU 3.14.1; AiU 3.3; MāU 2
+    professor_gloss: the ground of everything; ultimate reality
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: pranava
+    devanagari: प्रणव
+    transliteration: praṇava
+    normalized_slug: pranava
+    priority_bucket: nice
+    chapter: ChU 1.1.1; MāU 1
+    professor_gloss: the syllable oṃ, taken as an object of meditation
+    thematic_bucket: meditation_core
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: aksara
+    devanagari: अक्षर
+    transliteration: akṣara
+    normalized_slug: aksara
+    priority_bucket: nice
+    chapter: BṛU 3.8.8; ChU 1.1.1
+    professor_gloss: the imperishable; also, a syllable
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: upasana
+    devanagari: उपासन
+    transliteration: upāsana
+    normalized_slug: upasana
+    priority_bucket: nice
+    chapter: ChU 1.1.1, 3.14.1
+    professor_gloss: meditative attending; dwelling on something until it is inwardly present
+    thematic_bucket: meditation_core
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: jagrat
+    devanagari: जाग्रत्
+    transliteration: jāgrat
+    normalized_slug: jagrat
+    priority_bucket: nice
+    chapter: MāU 3
+    professor_gloss: the waking state, the first of the four states of the self
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: svapna
+    devanagari: स्वप्न
+    transliteration: svapna
+    normalized_slug: svapna
+    priority_bucket: nice
+    chapter: MāU 4, 10; BṛU 4.3.9
+    professor_gloss: the dream state, the second of the four states
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: susupti
+    devanagari: सुषुप्ति
+    transliteration: suṣupti
+    normalized_slug: susupti
+    priority_bucket: nice
+    chapter: MāU 5
+    professor_gloss: dreamless deep sleep, the third of the four states
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: turiya
+    devanagari: तुरीय
+    transliteration: turīya
+    normalized_slug: turiya
+    priority_bucket: nice
+    chapter: MāU 7
+    professor_gloss: '''the fourth'' — awareness itself, beyond waking, dream and deep sleep'
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: sravana
+    devanagari: श्रवण
+    transliteration: śravaṇa
+    normalized_slug: sravana
+    priority_bucket: nice
+    chapter: BṛU 2.4.5, 4.5.6
+    professor_gloss: hearing the teaching — the first of the three steps
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: manana
+    devanagari: मनन
+    transliteration: manana
+    normalized_slug: manana
+    priority_bucket: nice
+    chapter: BṛU 2.4.5, 4.5.6
+    professor_gloss: reflecting on what has been heard — the second of the three steps
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: nididhyasana
+    devanagari: निदिध्यासन
+    transliteration: nididhyāsana
+    normalized_slug: nididhyasana
+    priority_bucket: nice
+    chapter: BṛU 2.4.5, 4.5.6
+    professor_gloss: deep meditation on what has been heard and reflected upon — the third step
+    thematic_bucket: meditation_core
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: sat
+    devanagari: सत्
+    transliteration: sat
+    normalized_slug: sat
+    priority_bucket: nice
+    chapter: ChU 6.2.1
+    professor_gloss: being; what truly is
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: jiva
+    devanagari: जीव
+    transliteration: jīva
+    normalized_slug: jiva
+    priority_bucket: nice
+    chapter: ChU 6.3.2
+    professor_gloss: the individual living self, as distinct from the universal self
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: maya
+    devanagari: माया
+    transliteration: māyā
+    normalized_slug: maya
+    priority_bucket: nice
+    chapter: ŚvU 4.10
+    professor_gloss: the world-fashioning power; appearance
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: prajnana
+    devanagari: प्रज्ञान
+    transliteration: prajñāna
+    normalized_slug: prajnana
+    priority_bucket: nice
+    chapter: AiU 3.3
+    professor_gloss: consciousness; awareness itself
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: vidya
+    devanagari: विद्या
+    transliteration: vidyā
+    normalized_slug: vidya
+    priority_bucket: nice
+    chapter: ĪśU 11
+    professor_gloss: knowledge — in the Īśa, held together with its opposite rather than against
+      it
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: neti_neti
+    devanagari: नेति नेति
+    transliteration: neti neti
+    normalized_slug: neti-neti
+    priority_bucket: nice
+    chapter: BṛU 3.9.26, 4.5.15
+    professor_gloss: 'the method of denial: the self is not this, not this'
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: saksin
+    devanagari: साक्षिन्
+    transliteration: sākṣin
+    normalized_slug: saksin
+    priority_bucket: nice
+    chapter: ŚvU 6.11
+    professor_gloss: the witness — awareness that observes without acting
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: samsara
+    devanagari: संसार
+    transliteration: saṃsāra
+    normalized_slug: samsara
+    priority_bucket: nice
+    chapter: KaU 3.7; ŚvU 6.16
+    professor_gloss: the round of rebirth
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: amrta
+    devanagari: अमृत
+    transliteration: amṛta
+    normalized_slug: amrta
+    priority_bucket: nice
+    chapter: BṛU 1.3.28; ĪśU 11
+    professor_gloss: the deathless; immortality
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: mrtyu
+    devanagari: मृत्यु
+    transliteration: mṛtyu
+    normalized_slug: mrtyu
+    priority_bucket: nice
+    chapter: BṛU 1.3.28; ChU 8.12.1
+    professor_gloss: death — both the event and the god who teaches
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: loka
+    devanagari: लोक
+    transliteration: loka
+    normalized_slug: loka
+    priority_bucket: nice
+    chapter: ĪśU 3; ChU 8.7.1
+    professor_gloss: world; the sphere one attains
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: prana
+    devanagari: प्राण
+    transliteration: prāṇa
+    normalized_slug: prana
+    priority_bucket: nice
+    chapter: BṛU 6.1.1, 1.5.3; ChU 3.15.3
+    professor_gloss: breath; the life-force
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: kosa
+    devanagari: कोश
+    transliteration: kośa
+    normalized_slug: kosa
+    priority_bucket: nice
+    chapter: ChU 3.15.3
+    professor_gloss: sheath — a covering layer of the person
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: buddhi
+    devanagari: बुद्धि
+    transliteration: buddhi
+    normalized_slug: buddhi
+    priority_bucket: nice
+    chapter: KaU 3.3, 3.9
+    professor_gloss: the intellect — the discriminating faculty
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: manas
+    devanagari: मनस्
+    transliteration: manas
+    normalized_slug: manas
+    priority_bucket: nice
+    chapter: KaU 3.3; BṛU 1.5.3
+    professor_gloss: mind — the faculty that receives and coordinates the senses
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: indriya
+    devanagari: इन्द्रिय
+    transliteration: indriya
+    normalized_slug: indriya
+    priority_bucket: nice
+    chapter: KaU 3.4
+    professor_gloss: the senses
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: vac
+    devanagari: वाच्
+    transliteration: vāc
+    normalized_slug: vac
+    priority_bucket: nice
+    chapter: BṛU 4.1.2, 1.5.3
+    professor_gloss: speech — treated in the Upaniṣads as a power, not merely a medium
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: acarya
+    devanagari: आचार्य
+    transliteration: ācārya
+    normalized_slug: acarya
+    priority_bucket: nice
+    chapter: ChU 6.14.2
+    professor_gloss: the teacher who transmits the tradition
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: prajapati
+    devanagari: प्रजापति
+    transliteration: prajāpati
+    normalized_slug: prajapati
+    priority_bucket: nice
+    chapter: ChU 8.7.1; BṛU 5.2.1
+    professor_gloss: the creator-teacher who instructs gods and demons
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: indra
+    devanagari: इन्द्र
+    transliteration: indra
+    normalized_slug: indra
+    priority_bucket: nice
+    chapter: ChU 8.7.2, 8.12.1
+    professor_gloss: Indra — the god who keeps returning to the teacher until he understands
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: virocana
+    devanagari: विरोचन
+    transliteration: virocana
+    normalized_slug: virocana
+    priority_bucket: nice
+    chapter: ChU 8.7.2, 8.8.4
+    professor_gloss: Virocana — the student who stops at the first answer
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: asrama
+    devanagari: आश्रम
+    transliteration: āśrama
+    normalized_slug: asrama
+    priority_bucket: nice
+    chapter: ŚvU 6.21
+    professor_gloss: stage of life; also, a hermitage
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Upaniṣadic vocabulary; passage verified against the GRETIL mūla text.
+  - id: guru
+    devanagari: गुरु
+    transliteration: guru
+    normalized_slug: guru
+    priority_bucket: extended
+    chapter: MuU 1.2.12 (not verified here)
+    professor_gloss: the weighty one; the teacher
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: 'Requested for the explorer, but not source-verified: the locus classicus is Muṇḍaka
+      1.2.12, and neither the Muṇḍaka nor the Kena is present in the GRETIL corpus consulted.
+      Searched the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and Śvetāśvatara
+      mūla texts without a clear occurrence. See ācārya for the verified Upaniṣadic term for
+      a teacher.'

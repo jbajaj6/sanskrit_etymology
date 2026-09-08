@@ -20,6 +20,7 @@ ALLOWED_THEMATIC_BUCKETS = {
 }
 ALLOWED_CROSS_CULTURAL_PRIORITY = {"high", "medium", "low"}
 ALLOWED_CONFIDENCE = {"high", "medium", "low"}
+ALLOWED_SOURCE_TEXTS = {"yoga_sutras", "upanisads"}
 REQUIRED_ANALYSIS_FIELDS = {
     "id",
     "devanagari",
@@ -96,6 +97,14 @@ def validate_repository(repo: ProjectRepository) -> list[ValidationIssue]:
                     severity="error",
                     location=f"seed:{term.id}",
                     message=f"invalid thematic_bucket '{term.thematic_bucket}'",
+                )
+            )
+        if term.source_text not in ALLOWED_SOURCE_TEXTS:
+            issues.append(
+                ValidationIssue(
+                    severity="error",
+                    location=f"seed:{term.id}",
+                    message=f"invalid source_text '{term.source_text}'",
                 )
             )
         if term.cross_cultural_priority not in ALLOWED_CROSS_CULTURAL_PRIORITY:

@@ -3549,5 +3549,38 @@
       "yogānuśāsanam",
       "yoganusasanam"
     ]
+  },
+  {
+    "id": "guru",
+    "devanagari": "गुरु",
+    "transliteration": "guru",
+    "chapter": "MuU 1.2.12 (not verified here)",
+    "segmentation": "√gṝ + -u",
+    "roots": [
+      {
+        "root": "√gṝ",
+        "devanagari": "√गॄ",
+        "meaning": "to be heavy, to raise up",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-u",
+        "meaning": "primary adjectival suffix",
+        "grammatical_function": "forms an adjective 'heavy', used substantively as 'teacher'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "heavy; weighty; venerable",
+    "philosophical_gloss": "Guru means 'heavy' — the weighty one, whose gravity holds the student. Its best known statement is Muṇḍaka 1.2.12, where one who has examined the worlds won by action and grown disenchanted takes fuel in hand and approaches a teacher learned in scripture and established in brahman. That passage could not be verified in the corpus available here, so this entry is presented as a working entry rather than a checked one.",
+    "doctrinal_significance": "The Upaniṣads make the teacher structurally necessary rather than merely helpful. For the verified Upaniṣadic statement of that point, see ācārya and the Gandhāra parable at ChU 6.14.2.",
+    "ambiguity_notes": "Not source-verified. The Muṇḍaka and Kena Upaniṣads are absent from the GRETIL corpus consulted, and no clear occurrence was found in the eight principal Upaniṣads searched. The morphology given here follows standard dictionaries, not a checked passage.",
+    "confidence": "medium",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "guru"
+    ]
   }
 ]

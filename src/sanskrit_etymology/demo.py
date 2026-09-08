@@ -43,6 +43,7 @@ def _demo_term_from_dict(payload: dict[str, Any]) -> DemoTerm:
         citation_trail=list(payload.get("citation_trail", [])),
         verification=str(payload.get("verification", "unverified")),
         professor_gloss=payload.get("professor_gloss"),
+        source_text=str(payload.get("source_text", "yoga_sutras")),
     )
 
 
@@ -52,8 +53,18 @@ def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
     mappings_by_slug = {mapping.normalized_slug: mapping for mapping in repo.mappings}
     seed_by_id = {seed.id: seed for seed in repo.seed_terms}
 
+    # The bundle holds working entries; a canonical analysis can stand on its
+    # own, so a verified term needs no duplicate stub in demo_terms.json.
+    bundle_ids = {str(entry["id"]) for entry in demo_bundle}
+    entries: list[dict[str, Any]] = list(demo_bundle)
+    entries.extend(
+        {"id": analysis.id}
+        for analysis in repo.analyses
+        if analysis.id not in bundle_ids
+    )
+
     demo_terms: list[DemoTerm] = []
-    for entry in demo_bundle:
+    for entry in entries:
         term_id = str(entry["id"])
         base_payload = dict(entry)
         analysis = analyses_by_id.get(term_id)
@@ -91,6 +102,7 @@ def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
             base_payload["priority_bucket"] = seed.priority_bucket
             base_payload["thematic_bucket"] = seed.thematic_bucket
             base_payload["professor_gloss"] = seed.professor_gloss
+            base_payload["source_text"] = seed.source_text
         else:
             base_payload.setdefault("priority_bucket", None)
             base_payload.setdefault("thematic_bucket", None)

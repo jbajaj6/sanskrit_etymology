@@ -83,6 +83,34 @@ class DemoPayloadTestCase(unittest.TestCase):
             self.assertTrue(term.professor_gloss, f"{term.id} has no professor gloss")
             self.assertTrue(term.literal_gloss, f"{term.id} has no literal gloss")
 
+    def test_every_term_declares_its_source_text(self) -> None:
+        """The source filter and the card label both read this field."""
+        for term in self.terms:
+            self.assertIn(term.source_text, {"yoga_sutras", "upanisads"}, term.id)
+
+    def test_upanisadic_terms_cite_an_upanisad(self) -> None:
+        """A term filed under the Upanisads must not carry a Yoga Sutra citation."""
+        sigla = ("BṛU", "ChU", "KaU", "MāU", "AiU", "ĪśU", "ŚvU", "PraU", "MuU")
+        upanisadic = [t for t in self.terms if t.source_text == "upanisads"]
+        self.assertTrue(upanisadic, "no Upanisadic terms in the bundle")
+        for term in upanisadic:
+            self.assertFalse(term.chapter.startswith("YS"), term.id)
+            self.assertTrue(
+                term.chapter.startswith(sigla),
+                f"{term.id} chapter '{term.chapter}' names no Upanisad",
+            )
+
+    def test_verified_upanisadic_terms_quote_their_source(self) -> None:
+        """Guards the claim that these passages were checked, not recalled."""
+        for term in self.terms:
+            if term.source_text != "upanisads" or term.verification != "source-verified":
+                continue
+            self.assertTrue(term.source_context, term.id)
+            self.assertTrue(
+                any("GRETIL" in entry for entry in term.citation_trail),
+                f"{term.id} claims verification without naming the corpus",
+            )
+
     def test_sort_places_analysed_terms_first(self) -> None:
         ordered = sort_demo_terms(self.terms)
         first_extended = next(
