@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import json
+from dataclasses import replace
 from pathlib import Path
 from typing import Any
 
 from .models import DemoTerm, ProjectRepository
 from .paths import DEMO_DIR
+from .relations import build_relations
 from .repository import load_demo_bundle, transliteration_aliases
 
 
@@ -119,7 +121,17 @@ def build_demo_terms(repo: ProjectRepository) -> list[DemoTerm]:
 
         demo_terms.append(_demo_term_from_dict(base_payload))
 
-    return demo_terms
+    # Relations are between terms, so they can only be worked out once every
+    # term exists. Rebuild each entry with its cross-references attached.
+    relations = build_relations(demo_terms)
+    return [
+        replace(
+            term,
+            related_morphemes=relations[term.id]["morphemes"],
+            related_mentions=relations[term.id]["mentions"],
+        )
+        for term in demo_terms
+    ]
 
 
 def sort_demo_terms(terms: list[DemoTerm]) -> list[DemoTerm]:

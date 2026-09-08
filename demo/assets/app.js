@@ -110,7 +110,7 @@
       return;
     }
 
-    const row = event.target.closest(".row-link");
+    const row = event.target.closest(".row-link, .term-link");
     if (row) {
       openTerm(row.dataset.id);
       return;
@@ -479,6 +479,7 @@
               ? section("Compound type", esc(term.compound_type))
               : ""
           }
+          ${buildRelatedSection(term)}
           ${buildChineseSection(term)}
           ${
             term.ambiguity_notes
@@ -742,11 +743,12 @@
   function buildMorphologyRows(term) {
     const rows = [];
     (term.prefixes || []).forEach((prefix) => {
-      rows.push({ kind: "prefix", value: prefix.prefix, meaning: prefix.meaning });
+      rows.push({ kind: "prefix", key: prefix.prefix, value: prefix.prefix, meaning: prefix.meaning });
     });
     (term.roots || []).forEach((root) => {
       rows.push({
         kind: "root",
+        key: root.root,
         value: `${root.root}${root.devanagari ? ` ${root.devanagari}` : ""}`,
         meaning: root.meaning,
       });
@@ -754,6 +756,7 @@
     (term.suffixes || []).forEach((suffix) => {
       rows.push({
         kind: "suffix",
+        key: suffix.suffix,
         value: suffix.suffix,
         meaning: suffix.grammatical_function
           ? `${suffix.meaning} — ${suffix.grammatical_function}`
@@ -765,20 +768,71 @@
       return "";
     }
 
+    const shared = new Map(
+      (term.related_morphemes || []).map((entry) => [`${entry.kind}:${entry.morpheme}`, entry.terms])
+    );
+
     return `
       <dl class="morph-list">
         ${rows
-          .map(
-            (row) => `
+          .map((row) => {
+            const siblings = shared.get(`${row.kind}:${row.key}`) || [];
+            return `
               <dt class="morph-term">
-                <span class="morph-kind seg-${row.kind}">${KIND_LABEL[row.kind]}</span>
+                <span class="morph-kind">${KIND_LABEL[row.kind]}</span>
                 <span class="morph-value">${esc(row.value)}</span>
               </dt>
-              <dd class="morph-meaning">${esc(row.meaning)}</dd>
-            `
-          )
+              <dd class="morph-meaning">
+                ${esc(row.meaning)}
+                ${buildSiblingLinks(row, siblings)}
+              </dd>
+            `;
+          })
           .join("")}
       </dl>
+    `;
+  }
+
+  // The connection a reader most wants is "what else is built from this piece",
+  // so it belongs on the piece itself rather than in a footnote at the bottom.
+  function buildSiblingLinks(row, siblings) {
+    if (!siblings.length) {
+      return "";
+    }
+    const links = siblings
+      .map(
+        (other) =>
+          `<a class="term-link" href="#${encodeURIComponent(other.id)}" data-id="${esc(other.id)}">
+             <span class="term-link-deva">${esc(other.devanagari)}</span>${esc(other.transliteration)}
+           </a>`
+      )
+      .join("");
+    return `
+      <div class="morph-links">
+        <span class="morph-links-label">Also built on ${esc(row.key)}</span>
+        <div class="term-link-row">${links}</div>
+      </div>
+    `;
+  }
+
+  function buildRelatedSection(term) {
+    const mentions = term.related_mentions || [];
+    if (!mentions.length) {
+      return "";
+    }
+    const links = mentions
+      .map(
+        (other) =>
+          `<a class="term-link" href="#${encodeURIComponent(other.id)}" data-id="${esc(other.id)}">
+             <span class="term-link-deva">${esc(other.devanagari)}</span>${esc(other.transliteration)}
+           </a>`
+      )
+      .join("");
+    return `
+      <section class="card-section">
+        <h2 class="section-label">Discussed in this entry</h2>
+        <div class="term-link-row">${links}</div>
+      </section>
     `;
   }
 

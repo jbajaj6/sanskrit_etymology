@@ -908,3 +908,55 @@ ul, ol {
     padding: 1rem 1.1rem 1.2rem;
   }
 }
+
+/* ── cross-references ─────────────────────────────────────────── */
+
+.morph-links {
+  margin-top: 0.55rem;
+}
+
+.morph-links-label {
+  color: var(--ink-faint);
+  display: block;
+  font-size: var(--t-xs);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.35rem;
+  text-transform: uppercase;
+}
+
+.term-link-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.term-link {
+  align-items: baseline;
+  background: var(--paper-raised);
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+  color: var(--ink);
+  display: inline-flex;
+  font-family: var(--serif);
+  font-size: var(--t-sm);
+  gap: 0.35rem;
+  padding: 0.2rem 0.5rem;
+  text-decoration: none;
+  transition: background 130ms var(--ease), border-color 130ms var(--ease),
+    color 130ms var(--ease);
+}
+
+.term-link:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--paper-raised);
+}
+
+.term-link-deva {
+  color: var(--navy);
+  font-size: var(--t-base);
+}
+
+.term-link:hover .term-link-deva {
+  color: var(--paper-raised);
+}

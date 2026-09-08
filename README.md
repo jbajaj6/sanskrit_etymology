@@ -66,6 +66,24 @@ cite by sutra number (YS 1.2); Upanisadic terms cite by text and verse (BrU 2.4.
 ChU 6.2.1, MaU 7). Every verified Upanisadic passage was checked against the GRETIL
 mula text named in its citation trail, not quoted from memory.
 
+## Cross-references
+
+Terms link to each other, and every link states its basis so it can be checked.
+
+- **Shared morpheme.** Two terms built from the same root, prefix, or suffix link
+  from that row of the Word structure section. `nididhyāsana` reaches `dhyāna`
+  through the root `√dhyai`; `vidyā` reaches `avidyā` through `√vid`. A morpheme
+  shared by more than 20 terms is treated as a grammatical default rather than a
+  family, which suppresses the bare `-a` suffix.
+- **Named in the entry.** Where one entry's prose discusses another term, it is
+  listed under "Discussed in this entry". This catches pairs no shared morpheme
+  would, such as `guru` and `ācārya`.
+
+Links are never derived from one term's name containing another's. That would
+read `nididhyāsana` as containing `āsana` and `praṇava` as containing `prāṇa`,
+both of which are false derivations. See
+[relations.py](src/sanskrit_etymology/relations.py).
+
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
 and `sanskrit-etymology stats` reports the coverage percentage.
 

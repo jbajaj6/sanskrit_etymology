@@ -241,6 +241,8 @@ class DemoTerm:
     verification: str = "unverified"
     professor_gloss: str | None = None
     source_text: str = "yoga_sutras"
+    related_morphemes: list[dict[str, Any]] = field(default_factory=list)
+    related_mentions: list[dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
