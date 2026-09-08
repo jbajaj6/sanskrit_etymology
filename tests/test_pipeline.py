@@ -29,7 +29,14 @@ class PipelineTestCase(unittest.TestCase):
         bundle_ids = {str(entry["id"]) for entry in load_demo_bundle()}
         analysis_ids = {analysis.id for analysis in repo.analyses}
         self.assertEqual({term.id for term in demo_terms}, bundle_ids | analysis_ids)
-        self.assertEqual(sum(1 for term in demo_terms if term.chinese_counterparts), 9)
+        # Every mapping in the canonical file should reach the explorer.
+        mapped_slugs = {mapping.normalized_slug for mapping in repo.mappings}
+        shown = {
+            term.id
+            for term in demo_terms
+            if term.chinese_counterparts
+        }
+        self.assertEqual(len(shown), len(mapped_slugs))
         demo_ids = {term.id for term in demo_terms}
         self.assertTrue({"samadhi", "karma", "ahimsa", "viveka"}.issubset(demo_ids))
         self.assertTrue({"atman", "brahman", "turiya", "upanisad"}.issubset(demo_ids))

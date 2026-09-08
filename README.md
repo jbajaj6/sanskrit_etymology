@@ -67,6 +67,29 @@ cite by sutra number (YS 1.2); Upanisadic terms cite by text and verse (BrU 2.4.
 ChU 6.2.1, MaU 7). Every verified Upanisadic passage was checked against the GRETIL
 mula text named in its citation trail, not quoted from memory.
 
+## Chinese mappings
+
+56 of the 126 terms carry Chinese Buddhist equivalents, in
+[sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml).
+Every candidate names the Taisho text and line where it was located in CBETA.
+
+Attesting a Chinese word is not the same as showing it renders the Sanskrit
+term, so where the Chinese carries a different doctrinal load the entry records
+that instead of implying equivalence. Some of those divergences are the most
+interesting things in the file:
+
+- `atman` -> 我, where the Buddhist canon uses the character chiefly to deny
+  what the Upanisads affirm, in the compound 無我.
+- `viveka` gets two renderings for two senses: 簡擇 for discrimination, which is
+  Patanjali's usage, and 遠離 for the seclusion the term means in Buddhist texts.
+- `isvara` -> 自在天 names a creator deity, which is precisely what YS 1.24 does
+  not assert.
+- `prana` splits into 息 (breath) and 命根 (the life faculty), so the
+  identification BrU 6.1 argues for cannot be made in the Chinese vocabulary.
+
+Only source-verified terms carry mappings, and a test enforces both that rule
+and the requirement that every candidate cite a Taisho text.
+
 ## Cross-references
 
 Terms link to each other, and every link states its basis so it can be checked.

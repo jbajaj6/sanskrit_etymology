@@ -36,7 +36,14 @@
     "doctrinal_significance": "Abhyāsa answers the practical question: how does one actually achieve nirodha? The answer is sustained practice paired with non-attachment. This makes abhyāsa one of the most practically important terms in the entire text — it is the instruction that converts philosophy into discipline. YS 1.14's three conditions (long time, no interruption, devotion) also manage student expectations: this is not a quick fix.",
     "ambiguity_notes": "The root √as (\"to throw\") is sometimes confused with √as (\"to be,\" class 2). The derivation abhi + ā + √as (4th class, \"to throw\") yielding abhyāsa (\"a repeated throwing-toward\") is the standard analysis (Monier-Williams s.v. abhyāsa). The alternative root √as (\"to sit\"), yielding a sense of \"sitting near\" (as in upāsana), has been proposed but is not the mainstream derivation. Apte and Monier-Williams both give √as (\"to throw, cast\") as primary. The Dhvanyāloka commentary gloss \"paunaḥpunya\" (\"repetition\") confirms the iterative sense. For presentation purposes, the lexical sense \"repeated practice\" is clearer than forcing the etymology into an overly literal English paraphrase.",
     "confidence": "medium",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "修習",
+        "pinyin": "xiūxí",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0290a13: 修習"
+      }
+    ],
     "search_aliases": [
       "abhyasa",
       "abhyāsa"
@@ -343,7 +350,7 @@
         "characters": "心",
         "pinyin": "xīn",
         "mapping_type": "broad_equivalent",
-        "source": "Ubiquitous across all Chinese Buddhist literature"
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0279a23: 心"
       }
     ],
     "search_aliases": [
@@ -458,7 +465,7 @@
         "characters": "禪",
         "pinyin": "chán",
         "mapping_type": "transliteration",
-        "source": "Ubiquitous across all periods of Chinese Buddhist literature"
+        "source": "T01n0001 (Dīrghāgama 長阿含經), line 0048a22: 禪定"
       },
       {
         "characters": "禪定",
@@ -794,7 +801,7 @@
         "characters": "滅",
         "pinyin": "miè",
         "mapping_type": "semantic_translation",
-        "source": "Four Noble Truths: 苦集滅道 (duḥkha, samudaya, nirodha, mārga)"
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0310b13: 苦集滅道"
       }
     ],
     "search_aliases": [
@@ -915,7 +922,7 @@
         "characters": "慧",
         "pinyin": "huì",
         "mapping_type": "semantic_translation",
-        "source": "Three trainings: 戒定慧 (śīla, samādhi, prajñā)"
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0868a06: 戒定慧"
       }
     ],
     "search_aliases": [
@@ -1960,7 +1967,14 @@
     "doctrinal_significance": "Amṛta is the positive term for what mokṣa names negatively. That the Upaniṣads gloss 'lead me from death to the deathless' as 'make me immortal' rather than 'let me not die' indicates that a change of state, not mere continuation, is meant.",
     "ambiguity_notes": "Amṛta has a concrete Vedic sense (the drink of the gods, later amṛta/soma) alongside the abstract one. In the Upaniṣads the abstract sense dominates, but the older resonance is never entirely absent.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "甘露",
+        "pinyin": "gānlù",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0335c21: 甘露"
+      }
+    ],
     "search_aliases": [
       "amrta",
       "amṛta"
@@ -2395,7 +2409,14 @@
     "doctrinal_significance": "Brahman and ātman are the two poles the Upaniṣads work to identify. Where ātman is approached from within, brahman is approached from without — as the ground of the cosmos — and the teaching consists in showing that these are one.",
     "ambiguity_notes": "The derivation from √bṛh ('to expand') is standard but the semantic history is contested: whether the earliest sense is 'sacred utterance', 'ritual power', or 'growth/expansion' is debated. The neuter/masculine distinction (brahman vs. brahmán) is carried by accent, which the GRETIL text does not preserve.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "梵",
+        "pinyin": "fàn",
+        "mapping_type": "transliteration",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0285c10: 梵"
+      }
+    ],
     "search_aliases": [
       "brahman"
     ],
@@ -2772,7 +2793,14 @@
     "doctrinal_significance": "Making the senses horses rather than enemies is characteristic. They are not to be destroyed but held — the same logic that underlies pratyāhāra in the Yoga Sutras, where the senses are withdrawn rather than suppressed.",
     "ambiguity_notes": "The number and classification of indriyas varies: five senses of knowledge, five of action, with manas sometimes counted as an eleventh. The Kaṭha does not enumerate them.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "根",
+        "pinyin": "gēn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0596b25: 根"
+      }
+    ],
     "search_aliases": [
       "indriya"
     ],
@@ -2976,7 +3004,14 @@
     "doctrinal_significance": "The plural lokāḥ carries the whole eschatological machinery of the tradition. That the same word denotes both a cosmological region and an attained condition is what allows the Upaniṣads to reinterpret ritual promises of heavenly worlds as states of knowledge.",
     "ambiguity_notes": "Loka slides between a spatial sense (a region of the cosmos), a social sense (the world of people), and an attained sense (a condition won by knowledge or action). Context alone distinguishes them.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "世間",
+        "pinyin": "shìjiān",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0346b02: 世間"
+      }
+    ],
     "search_aliases": [
       "loka"
     ],
@@ -3158,7 +3193,14 @@
     "doctrinal_significance": "The Upaniṣadic manas is narrower than the English 'mind': it is a sense-coordinating instrument, subordinate to buddhi and distinct from the self. The Yoga Sutras' citta covers overlapping ground with a different architecture.",
     "ambiguity_notes": "Manas, citta, buddhi and antaḥkaraṇa are distinguished differently by different schools, and the principal Upaniṣads do not use them with fixed technical values. The precise divisions belong to Sāṃkhya and later Vedānta.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "意",
+        "pinyin": "yì",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0357c22: 意"
+      }
+    ],
     "search_aliases": [
       "manas"
     ],
@@ -3247,7 +3289,14 @@
     "doctrinal_significance": "Everything turns on whether māyā is read as 'creative power' or as 'illusion'. The Śvetāśvatara passage supports the former; the standard modern rendering assumes the latter, and the difference reshapes the whole system.",
     "ambiguity_notes": "The Śvetāśvatara is the only principal Upaniṣad where māyā carries clear technical weight, and its theistic framing (māyin as maheśvara) is not typical of the older prose Upaniṣads. Reading Advaitic illusionism into this verse is anachronistic.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "幻",
+        "pinyin": "huàn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0299c23: 幻"
+      }
+    ],
     "search_aliases": [
       "maya",
       "māyā"
@@ -3341,7 +3390,14 @@
     "doctrinal_significance": "The Upaniṣads consistently locate the deathless by contrast with the body rather than by denying death. The teaching is not that one does not die but that what dies was never the self.",
     "ambiguity_notes": "Mṛtyu is personified to varying degrees across the corpus — a cosmic principle in BṛU 1.2, a named interlocutor (Yama/Mṛtyu) in the Kaṭha, a plain noun elsewhere. Translations that flatten this lose the Kaṭha's dramatic structure.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "死",
+        "pinyin": "sǐ",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0371a06: 死"
+      }
+    ],
     "search_aliases": [
       "mrtyu",
       "mṛtyu"
@@ -4244,7 +4300,20 @@
     "doctrinal_significance": "Prāṇa is where the Upaniṣads locate the unity of the living person, and it becomes the bridge to the later yogic disciplines of prāṇāyāma. It is also the term that keeps their psychology embodied: the self is approached through breath, not apart from it.",
     "ambiguity_notes": "Prāṇa names both the generic life-breath and, within the fivefold scheme, one specific breath among five. BṛU 1.5.3 uses it in both senses within a single passage.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "息",
+        "pinyin": "xī",
+        "mapping_type": "semantic_translation",
+        "source": "T01n0001 (Dīrghāgama 長阿含經), line 0026c27: 息"
+      },
+      {
+        "characters": "命根",
+        "pinyin": "mìnggēn",
+        "mapping_type": "broad_equivalent",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0322a11: 命根"
+      }
+    ],
     "search_aliases": [
       "prana",
       "prāṇa"
@@ -4513,7 +4582,14 @@
     "doctrinal_significance": "Saṃsāra and mokṣa form the frame within which nearly all later Indian soteriology operates, and the Kaṭha passage shows the frame already assembled: a goal, a disqualifying condition, and a default outcome for those who fall short.",
     "ambiguity_notes": "The noun saṃsāra is comparatively rare in the older prose Upaniṣads; the doctrine of rebirth is present earlier (BṛU 6.2, ChU 5.10) but expressed without this term. Its currency belongs to the later verse Upaniṣads and after.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "生死",
+        "pinyin": "shēngsǐ",
+        "mapping_type": "semantic_translation",
+        "source": "T31n1585 (Cheng weishi lun 成唯識論 (Xuanzang)), line 0002b13: 生死"
+      }
+    ],
     "search_aliases": [
       "samsara",
       "saṃsāra"
@@ -5402,7 +5478,14 @@
     "doctrinal_significance": "Vairāgya prevents practice from becoming another form of grasping. Without it, even meditation can become an object of attachment. The pairing of abhyāsa and vairāgya is one of the Yoga Sutras' most psychologically astute insights: effort without non-attachment is strain; non-attachment without effort is passivity. Both are required together.",
     "ambiguity_notes": "The derivation is transparent: virāga (\"absence of rāga\") → vairāgya (abstract noun via vṛddhi of the initial vowel: vi → vai). The root √rañj → rāga is well established (Monier-Williams s.v. rāga, vairāgya). The only interpretive question is whether vairāgya implies active renunciation (giving things up) or a natural falling-away of craving. Patañjali's language (\"vaśīkāra-saṃjñā\" = mastery-consciousness) suggests the latter: it is not suppression but mastery, a state where desire simply no longer arises.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "離欲",
+        "pinyin": "líyù",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b29: 離欲"
+      }
+    ],
     "search_aliases": [
       "vairagya",
       "vairāgya"
@@ -5550,7 +5633,14 @@
     "doctrinal_significance": "This is one of the few places where the Upaniṣads explicitly refuse to treat knowledge and ignorance as a simple opposition, and it complicates any reading of the tradition as world-denying.",
     "ambiguity_notes": "What vidyā and avidyā mean in ĪśU 11 is genuinely contested. Śaṅkara reads avidyā as ritual works and vidyā as meditation on deities; others read the pair more literally as knowledge and ignorance, which makes the verse harder to construe.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "明",
+        "pinyin": "míng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0313b06: 明"
+      }
+    ],
     "search_aliases": [
       "vidya",
       "vidyā"
@@ -5895,7 +5985,14 @@
     "doctrinal_significance": "The parable makes the teacher an epistemic condition rather than an optional aid. Given that the self is not available to ordinary observation, the tradition holds that it must be pointed out.",
     "ambiguity_notes": "Ācārya and guru are near-synonyms in later usage but not identical: ācārya emphasises formal instruction and conduct, guru weight or gravity. The principal Upaniṣads available here use ācārya; see also the entry for guru.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "阿闍梨",
+        "pinyin": "āshélí",
+        "mapping_type": "transliteration",
+        "source": "T02n0099 (Saṃyuktāgama 雜阿含經), line 0225a23: 阿闍梨"
+      }
+    ],
     "search_aliases": [
       "acarya",
       "ācārya"
@@ -6053,7 +6150,14 @@
     "doctrinal_significance": "The identification of ātman with brahman is the core claim of the Upaniṣads and the seed of the whole Vedānta tradition. It reframes liberation as recognition rather than acquisition: nothing is gained, something already the case is finally seen.",
     "ambiguity_notes": "The etymology is genuinely unsettled. Proposals connect it to an ('to breathe'), vā ('to blow'), or a lost pronominal base. Standard dictionaries (Monier-Williams) record the uncertainty rather than resolving it, so no root is asserted here.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "我",
+        "pinyin": "wǒ",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280c22: 我"
+      }
+    ],
     "search_aliases": [
       "atman",
       "ātman"
@@ -6900,7 +7004,14 @@
     "doctrinal_significance": "The culminating transformation of citta. One-pointedness is both a practice quality and a specific stage of meditative development.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "心一境性",
+        "pinyin": "xīn yī jìng xìng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0329a05: 心一境性"
+      }
+    ],
     "search_aliases": [
       "ekagrata",
       "ekāgratā"
@@ -8035,7 +8146,20 @@
     "doctrinal_significance": "The essential cognitive capacity for liberation. All of yoga aims at developing viveka.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "簡擇",
+        "pinyin": "jiǎnzé",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0291c06: 簡擇"
+      },
+      {
+        "characters": "遠離",
+        "pinyin": "yuǎnlí",
+        "mapping_type": "broad_equivalent",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0281a17: 遠離"
+      }
+    ],
     "search_aliases": [
       "viveka"
     ],
@@ -8275,7 +8399,14 @@
     "doctrinal_significance": "First yama, first ethical foundation. All other yamas and niyamas are said to be rooted in ahiṃsā.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "不害",
+        "pinyin": "bùhài",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b15: 不害"
+      }
+    ],
     "search_aliases": [
       "ahimsa",
       "ahiṃsā"
@@ -8390,7 +8521,14 @@
     "doctrinal_significance": "Second source of valid knowledge. Patañjali ultimately ranks samādhi-born wisdom above inference.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "比量",
+        "pinyin": "bǐliàng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a15: 比量"
+      }
+    ],
     "search_aliases": [
       "anumana",
       "anumāna"
@@ -9264,7 +9402,14 @@
     "doctrinal_significance": "Names the fundamental condition yoga addresses: the apparent bondage of consciousness to material nature.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "縛",
+        "pinyin": "fú",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0288c23: 縛"
+      }
+    ],
     "search_aliases": [
       "bandha"
     ],
@@ -9408,7 +9553,14 @@
     "doctrinal_significance": "Fourth yama. Conservation of vital energy for spiritual practice.",
     "ambiguity_notes": "Interpreted strictly as celibacy by monastics; more broadly as moderation in sensual life by householders.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "梵行",
+        "pinyin": "fànxíng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0371a12: 梵行"
+      }
+    ],
     "search_aliases": [
       "brahmacarya"
     ],
@@ -9577,7 +9729,14 @@
     "doctrinal_significance": "Fourth kleśa. Paired with rāga as the two directional forces of attachment that bind awareness to experience.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "瞋",
+        "pinyin": "chēn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0309c28: 瞋"
+      }
+    ],
     "search_aliases": [
       "dvesa",
       "dvesha",
@@ -9764,7 +9923,14 @@
     "doctrinal_significance": "The causal mechanism connecting action to experience across lifetimes. Understanding karma explains why practice is necessary.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "業",
+        "pinyin": "yè",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0281c16: 業"
+      }
+    ],
     "search_aliases": [
       "karma"
     ],
@@ -10088,7 +10254,14 @@
     "doctrinal_significance": "Including sleep as a vṛtti means the mind is never truly 'off' — even sleep is a form of mental activity that must be accounted for in yogic practice.",
     "ambiguity_notes": "Nidrā is often best treated as a lexical noun in classical usage. A ni + drā back-analysis is possible, but for this project it adds little explanatory value beyond the ordinary meaning 'sleep'.",
     "confidence": "medium",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "睡眠",
+        "pinyin": "shuìmián",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0314c22: 睡眠"
+      }
+    ],
     "search_aliases": [
       "nidra",
       "nidrā"
@@ -10279,7 +10452,14 @@
     "doctrinal_significance": "The mechanism of change in the Yoga Sutras. All progress is pariṇāma — transformation of citta's state.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "轉變",
+        "pinyin": "zhuǎnbiàn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0310a08: 轉變"
+      }
+    ],
     "search_aliases": [
       "parinama",
       "pariṇāma"
@@ -10600,7 +10780,14 @@
     "doctrinal_significance": "Fourth obstacle. The danger of losing focus not through opposition but through drift.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "放逸",
+        "pinyin": "fàngyì",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b15: 放逸"
+      }
+    ],
     "search_aliases": [
       "pramada",
       "pramāda"
@@ -10713,7 +10900,14 @@
     "doctrinal_significance": "Even valid knowledge is a vṛtti that must eventually be stilled. This is Patañjali's radical claim: correct thoughts, like incorrect ones, are fluctuations to be quieted.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "量",
+        "pinyin": "liàng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a13: 量"
+      }
+    ],
     "search_aliases": [
       "pramana",
       "pramāṇa"
@@ -10933,7 +11127,14 @@
     "doctrinal_significance": "First source of valid knowledge. Even direct perception is a vṛtti that must ultimately be stilled.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "現量",
+        "pinyin": "xiànliàng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a13: 現量"
+      }
+    ],
     "search_aliases": [
       "pratyaksa",
       "pratyaksha",
@@ -11012,7 +11213,14 @@
     "doctrinal_significance": "The devotional element in Patañjali's system. Surrender of the fruits of action to Īśvara is a practical technique for loosening ego-attachment.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "本願",
+        "pinyin": "běnyuàn",
+        "mapping_type": "semantic_translation",
+        "source": "T29n1558 (Abhidharmakośabhāṣya 阿毘達磨俱舍論 (Xuanzang)), line 0046a10: 本願"
+      }
+    ],
     "search_aliases": [
       "pranidhana",
       "praṇidhāna"
@@ -11366,7 +11574,14 @@
     "doctrinal_significance": "Third kleśa. Names the mechanism by which pleasure creates craving — the mind is 'dyed' by positive experience and seeks to repeat it.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "貪",
+        "pinyin": "tān",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0309c28: 貪"
+      }
+    ],
     "search_aliases": [
       "raga",
       "rāga"
@@ -11440,7 +11655,14 @@
     "doctrinal_significance": "Second niyama. Contentment as a practice, not a result of favorable circumstances.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "知足",
+        "pinyin": "zhīzú",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294c24: 知足"
+      }
+    ],
     "search_aliases": [
       "santosa",
       "santosha",
@@ -11649,7 +11871,14 @@
     "doctrinal_significance": "Second yama. Truth as alignment with reality, not just social honesty.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "諦",
+        "pinyin": "dì",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294a26: 諦"
+      }
+    ],
     "search_aliases": [
       "satya"
     ],
@@ -11753,7 +11982,14 @@
     "doctrinal_significance": "Third obstacle. Doubt as a practical impediment to sustained practice.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "疑",
+        "pinyin": "yí",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0329b12: 疑"
+      }
+    ],
     "search_aliases": [
       "samsaya",
       "samshaya",
@@ -11977,7 +12213,14 @@
     "doctrinal_significance": "The fifth and final vṛtti. Memory connects the theory of vṛttis to the theory of saṃskāras — every experience leaves a trace that can re-arise as memory.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "念",
+        "pinyin": "niàn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0324b13: 念"
+      }
+    ],
     "search_aliases": [
       "smrti",
       "smṛti"
@@ -12071,7 +12314,14 @@
     "doctrinal_significance": "Second obstacle. Names the specific quality of mental inertia that blocks meditation.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "惛沈",
+        "pinyin": "hūnchén",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b17: 惛沈"
+      }
+    ],
     "search_aliases": [
       "styana",
       "styāna"
@@ -12365,7 +12615,14 @@
     "doctrinal_significance": "The energy that drives practice. Without tapas, yoga remains theoretical. YS 2.43 says tapas destroys impurities and perfects the body and senses.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "苦行",
+        "pinyin": "kǔxíng",
+        "mapping_type": "broad_equivalent",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0289a01: 苦行"
+      }
+    ],
     "search_aliases": [
       "tapas"
     ],
@@ -12616,7 +12873,14 @@
     "doctrinal_significance": "Second stage of samprajñāta-samādhi. Marks the transition from gross to subtle cognitive engagement.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "伺",
+        "pinyin": "sì",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a10: 伺"
+      }
+    ],
     "search_aliases": [
       "vicara",
       "vicāra"
@@ -12740,7 +13004,14 @@
     "doctrinal_significance": "Shows that language itself is a form of mental fluctuation. Even philosophically sophisticated concepts are vṛttis to be stilled.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "分別",
+        "pinyin": "fēnbié",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0366c17: 分別"
+      }
+    ],
     "search_aliases": [
       "vikalpa"
     ],
@@ -12857,7 +13128,14 @@
     "doctrinal_significance": "One of the five vṛttis. Understanding viparyaya is essential because avidyā (the root kleśa) is itself a form of viparyaya — taking the non-self for the self.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "顛倒",
+        "pinyin": "diāndǎo",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280c20: 顛倒"
+      }
+    ],
     "search_aliases": [
       "viparyaya"
     ],
@@ -13006,7 +13284,14 @@
     "doctrinal_significance": "The process of karmic fruition. Explains how past actions determine present circumstances.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "異熟",
+        "pinyin": "yìshú",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0284b21: 異熟"
+      }
+    ],
     "search_aliases": [
       "vipaka",
       "vipāka"
@@ -13120,7 +13405,14 @@
     "doctrinal_significance": "First and coarsest of the four stages of samprajñāta-samādhi. Its transcendence marks the beginning of subtler absorption.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "尋",
+        "pinyin": "xún",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a10: 尋"
+      }
+    ],
     "search_aliases": [
       "vitarka"
     ],
@@ -13296,7 +13588,14 @@
     "doctrinal_significance": "The deepest layer of psychological conditioning. Vāsanās explain why beings are born with different dispositions.",
     "ambiguity_notes": "The distinction between vāsanā and saṃskāra is debated. Some commentators treat them as synonyms; others distinguish vāsanā as deeper and more persistent.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "習氣",
+        "pinyin": "xíqì",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0499b01: 習氣"
+      }
+    ],
     "search_aliases": [
       "vasana",
       "vāsanā"
@@ -13353,7 +13652,14 @@
     "doctrinal_significance": "Pairs with śraddhā: faith provides direction, vīrya provides the energy to walk the path.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "精進",
+        "pinyin": "jīngjìn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0326c11: 精進"
+      }
+    ],
     "search_aliases": [
       "virya",
       "vīrya"
@@ -13642,7 +13948,14 @@
     "doctrinal_significance": "The name of the entire system. Patañjali redefines the common meaning (union) into a precise technical term (mental stilling).",
     "ambiguity_notes": "The root √yuj has two relevant senses: 'to join/unite' (class 7) and 'to concentrate/harness' (class 4, yujir samādhau). Patañjali's usage aligns with the second sense — concentration, not union.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "瑜伽",
+        "pinyin": "yújiā",
+        "mapping_type": "transliteration",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a05: 瑜伽"
+      }
+    ],
     "search_aliases": [
       "yoga"
     ],
@@ -13871,7 +14184,14 @@
     "doctrinal_significance": "Third source of valid knowledge. Legitimizes the teaching lineage: the Yoga Sutras themselves are āgama for the student.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "阿含",
+        "pinyin": "āhán",
+        "mapping_type": "transliteration",
+        "source": "T01n0001 (Dīrghāgama 長阿含經), line 0001a06: 阿含"
+      }
+    ],
     "search_aliases": [
       "agama",
       "āgama"
@@ -14476,7 +14796,14 @@
     "doctrinal_significance": "Names what avidyā does: it covers or veils the truth. Practice removes the covering rather than creating something new.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "障",
+        "pinyin": "zhàng",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0345b24: 障"
+      }
+    ],
     "search_aliases": [
       "avarana",
       "āvaraṇa"
@@ -14676,7 +15003,14 @@
     "doctrinal_significance": "Patañjali's God-concept: not a creator but an eternally free consciousness. Devotion to Īśvara is a practical method, not a metaphysical requirement.",
     "ambiguity_notes": "Whether Patañjali's Īśvara is truly theistic or merely a pedagogical device is debated among scholars.",
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "自在天",
+        "pinyin": "zìzàitiān",
+        "mapping_type": "broad_equivalent",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294c25: 自在天"
+      }
+    ],
     "search_aliases": [
       "ishvara",
       "isvara",
@@ -14791,7 +15125,14 @@
     "doctrinal_significance": "Faith as a practical prerequisite, not a theological demand. Without trust in the process, sustained practice (abhyāsa) cannot begin.",
     "ambiguity_notes": null,
     "confidence": "high",
-    "chinese_counterparts": null,
+    "chinese_counterparts": [
+      {
+        "characters": "信",
+        "pinyin": "xìn",
+        "mapping_type": "semantic_translation",
+        "source": "T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0398c29: 信"
+      }
+    ],
     "search_aliases": [
       "shraddha",
       "sraddha",

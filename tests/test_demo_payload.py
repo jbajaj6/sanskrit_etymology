@@ -181,6 +181,30 @@ class DemoPayloadTestCase(unittest.TestCase):
                 f"{term.id} is not present in the sutra quoted for it",
             )
 
+    def test_chinese_mappings_name_where_they_were_found(self) -> None:
+        """A mapping asserts a cross-linguistic claim, so it must cite a text."""
+        taisho = re.compile(r"T\d{2}n\d{4}")
+        for term in self.terms:
+            for candidate in term.chinese_counterparts or []:
+                source = candidate.get("source")
+                self.assertTrue(source, f"{term.id}: {candidate['characters']} cites nothing")
+                self.assertRegex(
+                    source,
+                    taisho,
+                    f"{term.id}: {candidate['characters']} names no Taishō text",
+                )
+
+    def test_only_verified_terms_carry_chinese_mappings(self) -> None:
+        """A term we have not checked against its own text should not also be
+        making claims about how it was rendered in another language."""
+        for term in self.terms:
+            if term.chinese_counterparts:
+                self.assertEqual(
+                    term.verification,
+                    "source-verified",
+                    f"{term.id} is unverified but carries a Chinese mapping",
+                )
+
     def test_sort_places_analysed_terms_first(self) -> None:
         ordered = sort_demo_terms(self.terms)
         first_extended = next(

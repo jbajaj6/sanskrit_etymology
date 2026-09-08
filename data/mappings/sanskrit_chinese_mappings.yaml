@@ -178,7 +178,7 @@ mappings:
           of an entire school of Buddhism (禪宗, Chánzōng → Japanese Zen).
         source_tradition: pan-Buddhist, especially Chan/Zen
         attestation_source:
-          - "Ubiquitous across all periods of Chinese Buddhist literature"
+          - "T01n0001 (Dīrghāgama 長阿含經), line 0048a22: 禪定"
           - "禪宗 (Chan school) — institutional usage from ~7th c. CE onward"
         mapping_type: transliteration
         phonetic_evidence: >
@@ -286,7 +286,7 @@ mappings:
           intention in Chinese. No phonetic relationship to Sanskrit citta.
         source_tradition: pan-Buddhist and pre-Buddhist Chinese
         attestation_source:
-          - "Ubiquitous across all Chinese Buddhist literature"
+          - "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0279a23: 心"
           - "Pre-Buddhist usage in Confucian and Daoist texts"
         mapping_type: broad_equivalent
         phonetic_evidence: null
@@ -349,8 +349,8 @@ mappings:
           perish, cease." Used for nirodha in the Four Noble Truths formula.
         source_tradition: pan-Buddhist
         attestation_source:
+          - "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0310b13: 苦集滅道"
           - "Four Noble Truths: 苦集滅道 (duḥkha, samudaya, nirodha, mārga)"
-          - "Ubiquitous across Āgama, Abhidharma, and Mahāyāna literature"
         mapping_type: semantic_translation
         phonetic_evidence: null
         semantic_evidence: >
@@ -449,8 +449,8 @@ mappings:
           understanding." No phonetic relationship to prajñā.
         source_tradition: pan-Buddhist
         attestation_source:
+          - "T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0868a06: 戒定慧"
           - "Three trainings: 戒定慧 (śīla, samādhi, prajñā)"
-          - "Used in Abhidharma contexts for prajñā as a mental factor"
         mapping_type: semantic_translation
         phonetic_evidence: null
         semantic_evidence: >
@@ -750,3 +750,1051 @@ mappings:
       genuine and illuminating, but it must be presented with heavy
       caveats. This is a case where the gap between the traditions is
       more instructive than the connection.
+
+  # ── SECOND MAPPING PASS (47 terms) ──
+  # Every attestation was located in the CBETA Taishō text named, at the line
+  # reference given. Where the Chinese carries a different doctrinal load than
+  # the Sanskrit, doctrinal_shift_notes says so rather than implying equivalence.
+  - sanskrit_term: abhyāsa
+    devanagari: अभ्यास
+    normalized_slug: abhyasa
+    chinese_candidates:
+    - characters: 修習
+      pinyin: xiūxí
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0290a13: 修習'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 修 'to cultivate' and 習 'to practise repeatedly' together carry abhyāsa's
+        sense of sustained repeated application.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 修習 renders abhyāsa as cultivation through repetition.
+  - sanskrit_term: ācārya
+    devanagari: आचार्य
+    normalized_slug: acarya
+    chinese_candidates:
+    - characters: 阿闍梨
+      pinyin: āshélí
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T02n0099 (Saṃyuktāgama 雜阿含經), line 0225a23: 阿闍梨'
+      mapping_type: transliteration
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: sound_preserving
+      doctrinal_shift_notes: The transliteration is used as a formal title for a preceptor,
+        especially one who confers ordination or initiation, narrower than the Sanskrit's general
+        'teacher'.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: 阿闍梨 transliterates ācārya as a title of office.
+  - sanskrit_term: āgama
+    devanagari: आगम
+    normalized_slug: agama
+    chinese_candidates:
+    - characters: 阿含
+      pinyin: āhán
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T01n0001 (Dīrghāgama 長阿含經), line 0001a06: 阿含'
+      mapping_type: transliteration
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: sound_preserving
+      doctrinal_shift_notes: In Chinese 阿含 came to denote the four Āgama collections specifically,
+        narrowing a word that in Sanskrit means received tradition generally.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: 阿含 transliterates āgama and names a division of the canon.
+  - sanskrit_term: ahiṃsā
+    devanagari: अहिंसा
+    normalized_slug: ahimsa
+    chinese_candidates:
+    - characters: 不害
+      pinyin: bùhài
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b15: 不害'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 不害 is 'not harming', matching ahiṃsā's negative construction exactly.
+        It appears in the standard list of wholesome mental factors.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 不害 renders the negation directly.
+  - sanskrit_term: amṛta
+    devanagari: अमृत
+    normalized_slug: amrta
+    chinese_candidates:
+    - characters: 甘露
+      pinyin: gānlù
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0335c21: 甘露'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 甘露 is 'sweet dew', a Chinese image of a heavenly substance conferring
+        long life, chosen for amṛta's older sense of the deathless draught.
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: The Chinese renders the drink rather than the negation. Sanskrit
+        amṛta is literally 'not dead'; 甘露 says nothing about death at all.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 甘露, 'sweet dew', is the fixed rendering.
+  - sanskrit_term: anumāna
+    devanagari: अनुमान
+    normalized_slug: anumana
+    chinese_candidates:
+    - characters: 比量
+      pinyin: bǐliàng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a15: 比量'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 比 is 'to compare', rendering anumāna's 'measuring after' one thing
+        by another.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 比量, 'comparative measure', is fixed vocabulary in 因明 logic.
+  - sanskrit_term: ātman
+    devanagari: आत्मन्
+    normalized_slug: atman
+    chinese_candidates:
+    - characters: 我
+      pinyin: wǒ
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280c22: 我'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 我 is the ordinary first-person pronoun pressed into service as a philosophical
+        term.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The doctrinal load is inverted. Where the Upaniṣads affirm ātman,
+        Buddhist Chinese overwhelmingly writes 無我, 'no self'. The same character carries a thesis
+        in one tradition and its denial in the other.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 我 renders ātman, but Buddhist texts use it chiefly to deny it.
+  - sanskrit_term: āvaraṇa
+    devanagari: आवरण
+    normalized_slug: avarana
+    chinese_candidates:
+    - characters: 障
+      pinyin: zhàng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0345b24: 障'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 障 is 'obstruction, screen', matching āvaraṇa's sense of a covering
+        that hides.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: 'Yogācāra makes 障 a technical pair: the affliction-obstruction
+        and the obstruction to knowledge. Patañjali''s āvaraṇa at YS 2.52 is simpler, a covering
+        of the inner light.'
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 障 is standard, most often in 煩惱障 and 所知障.
+  - sanskrit_term: bandha
+    devanagari: बन्ध
+    normalized_slug: bandha
+    chinese_candidates:
+    - characters: 縛
+      pinyin: fú
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0288c23: 縛'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 縛 is 'to bind, tie', a direct rendering of bandha.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Buddhist 縛 means bondage to saṃsāra. Patañjali uses bandha at YS
+        3.1 in a neutral technical sense, the binding of attention to a place, which is a practice
+        rather than a fetter.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 縛 is the standard rendering, often in 繫縛.
+  - sanskrit_term: brahmacarya
+    devanagari: ब्रह्मचर्य
+    normalized_slug: brahmacarya
+    chinese_candidates:
+    - characters: 梵行
+      pinyin: fànxíng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0371a12: 梵行'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: '梵 transliterates brahman and 行 renders carya: a hybrid, sound for
+        the first element and sense for the second.'
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: In Buddhist usage 梵行 means the celibate holy life generally, wider
+        than the specific continence of Patañjali's fourth yama.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 梵行 keeps the Brahman element and renders carya as conduct.
+  - sanskrit_term: brahman
+    devanagari: ब्रह्मन्
+    normalized_slug: brahman
+    chinese_candidates:
+    - characters: 梵
+      pinyin: fàn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0285c10: 梵'
+      mapping_type: transliteration
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: In Chinese Buddhist texts 梵 usually means Brahmā the god or the
+        Brahmā heavens (梵天), not the neuter brahman of the Upaniṣads. The absolute sense largely
+        did not travel; Chinese Buddhism had no use for it.
+      confidence: medium
+      ambiguity_notes: null
+    overall_mapping_type: transliteration
+    overall_confidence: medium
+    overall_notes: 梵 transliterates brahman but names a deity and a heaven, not the ground of
+      being.
+  - sanskrit_term: dveṣa
+    devanagari: द्वेष
+    normalized_slug: dvesa
+    chinese_candidates:
+    - characters: 瞋
+      pinyin: chēn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0309c28: 瞋'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 瞋 is anger or hatred, rendering dveṣa and the closely related pratigha.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: 瞋 also renders pratigha; the distinction is not visible in Chinese.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 瞋 is standard, and the second of the three poisons.
+  - sanskrit_term: ekāgratā
+    devanagari: एकाग्रता
+    normalized_slug: ekagrata
+    chinese_candidates:
+    - characters: 心一境性
+      pinyin: xīn yī jìng xìng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0329a05: 心一境性'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: Literally 'the state of the mind having a single object', which unpacks
+        cittaikāgratā rather than translating ekāgratā alone.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 心一境性 is a full analytic rendering rather than a single word.
+  - sanskrit_term: indriya
+    devanagari: इन्द्रिय
+    normalized_slug: indriya
+    chinese_candidates:
+    - characters: 根
+      pinyin: gēn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0596b25: 根'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 根 is 'root', chosen for indriya's sense of a faculty that is a base
+        or power rather than an organ. The six are 六根.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The Sanskrit derives indriya from Indra; the Chinese root metaphor
+        is entirely different and carries none of that.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 根 is the universal rendering.
+  - sanskrit_term: īśvara
+    devanagari: ईश्वर
+    normalized_slug: isvara
+    chinese_candidates:
+    - characters: 自在天
+      pinyin: zìzàitiān
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294c25: 自在天'
+      mapping_type: broad_equivalent
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: 自在天 is 'the god who is self-existent', used in Buddhist texts for
+        Maheśvara and generally in criticism of the idea of a creator. Patañjali's īśvara is
+        not a creator but a special puruṣa untouched by affliction (YS 1.24), so the Chinese
+        term names something the Yoga Sutras do not assert.
+      confidence: medium
+      ambiguity_notes: null
+    overall_mapping_type: broad_equivalent
+    overall_confidence: medium
+    overall_notes: 自在天 renders īśvara as a deity, which is not Patañjali's sense.
+  - sanskrit_term: karma
+    devanagari: कर्म
+    normalized_slug: karma
+    chinese_candidates:
+    - characters: 業
+      pinyin: yè
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0281c16: 業'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 業 already meant 'work, deed, occupation' in classical Chinese. Buddhist
+        usage narrowed it to morally weighted action and its fruit, as in 業果.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The pre-Buddhist Chinese word carried no doctrine of rebirth; that
+        came with the translations.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 業 is the universal rendering, and carried the doctrine into Chinese wholesale.
+  - sanskrit_term: loka
+    devanagari: लोक
+    normalized_slug: loka
+    chinese_candidates:
+    - characters: 世間
+      pinyin: shìjiān
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0346b02: 世間'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 世間 is 'within the age', rendering loka as the mundane sphere, opposed
+        to 出世間 (lokottara).
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 世間 renders loka as the world of ordinary existence.
+  - sanskrit_term: manas
+    devanagari: मनस्
+    normalized_slug: manas
+    chinese_candidates:
+    - characters: 意
+      pinyin: yì
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0357c22: 意'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 意 is 'mind, intention', the standard rendering of manas as the sixth
+        indriya (意根) whose objects are dharmas.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Yogācāra gives manas a technical role as the seventh consciousness
+        (末那識, a transliteration), so the school uses both 意 and 末那 for related but distinct
+        things.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 意 renders manas, the sixth sense-base.
+  - sanskrit_term: māyā
+    devanagari: माया
+    normalized_slug: maya
+    chinese_candidates:
+    - characters: 幻
+      pinyin: huàn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0299c23: 幻'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 幻 is 'illusion, conjuring trick', used constantly in similes of the
+        form 如幻, 'like an illusion'.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The Chinese takes the illusion sense and leaves behind the creative-power
+        sense that ŚvU 4.10 gives māyā, where it is identified with prakṛti.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 幻 renders māyā as illusion or conjuring.
+  - sanskrit_term: mṛtyu
+    devanagari: मृत्यु
+    normalized_slug: mrtyu
+    chinese_candidates:
+    - characters: 死
+      pinyin: sǐ
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0371a06: 死'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 死 is simply 'death', the last of the four sufferings 生老病死.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The Chinese does not personify. The Kaṭha's Mṛtyu, who teaches
+        Naciketas, becomes a name (閻羅) rather than this common noun.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 死 is the plain rendering, standardly in 生老病死.
+  - sanskrit_term: nidrā
+    devanagari: निद्रा
+    normalized_slug: nidra
+    chinese_candidates:
+    - characters: 睡眠
+      pinyin: shuìmián
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0314c22: 睡眠'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 睡眠 is plain 'sleep'. It pairs with 惛沈 in the standard list of hindrances.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: Chinese does not separate nidrā from middha; both fall under 睡眠.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 睡眠 renders both nidrā and middha; 惛沈睡眠 is the fourth hindrance.
+  - sanskrit_term: pariṇāma
+    devanagari: परिणाम
+    normalized_slug: parinama
+    chinese_candidates:
+    - characters: 轉變
+      pinyin: zhuǎnbiàn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0310a08: 轉變'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: '轉 ''to turn'' and 變 ''to change'': the turning-into that pariṇāma
+        names.'
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 轉變 renders pariṇāma as transformation.
+  - sanskrit_term: pramāda
+    devanagari: प्रमाद
+    normalized_slug: pramada
+    chinese_candidates:
+    - characters: 放逸
+      pinyin: fàngyì
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b15: 放逸'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 放逸 is 'letting go and running loose', matching pramāda's sense of the
+        attention slipping rather than of moral fault.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 放逸 is standard; its negation 不放逸 is a wholesome factor.
+  - sanskrit_term: pramāṇa
+    devanagari: प्रमाण
+    normalized_slug: pramana
+    chinese_candidates:
+    - characters: 量
+      pinyin: liàng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a13: 量'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 量 is 'to measure', matching pramāṇa's root sense of a measuring instrument
+        for knowledge. The two accepted pramāṇas appear as 現量 and 比量.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 量 is the standard rendering in Buddhist logic.
+  - sanskrit_term: prāṇa
+    devanagari: प्राण
+    normalized_slug: prana
+    chinese_candidates:
+    - characters: 息
+      pinyin: xī
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T01n0001 (Dīrghāgama 長阿含經), line 0026c27: 息'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 息 is 'breath', used in 出入息 for the in-and-out breath watched in ānāpāna
+        practice.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    - characters: 命根
+      pinyin: mìnggēn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0322a11: 命根'
+      mapping_type: broad_equivalent
+      phonetic_evidence: null
+      semantic_evidence: 命根 is 'the life faculty', the technical Abhidharma term (jīvitendriya)
+        for what keeps a being alive.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Sanskrit prāṇa is one word for breath and for the life it carries.
+        Chinese uses two, so the identification the Upaniṣads argue for at BṛU 6.1 cannot be
+        made in the vocabulary itself.
+      confidence: medium
+      ambiguity_notes: null
+    overall_mapping_type: broad_equivalent
+    overall_confidence: medium
+    overall_notes: '息 for breath, 命根 for the life-faculty: Chinese splits what Sanskrit joins.'
+  - sanskrit_term: praṇidhāna
+    devanagari: प्रणिधान
+    normalized_slug: pranidhana
+    chinese_candidates:
+    - characters: 本願
+      pinyin: běnyuàn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T29n1558 (Abhidharmakośabhāṣya 阿毘達磨俱舍論 (Xuanzang)), line 0046a10: 本願'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 本願 is 'original vow', the term for a bodhisattva's founding aspiration.
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: The Buddhist sense is a vow one makes; Patañjali's īśvara-praṇidhāna
+        is a surrender one performs. The Chinese follows the Buddhist sense.
+      confidence: medium
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 本願 and 願 render praṇidhāna as vow or aspiration.
+  - sanskrit_term: pratyakṣa
+    devanagari: प्रत्यक्ष
+    normalized_slug: pratyaksa
+    chinese_candidates:
+    - characters: 現量
+      pinyin: xiànliàng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0306a13: 現量'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: '現 is ''present, manifest'' and 量 ''measure'': knowledge from what
+        is directly before one.'
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 現量, 'present measure', is fixed vocabulary in 因明 logic.
+  - sanskrit_term: rāga
+    devanagari: राग
+    normalized_slug: raga
+    chinese_candidates:
+    - characters: 貪
+      pinyin: tān
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0309c28: 貪'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 貪 is 'greed, covetousness'. It renders both rāga and lobha, which the
+        Chinese does not distinguish.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Sanskrit rāga literally means 'colouring'; the Chinese takes the
+        psychological result and drops the dyeing metaphor that Patañjali's usage depends on.
+      confidence: high
+      ambiguity_notes: 貪 covers rāga and lobha alike, so the Chinese cannot show which is meant.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 貪 is standard, and the first of the three poisons 貪瞋癡.
+  - sanskrit_term: saṃsāra
+    devanagari: संसार
+    normalized_slug: samsara
+    chinese_candidates:
+    - characters: 生死
+      pinyin: shēngsǐ
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T31n1585 (Cheng weishi lun 成唯識論 (Xuanzang)), line 0002b13: 生死'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 生死 is simply 'birth and death', naming the round by its two poles rather
+        than by the running-around the Sanskrit describes.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 生死 is the older standard; 輪迴 became common later.
+  - sanskrit_term: saṃśaya
+    devanagari: संशय
+    normalized_slug: samsaya
+    chinese_candidates:
+    - characters: 疑
+      pinyin: yí
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0329b12: 疑'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 疑 is doubt, rendering both saṃśaya and vicikitsā.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: 疑 covers saṃśaya and vicikitsā without distinction.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 疑 is standard, and one of the five hindrances as 疑蓋.
+  - sanskrit_term: santoṣa
+    devanagari: सन्तोष
+    normalized_slug: santosa
+    chinese_candidates:
+    - characters: 知足
+      pinyin: zhīzú
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294c24: 知足'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 知足 is 'knowing what is enough', an idiomatic rather than literal rendering
+        that long predates Buddhism in Chinese.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 知足 is the standard rendering.
+  - sanskrit_term: satya
+    devanagari: सत्य
+    normalized_slug: satya
+    chinese_candidates:
+    - characters: 諦
+      pinyin: dì
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0294a26: 諦'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 諦 is 'truth, that which is examined and found so', the word of the
+        Four Noble Truths 四聖諦.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Patañjali's satya is truthfulness, a yama governing speech and
+        conduct; the Chinese 諦 is truth as a doctrinal proposition. The precept sense appears
+        separately as 不妄語, 'not speaking falsely'.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 諦 renders satya as truth, as in 四聖諦.
+  - sanskrit_term: śraddhā
+    devanagari: श्रद्धा
+    normalized_slug: sraddha
+    chinese_candidates:
+    - characters: 信
+      pinyin: xìn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0398c29: 信'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 信 means trust or confidence, close to śraddhā's sense of placing one's
+        heart somewhere rather than assenting to a proposition.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 信 is standard; as a faculty it appears as 信根.
+  - sanskrit_term: smṛti
+    devanagari: स्मृति
+    normalized_slug: smrti
+    chinese_candidates:
+    - characters: 念
+      pinyin: niàn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0324b13: 念'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 念 covers both 'to recall' and 'to keep in mind', matching smṛti's two
+        senses of memory and present mindfulness. It is the seventh limb of the Eightfold Path
+        as 正念.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 念 is the standard rendering across every period and school.
+  - sanskrit_term: styāna
+    devanagari: स्त्यान
+    normalized_slug: styana
+    chinese_candidates:
+    - characters: 惛沈
+      pinyin: hūnchén
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b17: 惛沈'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: '惛 is ''muddled'' and 沈 ''to sink'': the mind clouding and going down,
+        close to styāna''s sense of stiffening or torpor.'
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 惛沈 is standard, paired with 睡眠 as the fourth hindrance.
+  - sanskrit_term: tapas
+    devanagari: तपस्
+    normalized_slug: tapas
+    chinese_candidates:
+    - characters: 苦行
+      pinyin: kǔxíng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0289a01: 苦行'
+      mapping_type: broad_equivalent
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: 苦行 is 'painful practice'. Buddhist texts mostly use it for the
+        extreme asceticism the Buddha rejected, so the Chinese carries a negative charge that
+        tapas does not have in the Yoga Sutras, where it is the first limb of kriyā-yoga.
+      confidence: medium
+      ambiguity_notes: The Sanskrit root sense of burning heat is absent from 苦行 altogether.
+    overall_mapping_type: broad_equivalent
+    overall_confidence: medium
+    overall_notes: 苦行 renders the practice but loses the heat metaphor.
+  - sanskrit_term: vairāgya
+    devanagari: वैराग्य
+    normalized_slug: vairagya
+    chinese_candidates:
+    - characters: 離欲
+      pinyin: líyù
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280b29: 離欲'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 離欲 is 'separated from desire'.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The Sanskrit is built on rāga, 'colouring', so vairāgya is literally
+        the state of being uncoloured. The Chinese names the desire instead of the dye.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 離欲 renders vairāgya as freedom from desire.
+  - sanskrit_term: vāsanā
+    devanagari: वासना
+    normalized_slug: vasana
+    chinese_candidates:
+    - characters: 習氣
+      pinyin: xíqì
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0499b01: 習氣'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 習氣 is 'the air or atmosphere of habit', close to vāsanā's image of
+        a lingering perfume left in the mind by past action.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 習氣 is the standard Yogācāra rendering.
+  - sanskrit_term: vicāra
+    devanagari: विचार
+    normalized_slug: vicara
+    chinese_candidates:
+    - characters: 伺
+      pinyin: sì
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a10: 伺'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 伺 is the finer, sustained attending that follows 尋. The pair 尋伺 is
+        fixed vocabulary in the Yogācārabhūmi.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: The older rendering 觀 collides with 觀 for vipaśyanā.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 伺 in Xuanzang's translations; older versions use 觀.
+  - sanskrit_term: vidyā
+    devanagari: विद्या
+    normalized_slug: vidya
+    chinese_candidates:
+    - characters: 明
+      pinyin: míng
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0313b06: 明'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 明 is 'bright, clear', taking vidyā as illumination rather than as knowledge
+        held. Its negation 無明 for avidyā is among the most frequent terms in the canon.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 明 renders vidyā, most visibly in its negation 無明.
+  - sanskrit_term: vikalpa
+    devanagari: विकल्प
+    normalized_slug: vikalpa
+    chinese_candidates:
+    - characters: 分別
+      pinyin: fēnbié
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0366c17: 分別'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 分別 is 'to divide and distinguish', matching vikalpa's sense of a mind
+        that carves experience into alternatives.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: 'In Yogācāra 分別 becomes strongly pejorative, the constructing activity
+        to be undone. Patañjali''s vikalpa at YS 1.9 is narrower: a cognition resting on words
+        with no object behind them.'
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 分別 is standard; 虛妄分別 ('false discrimination') is the Yogācāra technical use.
+  - sanskrit_term: vipāka
+    devanagari: विपाक
+    normalized_slug: vipaka
+    chinese_candidates:
+    - characters: 異熟
+      pinyin: yìshú
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0284b21: 異熟'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 異熟 is literally 'differently ripened', capturing vipāka's technical
+        point that the fruit differs in moral quality from the deed that caused it.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: The older 果報 ('fruit-recompense') loses the 'differently' that makes
+        the term technical. Xuanzang's coinage was a deliberate correction.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 異熟 is Xuanzang's precise rendering; earlier translators used 果報.
+  - sanskrit_term: viparyaya
+    devanagari: विपर्यय
+    normalized_slug: viparyaya
+    chinese_candidates:
+    - characters: 顛倒
+      pinyin: diāndǎo
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0280c20: 顛倒'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 顛倒 is 'inverted, turned upside down', matching viparyaya's 'going wrongly
+        around'. The four 顛倒 are a fixed list.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 顛倒 is standard, 'upside down'.
+  - sanskrit_term: vīrya
+    devanagari: वीर्य
+    normalized_slug: virya
+    chinese_candidates:
+    - characters: 精進
+      pinyin: jīngjìn
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0326c11: 精進'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: A compound of 精 ('refined, unmixed') and 進 ('to advance'), chosen for
+        vīrya's sense of sustained energetic effort rather than the heroism its root suggests.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: Sanskrit vīrya is built on vīra, 'hero'; the Chinese keeps the
+        effort and drops the martial image.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 精進 renders vīrya throughout, including as the sixth limb 正精進.
+  - sanskrit_term: vitarka
+    devanagari: वितर्क
+    normalized_slug: vitarka
+    chinese_candidates:
+    - characters: 尋
+      pinyin: xún
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a10: 尋'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 尋 ('to search out') and 伺 ('to watch, attend') render the pair vitarka
+        and vicāra, the coarse and fine movements of applied thought.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: Pre-Xuanzang translations render the pair as 覺觀, which invites confusion
+        with other uses of 覺 (bodhi) and 觀 (vipaśyanā).
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 尋 in Xuanzang's translations; older versions use 覺.
+  - sanskrit_term: viveka
+    devanagari: विवेक
+    normalized_slug: viveka
+    chinese_candidates:
+    - characters: 簡擇
+      pinyin: jiǎnzé
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0291c06: 簡擇'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 簡擇 is 'to sift and select', matching viveka's sense of discriminating
+        one thing from another. This is the rendering that answers to Patañjali's usage.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: null
+      confidence: high
+      ambiguity_notes: null
+    - characters: 遠離
+      pinyin: yuǎnlí
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0281a17: 遠離'
+      mapping_type: broad_equivalent
+      phonetic_evidence: null
+      semantic_evidence: 遠離 is 'to withdraw far from'.
+      translation_strategy: doctrinal_adaptation
+      doctrinal_shift_notes: Buddhist Sanskrit often uses viveka for physical or mental seclusion,
+        which is what 遠離 renders. That is a different word-sense from the discrimination of
+        puruṣa from prakṛti that viveka carries in the Yoga Sutras.
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: semantic_translation
+    overall_confidence: medium
+    overall_notes: 'Two renderings for two senses: 簡擇 for discrimination, 遠離 for seclusion.'
+  - sanskrit_term: yoga
+    devanagari: योग
+    normalized_slug: yoga
+    chinese_candidates:
+    - characters: 瑜伽
+      pinyin: yújiā
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0279a05: 瑜伽'
+      mapping_type: transliteration
+      phonetic_evidence: null
+      semantic_evidence: null
+      translation_strategy: sound_preserving
+      doctrinal_shift_notes: 'The Chinese keeps the sound and abandons the sense: 瑜伽 says nothing
+        about yoking. It is the title of the Yogācārabhūmi (瑜伽師地論) and the name of the Yogācāra
+        school.'
+      confidence: high
+      ambiguity_notes: null
+    overall_mapping_type: transliteration
+    overall_confidence: high
+    overall_notes: 瑜伽 transliterates rather than translates, and names a whole school.
