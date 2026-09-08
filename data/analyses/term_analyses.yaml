@@ -728,7 +728,7 @@ analyses:
 
     chapter: "YS 1.18, 1.50, 3.9–3.10, 3.18, 4.9, 4.27"
     source_context: >
-      YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ
+      YS 1.18: virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ
       ("The other [asamprajñāta samādhi] is preceded by the practice of
       cessation, [and only] a residue of saṃskāras remains"). YS 1.50:
       taj-jaḥ saṃskāro 'nya-saṃskāra-pratibandhī ("The saṃskāra born
@@ -1525,7 +1525,7 @@ analyses:
 
     chapter: "YS 1.18"
     source_context: >
-      YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ
+      YS 1.18: virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ
       ("The other [samādhi] is preceded by the practice of cessation,
       [and only] a residue of saṃskāras remains"). Note: the word
       "asamprajñāta" does not literally appear in YS 1.18 — the sutra
@@ -2999,3 +2999,2213 @@ analyses:
     - GRETIL svetu_pu (Śvetāśvatara mūla), ŚvU 6.21 — the compound atyāśramin
     - Searched across the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and
       Śvetāśvatara mūla texts; no other clear occurrence found
+
+  # ── YOGA SUTRA VOCABULARY (59 analyses) ──
+  # Promoted from the working bundle. Each source_context quotes the sūtra
+  # the term is attested in, verified against the GRETIL mūla text.
+  - id: agama
+    devanagari: आगम
+    transliteration: āgama
+    chapter: YS 1.7
+    source_context: 'YS 1.7: pratyakṣānumānāgamāḥ pramāṇāni ("Perception, inference, and authoritative
+      testimony are the means of valid knowledge.")'
+    segmentation: ā + √gam + -a
+    roots:
+    - root: √gam
+      devanagari: √गम्
+      meaning: to go, come
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: 'toward (here: that which has come down, tradition)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''that which has come, received tradition'''
+    compound_type: null
+    literal_gloss: that which has come down; received testimony; authoritative tradition
+    philosophical_gloss: 'Āgama is the third means of valid knowledge: authoritative testimony,
+      especially scriptural or teacher-transmitted knowledge. It is knowledge accepted on the
+      authority of a reliable source rather than through direct perception or inference. In
+      the Yoga Sutras, āgama validates the role of śāstra (scripture) and guru (teacher) in
+      guiding practice.'
+    doctrinal_significance: 'Third source of valid knowledge. Legitimizes the teaching lineage:
+      the Yoga Sutras themselves are āgama for the student.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.7
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: ahimsa
+    devanagari: अहिंसा
+    transliteration: ahiṃsā
+    chapter: YS 2.30, 2.35
+    source_context: 'YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ ("Non-harming, truthfulness,
+      non-stealing, continence, and non-possessiveness are the restraints.")'
+    segmentation: a + √hiṃs + -ā
+    roots:
+    - root: √hiṃs
+      devanagari: √हिंस्
+      meaning: to injure, harm, kill
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not, without (negation)
+    suffixes:
+    - suffix: -ā
+      meaning: feminine abstract noun suffix
+      grammatical_function: 'forms feminine noun: ''non-harming'''
+    compound_type: null
+    literal_gloss: non-harming; non-violence
+    philosophical_gloss: Ahiṃsā is the first and foremost yama — non-violence in thought, word,
+      and deed. YS 2.35 says that when ahiṃsā is firmly established, hostility ceases in the
+      practitioner's presence. It is not merely abstaining from violence but cultivating a quality
+      of being that dissolves aggression. Later adopted by Gandhi as a political principle.
+    doctrinal_significance: First yama, first ethical foundation. All other yamas and niyamas
+      are said to be rooted in ahiṃsā.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: alasya
+    devanagari: आलस्य
+    transliteration: ālasya
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: alasa + -ya
+    roots:
+    - root: alasa
+      devanagari: अलस
+      meaning: lazy, inactive (a + lasa, 'without play/movement')
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ya
+      meaning: abstract noun suffix
+      grammatical_function: 'forms neuter noun: ''the state of being lazy'''
+    compound_type: null
+    literal_gloss: laziness; physical and mental inactivity
+    philosophical_gloss: 'Ālasya is the fifth obstacle: laziness. Where styāna is mental dullness,
+      ālasya is the body''s unwillingness to act — the heaviness that keeps you from getting
+      on the cushion. It is a tāmasic quality (inertia) that must be countered by tapas (disciplined
+      effort) and vīrya (energy).'
+    doctrinal_significance: Fifth obstacle. The bodily inertia that prevents practice from beginning.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: aloka
+    devanagari: आलोक
+    transliteration: āloka
+    chapter: YS 3.5, 3.25
+    source_context: 'YS 3.5: tajjayāt prajñālokaḥ ("From mastery of that comes the light of
+      wisdom.")'
+    segmentation: ā + √lok + -a
+    roots:
+    - root: √lok
+      devanagari: √लोक्
+      meaning: to see, perceive, illuminate
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: toward, fully
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''illumination, inner light'''
+    compound_type: null
+    literal_gloss: full illumination; inner light
+    philosophical_gloss: Āloka refers to the inner light or illumination that arises from mastery
+      of saṃyama. YS 3.5 says that from mastery of saṃyama comes the light of prajñā (prajñā-āloka).
+      It denotes a cognitive clarity that is self-luminous — knowledge that illuminates rather
+      than being illuminated.
+    doctrinal_significance: The light of insight that arises from deep meditative practice.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.5
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: ananda
+    devanagari: आनन्द
+    transliteration: ānanda
+    chapter: YS 1.17
+    source_context: 'YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ ("[Samādhi] with
+      cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.")'
+    segmentation: ā + √nand + -a
+    roots:
+    - root: √nand
+      devanagari: √नन्द्
+      meaning: to rejoice, be glad
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: 'toward, fully (here: complete rejoicing)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''bliss, complete joy'''
+    compound_type: null
+    literal_gloss: complete rejoicing; bliss
+    philosophical_gloss: Ānanda is the third stage of samprajñāta-samādhi (YS 1.17). At this
+      level, the cognitive content is not an external object but the experience of bliss itself
+      — the sāttvic joy that arises when the mind is highly refined. In Vedānta, ānanda is part
+      of the definition of Brahman (sat-cit-ānanda). In the Yoga Sutras, it is a stage to be
+      transcended, not the final goal.
+    doctrinal_significance: Third stage of samprajñāta-samādhi. Even bliss is a cognitive content
+      that must be released for deeper absorption.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: anumana
+    devanagari: अनुमान
+    transliteration: anumāna
+    chapter: YS 1.7, 1.49
+    source_context: 'YS 1.49: śrutānumānaprajñābhyām anyaviṣayā viśeṣārthatvāt ("[That wisdom]
+      has a different object from the wisdom got from tradition and inference, because it bears
+      on the particular.")'
+    segmentation: anu + √mā + -ana
+    roots:
+    - root: √mā
+      devanagari: √मा
+      meaning: to measure, ascertain
+      dhatu_number: null
+    prefixes:
+    - prefix: anu-
+      meaning: 'after, following (here: measuring after — reasoning from what follows)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms neuter noun: ''the act of measuring-after, inference'''
+    compound_type: null
+    literal_gloss: a measuring-after; reasoning from what follows; inference
+    philosophical_gloss: 'Anumāna is inference — the second means of valid knowledge. It is
+      knowledge derived by reasoning from a known relationship: seeing smoke and inferring fire.
+      In YS 1.49, Patañjali states that the wisdom born of samādhi has a ''different domain''
+      from both śruta (scriptural knowledge) and anumāna — it is direct, not inferential.'
+    doctrinal_significance: Second source of valid knowledge. Patañjali ultimately ranks samādhi-born
+      wisdom above inference.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.49
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: aparigraha
+    devanagari: अपरिग्रह
+    transliteration: aparigraha
+    chapter: YS 2.30, 2.39
+    source_context: 'YS 2.39: aparigrahasthairye janmakathaṃtāsaṃbodhaḥ ("When non-possessiveness
+      is firm, there comes full understanding of the how and why of birth.")'
+    segmentation: a + pari + √grah + -a
+    roots:
+    - root: √grah
+      devanagari: √ग्रह्
+      meaning: to seize, grasp, take
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not (negation)
+    - prefix: pari-
+      meaning: 'around, all sides (here: grasping from all sides)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''non-grasping'''
+    compound_type: null
+    literal_gloss: non-grasping-from-all-sides; non-possessiveness
+    philosophical_gloss: 'Aparigraha is the fifth yama: non-possessiveness. YS 2.39 says that
+      when it is established, knowledge arises of the how and why of births — suggesting that
+      releasing the grip on possessions clarifies existential understanding. It is related to
+      but distinct from asteya: asteya is not taking what isn''t yours; aparigraha is not accumulating
+      beyond what is needed.'
+    doctrinal_significance: Fifth yama. Letting go of accumulation — material and psychological.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.39
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: asana
+    devanagari: आसन
+    transliteration: āsana
+    chapter: YS 2.29, 2.46–2.48
+    source_context: 'YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo ''ṣṭāv
+      aṅgāni ("Restraint, observance, posture, regulation of breath, withdrawal of the senses,
+      concentration, meditation, and absorption are the eight limbs.")'
+    segmentation: √ās + -ana
+    roots:
+    - root: √ās
+      devanagari: √आस्
+      meaning: to sit
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms neuter noun: ''seat, posture'''
+    compound_type: null
+    literal_gloss: a sitting; a seat; a posture
+    philosophical_gloss: 'Āsana is the third limb. In the Yoga Sutras, it means simply ''seat''
+      — a stable, comfortable posture for meditation. YS 2.46: sthira-sukham āsanam (''the posture
+      should be steady and comfortable''). Patañjali devotes only three sutras to āsana and
+      says nothing about the elaborate physical postures of later haṭha-yoga. The entire point
+      is to make the body stable enough to be forgotten during meditation.'
+    doctrinal_significance: Third limb. Patañjali's minimalist view of posture — stability and
+      comfort, not gymnastics.
+    ambiguity_notes: Modern 'yoga' often means āsana practice. Patañjali's usage is far more
+      limited — a stable seat for meditation, not a physical exercise system.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: asmita
+    devanagari: अस्मिता
+    transliteration: asmitā
+    chapter: YS 1.17, 2.3, 2.6, 4.4
+    source_context: 'YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ ("[Samādhi] with
+      cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.")'
+    segmentation: asmi + -tā
+    roots:
+    - root: asmi
+      devanagari: अस्मि
+      meaning: I am (first person singular of √as, 'to be')
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -tā
+      meaning: abstract noun suffix
+      grammatical_function: 'forms feminine abstract noun: ''the state of I-am-ness'''
+    compound_type: null
+    literal_gloss: I-am-ness; the sense of being a self
+    philosophical_gloss: 'Asmitā has a dual role in the Yoga Sutras. As a kleśa (YS 2.6), it
+      is the erroneous identification of puruṣa (the seer) with buddhi (the instrument of seeing)
+      — confusing awareness with the mind. As a stage of samprajñāta-samādhi (YS 1.17), it is
+      the subtlest cognitive content: the bare sense of ''I am'' before any attributes. The
+      same word names both a deep error and a refined meditative attainment, depending on context.'
+    doctrinal_significance: 'The second kleśa. Names the fundamental ego-confusion that yoga
+      aims to dissolve: mistaking the mind for the self.'
+    ambiguity_notes: The dual usage (kleśa vs. samādhi stage) creates interpretive complexity.
+      As kleśa, asmitā is an error. As samādhi stage, it is a refined state. Commentators debate
+      whether these are the same asmitā at different levels.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: asteya
+    devanagari: अस्तेय
+    transliteration: asteya
+    chapter: YS 2.30, 2.37
+    source_context: 'YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ ("Non-harming, truthfulness,
+      non-stealing, continence, and non-possessiveness are the restraints.")'
+    segmentation: a + steya
+    roots:
+    - root: √stai
+      devanagari: √स्तै
+      meaning: to steal
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not (negation)
+    suffixes: []
+    compound_type: null
+    literal_gloss: non-stealing
+    philosophical_gloss: 'Asteya is the third yama: non-stealing. YS 2.37 says that when non-stealing
+      is established, all jewels approach the practitioner — a poetic way of saying that non-grasping
+      brings natural abundance. It extends beyond material theft to not taking credit, time,
+      or energy that belongs to others.'
+    doctrinal_significance: Third yama. Non-appropriation in all its forms.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: atha
+    devanagari: अथ
+    transliteration: atha
+    chapter: YS 1.1
+    source_context: 'YS 1.1: atha yogānuśāsanam ("Now, the exposition of yoga.")'
+    segmentation: atha (indeclinable particle)
+    roots:
+    - root: atha
+      devanagari: अथ
+      meaning: now, here, auspicious beginning (particle, not derived from a verbal root)
+      dhatu_number: null
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: now; here begins
+    philosophical_gloss: Atha is the auspicious opening particle of the Yoga Sutras. It signals
+      both a temporal 'now' (the student is ready) and a formal commencement. In Indian philosophical
+      tradition, atha at the beginning of a treatise indicates that the student has completed
+      prerequisite study and is qualified to receive the teaching. It is not merely decorative
+      — it is a declaration that conditions for transmission are met.
+    doctrinal_significance: The opening word of the entire text. Its presence signals that the
+      Yoga Sutras are a systematic teaching requiring preparation, not casual instruction.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: avarana
+    devanagari: आवरण
+    transliteration: āvaraṇa
+    chapter: YS 2.52, 3.43, 4.30
+    source_context: 'YS 2.52: tataḥ kṣīyate prakāśāvaraṇam ("Thereupon the covering of the light
+      is worn away.")'
+    segmentation: ā + √vṛ + -ana
+    roots:
+    - root: √vṛ
+      devanagari: √वृ
+      meaning: to cover, conceal, obstruct
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: 'toward, fully (here: complete covering)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms neuter noun: ''covering, veiling'''
+    compound_type: null
+    literal_gloss: a covering; a veiling; that which obscures
+    philosophical_gloss: Āvaraṇa is the veiling or covering that obscures the light of knowledge.
+      YS 2.52 says that prāṇāyāma destroys the covering over the inner light. In Buddhist Yogācāra,
+      kleśāvaraṇa and jñeyāvaraṇa (afflictive and cognitive obscurations) are the two veils
+      removed on the path to buddhahood. The concept appears across Indian philosophical systems.
+    doctrinal_significance: 'Names what avidyā does: it covers or veils the truth. Practice
+      removes the covering rather than creating something new.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.52
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: avasthanam
+    devanagari: अवस्थानम्
+    transliteration: avasthānam
+    chapter: YS 1.3
+    source_context: 'YS 1.3: tadā draṣṭuḥ svarūpe ''vasthānam ("Then the seer abides in its
+      own form.")'
+    segmentation: ava + √sthā + -ana + -m
+    roots:
+    - root: √sthā
+      devanagari: √स्था
+      meaning: to stand, remain, abide
+      dhatu_number: null
+    prefixes:
+    - prefix: ava-
+      meaning: 'down, into (here: settled abiding)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms a neuter noun: ''the act of abiding'''
+    compound_type: null
+    literal_gloss: a settled abiding; remaining in place
+    philosophical_gloss: 'Avasthānam appears in the crucial sutra YS 1.3: the seer ''abides''
+      (avasthānam) in its own form. It denotes not a temporary resting but a settled dwelling
+      — puruṣa at home in its own nature. The prefix ava- suggests a settling-down, a coming
+      to rest after the disturbance of mental fluctuation has ceased.'
+    doctrinal_significance: Describes the condition of puruṣa when yoga succeeds — stable recognition
+      of its own nature.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.3
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: avirati
+    devanagari: अविरति
+    transliteration: avirati
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: a + vi + √ram + -ti
+    roots:
+    - root: √ram
+      devanagari: √रम्
+      meaning: to delight in, rest in, cease
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not
+    - prefix: vi-
+      meaning: apart (viram = to cease, desist)
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix
+      grammatical_function: 'forms feminine noun: ''non-cessation from sense objects'''
+    compound_type: null
+    literal_gloss: non-cessation; inability to desist from sense objects
+    philosophical_gloss: 'Avirati is the sixth obstacle: sensual indulgence or attachment to
+      sense pleasures. It is the inability to withdraw from the pull of sensory experience —
+      a failure of pratyāhāra (sense withdrawal). The mind knows it should disengage but cannot
+      resist the attraction.'
+    doctrinal_significance: Sixth obstacle. The persistent pull of sensory pleasure that derails
+      practice.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: bandha
+    devanagari: बन्ध
+    transliteration: bandha
+    chapter: YS 3.1, 3.38
+    source_context: 'YS 3.1: deśabandhaś cittasya dhāraṇā ("Concentration is the binding of
+      the mind to a place.")'
+    segmentation: √bandh + -a
+    roots:
+    - root: √bandh
+      devanagari: √बन्ध्
+      meaning: to bind, tie, fix
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''binding, bondage'''
+    compound_type: null
+    literal_gloss: binding; bondage; fixation
+    philosophical_gloss: 'Bandha means bondage — the condition of puruṣa apparently bound to
+      prakṛti through avidyā. In YS 3.1, the same root appears in dhāraṇā''s definition: ''binding
+      (bandha) citta to a place.'' The double usage is telling: the same act of binding that
+      constitutes bondage (ignorant identification) is also the method of liberation (deliberate
+      concentration). Yoga redirects binding from unconscious attachment to conscious focus.'
+    doctrinal_significance: 'Names the fundamental condition yoga addresses: the apparent bondage
+      of consciousness to material nature.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: bhranti_darshana
+    devanagari: भ्रान्तिदर्शन
+    transliteration: bhrānti-darśana
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: √bhram + -ti | √dṛś + -ana
+    roots:
+    - root: √bhram
+      devanagari: √भ्रम्
+      meaning: to wander, be confused
+      dhatu_number: null
+    - root: √dṛś
+      devanagari: √दृश्
+      meaning: to see
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ti / -ana
+      meaning: noun suffixes
+      grammatical_function: bhrānti = 'confusion'; darśana = 'view, seeing'
+    compound_type: 'tatpuruṣa (bhrānti + darśana: ''confused seeing'')'
+    literal_gloss: confused seeing; false perception; erroneous view
+    philosophical_gloss: 'Bhrānti-darśana is the seventh obstacle: false perception or delusion
+      about one''s own progress. It is the mistaken belief that one has attained a stage that
+      one has not actually reached — spiritual self-deception. This is particularly dangerous
+      because the practitioner is unaware of the error.'
+    doctrinal_significance: Seventh obstacle. Self-deception about spiritual attainment — the
+      subtlest form of avidyā in practice.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: brahmacarya
+    devanagari: ब्रह्मचर्य
+    transliteration: brahmacarya
+    chapter: YS 2.30, 2.38
+    source_context: 'YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ ("Non-harming, truthfulness,
+      non-stealing, continence, and non-possessiveness are the restraints.")'
+    segmentation: brahma + √car + -ya
+    roots:
+    - root: √car
+      devanagari: √चर्
+      meaning: to move, walk, conduct oneself
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ya
+      meaning: gerundive suffix
+      grammatical_function: 'forms neuter noun: ''conduct befitting Brahman'''
+    compound_type: 'tatpuruṣa (brahma + carya: ''walking in Brahman'')'
+    literal_gloss: walking in Brahman; conduct of a student; continence
+    philosophical_gloss: 'Brahmacarya is the fourth yama. Traditionally it means celibacy or
+      sexual continence, but the etymology suggests something broader: ''conducting oneself
+      in Brahman'' — living in awareness of the ultimate reality. YS 2.38 says it brings vīrya
+      (vigor). The energy that would be dispersed through sensory indulgence is conserved and
+      redirected toward practice.'
+    doctrinal_significance: Fourth yama. Conservation of vital energy for spiritual practice.
+    ambiguity_notes: Interpreted strictly as celibacy by monastics; more broadly as moderation
+      in sensual life by householders.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: dharmamegha_samadhi
+    devanagari: धर्ममेघसमाधि
+    transliteration: dharmamegha-samādhi
+    chapter: YS 4.29
+    source_context: 'YS 4.29: prasaṃkhyāne ''py akusīdasya sarvathā vivekakhyāter dharmameghaḥ
+      samādhiḥ ("For one who is without interest even in the highest discernment, from discriminative
+      discernment in every case there comes the samādhi called cloud-of-dharma.")'
+    segmentation: dharma + megha + sam + ā + √dhā + -i
+    roots:
+    - root: √dhṛ
+      devanagari: √धृ
+      meaning: to hold (dharma)
+      dhatu_number: null
+    - root: √dhā
+      devanagari: √धा
+      meaning: to place (samādhi)
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: together
+    - prefix: ā-
+      meaning: toward
+    suffixes:
+    - suffix: -i
+      meaning: action noun suffix
+      grammatical_function: forms samādhi
+    compound_type: 'tatpuruṣa (dharmamegha + samādhi: ''the samādhi [called] cloud-of-dharma'')'
+    literal_gloss: the samādhi of the cloud of dharma
+    philosophical_gloss: Dharmamegha-samādhi is the highest samādhi described in the Yoga Sutras
+      — the 'cloud of dharma' that rains down liberation. It arises when the yogin, established
+      in viveka-khyāti, has no interest even in the highest discriminative knowledge (YS 4.29).
+      From this samādhi comes freedom from kleśas and karma (YS 4.30). The cloud metaphor suggests
+      an abundance that pours forth spontaneously.
+    doctrinal_significance: The final samādhi before kaivalya. Names the culminating meditative
+      attainment of the entire system.
+    ambiguity_notes: Also appears in Buddhist Daśabhūmika literature as the name of the tenth
+      bhūmi (stage of the bodhisattva path), suggesting shared terminology between traditions.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 4.29
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: drashta
+    devanagari: द्रष्टा
+    transliteration: draṣṭā
+    chapter: YS 1.3, 2.17, 2.20, 4.23
+    source_context: 'YS 1.3: tadā draṣṭuḥ svarūpe ''vasthānam ("Then the seer abides in its
+      own form.")'
+    segmentation: √dṛś + -tṛ → nominative singular draṣṭā
+    roots:
+    - root: √dṛś
+      devanagari: √दृश्
+      meaning: to see, perceive, behold
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -tṛ
+      meaning: agent noun suffix (tṛc pratyaya)
+      grammatical_function: forms the agent noun draṣṭṛ ('seer'); the displayed form draṣṭā
+        is its nominative singular surface form
+    compound_type: null
+    literal_gloss: the seer; the one who sees
+    philosophical_gloss: Draṣṭā is Patañjali's term for puruṣa in its functional aspect — pure
+      awareness as witness. YS 1.3 says that when yoga succeeds, 'the seer abides in its own
+      form' (draṣṭuḥ svarūpe 'vasthānam). The seer does not act, think, or change — it witnesses.
+      The term emphasizes that puruṣa's essential nature is seeing itself, not any content that
+      is seen.
+    doctrinal_significance: Names puruṣa's essential function. The seer-seen (draṣṭā-dṛśya)
+      distinction is the central axis of the Yoga Sutras.
+    ambiguity_notes: The underlying lexical formation is the agent noun draṣṭṛ ('seer') from
+      √dṛś + -tṛ. The form draṣṭā shown here is the nominative singular surface form students
+      most often recognize.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.3
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: dvesha
+    devanagari: द्वेष
+    transliteration: dveṣa
+    chapter: YS 2.3, 2.8
+    source_context: 'YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ ("Ignorance, I-am-ness, attachment,
+      aversion, and clinging to life are the afflictions.")'
+    segmentation: √dviṣ + -a
+    roots:
+    - root: √dviṣ
+      devanagari: √द्विष्
+      meaning: to hate, be hostile toward
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: result noun suffix
+      grammatical_function: 'forms a masculine noun: ''hatred, aversion'''
+    compound_type: null
+    literal_gloss: hatred; aversion; repulsion
+    philosophical_gloss: 'Dveṣa is the fourth kleśa: aversion that arises from pain. It is the
+      mirror of rāga — where rāga pulls toward pleasure, dveṣa pushes away from pain. Together
+      they form the fundamental push-pull that drives saṃsāric experience. Patañjali treats
+      them as structural patterns, not moral judgments — they are mechanisms of citta, not sins.'
+    doctrinal_significance: Fourth kleśa. Paired with rāga as the two directional forces of
+      attachment that bind awareness to experience.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.3
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: ekagrata
+    devanagari: एकाग्रता
+    transliteration: ekāgratā
+    chapter: YS 2.41, 3.11–3.12
+    source_context: 'YS 3.12: tataḥ punaḥ śāntoditau tulyapratyayau cittasyaikāgratāpariṇāmaḥ
+      ("Then again, when the cognition that has subsided and the one that has arisen are alike,
+      that is the mind''s transformation into one-pointedness.")'
+    segmentation: eka + agra + -tā
+    roots:
+    - root: eka
+      devanagari: एक
+      meaning: one
+      dhatu_number: null
+    - root: agra
+      devanagari: अग्र
+      meaning: point, tip, foremost
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -tā
+      meaning: abstract noun suffix
+      grammatical_function: 'forms feminine noun: ''the state of having one point'''
+    compound_type: 'karmadhāraya (eka + agra: ''one-pointed'') + abstract suffix'
+    literal_gloss: one-pointedness; the state of having a single focus
+    philosophical_gloss: Ekāgratā is one-pointedness of mind — the quality of citta when all
+      its activity converges on a single object. Ekāgratā-pariṇāma (YS 3.12) is the third transformation
+      of citta, following nirodha-pariṇāma and samādhi-pariṇāma. It denotes the stabilization
+      of the mind in a state where arising and subsiding cognitions are identical — perfect
+      continuity of focus.
+    doctrinal_significance: The culminating transformation of citta. One-pointedness is both
+      a practice quality and a specific stage of meditative development.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.12
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: guna
+    devanagari: गुण
+    transliteration: guṇa
+    chapter: YS 1.16, 2.15, 2.19, 4.13, 4.32, 4.34
+    source_context: 'YS 1.16: tat paraṃ puruṣakhyāter guṇavaitṛṣṇyam ("That is the higher [dispassion]:
+      thirstlessness for the constituents of nature, arising from the discernment of puruṣa.")'
+    segmentation: guṇa (primary nominal, not clearly derived from a verbal root)
+    roots:
+    - root: guṇa
+      devanagari: गुण
+      meaning: strand, cord; quality, constituent (primary noun; etymology uncertain)
+      dhatu_number: null
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: strand; quality; fundamental attribute
+    philosophical_gloss: 'The guṇas are the three fundamental qualities of prakṛti: sattva (clarity),
+      rajas (activity), tamas (inertia). All manifest reality is their interplay. The goal of
+      yoga is to transcend even sattva (the ''best'' guṇa) — para-vairāgya (YS 1.16) is freedom
+      from thirst for the guṇas themselves. In YS 4.34, liberation (kaivalya) occurs when the
+      guṇas return to their latent state, their purpose for puruṣa fulfilled.'
+    doctrinal_significance: The building blocks of all material reality in Sāṃkhya-Yoga. Understanding
+      the guṇas is essential for understanding why the mind behaves as it does.
+    ambiguity_notes: The etymology of guṇa is debated. The 'strand' meaning (as in threads of
+      a rope) may be primary, with 'quality' as a secondary development.
+    confidence: medium
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.16
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: ishvara
+    devanagari: ईश्वर
+    transliteration: īśvara
+    chapter: YS 1.23–1.26, 2.1, 2.32, 2.45
+    source_context: 'YS 1.23: īśvarapraṇidhānād vā ("Or [it comes] from surrender to the Lord.")'
+    segmentation: √īś + -vara
+    roots:
+    - root: √īś
+      devanagari: √ईश्
+      meaning: to rule, be master of, be capable
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -vara
+      meaning: agent suffix
+      grammatical_function: 'forms a masculine noun: ''the one who rules, the lord'''
+    compound_type: null
+    literal_gloss: the lord; the ruler; the one who is master
+    philosophical_gloss: Īśvara in the Yoga Sutras is a 'special puruṣa' (puruṣa-viśeṣa, YS
+      1.24) — a consciousness that was never entangled with kleśas, karma, or their results.
+      Īśvara is not a creator god but a model of liberated awareness. Devotion to Īśvara (īśvara-praṇidhāna)
+      is offered as one path to samādhi. This is one of the Yoga Sutras' most debated elements
+      — it introduces a theistic element into an otherwise non-theistic philosophical system.
+    doctrinal_significance: 'Patañjali''s God-concept: not a creator but an eternally free consciousness.
+      Devotion to Īśvara is a practical method, not a metaphysical requirement.'
+    ambiguity_notes: Whether Patañjali's Īśvara is truly theistic or merely a pedagogical device
+      is debated among scholars.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.23
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: karma
+    devanagari: कर्म
+    transliteration: karma
+    chapter: YS 1.24, 2.12, 3.22, 4.7, 4.30
+    source_context: 'YS 1.24: kleśakarmavipākāśayair aparāmṛṣṭaḥ puruṣaviśeṣa īśvaraḥ ("The
+      Lord is a distinct puruṣa, untouched by the afflictions, by action, by the fruition of
+      action, and by its residues.")'
+    segmentation: √kṛ + -man
+    roots:
+    - root: √kṛ
+      devanagari: √कृ
+      meaning: to do, make, act
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -man
+      meaning: action/result noun suffix
+      grammatical_function: 'forms neuter noun: ''action, deed, and its results'''
+    compound_type: null
+    literal_gloss: action; deed; the results of action
+    philosophical_gloss: Karma in the Yoga Sutras encompasses both action and its accumulated
+      consequences. YS 2.12 says the kleśas are the root of the karmāśaya (karmic storehouse),
+      which ripens as birth, lifespan, and experience. YS 4.7 distinguishes four types of karma
+      by color (white, black, mixed, and neither). The yogin's karma is 'neither white nor black'
+      — beyond moral duality. Karma is the mechanism of saṃsāric continuity; its cessation (through
+      kleśa-destruction) is the path to kaivalya.
+    doctrinal_significance: The causal mechanism connecting action to experience across lifetimes.
+      Understanding karma explains why practice is necessary.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.24
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: karmashaya
+    devanagari: कर्माशय
+    transliteration: karmāśaya
+    chapter: YS 2.12
+    source_context: 'YS 2.12: kleśamūlaḥ karmāśayo dṛṣṭādṛṣṭajanmavedanīyaḥ ("The store of karma,
+      rooted in the afflictions, is to be experienced in a birth either seen or unseen.")'
+    segmentation: karma + āśaya
+    roots:
+    - root: √kṛ
+      devanagari: √कृ
+      meaning: to do
+      dhatu_number: null
+    - root: √śī
+      devanagari: √शी
+      meaning: to lie, rest
+      dhatu_number: null
+    prefixes:
+    - prefix: ā-
+      meaning: 'toward (in āśaya: resting-place, repository)'
+    suffixes: []
+    compound_type: 'tatpuruṣa (karma + āśaya: ''repository of karmic residue'')'
+    literal_gloss: the resting-place of karma; the karmic storehouse
+    philosophical_gloss: Karmāśaya is the accumulated deposit of karmic residue — the totality
+      of latent karmic impressions waiting to ripen. It is rooted in the kleśas (YS 2.12) and
+      determines the circumstances of future births. The term āśaya (resting-place) suggests
+      that karma is not active until conditions for its ripening are met — it 'rests' until
+      activated.
+    doctrinal_significance: The mechanism of karmic continuity across lives. Destroying the
+      kleśas drains the karmāśaya.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.12
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: nidra
+    devanagari: निद्रा
+    transliteration: nidrā
+    chapter: YS 1.6, 1.10, 1.38
+    source_context: 'YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ ("[The turnings are] valid
+      cognition, error, conceptual construction, sleep, and memory.")'
+    segmentation: nidrā (lexical noun; traditional derivation is not especially illuminating)
+    roots:
+    - root: nidrā
+      devanagari: निद्रा
+      meaning: sleep, slumber
+      dhatu_number: null
+    prefixes: []
+    suffixes: []
+    compound_type: null
+    literal_gloss: sleep; slumber
+    philosophical_gloss: 'Nidrā is the fourth type of vṛtti — and Patañjali''s inclusion of
+      sleep as a mental fluctuation is philosophically significant. Sleep is not the absence
+      of mental activity but a specific mode of it: the vṛtti that has absence (abhāva) as its
+      object. When you wake and say ''I slept well,'' you are reporting on a vṛtti that occurred
+      during sleep.'
+    doctrinal_significance: Including sleep as a vṛtti means the mind is never truly 'off' —
+      even sleep is a form of mental activity that must be accounted for in yogic practice.
+    ambiguity_notes: Nidrā is often best treated as a lexical noun in classical usage. A ni
+      + drā back-analysis is possible, but for this project it adds little explanatory value
+      beyond the ordinary meaning 'sleep'.
+    confidence: medium
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: niyama
+    devanagari: नियम
+    transliteration: niyama
+    chapter: YS 2.29, 2.32
+    source_context: 'YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo ''ṣṭāv
+      aṅgāni ("Restraint, observance, posture, regulation of breath, withdrawal of the senses,
+      concentration, meditation, and absorption are the eight limbs.")'
+    segmentation: ni + √yam + -a
+    roots:
+    - root: √yam
+      devanagari: √यम्
+      meaning: to restrain, hold, control
+      dhatu_number: null
+    prefixes:
+    - prefix: ni-
+      meaning: 'down, into (here: inner, personal)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''personal observance'''
+    compound_type: null
+    literal_gloss: inner restraint; personal observance
+    philosophical_gloss: 'Niyama is the second limb: five personal observances — cleanliness
+      (śauca), contentment (santoṣa), austerity (tapas), self-study (svādhyāya), and surrender
+      to Īśvara (īśvara-praṇidhāna). Where yama governs external conduct, niyama governs inner
+      discipline.'
+    doctrinal_significance: Second limb. The personal disciplines that prepare the practitioner
+      for the inner work of meditation.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: parinama
+    devanagari: परिणाम
+    transliteration: pariṇāma
+    chapter: YS 2.15, 3.9–3.16, 4.2, 4.14, 4.32–4.33
+    source_context: 'YS 2.15: pariṇāmatāpasaṃskāraduḥkhair guṇavṛttivirodhāc ca duḥkham eva
+      sarvaṃ vivekinaḥ ("For one who discerns, all is suffering: through the sufferings of change,
+      of anxiety, and of habit, and through the conflict of the movements of the constituents
+      of nature.")'
+    segmentation: pari + √nam + -a
+    roots:
+    - root: √nam
+      devanagari: √नम्
+      meaning: to bend, transform
+      dhatu_number: null
+    prefixes:
+    - prefix: pari-
+      meaning: 'around, completely (here: thorough transformation)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''transformation, change of state'''
+    compound_type: null
+    literal_gloss: a bending-around; transformation; change of state
+    philosophical_gloss: 'Pariṇāma is one of the most important technical terms in the Yoga
+      Sutras. It denotes transformation — the process by which something changes its state while
+      maintaining continuity. Patañjali describes three specific pariṇāmas of citta: nirodha-pariṇāma
+      (toward cessation), samādhi-pariṇāma (toward absorption), and ekāgratā-pariṇāma (toward
+      one-pointedness). The concept is rooted in Sāṃkhya: prakṛti is constantly undergoing pariṇāma
+      (transformation of the guṇas), while puruṣa remains changeless.'
+    doctrinal_significance: The mechanism of change in the Yoga Sutras. All progress is pariṇāma
+      — transformation of citta's state.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.15
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: prakrti
+    devanagari: प्रकृति
+    transliteration: prakṛti
+    chapter: YS 1.19, 4.2–4.3
+    source_context: 'YS 1.19: bhavapratyayo videhaprakṛtilayānām ("For those absorbed in the
+      disembodied state or dissolved into primal nature, [samādhi] is caused by becoming.")'
+    segmentation: pra + √kṛ + -ti
+    roots:
+    - root: √kṛ
+      devanagari: √कृ
+      meaning: to do, make
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth, primal (here: the primal maker)'
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix
+      grammatical_function: 'forms feminine noun: ''primal making, nature'''
+    compound_type: null
+    literal_gloss: the primal maker; that which makes forth; nature
+    philosophical_gloss: 'Prakṛti is the metaphysical counterpart to puruṣa in Sāṃkhya-Yoga:
+      primordial material nature from which all manifest reality evolves. It is composed of
+      the three guṇas (sattva, rajas, tamas) and produces everything from intellect (buddhi)
+      to the physical elements. The mind (citta) is a product of prakṛti, not of puruṣa — which
+      is why the mind can be stilled without destroying awareness.'
+    doctrinal_significance: The material half of the Sāṃkhya-Yoga dualism. Everything yoga acts
+      upon — the mind, the body, the senses — belongs to prakṛti.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.19
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: pramada
+    devanagari: प्रमाद
+    transliteration: pramāda
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: pra + √mad + -a
+    roots:
+    - root: √mad
+      devanagari: √मद्
+      meaning: to be intoxicated, be careless
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth (here: intensifying — thorough carelessness)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''heedlessness'''
+    compound_type: null
+    literal_gloss: thorough intoxication; heedlessness; carelessness
+    philosophical_gloss: 'Pramāda is the fourth obstacle: carelessness or negligence in practice.
+      The root √mad (''to be intoxicated'') suggests a mind dulled by distraction — not actively
+      opposed to practice but simply not paying attention. It is the quiet erosion of commitment
+      through inattention.'
+    doctrinal_significance: Fourth obstacle. The danger of losing focus not through opposition
+      but through drift.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: pramana
+    devanagari: प्रमाण
+    transliteration: pramāṇa
+    chapter: YS 1.6, 1.7
+    source_context: 'YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ ("[The turnings are] valid
+      cognition, error, conceptual construction, sleep, and memory.")'
+    segmentation: pra + √mā + -ana
+    roots:
+    - root: √mā
+      devanagari: √मा
+      meaning: to measure, ascertain
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth, forward (here: thorough ascertainment)'
+    suffixes:
+    - suffix: -ana
+      meaning: instrument/action noun suffix
+      grammatical_function: 'forms a neuter noun: ''means of valid knowledge'''
+    compound_type: null
+    literal_gloss: a means of right measurement; an instrument of valid knowing
+    philosophical_gloss: 'Pramāṇa is the first of five types of vṛtti. It means valid cognition
+      — knowledge that accurately represents its object. Patañjali lists three sources: direct
+      perception (pratyakṣa), inference (anumāna), and authoritative testimony (āgama). This
+      epistemological framework is shared with Sāṃkhya and overlaps with broader Indian philosophical
+      debates about the means of knowledge (pramāṇa-śāstra).'
+    doctrinal_significance: 'Even valid knowledge is a vṛtti that must eventually be stilled.
+      This is Patañjali''s radical claim: correct thoughts, like incorrect ones, are fluctuations
+      to be quieted.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: pranidhana
+    devanagari: प्रणिधान
+    transliteration: praṇidhāna
+    chapter: YS 1.23, 2.1, 2.32, 2.45
+    source_context: 'YS 1.23: īśvarapraṇidhānād vā ("Or [it comes] from surrender to the Lord.")'
+    segmentation: pra + ni + √dhā + -ana
+    roots:
+    - root: √dhā
+      devanagari: √धा
+      meaning: to place, put, set
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: forth, forward
+    - prefix: ni-
+      meaning: 'down, into (here: placing down before, surrendering)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms a neuter noun: ''the act of placing before, dedication'''
+    compound_type: null
+    literal_gloss: a placing-down-before; surrender; devoted dedication
+    philosophical_gloss: 'Praṇidhāna means devoted dedication or surrender — placing oneself
+      before something greater. In the compound īśvara-praṇidhāna, it means devotion to Īśvara.
+      It appears three times in the Yoga Sutras: as a means to samādhi (YS 1.23), as part of
+      kriyā-yoga (YS 2.1), and as a niyama (YS 2.32). The root √dhā (''to place'') connects
+      it etymologically to samādhi and dhāraṇā — all involve a deliberate placing of attention.'
+    doctrinal_significance: The devotional element in Patañjali's system. Surrender of the fruits
+      of action to Īśvara is a practical technique for loosening ego-attachment.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.23
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: pratyaksha
+    devanagari: प्रत्यक्ष
+    transliteration: pratyakṣa
+    chapter: YS 1.7
+    source_context: 'YS 1.7: pratyakṣānumānāgamāḥ pramāṇāni ("Perception, inference, and authoritative
+      testimony are the means of valid knowledge.")'
+    segmentation: prati + akṣa
+    roots:
+    - root: akṣa
+      devanagari: अक्ष
+      meaning: eye, sense organ (from √akṣ, 'to perceive')
+      dhatu_number: null
+    prefixes:
+    - prefix: prati-
+      meaning: 'toward, before (here: directly before the senses)'
+    suffixes: []
+    compound_type: 'avyayībhāva (indeclinable compound: ''before the eyes'')'
+    literal_gloss: before the eyes; direct perception
+    philosophical_gloss: Pratyakṣa is direct sensory perception — the first of three means of
+      valid knowledge (pramāṇa) in the Yoga Sutras. It denotes immediate, unmediated contact
+      between sense organ and object. In Indian epistemology, pratyakṣa is generally considered
+      the most fundamental pramāṇa, the one upon which others depend.
+    doctrinal_significance: First source of valid knowledge. Even direct perception is a vṛtti
+      that must ultimately be stilled.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.7
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: raga
+    devanagari: राग
+    transliteration: rāga
+    chapter: YS 2.3, 2.7
+    source_context: 'YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ ("Ignorance, I-am-ness, attachment,
+      aversion, and clinging to life are the afflictions.")'
+    segmentation: √rañj + -a
+    roots:
+    - root: √rañj
+      devanagari: √रञ्ज्
+      meaning: to be colored, dyed, attached, delighted
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: result noun suffix (ghañ pratyaya)
+      grammatical_function: 'forms a masculine noun: ''coloring, attachment'''
+    compound_type: null
+    literal_gloss: coloring; dyeing; passionate attachment
+    philosophical_gloss: 'Rāga is the third kleśa: attachment that arises from pleasure. When
+      an experience produces pleasure (sukha), a residual coloring (rāga) remains that draws
+      awareness back toward that experience. The metaphor of dyeing is precise — rāga literally
+      ''colors'' the mind, biasing perception toward the desired object. Note that vairāgya
+      (non-attachment) is etymologically the removal of rāga.'
+    doctrinal_significance: Third kleśa. Names the mechanism by which pleasure creates craving
+      — the mind is 'dyed' by positive experience and seeks to repeat it.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.3
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: samprajnata
+    devanagari: सम्प्रज्ञात
+    transliteration: samprajñāta
+    chapter: YS 1.17
+    source_context: 'YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ ("[Samādhi] with
+      cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.")'
+    segmentation: sam + pra + √jñā + -ta
+    roots:
+    - root: √jñā
+      devanagari: √ज्ञा
+      meaning: to know
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: completely
+    - prefix: pra-
+      meaning: forth, higher
+    suffixes:
+    - suffix: -ta
+      meaning: past passive participle
+      grammatical_function: 'forms a past participle: ''completely known/cognized'''
+    compound_type: null
+    literal_gloss: fully cognized; with complete knowing
+    philosophical_gloss: 'Samprajñāta-samādhi is absorption with cognitive content — the mind
+      is absorbed but still has an object of awareness. YS 1.17 describes four progressive subtypes:
+      with deliberation (vitarka), with reflection (vicāra), with bliss (ānanda), and with I-sense
+      (asmitā). Each represents a subtler level of cognitive engagement that is progressively
+      released.'
+    doctrinal_significance: The 'lower' samādhi — absorption with content. The starting point
+      for deeper states.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: samshaya
+    devanagari: संशय
+    transliteration: saṃśaya
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: sam + √śī + -a
+    roots:
+    - root: √śī
+      devanagari: √शी
+      meaning: 'to lie, rest (here: to vacillate)'
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: 'together (here: wavering between)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''wavering, doubt'''
+    compound_type: null
+    literal_gloss: lying-together; wavering between; doubt
+    philosophical_gloss: 'Saṃśaya is the third obstacle to yoga: doubt. Not intellectual questioning
+      (which can be productive) but paralyzing indecision — the mind wavering between alternatives
+      without committing to practice. It undermines śraddhā (faith) and prevents abhyāsa (sustained
+      effort).'
+    doctrinal_significance: Third obstacle. Doubt as a practical impediment to sustained practice.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: santosha
+    devanagari: सन्तोष
+    transliteration: santoṣa
+    chapter: YS 2.32, 2.42
+    source_context: 'YS 2.32: śaucasaṃtoṣatapaḥsvādhyāyeśvarapraṇidhānāni niyamāḥ ("Purity,
+      contentment, austerity, self-study, and surrender to the Lord are the observances.")'
+    segmentation: sam + √tuṣ + -a
+    roots:
+    - root: √tuṣ
+      devanagari: √तुष्
+      meaning: to be satisfied, content
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: completely, fully
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''complete satisfaction'''
+    compound_type: null
+    literal_gloss: complete satisfaction; contentment
+    philosophical_gloss: 'Santoṣa is the second niyama: contentment. YS 2.42 says it brings
+      unsurpassed happiness (sukha). This is a radical claim — that happiness comes not from
+      getting what you want but from being content with what is. Santoṣa is the positive counterpart
+      to vairāgya: where vairāgya releases craving, santoṣa cultivates satisfaction.'
+    doctrinal_significance: Second niyama. Contentment as a practice, not a result of favorable
+      circumstances.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.32
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: sattva
+    devanagari: सत्त्व
+    transliteration: sattva
+    chapter: YS 2.41, 3.35, 3.49, 3.55
+    source_context: 'YS 2.41: sattvaśuddhisaumanasyaikāgryendriyajayātmadarśanayogyatvāni ca
+      ("And [there follow] purity of the sattva, gladness of mind, one-pointedness, mastery
+      of the senses, and fitness for the vision of the self.")'
+    segmentation: sat + -tva
+    roots:
+    - root: sat
+      devanagari: सत्
+      meaning: being, existence, truth (present participle of √as)
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -tva
+      meaning: abstract noun suffix
+      grammatical_function: 'forms neuter noun: ''the quality of being; luminosity, clarity'''
+    compound_type: null
+    literal_gloss: being-ness; the quality of light, clarity, and harmony
+    philosophical_gloss: 'Sattva is one of the three guṇas (fundamental qualities of prakṛti)
+      in Sāṃkhya-Yoga: sattva (clarity, luminosity), rajas (activity, agitation), tamas (inertia,
+      darkness). All material existence — including the mind — is composed of these three in
+      varying proportions. Yogic practice increases sattva, which brings clarity and prepares
+      the mind for discriminative knowledge.'
+    doctrinal_significance: The guṇa of clarity. Yogic practice is essentially the cultivation
+      of sattva until the mind becomes transparent to puruṣa.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.41
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: satya
+    devanagari: सत्य
+    transliteration: satya
+    chapter: YS 2.30, 2.36
+    source_context: 'YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ ("Non-harming, truthfulness,
+      non-stealing, continence, and non-possessiveness are the restraints.")'
+    segmentation: sat + -ya
+    roots:
+    - root: sat
+      devanagari: सत्
+      meaning: being, truth, reality (present participle of √as, 'to be')
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ya
+      meaning: abstract noun suffix (taddhita)
+      grammatical_function: 'forms neuter noun: ''the quality of being true'''
+    compound_type: null
+    literal_gloss: truth-ness; that which accords with reality
+    philosophical_gloss: 'Satya is the second yama: truthfulness. YS 2.36 says that when truthfulness
+      is established, actions and their fruits become aligned — words gain the power to manifest.
+      Etymologically, satya comes from sat (''being, that which is''), so truthfulness means
+      alignment with what actually is.'
+    doctrinal_significance: Second yama. Truth as alignment with reality, not just social honesty.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: shauca
+    devanagari: शौच
+    transliteration: śauca
+    chapter: YS 2.32, 2.40–2.41
+    source_context: 'YS 2.32: śaucasaṃtoṣatapaḥsvādhyāyeśvarapraṇidhānāni niyamāḥ ("Purity,
+      contentment, austerity, self-study, and surrender to the Lord are the observances.")'
+    segmentation: śuci + -a (vṛddhi derivative)
+    roots:
+    - root: √śuc
+      devanagari: √शुच्
+      meaning: to be clean, pure, bright
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: abstract noun via vṛddhi
+      grammatical_function: 'forms neuter noun: ''cleanliness, purity'''
+    compound_type: null
+    literal_gloss: cleanliness; purity
+    philosophical_gloss: 'Śauca is the first niyama: cleanliness of body and mind. YS 2.40 says
+      it leads to disgust with one''s own body and disinclination toward contact with others
+      — a stark claim that purity practice reveals the body''s impermanent nature. YS 2.41 adds
+      that mental purity brings clarity (sattva-śuddhi), cheerfulness, one-pointedness, sense-mastery,
+      and fitness for seeing the self.'
+    doctrinal_significance: First niyama. Both physical hygiene and mental purification.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.32
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: shraddha
+    devanagari: श्रद्धा
+    transliteration: śraddhā
+    chapter: YS 1.20
+    source_context: 'YS 1.20: śraddhāvīryasmṛtisamādhiprajñāpūrvaka itareṣām ("For others [not
+      born with it], it is preceded by faith, vigour, memory, samādhi, and wisdom.")'
+    segmentation: śrat + √dhā
+    roots:
+    - root: √dhā
+      devanagari: √धा
+      meaning: to place, put, hold
+      dhatu_number: null
+    prefixes:
+    - prefix: śrat-
+      meaning: heart, trust (from śrad, related to Latin 'cred-' as in 'credere')
+    suffixes: []
+    compound_type: null
+    literal_gloss: placing one's heart; trusting; faith
+    philosophical_gloss: 'Śraddhā is the first of five prerequisites for samādhi listed in YS
+      1.20: faith, vigor, memory, concentration, and wisdom. It is not blind belief but a confident
+      trust in the path and the teaching — the willingness to commit to practice before having
+      direct proof of its results. Etymologically related to Latin ''credo'' (I believe), suggesting
+      a deep Indo-European concept.'
+    doctrinal_significance: Faith as a practical prerequisite, not a theological demand. Without
+      trust in the process, sustained practice (abhyāsa) cannot begin.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.20
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: siddhi
+    devanagari: सिद्धि
+    transliteration: siddhi
+    chapter: YS 2.43, 3.37, 4.1
+    source_context: 'YS 2.43: kāyendriyasiddhir aśuddhikṣayāt tapasaḥ ("From austerity, through
+      the wearing away of impurity, comes perfection of the body and the senses.")'
+    segmentation: √sidh + -ti
+    roots:
+    - root: √sidh
+      devanagari: √सिध्
+      meaning: to succeed, be accomplished
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix (kṛt pratyaya)
+      grammatical_function: 'forms feminine noun: ''accomplishment, attainment'''
+    compound_type: null
+    literal_gloss: accomplishment; success; attainment of powers
+    philosophical_gloss: 'Siddhi denotes attainment or accomplishment — often specifically the
+      extraordinary capacities (vibhūtis) that arise from saṃyama practice. YS 4.1 lists five
+      sources of siddhis: birth, herbs, mantra, tapas, and samādhi. However, YS 3.37 warns that
+      siddhis are obstacles (upasarga) to samādhi — impressive powers that can distract from
+      liberation.'
+    doctrinal_significance: Yogic powers that arise from practice. Patañjali both catalogs them
+      and warns against attachment to them.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.43
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: smrti
+    devanagari: स्मृति
+    transliteration: smṛti
+    chapter: YS 1.6, 1.11, 1.20
+    source_context: 'YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ ("[The turnings are] valid
+      cognition, error, conceptual construction, sleep, and memory.")'
+    segmentation: √smṛ + -ti
+    roots:
+    - root: √smṛ
+      devanagari: √स्मृ
+      meaning: to remember, recollect
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ti
+      meaning: action noun suffix (kṛt pratyaya)
+      grammatical_function: 'forms a feminine abstract noun: ''the act of remembering'''
+    compound_type: null
+    literal_gloss: remembering; memory; recollection
+    philosophical_gloss: 'Smṛti is the fifth type of vṛtti: the re-arising of a previously experienced
+      object. Memory is not a direct encounter with reality but a re-presentation shaped by
+      saṃskāras. In YS 1.20, smṛti appears in a positive light — as one of the prerequisites
+      for samādhi alongside faith, vigor, and wisdom. Thus memory serves dual roles: as a vṛtti
+      to be stilled and as a practical aid on the path.'
+    doctrinal_significance: The fifth and final vṛtti. Memory connects the theory of vṛttis
+      to the theory of saṃskāras — every experience leaves a trace that can re-arise as memory.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: styana
+    devanagari: स्त्यान
+    transliteration: styāna
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: √styai + -ana
+    roots:
+    - root: √styai
+      devanagari: √स्त्यै
+      meaning: to stiffen, become rigid, congeal
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms neuter noun: ''stiffness, dullness'''
+    compound_type: null
+    literal_gloss: stiffening; mental rigidity; dullness
+    philosophical_gloss: Styāna is the second of nine obstacles (antarāya) to yoga. It denotes
+      mental dullness or languor — the mind becoming thick, sluggish, and unresponsive. It is
+      distinct from ālasya (laziness in action) — styāna is specifically a mental heaviness
+      that prevents the mind from engaging with practice.
+    doctrinal_significance: Second obstacle. Names the specific quality of mental inertia that
+      blocks meditation.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: svadhyaya
+    devanagari: स्वाध्याय
+    transliteration: svādhyāya
+    chapter: YS 2.1, 2.32, 2.44
+    source_context: 'YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ ("Austerity, self-study,
+      and surrender to the Lord are the yoga of action.")'
+    segmentation: sva + adhyāya
+    roots:
+    - root: sva
+      devanagari: स्व
+      meaning: own, one's own
+      dhatu_number: null
+    - root: adhyāya
+      devanagari: अध्याय
+      meaning: lesson, study, recitation; a Vedic lesson or chapter
+      dhatu_number: null
+    prefixes: []
+    suffixes: []
+    compound_type: 'tatpuruṣa (sva + adhyāya: ''one''s own study/recitation'')'
+    literal_gloss: one's own study/recitation; self-study
+    philosophical_gloss: Svādhyāya is the second element of kriyā-yoga and the fourth niyama.
+      It means both the study of sacred texts and the study of oneself — contemplative self-examination.
+      Traditionally it included the recitation (japa) of sacred mantras. YS 2.44 says svādhyāya
+      leads to connection with one's chosen deity (iṣṭa-devatā).
+    doctrinal_significance: Bridges intellectual study and contemplative practice. Self-knowledge
+      through both textual study and introspection.
+    ambiguity_notes: For presentation purposes, the surface compound sva + adhyāya is the clearest
+      analysis. The second member adhyāya is historically related to adhi + √i/adhī ('to study,
+      recite'), but over-segmenting the word obscures the lexical meaning actually used in the
+      Yoga Sutras.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: tapas
+    devanagari: तपस्
+    transliteration: tapas
+    chapter: YS 2.1, 2.32, 2.43
+    source_context: 'YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ ("Austerity, self-study,
+      and surrender to the Lord are the yoga of action.")'
+    segmentation: √tap + -as
+    roots:
+    - root: √tap
+      devanagari: √तप्
+      meaning: to heat, burn, undergo austerity
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -as
+      meaning: action noun suffix (asun pratyaya)
+      grammatical_function: 'forms neuter noun: ''heat, austerity'''
+    compound_type: null
+    literal_gloss: heat; burning; austerity; disciplined effort
+    philosophical_gloss: 'Tapas is the first element of kriyā-yoga (YS 2.1) and the third niyama
+      (YS 2.32). It means disciplined self-effort that ''burns'' away impurities. The fire metaphor
+      is central: tapas generates an inner heat that purifies the practitioner. It encompasses
+      physical discipline, willingness to endure discomfort, and the sustained intensity needed
+      for transformation.'
+    doctrinal_significance: The energy that drives practice. Without tapas, yoga remains theoretical.
+      YS 2.43 says tapas destroys impurities and perfects the body and senses.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vasana
+    devanagari: वासना
+    transliteration: vāsanā
+    chapter: YS 2.13, 4.8, 4.24
+    source_context: 'YS 4.8: tatas tadvipākānuguṇānām evābhivyaktir vāsanānām ("From that follows
+      the manifestation of just those latent traces that answer to its fruition.")'
+    segmentation: √vas + -ana + -ā
+    roots:
+    - root: √vas
+      devanagari: √वस्
+      meaning: to dwell, perfume, leave a residue
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -anā
+      meaning: feminine action noun suffix
+      grammatical_function: 'forms feminine noun: ''lingering fragrance, subtle tendency'''
+    compound_type: null
+    literal_gloss: a lingering fragrance; a subtle residual tendency
+    philosophical_gloss: 'Vāsanā refers to subtle tendencies or latent dispositions — deeper
+      and more persistent than saṃskāras. The metaphor of perfume is central: just as a garment
+      retains the scent of flowers long after they are removed, citta retains vāsanās from past
+      actions across lifetimes. They are the ''subliminal activators'' that shape karmic fruition
+      (YS 4.8).'
+    doctrinal_significance: The deepest layer of psychological conditioning. Vāsanās explain
+      why beings are born with different dispositions.
+    ambiguity_notes: The distinction between vāsanā and saṃskāra is debated. Some commentators
+      treat them as synonyms; others distinguish vāsanā as deeper and more persistent.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 4.8
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vicara
+    devanagari: विचार
+    transliteration: vicāra
+    chapter: YS 1.17, 1.44
+    source_context: 'YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ ("[Samādhi] with
+      cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.")'
+    segmentation: vi + √car + -a
+    roots:
+    - root: √car
+      devanagari: √चर्
+      meaning: to move, wander, reflect
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: 'apart, distinctly (here: subtle investigation)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''subtle reflection'''
+    compound_type: null
+    literal_gloss: moving-through distinctly; subtle reflection; refined investigation
+    philosophical_gloss: Vicāra is the second level of cognitive content in samprajñāta-samādhi
+      — subtler than vitarka. Where vitarka is word-bound deliberation, vicāra is a non-verbal,
+      subtle investigation of the object. It corresponds to engagement with the tanmātras (subtle
+      elements) rather than gross objects.
+    doctrinal_significance: Second stage of samprajñāta-samādhi. Marks the transition from gross
+      to subtle cognitive engagement.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vikalpa
+    devanagari: विकल्प
+    transliteration: vikalpa
+    chapter: YS 1.6, 1.9, 1.42
+    source_context: 'YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ ("[The turnings are] valid
+      cognition, error, conceptual construction, sleep, and memory.")'
+    segmentation: vi + √kḷp + -a
+    roots:
+    - root: √kḷp
+      devanagari: √कॢप्
+      meaning: to be fit, arrange, imagine
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: 'apart, distinctly (here: alternative, conceptual construction)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms a masculine noun: ''conceptual construction'''
+    compound_type: null
+    literal_gloss: an alternative arrangement; conceptual construction; imagination
+    philosophical_gloss: 'Vikalpa is the third type of vṛtti: knowledge that follows from words
+      but has no corresponding real object. It includes conceptualization, imagination, and
+      verbal construction. For example, the concept ''the horn of a hare'' — linguistically
+      coherent but without a real referent. Vikalpa reveals that much of what we take to be
+      knowledge is actually linguistic construction.'
+    doctrinal_significance: Shows that language itself is a form of mental fluctuation. Even
+      philosophically sophisticated concepts are vṛttis to be stilled.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vipaka
+    devanagari: विपाक
+    transliteration: vipāka
+    chapter: YS 1.24, 2.13, 4.8
+    source_context: 'YS 1.24: kleśakarmavipākāśayair aparāmṛṣṭaḥ puruṣaviśeṣa īśvaraḥ ("The
+      Lord is a distinct puruṣa, untouched by the afflictions, by action, by the fruition of
+      action, and by its residues.")'
+    segmentation: vi + √pac + -a
+    roots:
+    - root: √pac
+      devanagari: √पच्
+      meaning: to cook, ripen, mature
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: 'apart, fully (here: thorough ripening)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''ripening, fruition'''
+    compound_type: null
+    literal_gloss: thorough ripening; fruition; maturation
+    philosophical_gloss: 'Vipāka is the ripening or fruition of karma — the process by which
+      latent karmic seeds produce their results. YS 2.13 says vipāka manifests as birth (jāti),
+      lifespan (āyus), and quality of experience (bhoga). The cooking metaphor is vivid: karma
+      ''cooks'' over time until it is ''done'' and produces its effect.'
+    doctrinal_significance: The process of karmic fruition. Explains how past actions determine
+      present circumstances.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.24
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: viparyaya
+    devanagari: विपर्यय
+    transliteration: viparyaya
+    chapter: YS 1.6, 1.8
+    source_context: 'YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ ("[The turnings are] valid
+      cognition, error, conceptual construction, sleep, and memory.")'
+    segmentation: vi + pari + √i + -a
+    roots:
+    - root: √i
+      devanagari: √इ
+      meaning: to go
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: apart, wrongly
+    - prefix: pari-
+      meaning: around, reversed
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms a masculine noun: ''going wrongly, reversal'''
+    compound_type: null
+    literal_gloss: a going-wrongly-around; a reversal; misconception
+    philosophical_gloss: 'Viparyaya is the second type of vṛtti: erroneous cognition — knowledge
+      that does not correspond to reality. YS 1.8 defines it as ''false knowledge not based
+      on the real form of its object.'' This is not mere ignorance (avidyā) but active misperception
+      — seeing something as what it is not.'
+    doctrinal_significance: One of the five vṛttis. Understanding viparyaya is essential because
+      avidyā (the root kleśa) is itself a form of viparyaya — taking the non-self for the self.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: virya
+    devanagari: वीर्य
+    transliteration: vīrya
+    chapter: YS 1.20, 2.38
+    source_context: 'YS 1.20: śraddhāvīryasmṛtisamādhiprajñāpūrvaka itareṣām ("For others [not
+      born with it], it is preceded by faith, vigour, memory, samādhi, and wisdom.")'
+    segmentation: vīra + -ya
+    roots:
+    - root: vīra
+      devanagari: वीर
+      meaning: hero, strong one (from √vī, 'to be powerful')
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ya
+      meaning: abstract noun suffix (taddhita)
+      grammatical_function: 'forms neuter abstract noun: ''heroic quality, vigor'''
+    compound_type: null
+    literal_gloss: heroic quality; vigor; energy
+    philosophical_gloss: Vīrya is the second prerequisite for samādhi in YS 1.20 — the energy
+      and determination needed to sustain practice. It is not mere physical strength but the
+      inner vigor that keeps a practitioner going through difficulty, doubt, and the long periods
+      where progress is not apparent.
+    doctrinal_significance: 'Pairs with śraddhā: faith provides direction, vīrya provides the
+      energy to walk the path.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.20
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vitarka
+    devanagari: वितर्क
+    transliteration: vitarka
+    chapter: YS 1.17, 1.42, 2.33, 2.34
+    source_context: 'YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ ("[Samādhi] with
+      cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.")'
+    segmentation: vi + √tark + -a
+    roots:
+    - root: √tark
+      devanagari: √तर्क्
+      meaning: to reason, conjecture, deliberate
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: 'distinctly, specifically (here: gross-level reasoning)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''deliberation, gross reasoning'''
+    compound_type: null
+    literal_gloss: distinct reasoning; gross deliberation
+    philosophical_gloss: Vitarka is the coarsest level of cognitive content in samprajñāta-samādhi
+      (YS 1.17). It denotes deliberative, word-bound reasoning — the mind engaging with an object
+      through language and concepts. Sa-vitarka samādhi still has this gross cognitive element;
+      nir-vitarka samādhi has transcended it. In YS 2.33–34, vitarka also means 'negative thoughts'
+      that are to be countered by cultivating their opposites (pratipakṣa-bhāvanā).
+    doctrinal_significance: First and coarsest of the four stages of samprajñāta-samādhi. Its
+      transcendence marks the beginning of subtler absorption.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: viveka
+    devanagari: विवेक
+    transliteration: viveka
+    chapter: YS 2.26, 2.28, 3.52, 3.54, 4.26, 4.29
+    source_context: 'YS 2.26: vivekakhyātir aviplavā hānopāyaḥ ("Unwavering discriminative discernment
+      is the means of removal.")'
+    segmentation: vi + √vic + -a
+    roots:
+    - root: √vic
+      devanagari: √विच्
+      meaning: to sift, separate, discriminate
+      dhatu_number: null
+    prefixes:
+    - prefix: vi-
+      meaning: 'apart (here: thorough separation, discernment)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix (ghañ pratyaya)
+      grammatical_function: 'forms masculine noun: ''discrimination, discernment'''
+    compound_type: null
+    literal_gloss: sifting-apart; discrimination; discernment
+    philosophical_gloss: 'Viveka is the faculty of discrimination — specifically, the ability
+      to distinguish puruṣa from prakṛti, the seer from the seen. It is the cognitive counterpart
+      to kaivalya: where kaivalya is the ontological separation of puruṣa and prakṛti, viveka
+      is the epistemic recognition of that separation. Viveka-khyāti (the unbroken vision of
+      this discrimination) is the direct cause of liberation.'
+    doctrinal_significance: The essential cognitive capacity for liberation. All of yoga aims
+      at developing viveka.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.26
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vrtti_sarupyam
+    devanagari: वृत्तिसारूप्यम्
+    transliteration: vṛtti-sārūpyam
+    chapter: YS 1.4
+    source_context: 'YS 1.4: vṛttisārūpyam itaratra ("Otherwise, [there is] identification with
+      the turnings [of the mind].")'
+    segmentation: vṛtti + sa + rūpa + -ya + -m
+    roots:
+    - root: rūpa
+      devanagari: रूप
+      meaning: form, appearance
+      dhatu_number: null
+    prefixes:
+    - prefix: sa-
+      meaning: 'with, same (here: having the same form as)'
+    suffixes:
+    - suffix: -ya
+      meaning: abstract noun suffix (taddhita)
+      grammatical_function: 'forms a neuter abstract noun: ''the state of having the same form'''
+    compound_type: 'tatpuruṣa (vṛtti + sārūpya: ''identification with the vṛttis'')'
+    literal_gloss: having-the-same-form as the mental fluctuations; identification with thought
+    philosophical_gloss: 'YS 1.4 states that at times other than yoga, there is vṛtti-sārūpya
+      — the seer takes on the form of the vṛttis. This is the ordinary condition: we mistake
+      ourselves for our thoughts. Sārūpya (same-form-ness) contrasts directly with svarūpa (own-form)
+      in YS 1.3. The entire practice of yoga moves from sārūpya (misidentification) to svarūpa
+      (self-recognition).'
+    doctrinal_significance: 'Names the fundamental error that yoga corrects: identifying awareness
+      with its contents.'
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.4
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: vyadhi
+    devanagari: व्याधि
+    transliteration: vyādhi
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: √vyadh + -i
+    roots:
+    - root: √vyadh
+      devanagari: √व्यध्
+      meaning: to pierce, strike, wound, afflict
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -i
+      meaning: noun-forming suffix
+      grammatical_function: forms a nominal stem denoting affliction or disease
+    compound_type: null
+    literal_gloss: affliction; a piercing disorder; disease
+    philosophical_gloss: Vyādhi (disease) is the first of nine obstacles (antarāya) to yoga
+      listed in YS 1.30. Its inclusion acknowledges that physical illness is a real impediment
+      to practice — the body and mind are interconnected, and disease disrupts the stability
+      needed for meditation.
+    doctrinal_significance: 'First of nine obstacles. Patañjali''s practical realism: the path
+      requires a functioning body.'
+    ambiguity_notes: The earlier vi + ā + √dhā analysis over-parsed the form. For this project,
+      the safer analysis is to relate vyādhi to √vyadh ('to pierce, afflict'), which matches
+      the ordinary lexical sense of disease as an affliction.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: yama
+    devanagari: यम
+    transliteration: yama
+    chapter: YS 2.29, 2.30
+    source_context: 'YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo ''ṣṭāv
+      aṅgāni ("Restraint, observance, posture, regulation of breath, withdrawal of the senses,
+      concentration, meditation, and absorption are the eight limbs.")'
+    segmentation: √yam + -a
+    roots:
+    - root: √yam
+      devanagari: √यम्
+      meaning: to restrain, hold, control
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix
+      grammatical_function: 'forms masculine noun: ''restraint'''
+    compound_type: null
+    literal_gloss: restraint; ethical discipline
+    philosophical_gloss: 'Yama is the first of the eight limbs: five ethical restraints governing
+      one''s relationship with the world — non-violence (ahiṃsā), truthfulness (satya), non-stealing
+      (asteya), continence (brahmacarya), and non-possessiveness (aparigraha). The root √yam
+      (''to restrain'') also gives us niyama and saṃyama.'
+    doctrinal_significance: The ethical foundation of the entire system. Without yama, the inner
+      limbs lack a stable base.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: yoga
+    devanagari: योग
+    transliteration: yoga
+    chapter: YS 1.1, 1.2, 2.1, 2.28
+    source_context: 'YS 1.1: atha yogānuśāsanam ("Now, the exposition of yoga.")'
+    segmentation: √yuj + -a
+    roots:
+    - root: √yuj
+      devanagari: √युज्
+      meaning: to yoke, join, harness, concentrate
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -a
+      meaning: action/result noun suffix (ghañ pratyaya)
+      grammatical_function: 'forms a masculine noun: ''the act of yoking'''
+    compound_type: null
+    literal_gloss: yoking; joining; harnessing
+    philosophical_gloss: 'In popular usage, yoga means ''union.'' But in Patañjali''s system,
+      the word''s meaning is defined by YS 1.2: yoga is citta-vṛtti-nirodha — the stilling of
+      mental fluctuations. Ironically, the goal of Patañjali''s yoga is not union but separation
+      (kaivalya) — the isolation of puruṣa from prakṛti. The root √yuj (''to yoke'') evokes
+      the disciplined harnessing of attention, like yoking an ox to a task, rather than mystical
+      merger.'
+    doctrinal_significance: The name of the entire system. Patañjali redefines the common meaning
+      (union) into a precise technical term (mental stilling).
+    ambiguity_notes: 'The root √yuj has two relevant senses: ''to join/unite'' (class 7) and
+      ''to concentrate/harness'' (class 4, yujir samādhau). Patañjali''s usage aligns with the
+      second sense — concentration, not union.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: yoganushasanam
+    devanagari: योगानुशासनम्
+    transliteration: yogānuśāsanam
+    chapter: YS 1.1
+    source_context: 'YS 1.1: atha yogānuśāsanam ("Now, the exposition of yoga.")'
+    segmentation: yoga + anu + √śās + -ana + -m
+    roots:
+    - root: √śās
+      devanagari: √शास्
+      meaning: to instruct, teach, govern
+      dhatu_number: null
+    prefixes:
+    - prefix: anu-
+      meaning: 'following, in accordance with (here: systematic exposition)'
+    suffixes:
+    - suffix: -ana
+      meaning: action noun suffix
+      grammatical_function: 'forms a neuter noun: ''instruction, exposition'''
+    compound_type: 'tatpuruṣa (yoga + anuśāsana: ''instruction on yoga'')'
+    literal_gloss: a systematic instruction following [the tradition of] yoga
+    philosophical_gloss: 'The compound yogānuśāsanam declares both the subject matter (yoga)
+      and the mode of transmission (anuśāsana — authoritative, systematic instruction in a lineage).
+      The prefix anu- implies that this is not new invention but a following-after, a re-exposition
+      of received teaching. Combined with atha, the full first sutra reads: ''Now, the authoritative
+      instruction on yoga.'''
+    doctrinal_significance: Establishes the text as a formal, lineage-based teaching rather
+      than personal speculation.
+    ambiguity_notes: null
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows

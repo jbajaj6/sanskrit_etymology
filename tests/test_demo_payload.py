@@ -135,6 +135,52 @@ class DemoPayloadTestCase(unittest.TestCase):
                     f"{term.id}: passage {chunk[:40]!r} has no quoted translation",
                 )
 
+    def test_yoga_sutra_terms_appear_in_the_sutra_they_quote(self) -> None:
+        """A quoted passage must actually contain the term it is evidence for.
+
+        Sandhi means the term is usually embedded in a compound and altered at
+        the join, so the comparison is on a normalised stem.
+        """
+        # asamprajnata is the documented exception: the word is Vyasa's, not
+        # Patanjali's, and its entry says so in the passage itself.
+        exceptions = {"asamprajnata"}
+
+        def normalise(text: str) -> str:
+            text = text.lower().replace("-", "").replace(" ", "")
+            for a, b in (("ṃ", "m"), ("ṅ", "m"), ("n", "m"), ("ā", "a"), ("ī", "i"),
+                         ("ū", "u"), ("ḥ", "")):
+                # Visarga drops everywhere, not just finally: YS 4.29 reads
+                # "dharmameghaḥ samādhiḥ" as two words.
+                text = text.replace(a, b)
+            return text
+
+        def stems(translit: str) -> set[str]:
+            base = normalise(translit)
+            found = {base}
+            if len(base) > 4:
+                found |= {base[:-1], base[:-2]}
+            if base[:1] in {"a"}:
+                found |= {base[1:], "ai" + base[1:]}
+            if base[:1] == "e":
+                found.add("ai" + base[1:])
+            return {s for s in found if len(s) > 3}
+
+        for term in self.terms:
+            if term.source_text != "yoga_sutras" or term.verification != "source-verified":
+                continue
+            if term.id in exceptions:
+                self.assertIn(
+                    "does not literally appear",
+                    term.source_context,
+                    f"{term.id} is listed as an exception but does not explain why",
+                )
+                continue
+            sanskrit = normalise(term.source_context.split(":", 1)[1].split('("')[0])
+            self.assertTrue(
+                any(stem in sanskrit for stem in stems(term.transliteration)),
+                f"{term.id} is not present in the sutra quoted for it",
+            )
+
     def test_sort_places_analysed_terms_first(self) -> None:
         ordered = sort_demo_terms(self.terms)
         first_extended = next(

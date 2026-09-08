@@ -85,7 +85,21 @@ both of which are false derivations. See
 [relations.py](src/sanskrit_etymology/relations.py).
 
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
-and `sanskrit-etymology stats` reports the coverage percentage.
+and `sanskrit-etymology stats` reports the coverage percentage. It currently
+stands at 114 of 120.
+
+Six terms are deliberately left unverified, and each says why on its own card:
+
+- **ahaṃkāra, rajas, tamas, vibhūti, mokṣa** do not occur anywhere in the
+  Yogasūtra. A search of all 195 sūtras finds no instance. They are Sāṃkhya
+  vocabulary, or later tradition: Patañjali names the guṇas as a set but never
+  as a triad, and says kaivalya where other systems say mokṣa.
+- **guru**'s locus is Muṇḍaka 1.2.12, and neither the Muṇḍaka nor the Kena is in
+  the corpus consulted. See ācārya for the verified Upaniṣadic term.
+
+That five of the six are absences rather than gaps is itself a finding, and the
+reason the label distinguishes "not yet source-verified" from "checked and not
+there".
 
 Browsing is filtered by thematic bucket (meditation, mind, afflictions, practice,
 knowledge, liberation, compounds), and search matches English meanings as well as

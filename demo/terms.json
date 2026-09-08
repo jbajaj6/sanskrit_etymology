@@ -1273,7 +1273,7 @@
     ],
     "priority_bucket": "must",
     "thematic_bucket": "mind_psychology",
-    "source_context": "YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ (\"The other [asamprajñāta samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). YS 1.50: taj-jaḥ saṃskāro 'nya-saṃskāra-pratibandhī (\"The saṃskāra born of that [truth-bearing wisdom] obstructs other saṃskāras\"). Found in GRETIL: Āṅgirasasmṛti uses saṃskāra in the ritual-consecration sense; Ānandakanda uses it for alchemical purification — showing the word's broad semantic range.",
+    "source_context": "YS 1.18: virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ (\"The other [asamprajñāta samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). YS 1.50: taj-jaḥ saṃskāro 'nya-saṃskāra-pratibandhī (\"The saṃskāra born of that [truth-bearing wisdom] obstructs other saṃskāras\"). Found in GRETIL: Āṅgirasasmṛti uses saṃskāra in the ritual-consecration sense; Ānandakanda uses it for alchemical purification — showing the word's broad semantic range.",
     "citation_trail": [
       "T01n0001 (長阿含經): 無明滅盡是時則無行 (dependent origination)",
       "Five aggregates formula: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)",
@@ -2015,7 +2015,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "meditation_core",
-    "source_context": "YS 1.18: virāma-pratyayābhyāsa-pūrvakaḥ saṃskāra-śeṣo 'nyaḥ (\"The other [samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). Note: the word \"asamprajñāta\" does not literally appear in YS 1.18 — the sutra says only \"anyaḥ\" (\"the other\"). The term asamprajñāta is supplied by Vyāsa's Bhāṣya commentary. Found in GRETIL: Bhagavadgītā commentaries cross-reference YS 1.18 using the term asamprajñāta; Jīva Gosvāmī's Ṣaṭsandarbha distinguishes asamprajñāta-samādhi from brahma-samādhi.",
+    "source_context": "YS 1.18: virāmapratyayābhyāsapūrvaḥ saṃskāraśeṣo 'nyaḥ (\"The other [samādhi] is preceded by the practice of cessation, [and only] a residue of saṃskāras remains\"). Note: the word \"asamprajñāta\" does not literally appear in YS 1.18 — the sutra says only \"anyaḥ\" (\"the other\"). The term asamprajñāta is supplied by Vyāsa's Bhāṣya commentary. Found in GRETIL: Bhagavadgītā commentaries cross-reference YS 1.18 using the term asamprajñāta; Jīva Gosvāmī's Ṣaṭsandarbha distinguishes asamprajñāta-samādhi from brahma-samādhi.",
     "citation_trail": [
       "No standard Chinese Buddhist equivalent — asamprajñāta is a Yoga Sutras technical term",
       "Term supplied by Vyāsa's Bhāṣya, not directly in the sutras",
@@ -6162,17 +6162,19 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "dharmamegha_samadhi",
+      "dharmamegha samadhi",
+      "dharmamegha-samadhi",
       "dharmamegha-samādhi",
-      "dharmamegha",
-      "samadhi",
-      "dharmamegha samadhi"
+      "dharmamegha_samadhi"
     ],
     "priority_bucket": "stretch",
     "thematic_bucket": "advanced_compound",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 4.29: prasaṃkhyāne 'py akusīdasya sarvathā vivekakhyāter dharmameghaḥ samādhiḥ (\"For one who is without interest even in the highest discernment, from discriminative discernment in every case there comes the samādhi called cloud-of-dharma.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 4.29",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "cloud-of-dharma samādhi; the final meditative attainment",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -6386,9 +6388,12 @@
     ],
     "priority_bucket": "stretch",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 3.12: tataḥ punaḥ śāntoditau tulyapratyayau cittasyaikāgratāpariṇāmaḥ (\"Then again, when the cognition that has subsided and the one that has arisen are alike, that is the mind's transformation into one-pointedness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.12",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "one-pointedness of mind",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -6456,9 +6461,12 @@
     ],
     "priority_bucket": "stretch",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ (\"[Samādhi] with cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "cognitive samādhi with an object of awareness",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -6665,14 +6673,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "viveka",
       "viveka"
     ],
     "priority_bucket": "stretch",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.26: vivekakhyātir aviplavā hānopāyaḥ (\"Unwavering discriminative discernment is the means of removal.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.26",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "discrimination; discernment between puruṣa and prakṛti",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -6766,7 +6776,7 @@
     "id": "ahamkara",
     "devanagari": "अहंकार",
     "transliteration": "ahaṃkāra",
-    "chapter": "YS 2.6 (implied via asmitā), Sāṃkhya framework",
+    "chapter": "Not in the Yoga Sutras (Sāṃkhya vocabulary; cf. asmitā, YS 2.6)",
     "segmentation": "aham + √kṛ + -a",
     "roots": [
       {
@@ -6793,7 +6803,7 @@
     "literal_gloss": "I-making; the faculty that generates the sense of self",
     "philosophical_gloss": "Ahaṃkāra is the ego-function in Sāṃkhya psychology — the faculty that appropriates experience as 'mine' and generates the sense of being a separate self. It is a product of prakṛti (not puruṣa) and is part of the 'inner instrument' (antaḥkaraṇa) alongside buddhi (intellect) and manas (thinking mind). In the Yoga Sutras, asmitā (I-am-ness) is the experiential face of ahaṃkāra.",
     "doctrinal_significance": "The ego as a constructed faculty, not an ultimate self. Understanding ahaṃkāra as a product of prakṛti is key to the Yoga Sutras' soteriology.",
-    "ambiguity_notes": null,
+    "ambiguity_notes": "Verified as absent: a search of the full Yogasūtra mūla text (GRETIL patyog_u, 195 sūtras) finds no occurrence of this word. Patañjali's nearest term is asmitā (YS 2.6), which is not simply a synonym: ahaṃkāra is the Sāṃkhya evolute that produces the sense of self, asmitā the kleśa of identifying seer with seen.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -6847,6 +6857,11 @@
         "devanagari": "बुद्धि"
       },
       {
+        "id": "klesa",
+        "transliteration": "kleśa",
+        "devanagari": "क्लेश"
+      },
+      {
         "id": "manas",
         "transliteration": "manas",
         "devanagari": "मनस्"
@@ -6898,9 +6913,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ (\"Non-harming, truthfulness, non-stealing, continence, and non-possessiveness are the restraints.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "non-harming",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7005,9 +7023,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.49: śrutānumānaprajñābhyām anyaviṣayā viśeṣārthatvāt (\"[That wisdom] has a different object from the wisdom got from tradition and inference, because it bears on the particular.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.49",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a measuring-after",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7167,14 +7188,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "aparigraha",
       "aparigraha"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.39: aparigrahasthairye janmakathaṃtāsaṃbodhaḥ (\"When non-possessiveness is firm, there comes full understanding of the how and why of birth.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.39",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "non-grasping-from-all-sides",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7279,9 +7302,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ (\"[Samādhi] with cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "I-am-ness",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7349,14 +7375,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "asteya",
       "asteya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ (\"Non-harming, truthfulness, non-stealing, continence, and non-possessiveness are the restraints.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "non-stealing",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7434,14 +7462,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "atha",
       "atha"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "advanced_compound",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.1: atha yogānuśāsanam (\"Now, the exposition of yoga.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "now",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -7487,9 +7517,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "advanced_compound",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.3: tadā draṣṭuḥ svarūpe 'vasthānam (\"Then the seer abides in its own form.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.3",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a settled abiding",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7622,14 +7655,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "avirati",
       "avirati"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "non-cessation",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7810,14 +7845,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "bandha",
       "bandha"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 3.1: deśabandhaś cittasya dhāraṇā (\"Concentration is the binding of the mind to a place.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "binding",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -7885,17 +7922,20 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "bhranti darsana",
+      "bhranti darshana",
+      "bhranti-darsana",
       "bhranti_darshana",
-      "bhrānti-darśana",
-      "bhranti",
-      "darsana",
-      "bhranti darsana"
+      "bhrānti-darśana"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "confused seeing",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -7949,14 +7989,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "brahmacarya",
       "brahmacarya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ (\"Non-harming, truthfulness, non-stealing, continence, and non-possessiveness are the restraints.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "walking in Brahman",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8052,14 +8094,17 @@
     "chinese_counterparts": null,
     "search_aliases": [
       "drashta",
-      "draṣṭā",
-      "drasta"
+      "drasta",
+      "draṣṭā"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.3: tadā draṣṭuḥ svarūpe 'vasthānam (\"Then the seer abides in its own form.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.3",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "the seer",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8113,15 +8158,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "dvesa",
       "dvesha",
-      "dveṣa",
-      "dvesa"
+      "dveṣa"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ (\"Ignorance, I-am-ness, attachment, aversion, and clinging to life are the afflictions.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.3",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "hatred",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -8225,9 +8273,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.16: tat paraṃ puruṣakhyāter guṇavaitṛṣṇyam (\"That is the higher [dispassion]: thirstlessness for the constituents of nature, arising from the discernment of puruṣa.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.16",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "strand",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -8294,14 +8345,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "karma",
       "karma"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.24: kleśakarmavipākāśayair aparāmṛṣṭaḥ puruṣaviśeṣa īśvaraḥ (\"The Lord is a distinct puruṣa, untouched by the afflictions, by action, by the fruition of action, and by its residues.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.24",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "action",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8391,15 +8444,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "karmasaya",
       "karmashaya",
-      "karmāśaya",
-      "karmasaya"
+      "karmāśaya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.12: kleśamūlaḥ karmāśayo dṛṣṭādṛṣṭajanmavedanīyaḥ (\"The store of karma, rooted in the afflictions, is to be experienced in a birth either seen or unseen.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.12",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "the resting-place of karma",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8503,7 +8559,7 @@
     "id": "moksha",
     "devanagari": "मोक्ष",
     "transliteration": "mokṣa",
-    "chapter": "YS 4 (concept, not the term Patañjali uses — he says kaivalya)",
+    "chapter": "Not in the Yoga Sutras (Patañjali's term is kaivalya)",
     "segmentation": "√muc + -ṣa",
     "roots": [
       {
@@ -8525,7 +8581,7 @@
     "literal_gloss": "release; setting free; liberation",
     "philosophical_gloss": "Mokṣa is the general Indian philosophical term for liberation from the cycle of rebirth (saṃsāra). Patañjali does not use the word mokṣa — he uses kaivalya ('aloneness') instead, which carries specifically Sāṃkhya-Yoga connotations. In Vedānta, mokṣa means realization of identity with Brahman. In Buddhism, liberation is nirvāṇa. Each tradition fills 'liberation' with different metaphysical content.",
     "doctrinal_significance": "The pan-Indian concept of liberation. Patañjali's kaivalya is his specific version of mokṣa.",
-    "ambiguity_notes": "Patañjali uses kaivalya, not mokṣa. Including mokṣa here because it is the broader concept students will encounter across Indian philosophy.",
+    "ambiguity_notes": "Verified as absent: a search of the full Yogasūtra mūla text (GRETIL patyog_u, 195 sūtras) finds no occurrence of this word. Where other systems say mokṣa, Patañjali says kaivalya ('aloneness', YS 2.25, 3.50, 3.55, 4.26, 4.34). The substitution is deliberate: liberation is the isolation of puruṣa from prakṛti, not release into union with anything. Patañjali uses kaivalya, not mokṣa. Including mokṣa here because it is the broader concept students will encounter across Indian philosophy.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -8551,6 +8607,16 @@
         "id": "kaivalya",
         "transliteration": "kaivalya",
         "devanagari": "कैवल्य"
+      },
+      {
+        "id": "prakrti",
+        "transliteration": "prakṛti",
+        "devanagari": "प्रकृति"
+      },
+      {
+        "id": "purusa",
+        "transliteration": "puruṣa",
+        "devanagari": "पुरुष"
       },
       {
         "id": "samsara",
@@ -8588,9 +8654,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "mind_psychology",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ (\"[The turnings are] valid cognition, error, conceptual construction, sleep, and memory.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "sleep",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -8637,14 +8706,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "niyama",
       "niyama"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo 'ṣṭāv aṅgāni (\"Restraint, observance, posture, regulation of breath, withdrawal of the senses, concentration, meditation, and absorption are the eight limbs.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "inner restraint",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8764,9 +8835,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.15: pariṇāmatāpasaṃskāraduḥkhair guṇavṛttivirodhāc ca duḥkham eva sarvaṃ vivekinaḥ (\"For one who discerns, all is suffering: through the sufferings of change, of anxiety, and of habit, and through the conflict of the movements of the constituents of nature.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.15",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a bending-around",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -8845,9 +8919,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.19: bhavapratyayo videhaprakṛtilayānām (\"For those absorbed in the disembodied state or dissolved into primal nature, [samādhi] is caused by becoming.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.19",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "the primal maker",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9043,9 +9120,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "thorough intoxication",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9148,9 +9228,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ (\"[The turnings are] valid cognition, error, conceptual construction, sleep, and memory.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a means of right measurement",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9355,15 +9438,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "pratyaksa",
       "pratyaksha",
-      "pratyakṣa",
-      "pratyaksa"
+      "pratyakṣa"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.7: pratyakṣānumānāgamāḥ pramāṇāni (\"Perception, inference, and authoritative testimony are the means of valid knowledge.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.7",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "before the eyes",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9436,9 +9522,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.23: īśvarapraṇidhānād vā (\"Or [it comes] from surrender to the Lord.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.23",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a placing-down-before",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9644,7 +9733,7 @@
     "id": "rajas",
     "devanagari": "रजस्",
     "transliteration": "rajas",
-    "chapter": "YS 2.15 (implied through guṇa theory)",
+    "chapter": "Not in the Yoga Sutras (Sāṃkhya guṇa)",
     "segmentation": "√rañj + -as",
     "roots": [
       {
@@ -9666,7 +9755,7 @@
     "literal_gloss": "dust; passion; the quality of activity and agitation",
     "philosophical_gloss": "Rajas is the guṇa of activity, restlessness, and passion. It drives movement, desire, and effort. Too much rajas makes the mind agitated and unable to settle. The same root (√rañj) gives us rāga (attachment) — both involve the 'coloring' of awareness by passion. Yogic practice reduces rajas through calming practices and ethical restraints.",
     "doctrinal_significance": "The guṇa of restless energy. Explains why the mind is naturally agitated and difficult to still.",
-    "ambiguity_notes": null,
+    "ambiguity_notes": "Verified as absent: a search of the full Yogasūtra mūla text (GRETIL patyog_u, 195 sūtras) finds no occurrence of this word. Patañjali refers to the guṇas as a set (YS 1.16, 2.15, 2.19) and describes them at YS 2.18 as prakāśa, kriyā and sthiti, but never names sattva, rajas and tamas as a triad. Only sattva occurs by name (YS 2.41, 3.35, 3.49, 3.55).",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -9724,6 +9813,11 @@
         "id": "guna",
         "transliteration": "guṇa",
         "devanagari": "गुण"
+      },
+      {
+        "id": "sattva",
+        "transliteration": "sattva",
+        "devanagari": "सत्त्व"
       }
     ]
   },
@@ -9762,9 +9856,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.3: avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ (\"Ignorance, I-am-ness, attachment, aversion, and clinging to life are the afflictions.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.3",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "coloring",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9828,15 +9925,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "santosa",
       "santosha",
-      "santoṣa",
-      "santosa"
+      "santoṣa"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.32: śaucasaṃtoṣatapaḥsvādhyāyeśvarapraṇidhānāni niyamāḥ (\"Purity, contentment, austerity, self-study, and surrender to the Lord are the observances.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.32",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "complete satisfaction",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -9930,14 +10030,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "sattva",
       "sattva"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.41: sattvaśuddhisaumanasyaikāgryendriyajayātmadarśanayogyatvāni ca (\"And [there follow] purity of the sattva, gladness of mind, one-pointedness, mastery of the senses, and fitness for the vision of the self.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.41",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "being-ness",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10011,14 +10113,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "satya",
       "satya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.30: ahiṃsāsatyāsteyabrahmacaryāparigrahā yamāḥ (\"Non-harming, truthfulness, non-stealing, continence, and non-possessiveness are the restraints.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "truth-ness",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10113,15 +10217,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "samsaya",
       "samshaya",
-      "saṃśaya",
-      "samsaya"
+      "saṃśaya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "lying-together",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10226,14 +10333,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "siddhi",
       "siddhi"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.43: kāyendriyasiddhir aśuddhikṣayāt tapasaḥ (\"From austerity, through the wearing away of impurity, comes perfection of the body and the senses.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.43",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "accomplishment",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10332,9 +10441,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "mind_psychology",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ (\"[The turnings are] valid cognition, error, conceptual construction, sleep, and memory.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "remembering",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10423,9 +10535,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "stiffening",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10554,9 +10669,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ (\"Austerity, self-study, and surrender to the Lord are the yoga of action.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "one's own study/recitation",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10584,7 +10702,7 @@
     "id": "tamas",
     "devanagari": "तमस्",
     "transliteration": "tamas",
-    "chapter": "YS 2.15 (implied through guṇa theory)",
+    "chapter": "Not in the Yoga Sutras (Sāṃkhya guṇa)",
     "segmentation": "√tam + -as",
     "roots": [
       {
@@ -10606,7 +10724,7 @@
     "literal_gloss": "darkness; inertia; heaviness",
     "philosophical_gloss": "Tamas is the guṇa of inertia, darkness, and dullness. It produces ignorance, sleep, and resistance to change. Many of the obstacles to yoga (styāna, ālasya, nidrā) are tāmasic in nature. Yoga combats tamas through tapas (disciplined heat) and sattva-building practices. The goal is not to destroy tamas but to bring the guṇas into a balance where sattva predominates.",
     "doctrinal_significance": "The guṇa of darkness and inertia. Explains why the mind resists practice and tends toward dullness.",
-    "ambiguity_notes": null,
+    "ambiguity_notes": "Verified as absent: a search of the full Yogasūtra mūla text (GRETIL patyog_u, 195 sūtras) finds no occurrence of this word. See the note at rajas: Patañjali names the guṇas collectively and describes them at YS 2.18, but does not use the names rajas and tamas.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -10701,14 +10819,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "tapas",
       "tapas"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ (\"Austerity, self-study, and surrender to the Lord are the yoga of action.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "heat",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -10746,7 +10866,7 @@
     "id": "vibhuti",
     "devanagari": "विभूति",
     "transliteration": "vibhūti",
-    "chapter": "YS 3 (chapter title), 3.16–3.55",
+    "chapter": "Not a sūtra word; the traditional title of Pāda 3",
     "segmentation": "vi + √bhū + -ti",
     "roots": [
       {
@@ -10773,7 +10893,7 @@
     "literal_gloss": "special manifestation; extraordinary power",
     "philosophical_gloss": "Vibhūti titles the third chapter of the Yoga Sutras (Vibhūti Pāda). It refers to the special powers and attainments that arise from saṃyama — knowledge of past lives, clairvoyance, understanding of other minds, etc. These are treated as real but ultimately as distractions from the goal of kaivalya.",
     "doctrinal_significance": "Names the entire category of yogic powers. The Vibhūti Pāda catalogs them while ultimately subordinating them to liberation.",
-    "ambiguity_notes": null,
+    "ambiguity_notes": "Verified as absent: a search of the full Yogasūtra mūla text (GRETIL patyog_u, 195 sūtras) finds no occurrence of this word. Vibhūti is the name given to the third pāda in the colophons and in later tradition, not a term Patañjali uses. The powers themselves are described at YS 3.16-3.55, where the word used is siddhi.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -10939,9 +11059,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ (\"[Samādhi] with cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "moving-through distinctly",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11055,14 +11178,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "vikalpa",
       "vikalpa"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "mind_psychology",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ (\"[The turnings are] valid cognition, error, conceptual construction, sleep, and memory.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "an alternative arrangement",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11170,14 +11295,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "viparyaya",
       "viparyaya"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "mind_psychology",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.6: pramāṇaviparyayavikalpanidrāsmṛtayaḥ (\"[The turnings are] valid cognition, error, conceptual construction, sleep, and memory.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.6",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a going-wrongly-around",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11312,9 +11439,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.24: kleśakarmavipākāśayair aparāmṛṣṭaḥ puruṣaviśeṣa īśvaraḥ (\"The Lord is a distinct puruṣa, untouched by the afflictions, by action, by the fruition of action, and by its residues.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.24",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "thorough ripening",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11418,14 +11548,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "vitarka",
       "vitarka"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ (\"[Samādhi] with cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "distinct reasoning",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11529,9 +11661,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "affliction",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11589,9 +11724,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "mind_psychology",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 4.8: tatas tadvipākānuguṇānām evābhivyaktir vāsanānām (\"From that follows the manifestation of just those latent traces that answer to its fruition.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 4.8",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a lingering fragrance",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -11643,9 +11781,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.20: śraddhāvīryasmṛtisamādhiprajñāpūrvaka itareṣām (\"For others [not born with it], it is preceded by faith, vigour, memory, samādhi, and wisdom.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.20",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "heroic quality",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11729,17 +11870,19 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "vrtti sarupyam",
+      "vrtti-sarupyam",
       "vrtti_sarupyam",
-      "vṛtti-sārūpyam",
-      "vrtti",
-      "sarupyam",
-      "vrtti sarupyam"
+      "vṛtti-sārūpyam"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "advanced_compound",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.4: vṛttisārūpyam itaratra (\"Otherwise, [there is] identification with the turnings [of the mind].\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.4",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "having-the-same-form as the mental fluctuations",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11829,14 +11972,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "yama",
       "yama"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo 'ṣṭāv aṅgāni (\"Restraint, observance, posture, regulation of breath, withdrawal of the senses, concentration, meditation, and absorption are the eight limbs.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "restraint",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -11915,14 +12060,16 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
-      "yoga",
       "yoga"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.1: atha yogānuśāsanam (\"Now, the exposition of yoga.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "yoking",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -11979,15 +12126,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "yoganusasanam",
       "yoganushasanam",
-      "yogānuśāsanam",
-      "yoganusasanam"
+      "yogānuśāsanam"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "advanced_compound",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.1: atha yogānuśāsanam (\"Now, the exposition of yoga.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a systematic instruction following [the tradition of] yoga",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12132,9 +12282,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.7: pratyakṣānumānāgamāḥ pramāṇāni (\"Perception, inference, and authoritative testimony are the means of valid knowledge.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.7",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "that which has come down",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12238,9 +12391,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "laziness",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12329,9 +12485,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "insight_knowledge",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 3.5: tajjayāt prajñālokaḥ (\"From mastery of that comes the light of wisdom.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.5",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "full illumination",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12445,9 +12604,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "meditation_core",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.17: vitarkavicārānandāsmitārūpānugamāt saṃprajñātaḥ (\"[Samādhi] with cognition is accompanied by the forms of deliberation, reflection, bliss, and I-am-ness.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.17",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "complete rejoicing",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12551,9 +12713,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.29: yamaniyamāsanaprāṇāyāmapratyāhāradhāraṇādhyānasamādhayo 'ṣṭāv aṅgāni (\"Restraint, observance, posture, regulation of breath, withdrawal of the senses, concentration, meditation, and absorption are the eight limbs.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.29",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a sitting",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12692,9 +12857,12 @@
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "affliction_obstacle",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.52: tataḥ kṣīyate prakāśāvaraṇam (\"Thereupon the covering of the light is worn away.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.52",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "a covering",
     "source_text": "yoga_sutras",
     "related_morphemes": [
@@ -12875,14 +13043,17 @@
     "chinese_counterparts": null,
     "search_aliases": [
       "ishvara",
-      "īśvara",
-      "isvara"
+      "isvara",
+      "īśvara"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.23: īśvarapraṇidhānād vā (\"Or [it comes] from surrender to the Lord.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.23",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "the lord",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -12934,15 +13105,18 @@
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
+      "sauca",
       "shauca",
-      "śauca",
-      "sauca"
+      "śauca"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 2.32: śaucasaṃtoṣatapaḥsvādhyāyeśvarapraṇidhānāni niyamāḥ (\"Purity, contentment, austerity, self-study, and surrender to the Lord are the observances.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.32",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "cleanliness",
     "source_text": "yoga_sutras",
     "related_morphemes": [],
@@ -12984,14 +13158,17 @@
     "chinese_counterparts": null,
     "search_aliases": [
       "shraddha",
-      "śraddhā",
-      "sraddha"
+      "sraddha",
+      "śraddhā"
     ],
     "priority_bucket": "extended",
     "thematic_bucket": "practice_discipline",
-    "source_context": null,
-    "citation_trail": [],
-    "verification": "unverified",
+    "source_context": "YS 1.20: śraddhāvīryasmṛtisamādhiprajñāpūrvaka itareṣām (\"For others [not born with it], it is preceded by faith, vigour, memory, samādhi, and wisdom.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.20",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
     "professor_gloss": "placing one's heart",
     "source_text": "yoga_sutras",
     "related_morphemes": [
