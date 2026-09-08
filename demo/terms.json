@@ -120,6 +120,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -128,6 +133,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -234,6 +244,11 @@
             "devanagari": "अक्षर"
           },
           {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
             "id": "amrta",
             "transliteration": "amṛta",
             "devanagari": "अमृत"
@@ -264,6 +279,11 @@
         "kind": "suffix",
         "morpheme": "-yā",
         "terms": [
+          {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
           {
             "id": "maya",
             "transliteration": "māyā",
@@ -343,6 +363,11 @@
         "kind": "suffix",
         "morpheme": "-ta",
         "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
           {
             "id": "amrta",
             "transliteration": "amṛta",
@@ -787,6 +812,17 @@
     "source_text": "yoga_sutras",
     "related_morphemes": [
       {
+        "kind": "root",
+        "morpheme": "√rudh",
+        "terms": [
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          }
+        ]
+      },
+      {
         "kind": "prefix",
         "morpheme": "ni-",
         "terms": [
@@ -799,6 +835,11 @@
             "id": "nididhyasana",
             "transliteration": "nididhyāsana",
             "devanagari": "निदिध्यासन"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
           },
           {
             "id": "niyama",
@@ -960,6 +1001,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -1078,6 +1124,11 @@
             "devanagari": "प्रणिधान"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "shraddha",
             "transliteration": "śraddhā",
             "devanagari": "श्रद्धा"
@@ -1097,6 +1148,11 @@
             "id": "dharmamegha_samadhi",
             "transliteration": "dharmamegha-samādhi",
             "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -1180,9 +1236,19 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       },
@@ -1194,6 +1260,11 @@
             "id": "dharmamegha_samadhi",
             "transliteration": "dharmamegha-samādhi",
             "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "vyadhi",
@@ -1303,6 +1374,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "prakrti",
             "transliteration": "prakṛti",
             "devanagari": "प्रकृति"
@@ -1327,6 +1403,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -1718,6 +1799,11 @@
             "devanagari": "निरोध"
           },
           {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
             "id": "niyama",
             "transliteration": "niyama",
             "devanagari": "नियम"
@@ -1800,6 +1886,11 @@
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
           },
           {
             "id": "amrta",
@@ -1911,6 +2002,11 @@
             "devanagari": "अक्षर"
           },
           {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
             "id": "aparigraha",
             "transliteration": "aparigraha",
             "devanagari": "अपरिग्रह"
@@ -1941,6 +2037,11 @@
         "kind": "suffix",
         "morpheme": "-ta",
         "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
           {
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
@@ -2063,6 +2164,11 @@
             "devanagari": "अक्षर"
           },
           {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
             "id": "amrta",
             "transliteration": "amṛta",
             "devanagari": "अमृत"
@@ -2102,6 +2208,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -2180,6 +2291,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -2195,6 +2311,11 @@
         "kind": "suffix",
         "morpheme": "-ta",
         "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
           {
             "id": "amrta",
             "transliteration": "amṛta",
@@ -2577,14 +2698,14 @@
         "devanagari": "नियम"
       },
       {
+        "id": "pranayama",
+        "transliteration": "prāṇāyāma",
+        "devanagari": "प्राणायाम"
+      },
+      {
         "id": "pratyahara",
         "transliteration": "pratyāhāra",
         "devanagari": "प्रत्याहार"
-      },
-      {
-        "id": "samadhi",
-        "transliteration": "samādhi",
-        "devanagari": "समाधि"
       }
     ]
   },
@@ -3167,6 +3288,11 @@
             "devanagari": "अविद्या"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "vidya",
             "transliteration": "vidyā",
             "devanagari": "विद्या"
@@ -3350,6 +3476,11 @@
             "id": "nirodha",
             "transliteration": "nirodha",
             "devanagari": "निरोध"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
           },
           {
             "id": "niyama",
@@ -3566,6 +3697,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -3755,6 +3891,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -3896,9 +4037,19 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -4030,6 +4181,11 @@
             "devanagari": "प्राण"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -4104,6 +4260,17 @@
     "source_text": "upanisads",
     "related_morphemes": [
       {
+        "kind": "root",
+        "morpheme": "√an",
+        "terms": [
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          }
+        ]
+      },
+      {
         "kind": "prefix",
         "morpheme": "pra-",
         "terms": [
@@ -4146,6 +4313,11 @@
             "id": "pranava",
             "transliteration": "praṇava",
             "devanagari": "प्रणव"
+          },
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
           },
           {
             "id": "pranidhana",
@@ -4377,6 +4549,11 @@
             "devanagari": "समाधि"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "samprajnata",
             "transliteration": "samprajñāta",
             "devanagari": "सम्प्रज्ञात"
@@ -4472,6 +4649,11 @@
             "devanagari": "नियम"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "yama",
             "transliteration": "yama",
             "devanagari": "यम"
@@ -4496,6 +4678,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -4987,6 +5174,11 @@
             "devanagari": "निरोध"
           },
           {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
             "id": "niyama",
             "transliteration": "niyama",
             "devanagari": "नियम"
@@ -5394,6 +5586,11 @@
             "devanagari": "अविद्या"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "maya",
             "transliteration": "māyā",
             "devanagari": "माया"
@@ -5774,6 +5971,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -5782,6 +5984,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       },
@@ -5976,6 +6183,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -5984,6 +6196,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -6118,6 +6335,283 @@
     "related_mentions": []
   },
   {
+    "id": "alabdhabhumikatva",
+    "devanagari": "अलब्धभूमिकत्व",
+    "transliteration": "alabdhabhūmikatva",
+    "chapter": "YS 1.30",
+    "segmentation": "a- + labdha + bhūmika + -tva",
+    "roots": [
+      {
+        "root": "√labh",
+        "devanagari": "√लभ्",
+        "meaning": "to obtain, attain",
+        "dhatu_number": null
+      },
+      {
+        "root": "√bhū",
+        "devanagari": "√भू",
+        "meaning": "to be, become (in bhūmi, 'ground, stage')",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "a-",
+        "meaning": "not, un- (negating prefix)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-ta",
+        "meaning": "past participle suffix (kta)",
+        "grammatical_function": "forms labdha, 'attained'"
+      },
+      {
+        "suffix": "-ka",
+        "meaning": "adjectival suffix",
+        "grammatical_function": "forms bhūmika, 'having a stage'"
+      },
+      {
+        "suffix": "-tva",
+        "meaning": "abstract noun suffix",
+        "grammatical_function": "forms a neuter noun: 'the state of ...'"
+      }
+    ],
+    "compound_type": "abstract noun in -tva formed on the bahuvrīhi a-labdha-bhūmika, 'one by whom no stage has been attained'",
+    "literal_gloss": "the state of not having attained a stage",
+    "philosophical_gloss": "The eighth of the nine obstacles at YS 1.30. It names a specific discouragement: practice has been sustained and no ground has been reached. Patañjali treats this as a distraction of the mind (citta-vikṣepa) in its own right, not as evidence that the practitioner is unsuited. The obstacle is the failure to arrive, and the unsettling it causes.",
+    "doctrinal_significance": "That the list includes both failing to reach a stage and failing to stay in one (anavasthitatva) shows how carefully the obstacles are drawn. They are not moral faults but conditions of practice, and they are placed immediately before the remedies of YS 1.32-1.39.",
+    "ambiguity_notes": "Bhūmi ('ground, stage') is not defined in the sūtras, and the commentators differ on whether the stages meant are the levels of samādhi or the stages of practice generally. The word bhūmi appears elsewhere in the text only at YS 3.6, where it also goes undefined.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "alabdhabhumikatva",
+      "alabdhabhūmikatva"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "inability to attain a stage; failure to find ground",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√bhū",
+        "terms": [
+          {
+            "id": "vibhuti",
+            "transliteration": "vibhūti",
+            "devanagari": "विभूति"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "a-",
+        "terms": [
+          {
+            "id": "ahimsa",
+            "transliteration": "ahiṃsā",
+            "devanagari": "अहिंसा"
+          },
+          {
+            "id": "aksara",
+            "transliteration": "akṣara",
+            "devanagari": "अक्षर"
+          },
+          {
+            "id": "amrta",
+            "transliteration": "amṛta",
+            "devanagari": "अमृत"
+          },
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asteya",
+            "transliteration": "asteya",
+            "devanagari": "अस्तेय"
+          },
+          {
+            "id": "avidya",
+            "transliteration": "avidyā",
+            "devanagari": "अविद्या"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-tva",
+        "terms": [
+          {
+            "id": "anavasthitatva",
+            "transliteration": "anavasthitatva",
+            "devanagari": "अनवस्थितत्व"
+          },
+          {
+            "id": "sattva",
+            "transliteration": "sattva",
+            "devanagari": "सत्त्व"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ta",
+        "terms": [
+          {
+            "id": "amrta",
+            "transliteration": "amṛta",
+            "devanagari": "अमृत"
+          },
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "citta",
+            "transliteration": "citta",
+            "devanagari": "चित्त"
+          },
+          {
+            "id": "samprajnata",
+            "transliteration": "samprajñāta",
+            "devanagari": "सम्प्रज्ञात"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "samadhi",
+        "transliteration": "samādhi",
+        "devanagari": "समाधि"
+      }
+    ]
+  },
+  {
+    "id": "anavasthitatva",
+    "devanagari": "अनवस्थितत्व",
+    "transliteration": "anavasthitatva",
+    "chapter": "YS 1.30",
+    "segmentation": "an- + ava + √sthā + -ita + -tva",
+    "roots": [
+      {
+        "root": "√sthā",
+        "devanagari": "√स्था",
+        "meaning": "to stand, remain, be settled",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "an-",
+        "meaning": "not, un- (the form of a- before a vowel)"
+      },
+      {
+        "prefix": "ava-",
+        "meaning": "down (settling down)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-ita",
+        "meaning": "past participle suffix",
+        "grammatical_function": "forms avasthita, 'settled, established'"
+      },
+      {
+        "suffix": "-tva",
+        "meaning": "abstract noun suffix",
+        "grammatical_function": "forms a neuter noun: 'the state of ...'"
+      }
+    ],
+    "compound_type": "abstract noun in -tva formed on the participle an-avasthita, 'not settled'",
+    "literal_gloss": "the state of not remaining settled; instability",
+    "philosophical_gloss": "The ninth and last obstacle at YS 1.30, and the counterpart of the eighth. Where alabdhabhūmikatva is failing to reach a stage, anavasthitatva is reaching one and not staying there. It shares the root √sthā with avasthāna at YS 1.3, where the seer 'abides' in its own form: the obstacle is the failure of exactly that abiding.",
+    "doctrinal_significance": "Placing instability last completes a list that runs from the bodily (vyādhi) to the most refined. The final obstacle is one only an advanced practitioner meets, which is why the list cannot be read as a sequence of beginners' problems.",
+    "ambiguity_notes": "Some translators read anavasthitatva as restlessness of mind generally, which loses its pairing with the preceding item. The two are naturally read together: not arriving, and not remaining.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "anavasthitatva"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "affliction_obstacle",
+    "source_context": "YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni cittavikṣepās te 'ntarāyāḥ (\"Illness, dullness, doubt, heedlessness, laziness, failure to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions of the mind are the obstacles.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "instability; inability to maintain a stage once attained",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√sthā",
+        "terms": [
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "ava-",
+        "terms": [
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-tva",
+        "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
+            "id": "sattva",
+            "transliteration": "sattva",
+            "devanagari": "सत्त्व"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "vyadhi",
+        "transliteration": "vyādhi",
+        "devanagari": "व्याधि"
+      }
+    ]
+  },
+  {
     "id": "dharmamegha_samadhi",
     "devanagari": "धर्ममेघसमाधि",
     "transliteration": "dharmamegha-samādhi",
@@ -6204,6 +6698,11 @@
             "devanagari": "समाधि"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "shraddha",
             "transliteration": "śraddhā",
             "devanagari": "श्रद्धा"
@@ -6223,6 +6722,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -6301,6 +6805,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -6309,6 +6818,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       },
@@ -6320,6 +6834,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "vyadhi",
@@ -6414,6 +6933,551 @@
         "id": "citta",
         "transliteration": "citta",
         "devanagari": "चित्त"
+      },
+      {
+        "id": "nirodha_parinama",
+        "transliteration": "nirodha-pariṇāma",
+        "devanagari": "निरोधपरिणाम"
+      },
+      {
+        "id": "samadhi_parinama",
+        "transliteration": "samādhi-pariṇāma",
+        "devanagari": "समाधिपरिणाम"
+      }
+    ]
+  },
+  {
+    "id": "kriya_yoga",
+    "devanagari": "क्रियायोग",
+    "transliteration": "kriyā-yoga",
+    "chapter": "YS 2.1–2.2",
+    "segmentation": "kriyā + yoga",
+    "roots": [
+      {
+        "root": "√kṛ",
+        "devanagari": "√कृ",
+        "meaning": "to do, make, act (in kriyā)",
+        "dhatu_number": null
+      },
+      {
+        "root": "√yuj",
+        "devanagari": "√युज्",
+        "meaning": "to yoke, join, concentrate (in yoga)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-yā",
+        "meaning": "feminine action noun suffix",
+        "grammatical_function": "forms kriyā, 'doing, action, rite'"
+      },
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms yoga, 'the act of yoking'"
+      }
+    ],
+    "compound_type": "tatpuruṣa — 'the yoga that consists in action'",
+    "literal_gloss": "the yoga of action; yoga carried out as practice",
+    "philosophical_gloss": "Kriyā-yoga opens the second pāda and names three practices: tapas, svādhyāya and īśvara-praṇidhāna. YS 2.2 states its purpose plainly - to cultivate samādhi and to thin out the afflictions. It is yoga described from the side of what one does, as against YS 1.2, which describes yoga by what it achieves.",
+    "doctrinal_significance": "The three members of kriyā-yoga return at YS 2.32 as the last three niyamas, so the same practices are presented twice under different headings. Patañjali offers kriyā-yoga to the practitioner whose mind is not already still, which makes the second pāda the practical entry to a text that began with its goal.",
+    "ambiguity_notes": "Whether kriyā-yoga is a preliminary discipline distinct from the eight limbs, or simply the eight limbs approached from their active side, is disputed. The overlap with the niyamas at YS 2.32 is the reason the question is open.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "kriya yoga",
+      "kriya-yoga",
+      "kriya_yoga",
+      "kriyā-yoga"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "practice_discipline",
+    "source_context": "YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ (\"Austerity, self-study, and surrender to the Lord are the yoga of action.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the yoga of action — tapas, svādhyāya, and īśvarapraṇidhāna",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√yuj",
+        "terms": [
+          {
+            "id": "yoga",
+            "transliteration": "yoga",
+            "devanagari": "योग"
+          }
+        ]
+      },
+      {
+        "kind": "root",
+        "morpheme": "√kṛ",
+        "terms": [
+          {
+            "id": "ahamkara",
+            "transliteration": "ahaṃkāra",
+            "devanagari": "अहंकार"
+          },
+          {
+            "id": "karma",
+            "transliteration": "karma",
+            "devanagari": "कर्म"
+          },
+          {
+            "id": "karmashaya",
+            "transliteration": "karmāśaya",
+            "devanagari": "कर्माशय"
+          },
+          {
+            "id": "prakrti",
+            "transliteration": "prakṛti",
+            "devanagari": "प्रकृति"
+          },
+          {
+            "id": "samskara",
+            "transliteration": "saṃskāra",
+            "devanagari": "संस्कार"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-yā",
+        "terms": [
+          {
+            "id": "avidya",
+            "transliteration": "avidyā",
+            "devanagari": "अविद्या"
+          },
+          {
+            "id": "maya",
+            "transliteration": "māyā",
+            "devanagari": "माया"
+          },
+          {
+            "id": "vidya",
+            "transliteration": "vidyā",
+            "devanagari": "विद्या"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "samadhi",
+        "transliteration": "samādhi",
+        "devanagari": "समाधि"
+      },
+      {
+        "id": "svadhyaya",
+        "transliteration": "svādhyāya",
+        "devanagari": "स्वाध्याय"
+      },
+      {
+        "id": "tapas",
+        "transliteration": "tapas",
+        "devanagari": "तपस्"
+      }
+    ]
+  },
+  {
+    "id": "nirodha_parinama",
+    "devanagari": "निरोधपरिणाम",
+    "transliteration": "nirodha-pariṇāma",
+    "chapter": "YS 3.9–3.10",
+    "segmentation": "nirodha + pariṇāma",
+    "roots": [
+      {
+        "root": "√rudh",
+        "devanagari": "√रुध्",
+        "meaning": "to obstruct, restrain (in nirodha)",
+        "dhatu_number": null
+      },
+      {
+        "root": "√nam",
+        "devanagari": "√नम्",
+        "meaning": "to bend (in pariṇāma)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "ni-",
+        "meaning": "down, back (in nirodha)"
+      },
+      {
+        "prefix": "pari-",
+        "meaning": "around, about (in pariṇāma: a bending-around, hence change)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms the masculine nouns nirodha and pariṇāma"
+      }
+    ],
+    "compound_type": "tatpuruṣa — 'the transformation consisting in cessation'",
+    "literal_gloss": "the bending-around into cessation; the change by which stilling occurs",
+    "philosophical_gloss": "The third pāda analyses stilling as a change the mind undergoes rather than a state it enters. YS 3.9 describes the moment precisely: the habit-traces of emergence (vyutthāna) are overcome, those of cessation (nirodha) appear, and the mind is joined to the moment of cessation. YS 3.10 adds that repetition makes this flow peaceful. It is the first of the three pariṇāmas, followed by samādhi-pariṇāma (3.11) and ekāgratā-pariṇāma (3.12).",
+    "doctrinal_significance": "This is Patañjali at his most technical, and it answers an obvious objection. If citta is by nature active, how can stilling be anything but its destruction? The answer is that stilling is itself a transformation of citta, one saṃskāra displacing another, so nothing is annihilated.",
+    "ambiguity_notes": "Whether the three pariṇāmas describe three successive stages or three aspects of one process is read differently by the commentators. The sūtras give an order but do not say the earlier are left behind.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "nirodha parinama",
+      "nirodha-parinama",
+      "nirodha-pariṇāma",
+      "nirodha_parinama"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "advanced_compound",
+    "source_context": "YS 3.9: vyutthānanirodhasaṃskārayor abhibhavaprādurbhāvau nirodhakṣaṇacittānvayo nirodhapariṇāmaḥ (\"The transformation into cessation is the mind's connection with the moment of cessation, when the habit-traces of emergence are overcome and those of cessation appear.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.9",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the transformation toward cessation",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√rudh",
+        "terms": [
+          {
+            "id": "nirodha",
+            "transliteration": "nirodha",
+            "devanagari": "निरोध"
+          }
+        ]
+      },
+      {
+        "kind": "root",
+        "morpheme": "√nam",
+        "terms": [
+          {
+            "id": "parinama",
+            "transliteration": "pariṇāma",
+            "devanagari": "परिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "pari-",
+        "terms": [
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "parinama",
+            "transliteration": "pariṇāma",
+            "devanagari": "परिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
+            "id": "viparyaya",
+            "transliteration": "viparyaya",
+            "devanagari": "विपर्यय"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "ni-",
+        "terms": [
+          {
+            "id": "abhinivesa",
+            "transliteration": "abhiniveśa",
+            "devanagari": "अभिनिवेश"
+          },
+          {
+            "id": "nididhyasana",
+            "transliteration": "nididhyāsana",
+            "devanagari": "निदिध्यासन"
+          },
+          {
+            "id": "nirodha",
+            "transliteration": "nirodha",
+            "devanagari": "निरोध"
+          },
+          {
+            "id": "niyama",
+            "transliteration": "niyama",
+            "devanagari": "नियम"
+          },
+          {
+            "id": "pranidhana",
+            "transliteration": "praṇidhāna",
+            "devanagari": "प्रणिधान"
+          },
+          {
+            "id": "upanisad",
+            "transliteration": "upaniṣad",
+            "devanagari": "उपनिषद्"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "citta",
+        "transliteration": "citta",
+        "devanagari": "चित्त"
+      },
+      {
+        "id": "samskara",
+        "transliteration": "saṃskāra",
+        "devanagari": "संस्कार"
+      }
+    ]
+  },
+  {
+    "id": "pranayama",
+    "devanagari": "प्राणायाम",
+    "transliteration": "prāṇāyāma",
+    "chapter": "YS 2.29, 2.49–2.53",
+    "segmentation": "prāṇa + āyāma",
+    "roots": [
+      {
+        "root": "√an",
+        "devanagari": "√अन्",
+        "meaning": "to breathe (in prāṇa)",
+        "dhatu_number": null
+      },
+      {
+        "root": "√yam",
+        "devanagari": "√यम्",
+        "meaning": "to hold, restrain, extend (in āyāma)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "pra-",
+        "meaning": "forth, forward (in prāṇa: the breath that goes forth)"
+      },
+      {
+        "prefix": "ā-",
+        "meaning": "toward, out (in āyāma: drawing out)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms the masculine nouns prāṇa and āyāma"
+      }
+    ],
+    "compound_type": "tatpuruṣa — 'the āyāma of the breath'",
+    "literal_gloss": "a drawing-out or holding of the breath",
+    "philosophical_gloss": "Prāṇāyāma is the fourth limb, and Patañjali defines it narrowly at YS 2.49: once posture is established, it is the cutting off (viccheda) of the movement of in-breath and out-breath. What follows describes its varieties by their location, duration and number (YS 2.50), and a fourth kind that goes beyond the distinction of outer and inner (YS 2.51). The result is not physical but cognitive: the covering of the light is worn away, and the mind becomes fit for concentration (YS 2.52-2.53).",
+    "doctrinal_significance": "Prāṇāyāma is the hinge between the outer limbs and the inner ones. Patañjali gives it more sūtras than āsana, and states its purpose in terms of the mind rather than the body: it prepares dhāraṇā. The elaborate breathing systems of later haṭha yoga are not in this text.",
+    "ambiguity_notes": "Āyāma, from ā + √yam, carries both 'extension, lengthening' and 'restraint, holding'. English versions split accordingly between 'breath extension' and 'breath control', and the Sanskrit supports both. A minority reading divides the compound as prāṇa + ayāma, 'non-restraint of breath', which reverses the sense; it is not the reading the sūtra's own definition supports.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "pranayama",
+      "prāṇāyāma"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "practice_discipline",
+    "source_context": "YS 2.49: tasmin sati śvāsapraśvāsayor gativicchedaḥ prāṇāyāmaḥ (\"When that [posture] is established, the cutting off of the movement of in-breath and out-breath is prāṇāyāma.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.49",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "breath regulation; expansion of vital energy",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√an",
+        "terms": [
+          {
+            "id": "prana",
+            "transliteration": "prāṇa",
+            "devanagari": "प्राण"
+          }
+        ]
+      },
+      {
+        "kind": "root",
+        "morpheme": "√yam",
+        "terms": [
+          {
+            "id": "niyama",
+            "transliteration": "niyama",
+            "devanagari": "नियम"
+          },
+          {
+            "id": "samyama",
+            "transliteration": "saṃyama",
+            "devanagari": "संयम"
+          },
+          {
+            "id": "yama",
+            "transliteration": "yama",
+            "devanagari": "यम"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "pra-",
+        "terms": [
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "prajapati",
+            "transliteration": "prajāpati",
+            "devanagari": "प्रजापति"
+          },
+          {
+            "id": "prajna",
+            "transliteration": "prajñā",
+            "devanagari": "प्रज्ञा"
+          },
+          {
+            "id": "prajnana",
+            "transliteration": "prajñāna",
+            "devanagari": "प्रज्ञान"
+          },
+          {
+            "id": "prakrti",
+            "transliteration": "prakṛti",
+            "devanagari": "प्रकृति"
+          },
+          {
+            "id": "pramada",
+            "transliteration": "pramāda",
+            "devanagari": "प्रमाद"
+          },
+          {
+            "id": "pramana",
+            "transliteration": "pramāṇa",
+            "devanagari": "प्रमाण"
+          },
+          {
+            "id": "prana",
+            "transliteration": "prāṇa",
+            "devanagari": "प्राण"
+          },
+          {
+            "id": "pranava",
+            "transliteration": "praṇava",
+            "devanagari": "प्रणव"
+          },
+          {
+            "id": "pranidhana",
+            "transliteration": "praṇidhāna",
+            "devanagari": "प्रणिधान"
+          },
+          {
+            "id": "samprajnata",
+            "transliteration": "samprajñāta",
+            "devanagari": "सम्प्रज्ञात"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "ā-",
+        "terms": [
+          {
+            "id": "abhyasa",
+            "transliteration": "abhyāsa",
+            "devanagari": "अभ्यास"
+          },
+          {
+            "id": "acarya",
+            "transliteration": "ācārya",
+            "devanagari": "आचार्य"
+          },
+          {
+            "id": "agama",
+            "transliteration": "āgama",
+            "devanagari": "आगम"
+          },
+          {
+            "id": "aloka",
+            "transliteration": "āloka",
+            "devanagari": "आलोक"
+          },
+          {
+            "id": "ananda",
+            "transliteration": "ānanda",
+            "devanagari": "आनन्द"
+          },
+          {
+            "id": "asrama",
+            "transliteration": "āśrama",
+            "devanagari": "आश्रम"
+          },
+          {
+            "id": "avarana",
+            "transliteration": "āvaraṇa",
+            "devanagari": "आवरण"
+          },
+          {
+            "id": "dharmamegha_samadhi",
+            "transliteration": "dharmamegha-samādhi",
+            "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "karmashaya",
+            "transliteration": "karmāśaya",
+            "devanagari": "कर्माशय"
+          },
+          {
+            "id": "pratyahara",
+            "transliteration": "pratyāhāra",
+            "devanagari": "प्रत्याहार"
+          },
+          {
+            "id": "samadhi",
+            "transliteration": "samādhi",
+            "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "asana",
+        "transliteration": "āsana",
+        "devanagari": "आसन"
+      },
+      {
+        "id": "dharana",
+        "transliteration": "dhāraṇā",
+        "devanagari": "धारणा"
       }
     ]
   },
@@ -6511,6 +7575,11 @@
             "devanagari": "समाधि"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "samsara",
             "transliteration": "saṃsāra",
             "devanagari": "संसार"
@@ -6587,6 +7656,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -6597,6 +7671,11 @@
         "kind": "suffix",
         "morpheme": "-ta",
         "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
           {
             "id": "amrta",
             "transliteration": "amṛta",
@@ -6635,6 +7714,291 @@
         "id": "vitarka",
         "transliteration": "vitarka",
         "devanagari": "वितर्क"
+      }
+    ]
+  },
+  {
+    "id": "samadhi_parinama",
+    "devanagari": "समाधिपरिणाम",
+    "transliteration": "samādhi-pariṇāma",
+    "chapter": "YS 3.11",
+    "segmentation": "samādhi + pariṇāma",
+    "roots": [
+      {
+        "root": "√dhā",
+        "devanagari": "√धा",
+        "meaning": "to place, put, set (in samādhi)",
+        "dhatu_number": null
+      },
+      {
+        "root": "√nam",
+        "devanagari": "√नम्",
+        "meaning": "to bend (in pariṇāma)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "sam-",
+        "meaning": "together, completely (in samādhi)"
+      },
+      {
+        "prefix": "ā-",
+        "meaning": "toward (in samādhi)"
+      },
+      {
+        "prefix": "pari-",
+        "meaning": "around, about (in pariṇāma)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-i",
+        "meaning": "action noun suffix (kṛt)",
+        "grammatical_function": "forms samādhi from the base samādhā-"
+      },
+      {
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms pariṇāma"
+      }
+    ],
+    "compound_type": "tatpuruṣa — 'the transformation consisting in samādhi'",
+    "literal_gloss": "the bending-around into absorption",
+    "philosophical_gloss": "The second of the three transformations. YS 3.11 defines it as a pair of opposed movements in the same mind: attention to all objects (sarvārthatā) dwindles while one-pointedness (ekāgratā) rises. Samādhi is thus not the arrival of something new but the shifting balance between two tendencies the mind already has.",
+    "doctrinal_significance": "Describing absorption as a ratio rather than a threshold is what allows Patañjali to treat samādhi as something that deepens by degrees. It also explains why the same word covers both samprajñāta and asamprajñāta: they differ in how far the transformation has gone.",
+    "ambiguity_notes": "Sarvārthatā is sometimes rendered 'many-pointedness' by contrast with ekāgratā. The literal sense is 'the state of having all things as its object', which is scatter rather than plurality.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "samadhi parinama",
+      "samadhi-parinama",
+      "samadhi_parinama",
+      "samādhi-pariṇāma"
+    ],
+    "priority_bucket": "stretch",
+    "thematic_bucket": "advanced_compound",
+    "source_context": "YS 3.11: sarvārthataikāgratayoḥ kṣayodayau cittasya samādhipariṇāmaḥ (\"The dwindling of attention to all objects and the rise of one-pointedness is the mind's transformation into samādhi.\")",
+    "citation_trail": [
+      "GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.11",
+      "Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's text follows"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the transformation into meditative absorption",
+    "source_text": "yoga_sutras",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√nam",
+        "terms": [
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
+            "id": "parinama",
+            "transliteration": "pariṇāma",
+            "devanagari": "परिणाम"
+          }
+        ]
+      },
+      {
+        "kind": "root",
+        "morpheme": "√dhā",
+        "terms": [
+          {
+            "id": "dharmamegha_samadhi",
+            "transliteration": "dharmamegha-samādhi",
+            "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "pranidhana",
+            "transliteration": "praṇidhāna",
+            "devanagari": "प्रणिधान"
+          },
+          {
+            "id": "samadhi",
+            "transliteration": "samādhi",
+            "devanagari": "समाधि"
+          },
+          {
+            "id": "shraddha",
+            "transliteration": "śraddhā",
+            "devanagari": "श्रद्धा"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "pari-",
+        "terms": [
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
+            "id": "parinama",
+            "transliteration": "pariṇāma",
+            "devanagari": "परिणाम"
+          },
+          {
+            "id": "viparyaya",
+            "transliteration": "viparyaya",
+            "devanagari": "विपर्यय"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "sam-",
+        "terms": [
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "dharmamegha_samadhi",
+            "transliteration": "dharmamegha-samādhi",
+            "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "samadhi",
+            "transliteration": "samādhi",
+            "devanagari": "समाधि"
+          },
+          {
+            "id": "samprajnata",
+            "transliteration": "samprajñāta",
+            "devanagari": "सम्प्रज्ञात"
+          },
+          {
+            "id": "samsara",
+            "transliteration": "saṃsāra",
+            "devanagari": "संसार"
+          },
+          {
+            "id": "samshaya",
+            "transliteration": "saṃśaya",
+            "devanagari": "संशय"
+          },
+          {
+            "id": "samskara",
+            "transliteration": "saṃskāra",
+            "devanagari": "संस्कार"
+          },
+          {
+            "id": "samyama",
+            "transliteration": "saṃyama",
+            "devanagari": "संयम"
+          },
+          {
+            "id": "santosha",
+            "transliteration": "santoṣa",
+            "devanagari": "सन्तोष"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "ā-",
+        "terms": [
+          {
+            "id": "abhyasa",
+            "transliteration": "abhyāsa",
+            "devanagari": "अभ्यास"
+          },
+          {
+            "id": "acarya",
+            "transliteration": "ācārya",
+            "devanagari": "आचार्य"
+          },
+          {
+            "id": "agama",
+            "transliteration": "āgama",
+            "devanagari": "आगम"
+          },
+          {
+            "id": "aloka",
+            "transliteration": "āloka",
+            "devanagari": "आलोक"
+          },
+          {
+            "id": "ananda",
+            "transliteration": "ānanda",
+            "devanagari": "आनन्द"
+          },
+          {
+            "id": "asrama",
+            "transliteration": "āśrama",
+            "devanagari": "आश्रम"
+          },
+          {
+            "id": "avarana",
+            "transliteration": "āvaraṇa",
+            "devanagari": "आवरण"
+          },
+          {
+            "id": "dharmamegha_samadhi",
+            "transliteration": "dharmamegha-samādhi",
+            "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "karmashaya",
+            "transliteration": "karmāśaya",
+            "devanagari": "कर्माशय"
+          },
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
+            "id": "pratyahara",
+            "transliteration": "pratyāhāra",
+            "devanagari": "प्रत्याहार"
+          },
+          {
+            "id": "samadhi",
+            "transliteration": "samādhi",
+            "devanagari": "समाधि"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-i",
+        "terms": [
+          {
+            "id": "dharmamegha_samadhi",
+            "transliteration": "dharmamegha-samādhi",
+            "devanagari": "धर्ममेघसमाधि"
+          },
+          {
+            "id": "samadhi",
+            "transliteration": "samādhi",
+            "devanagari": "समाधि"
+          },
+          {
+            "id": "vyadhi",
+            "transliteration": "vyādhi",
+            "devanagari": "व्याधि"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "ekagrata",
+        "transliteration": "ekāgratā",
+        "devanagari": "एकाग्रता"
       }
     ]
   },
@@ -6833,6 +8197,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "prakrti",
             "transliteration": "prakṛti",
             "devanagari": "प्रकृति"
@@ -6930,6 +8299,11 @@
             "id": "aksara",
             "transliteration": "akṣara",
             "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
           },
           {
             "id": "amrta",
@@ -7206,9 +8580,19 @@
         "morpheme": "pari-",
         "terms": [
           {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
             "id": "parinama",
             "transliteration": "pariṇāma",
             "devanagari": "परिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "viparyaya",
@@ -7230,6 +8614,11 @@
             "id": "aksara",
             "transliteration": "akṣara",
             "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
           },
           {
             "id": "amrta",
@@ -7403,6 +8792,11 @@
             "devanagari": "अक्षर"
           },
           {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
             "id": "amrta",
             "transliteration": "amṛta",
             "devanagari": "अमृत"
@@ -7526,6 +8920,28 @@
     "professor_gloss": "a settled abiding",
     "source_text": "yoga_sutras",
     "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√sthā",
+        "terms": [
+          {
+            "id": "anavasthitatva",
+            "transliteration": "anavasthitatva",
+            "devanagari": "अनवस्थितत्व"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "ava-",
+        "terms": [
+          {
+            "id": "anavasthitatva",
+            "transliteration": "anavasthitatva",
+            "devanagari": "अनवस्थितत्व"
+          }
+        ]
+      },
       {
         "kind": "suffix",
         "morpheme": "-ana",
@@ -7681,6 +9097,11 @@
             "id": "aksara",
             "transliteration": "akṣara",
             "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
           },
           {
             "id": "amrta",
@@ -8373,6 +9794,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "prakrti",
             "transliteration": "prakṛti",
             "devanagari": "प्रकृति"
@@ -8485,6 +9911,11 @@
             "devanagari": "कर्म"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "prakrti",
             "transliteration": "prakṛti",
             "devanagari": "प्रकृति"
@@ -8541,6 +9972,11 @@
             "devanagari": "धर्ममेघसमाधि"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -8549,6 +9985,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -8724,6 +10165,11 @@
         "morpheme": "√yam",
         "terms": [
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "samyama",
             "transliteration": "saṃyama",
             "devanagari": "संयम"
@@ -8753,6 +10199,11 @@
             "id": "nirodha",
             "transliteration": "nirodha",
             "devanagari": "निरोध"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
           },
           {
             "id": "pranidhana",
@@ -8845,6 +10296,22 @@
     "source_text": "yoga_sutras",
     "related_morphemes": [
       {
+        "kind": "root",
+        "morpheme": "√nam",
+        "terms": [
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          }
+        ]
+      },
+      {
         "kind": "prefix",
         "morpheme": "pari-",
         "terms": [
@@ -8852,6 +10319,16 @@
             "id": "aparigraha",
             "transliteration": "aparigraha",
             "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "viparyaya",
@@ -8948,6 +10425,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          },
+          {
             "id": "samskara",
             "transliteration": "saṃskāra",
             "devanagari": "संस्कार"
@@ -8997,6 +10479,11 @@
             "id": "pranava",
             "transliteration": "praṇava",
             "devanagari": "प्रणव"
+          },
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
           },
           {
             "id": "pranidhana",
@@ -9174,6 +10661,11 @@
             "devanagari": "प्रणव"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pranidhana",
             "transliteration": "praṇidhāna",
             "devanagari": "प्रणिधान"
@@ -9296,6 +10788,11 @@
             "id": "pranava",
             "transliteration": "praṇava",
             "devanagari": "प्रणव"
+          },
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
           },
           {
             "id": "pranidhana",
@@ -9546,6 +11043,11 @@
             "devanagari": "समाधि"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "shraddha",
             "transliteration": "śraddhā",
             "devanagari": "श्रद्धा"
@@ -9570,6 +11072,11 @@
             "id": "nirodha",
             "transliteration": "nirodha",
             "devanagari": "निरोध"
+          },
+          {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
           },
           {
             "id": "niyama",
@@ -9631,6 +11138,11 @@
             "id": "pranava",
             "transliteration": "praṇava",
             "devanagari": "प्रणव"
+          },
+          {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
           },
           {
             "id": "samprajnata",
@@ -9726,6 +11238,11 @@
         "id": "ishvara",
         "transliteration": "īśvara",
         "devanagari": "ईश्वर"
+      },
+      {
+        "id": "kriya_yoga",
+        "transliteration": "kriyā-yoga",
+        "devanagari": "क्रियायोग"
       }
     ]
   },
@@ -9960,6 +11477,11 @@
             "devanagari": "समाधि"
           },
           {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
+          },
+          {
             "id": "samprajnata",
             "transliteration": "samprajñāta",
             "devanagari": "सम्प्रज्ञात"
@@ -10051,6 +11573,22 @@
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-tva",
+        "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
+            "id": "anavasthitatva",
+            "transliteration": "anavasthitatva",
+            "devanagari": "अनवस्थितत्व"
           }
         ]
       }
@@ -10261,6 +11799,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           },
           {
             "id": "samprajnata",
@@ -10692,6 +12235,11 @@
     ],
     "related_mentions": [
       {
+        "id": "kriya_yoga",
+        "transliteration": "kriyā-yoga",
+        "devanagari": "क्रियायोग"
+      },
+      {
         "id": "niyama",
         "transliteration": "niyama",
         "devanagari": "नियम"
@@ -10856,6 +12404,11 @@
     ],
     "related_mentions": [
       {
+        "id": "kriya_yoga",
+        "transliteration": "kriyā-yoga",
+        "devanagari": "क्रियायोग"
+      },
+      {
         "id": "niyama",
         "transliteration": "niyama",
         "devanagari": "नियम"
@@ -10908,6 +12461,17 @@
     "professor_gloss": "special manifestation",
     "source_text": "yoga_sutras",
     "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√bhū",
+        "terms": [
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          }
+        ]
+      },
       {
         "kind": "prefix",
         "morpheme": "vi-",
@@ -11318,9 +12882,19 @@
             "devanagari": "अपरिग्रह"
           },
           {
+            "id": "nirodha_parinama",
+            "transliteration": "nirodha-pariṇāma",
+            "devanagari": "निरोधपरिणाम"
+          },
+          {
             "id": "parinama",
             "transliteration": "pariṇāma",
             "devanagari": "परिणाम"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       },
@@ -11683,6 +13257,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -11995,6 +13574,11 @@
             "devanagari": "नियम"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "samyama",
             "transliteration": "saṃyama",
             "devanagari": "संयम"
@@ -12072,7 +13656,19 @@
     "verification": "source-verified",
     "professor_gloss": "yoking",
     "source_text": "yoga_sutras",
-    "related_morphemes": [],
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√yuj",
+        "terms": [
+          {
+            "id": "kriya_yoga",
+            "transliteration": "kriyā-yoga",
+            "devanagari": "क्रियायोग"
+          }
+        ]
+      }
+    ],
     "related_mentions": [
       {
         "id": "kaivalya",
@@ -12336,6 +13932,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -12344,6 +13945,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -12539,6 +14145,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -12547,6 +14158,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -12658,6 +14274,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -12666,6 +14287,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }
@@ -12911,6 +14537,11 @@
             "devanagari": "कर्माशय"
           },
           {
+            "id": "pranayama",
+            "transliteration": "prāṇāyāma",
+            "devanagari": "प्राणायाम"
+          },
+          {
             "id": "pratyahara",
             "transliteration": "pratyāhāra",
             "devanagari": "प्रत्याहार"
@@ -12919,6 +14550,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       },
@@ -13190,6 +14826,11 @@
             "id": "samadhi",
             "transliteration": "samādhi",
             "devanagari": "समाधि"
+          },
+          {
+            "id": "samadhi_parinama",
+            "transliteration": "samādhi-pariṇāma",
+            "devanagari": "समाधिपरिणाम"
           }
         ]
       }

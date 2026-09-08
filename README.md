@@ -5,7 +5,8 @@ philosophical vocabulary, drawn from the Yoga Sutras and the principal Upanisads
 
 ## What This Repo Contains
 
-- Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — covers every term the explorer shows
+- Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — the
+  explorer and the catalog now hold the same 126 terms
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
 - A working-entry bundle in [data/demo_terms.json](data/demo_terms.json)
@@ -86,7 +87,7 @@ both of which are false derivations. See
 
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
 and `sanskrit-etymology stats` reports the coverage percentage. It currently
-stands at 114 of 120.
+stands at 120 of 126.
 
 Six terms are deliberately left unverified, and each says why on its own card:
 

@@ -5209,3 +5209,311 @@ analyses:
     - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.1
     - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
       text follows
+
+  # ── CATALOGUED BUT PREVIOUSLY UNPUBLISHED (6 analyses) ──
+  # Present in seed_terms.yaml from the start but never carried into the
+  # explorer. Written from scratch and verified against the GRETIL mūla text.
+  - id: pranayama
+    devanagari: प्राणायाम
+    transliteration: prāṇāyāma
+    chapter: YS 2.29, 2.49–2.53
+    source_context: 'YS 2.49: tasmin sati śvāsapraśvāsayor gativicchedaḥ prāṇāyāmaḥ ("When that
+      [posture] is established, the cutting off of the movement of in-breath and out-breath
+      is prāṇāyāma.")'
+    segmentation: prāṇa + āyāma
+    roots:
+    - root: √an
+      devanagari: √अन्
+      meaning: to breathe (in prāṇa)
+      dhatu_number: null
+    - root: √yam
+      devanagari: √यम्
+      meaning: to hold, restrain, extend (in āyāma)
+      dhatu_number: null
+    prefixes:
+    - prefix: pra-
+      meaning: 'forth, forward (in prāṇa: the breath that goes forth)'
+    - prefix: ā-
+      meaning: 'toward, out (in āyāma: drawing out)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix (ghañ)
+      grammatical_function: forms the masculine nouns prāṇa and āyāma
+    compound_type: tatpuruṣa — 'the āyāma of the breath'
+    literal_gloss: a drawing-out or holding of the breath
+    philosophical_gloss: 'Prāṇāyāma is the fourth limb, and Patañjali defines it narrowly at
+      YS 2.49: once posture is established, it is the cutting off (viccheda) of the movement
+      of in-breath and out-breath. What follows describes its varieties by their location, duration
+      and number (YS 2.50), and a fourth kind that goes beyond the distinction of outer and
+      inner (YS 2.51). The result is not physical but cognitive: the covering of the light is
+      worn away, and the mind becomes fit for concentration (YS 2.52-2.53).'
+    doctrinal_significance: 'Prāṇāyāma is the hinge between the outer limbs and the inner ones.
+      Patañjali gives it more sūtras than āsana, and states its purpose in terms of the mind
+      rather than the body: it prepares dhāraṇā. The elaborate breathing systems of later haṭha
+      yoga are not in this text.'
+    ambiguity_notes: Āyāma, from ā + √yam, carries both 'extension, lengthening' and 'restraint,
+      holding'. English versions split accordingly between 'breath extension' and 'breath control',
+      and the Sanskrit supports both. A minority reading divides the compound as prāṇa + ayāma,
+      'non-restraint of breath', which reverses the sense; it is not the reading the sūtra's
+      own definition supports.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.49
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: kriya_yoga
+    devanagari: क्रियायोग
+    transliteration: kriyā-yoga
+    chapter: YS 2.1–2.2
+    source_context: 'YS 2.1: tapaḥsvādhyāyeśvarapraṇidhānāni kriyāyogaḥ ("Austerity, self-study,
+      and surrender to the Lord are the yoga of action.")'
+    segmentation: kriyā + yoga
+    roots:
+    - root: √kṛ
+      devanagari: √कृ
+      meaning: to do, make, act (in kriyā)
+      dhatu_number: null
+    - root: √yuj
+      devanagari: √युज्
+      meaning: to yoke, join, concentrate (in yoga)
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -yā
+      meaning: feminine action noun suffix
+      grammatical_function: forms kriyā, 'doing, action, rite'
+    - suffix: -a
+      meaning: action noun suffix (ghañ)
+      grammatical_function: forms yoga, 'the act of yoking'
+    compound_type: tatpuruṣa — 'the yoga that consists in action'
+    literal_gloss: the yoga of action; yoga carried out as practice
+    philosophical_gloss: 'Kriyā-yoga opens the second pāda and names three practices: tapas,
+      svādhyāya and īśvara-praṇidhāna. YS 2.2 states its purpose plainly - to cultivate samādhi
+      and to thin out the afflictions. It is yoga described from the side of what one does,
+      as against YS 1.2, which describes yoga by what it achieves.'
+    doctrinal_significance: The three members of kriyā-yoga return at YS 2.32 as the last three
+      niyamas, so the same practices are presented twice under different headings. Patañjali
+      offers kriyā-yoga to the practitioner whose mind is not already still, which makes the
+      second pāda the practical entry to a text that began with its goal.
+    ambiguity_notes: Whether kriyā-yoga is a preliminary discipline distinct from the eight
+      limbs, or simply the eight limbs approached from their active side, is disputed. The overlap
+      with the niyamas at YS 2.32 is the reason the question is open.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 2.1
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: nirodha_parinama
+    devanagari: निरोधपरिणाम
+    transliteration: nirodha-pariṇāma
+    chapter: YS 3.9–3.10
+    source_context: 'YS 3.9: vyutthānanirodhasaṃskārayor abhibhavaprādurbhāvau nirodhakṣaṇacittānvayo
+      nirodhapariṇāmaḥ ("The transformation into cessation is the mind''s connection with the
+      moment of cessation, when the habit-traces of emergence are overcome and those of cessation
+      appear.")'
+    segmentation: nirodha + pariṇāma
+    roots:
+    - root: √rudh
+      devanagari: √रुध्
+      meaning: to obstruct, restrain (in nirodha)
+      dhatu_number: null
+    - root: √nam
+      devanagari: √नम्
+      meaning: to bend (in pariṇāma)
+      dhatu_number: null
+    prefixes:
+    - prefix: ni-
+      meaning: down, back (in nirodha)
+    - prefix: pari-
+      meaning: 'around, about (in pariṇāma: a bending-around, hence change)'
+    suffixes:
+    - suffix: -a
+      meaning: action noun suffix (ghañ)
+      grammatical_function: forms the masculine nouns nirodha and pariṇāma
+    compound_type: tatpuruṣa — 'the transformation consisting in cessation'
+    literal_gloss: the bending-around into cessation; the change by which stilling occurs
+    philosophical_gloss: 'The third pāda analyses stilling as a change the mind undergoes rather
+      than a state it enters. YS 3.9 describes the moment precisely: the habit-traces of emergence
+      (vyutthāna) are overcome, those of cessation (nirodha) appear, and the mind is joined
+      to the moment of cessation. YS 3.10 adds that repetition makes this flow peaceful. It
+      is the first of the three pariṇāmas, followed by samādhi-pariṇāma (3.11) and ekāgratā-pariṇāma
+      (3.12).'
+    doctrinal_significance: This is Patañjali at his most technical, and it answers an obvious
+      objection. If citta is by nature active, how can stilling be anything but its destruction?
+      The answer is that stilling is itself a transformation of citta, one saṃskāra displacing
+      another, so nothing is annihilated.
+    ambiguity_notes: Whether the three pariṇāmas describe three successive stages or three aspects
+      of one process is read differently by the commentators. The sūtras give an order but do
+      not say the earlier are left behind.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.9
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: samadhi_parinama
+    devanagari: समाधिपरिणाम
+    transliteration: samādhi-pariṇāma
+    chapter: YS 3.11
+    source_context: 'YS 3.11: sarvārthataikāgratayoḥ kṣayodayau cittasya samādhipariṇāmaḥ ("The
+      dwindling of attention to all objects and the rise of one-pointedness is the mind''s transformation
+      into samādhi.")'
+    segmentation: samādhi + pariṇāma
+    roots:
+    - root: √dhā
+      devanagari: √धा
+      meaning: to place, put, set (in samādhi)
+      dhatu_number: null
+    - root: √nam
+      devanagari: √नम्
+      meaning: to bend (in pariṇāma)
+      dhatu_number: null
+    prefixes:
+    - prefix: sam-
+      meaning: together, completely (in samādhi)
+    - prefix: ā-
+      meaning: toward (in samādhi)
+    - prefix: pari-
+      meaning: around, about (in pariṇāma)
+    suffixes:
+    - suffix: -i
+      meaning: action noun suffix (kṛt)
+      grammatical_function: forms samādhi from the base samādhā-
+    - suffix: -a
+      meaning: action noun suffix (ghañ)
+      grammatical_function: forms pariṇāma
+    compound_type: tatpuruṣa — 'the transformation consisting in samādhi'
+    literal_gloss: the bending-around into absorption
+    philosophical_gloss: 'The second of the three transformations. YS 3.11 defines it as a pair
+      of opposed movements in the same mind: attention to all objects (sarvārthatā) dwindles
+      while one-pointedness (ekāgratā) rises. Samādhi is thus not the arrival of something new
+      but the shifting balance between two tendencies the mind already has.'
+    doctrinal_significance: 'Describing absorption as a ratio rather than a threshold is what
+      allows Patañjali to treat samādhi as something that deepens by degrees. It also explains
+      why the same word covers both samprajñāta and asamprajñāta: they differ in how far the
+      transformation has gone.'
+    ambiguity_notes: Sarvārthatā is sometimes rendered 'many-pointedness' by contrast with ekāgratā.
+      The literal sense is 'the state of having all things as its object', which is scatter
+      rather than plurality.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 3.11
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: alabdhabhumikatva
+    devanagari: अलब्धभूमिकत्व
+    transliteration: alabdhabhūmikatva
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: a- + labdha + bhūmika + -tva
+    roots:
+    - root: √labh
+      devanagari: √लभ्
+      meaning: to obtain, attain
+      dhatu_number: null
+    - root: √bhū
+      devanagari: √भू
+      meaning: to be, become (in bhūmi, 'ground, stage')
+      dhatu_number: null
+    prefixes:
+    - prefix: a-
+      meaning: not, un- (negating prefix)
+    suffixes:
+    - suffix: -ta
+      meaning: past participle suffix (kta)
+      grammatical_function: forms labdha, 'attained'
+    - suffix: -ka
+      meaning: adjectival suffix
+      grammatical_function: forms bhūmika, 'having a stage'
+    - suffix: -tva
+      meaning: abstract noun suffix
+      grammatical_function: 'forms a neuter noun: ''the state of ...'''
+    compound_type: abstract noun in -tva formed on the bahuvrīhi a-labdha-bhūmika, 'one by whom
+      no stage has been attained'
+    literal_gloss: the state of not having attained a stage
+    philosophical_gloss: 'The eighth of the nine obstacles at YS 1.30. It names a specific discouragement:
+      practice has been sustained and no ground has been reached. Patañjali treats this as a
+      distraction of the mind (citta-vikṣepa) in its own right, not as evidence that the practitioner
+      is unsuited. The obstacle is the failure to arrive, and the unsettling it causes.'
+    doctrinal_significance: That the list includes both failing to reach a stage and failing
+      to stay in one (anavasthitatva) shows how carefully the obstacles are drawn. They are
+      not moral faults but conditions of practice, and they are placed immediately before the
+      remedies of YS 1.32-1.39.
+    ambiguity_notes: Bhūmi ('ground, stage') is not defined in the sūtras, and the commentators
+      differ on whether the stages meant are the levels of samādhi or the stages of practice
+      generally. The word bhūmi appears elsewhere in the text only at YS 3.6, where it also
+      goes undefined.
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
+  - id: anavasthitatva
+    devanagari: अनवस्थितत्व
+    transliteration: anavasthitatva
+    chapter: YS 1.30
+    source_context: 'YS 1.30: vyādhistyānasaṃśayapramādālasyāviratibhrāntidarśanālabdhabhūmikatvānavasthitatvāni
+      cittavikṣepās te ''ntarāyāḥ ("Illness, dullness, doubt, heedlessness, laziness, failure
+      to abstain, mistaken view, failure to reach a stage, and instability in it: these distractions
+      of the mind are the obstacles.")'
+    segmentation: an- + ava + √sthā + -ita + -tva
+    roots:
+    - root: √sthā
+      devanagari: √स्था
+      meaning: to stand, remain, be settled
+      dhatu_number: null
+    prefixes:
+    - prefix: an-
+      meaning: not, un- (the form of a- before a vowel)
+    - prefix: ava-
+      meaning: down (settling down)
+    suffixes:
+    - suffix: -ita
+      meaning: past participle suffix
+      grammatical_function: forms avasthita, 'settled, established'
+    - suffix: -tva
+      meaning: abstract noun suffix
+      grammatical_function: 'forms a neuter noun: ''the state of ...'''
+    compound_type: abstract noun in -tva formed on the participle an-avasthita, 'not settled'
+    literal_gloss: the state of not remaining settled; instability
+    philosophical_gloss: 'The ninth and last obstacle at YS 1.30, and the counterpart of the
+      eighth. Where alabdhabhūmikatva is failing to reach a stage, anavasthitatva is reaching
+      one and not staying there. It shares the root √sthā with avasthāna at YS 1.3, where the
+      seer ''abides'' in its own form: the obstacle is the failure of exactly that abiding.'
+    doctrinal_significance: Placing instability last completes a list that runs from the bodily
+      (vyādhi) to the most refined. The final obstacle is one only an advanced practitioner
+      meets, which is why the list cannot be read as a sequence of beginners' problems.
+    ambiguity_notes: 'Some translators read anavasthitatva as restlessness of mind generally,
+      which loses its pairing with the preceding item. The two are naturally read together:
+      not arriving, and not remaining.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
+    - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
+      text follows
