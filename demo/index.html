@@ -7,42 +7,48 @@
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
-    <header>
-      <h1>Sanskrit Word Explorer</h1>
-      <p>Meditation and philosophical vocabulary from the Yoga Sutras and the Upaniṣads</p>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1>Sanskrit Word Explorer</h1>
+        <p>
+          Meditation and philosophical vocabulary from the Yoga Sutras and the
+          principal Upani&#7779;ads, with the passage each term comes from.
+        </p>
+      </div>
     </header>
 
     <div class="search-container">
+      <label class="visually-hidden" for="search">Search terms</label>
       <input
         id="search"
         class="search-box"
-        type="text"
-        placeholder="Search a term or a meaning: samadhi, atman, absorption, witness..."
+        type="search"
+        placeholder="Search a term or a meaning: samadhi, atman, absorption, witness"
         autocomplete="off"
         spellcheck="false"
       >
     </div>
 
     <div class="suggestions">
-      <div id="suggestions" class="suggestions-list"></div>
+      <div id="suggestions" class="suggestions-list" role="listbox"></div>
     </div>
 
     <div id="browse">
       <div id="filterBar" class="filter-bar"></div>
-      <div id="browseCount" class="browse-count"></div>
-      <div id="termGrid" class="term-grid"></div>
+      <p id="browseCount" class="browse-count"></p>
+      <div id="termGrid"></div>
     </div>
 
-    <div id="result" class="result-container"></div>
+    <main id="result" class="result-container"></main>
 
-    <footer>
+    <footer class="page-footer">
       <p>
-        Terms marked <strong>source-verified</strong> have a quoted passage and a
-        citation trail recorded against them. The rest are working entries that
-        have not yet been checked against the text.
+        A term marked <strong>source-verified</strong><span class="legend-dot"></span>
+        has a passage quoted from the original and a citation trail recorded
+        against it. The rest are working entries, not yet checked against the text.
       </p>
-      <p class="footer-tip">
-        Every term has its own link &mdash; open one and copy the address to point
+      <p>
+        Every term has its own address. Open one and copy the link to point
         straight at it.
       </p>
     </footer>

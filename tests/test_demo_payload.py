@@ -7,6 +7,7 @@ browsable and linkable, and no term claims more sourcing than it has.
 
 from __future__ import annotations
 
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -110,6 +111,29 @@ class DemoPayloadTestCase(unittest.TestCase):
                 any("GRETIL" in entry for entry in term.citation_trail),
                 f"{term.id} claims verification without naming the corpus",
             )
+
+    def test_every_quoted_passage_carries_a_translation(self) -> None:
+        """The card sets Sanskrit and English differently, so both must be present.
+
+        nirodha once stored YS 1.2 with no translation, and the renderer set the
+        bare Sanskrit as if it were a full passage.
+        """
+        cite = re.compile(
+            r"(?:YS|B[ṛr]U|ChU|KaU|M[āa]U|AiU|[ĪI][śs]U|[ŚS]vU|PraU|MuU)\s*[\d][\d.,\s–-]*(?=:)"
+        )
+        for term in self.terms:
+            if not term.source_context:
+                continue
+            starts = [m.start() for m in cite.finditer(term.source_context)]
+            self.assertTrue(starts, f"{term.id} source_context names no citation")
+            bounds = starts + [len(term.source_context)]
+            for index in range(len(starts)):
+                chunk = term.source_context[bounds[index] : bounds[index + 1]]
+                self.assertRegex(
+                    chunk,
+                    r'\(\s*"',
+                    f"{term.id}: passage {chunk[:40]!r} has no quoted translation",
+                )
 
     def test_sort_places_analysed_terms_first(self) -> None:
         ordered = sort_demo_terms(self.terms)

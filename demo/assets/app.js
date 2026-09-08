@@ -21,6 +21,17 @@
     { id: "advanced_compound", label: "Compounds" },
   ];
 
+  const KIND_LABEL = { prefix: "Prefix", root: "Root", suffix: "Suffix", stem: "Stem" };
+
+  // Citation sigla used to split a stored passage into its quoted units.
+  const CITE_RE =
+    /(?:YS|B[ṛr]U|ChU|KaU|M[āa]U|AiU|[ĪI][śs]U|[ŚS]vU|PraU|MuU|T\.\d+)\s*[\d][\d.,\s–-]*(?=:)/g;
+
+  const THEME_LABELS = Object.fromEntries(
+    THEMES.filter((theme) => theme.id !== "all").map((theme) => [theme.id, theme.label])
+  );
+  const THEME_ORDER = THEMES.map((theme) => theme.id).filter((id) => id !== "all");
+
   const SOURCES = [
     { id: "all", label: "All sources" },
     { id: "yoga_sutras", label: "Yoga Sutras" },
@@ -99,9 +110,9 @@
       return;
     }
 
-    const chip = event.target.closest(".term-chip");
-    if (chip) {
-      openTerm(chip.dataset.id);
+    const row = event.target.closest(".row-link");
+    if (row) {
+      openTerm(row.dataset.id);
       return;
     }
 
@@ -130,6 +141,7 @@
     }
 
     if (event.target.closest(".back-btn")) {
+      event.preventDefault();
       goBack();
       return;
     }
@@ -328,12 +340,22 @@
     const verifiedCount = terms.filter(isVerified).length;
     const toggle = `<button class="verified-toggle${verifiedOnly ? " active" : ""}"
       aria-pressed="${verifiedOnly}">
-      Source-verified only <span class="filter-count">${verifiedCount}</span>
+      Show only source-verified terms <span class="filter-count">${verifiedCount}</span>
     </button>`;
 
-    filterBarEl.innerHTML = `<div class="filter-row filter-row-source">${sourceButtons}</div>
-      <div class="filter-row">${buttons}</div>
-      <div class="filter-row filter-row-secondary">${toggle}</div>`;
+    filterBarEl.innerHTML = `
+      <div class="filter-group">
+        <span class="filter-legend" id="lg-source">Source</span>
+        <div class="segmented" role="group" aria-labelledby="lg-source">${sourceButtons}</div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-legend" id="lg-theme">Theme</span>
+        <div class="filter-set" role="group" aria-labelledby="lg-theme">${buttons}</div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-legend">Sourcing</span>
+        ${toggle}
+      </div>`;
   }
 
   function inActiveSource(term) {
@@ -358,21 +380,60 @@
   function renderGrid() {
     const shown = visibleTerms();
     browseCountEl.textContent = shown.length
-      ? `${shown.length} of ${terms.length} terms`
-      : "No terms match this filter";
+      ? `${shown.length} ${shown.length === 1 ? "term" : "terms"}`
+      : "";
 
-    termGridEl.innerHTML = shown
-      .map(
-        (term) => `
-          <a class="term-chip${isVerified(term) ? " chip-verified" : ""}"
-             href="#${encodeURIComponent(term.id)}"
-             data-id="${esc(term.id)}">
-            <span class="chip-deva">${esc(term.devanagari)}</span>
-            ${esc(term.transliteration)}
-          </a>
-        `
-      )
+    if (!shown.length) {
+      termGridEl.innerHTML =
+        '<p class="browse-empty">No terms match these filters. Clear one to widen the search.</p>';
+      return;
+    }
+
+    // Reading a corpus is easier under headings than as one undivided field.
+    const grouped = new Map();
+    shown.forEach((term) => {
+      const key = term.thematic_bucket || "advanced_compound";
+      if (!grouped.has(key)) {
+        grouped.set(key, []);
+      }
+      grouped.get(key).push(term);
+    });
+
+    const order = activeTheme === "all" ? THEME_ORDER : [activeTheme];
+    termGridEl.innerHTML = order
+      .filter((theme) => grouped.has(theme))
+      .map((theme) => {
+        const entries = grouped
+          .get(theme)
+          .slice()
+          .sort((a, b) => a.transliteration.localeCompare(b.transliteration));
+        return `
+          <section class="term-group">
+            <h2 class="group-heading">
+              <span class="group-name">${esc(THEME_LABELS[theme] || theme)}</span>
+              <span class="group-count">${entries.length}</span>
+            </h2>
+            <ul class="term-list">${entries.map(termRow).join("")}</ul>
+          </section>
+        `;
+      })
       .join("");
+  }
+
+  function termRow(term) {
+    const verified = isVerified(term)
+      ? '<span class="row-verified" title="Source-verified"></span>'
+      : "";
+    return `
+      <li class="term-row">
+        <a class="row-link" href="#${encodeURIComponent(term.id)}" data-id="${esc(term.id)}">
+          <span class="row-deva">${esc(term.devanagari)}</span>
+          <span class="row-iast">${esc(term.transliteration)}</span>
+          <span class="row-gloss">${esc(term.professor_gloss || term.literal_gloss)}</span>
+          ${verified}
+        </a>
+      </li>
+    `;
   }
 
   function isVerified(term) {
@@ -382,102 +443,143 @@
   /* ---------- term card ---------- */
 
   function renderCard(term) {
-    const confidenceClass =
-      term.confidence === "high"
-        ? "conf-high"
-        : term.confidence === "medium"
-        ? "conf-medium"
-        : "conf-low";
+    const morphology = buildMorphologyRows(term);
+    const segmentation = buildSegmentation(term);
+
+    const structure =
+      segmentation || morphology
+        ? `
+          <section class="card-section">
+            <h2 class="section-label">Word structure</h2>
+            ${segmentation}
+            ${morphology}
+          </section>
+        `
+        : "";
 
     return `
-      <button class="back-btn">&larr; Back to term list</button>
-      <div class="result-card">
-        <div class="card-header">
-          <div class="card-badges">
-            ${renderVerificationBadge(term)}
-            <span class="card-confidence ${confidenceClass}">${esc(
-      term.confidence
-    )} confidence</span>
-          </div>
-          <div class="card-deva">${esc(term.devanagari)}</div>
-          <div class="card-iast">${esc(term.transliteration)}</div>
-          <div class="card-gloss-short">${esc(term.literal_gloss)}</div>
-        </div>
+      <a class="back-btn" href="#">Back to all terms</a>
+      <article class="result-card">
+        <header class="card-header">
+          <p class="card-corpus">${esc(SOURCE_LABELS[term.source_text] || SOURCE_LABELS.yoga_sutras)}</p>
+          <h1 class="card-deva">${esc(term.devanagari)}</h1>
+          <p class="card-iast">${esc(term.transliteration)}</p>
+          <p class="card-gloss-short">${esc(term.literal_gloss)}</p>
+          <p class="card-badges">${renderVerificationBadge(term)}${renderConfidence(term)}</p>
+        </header>
 
-        <div class="segmentation-strip">${buildSegmentation(term)}</div>
+        ${buildSourceSection(term)}
 
         <div class="card-body">
-          <div class="card-section">
-            <div class="section-label">Morphological Components</div>
-            <div class="morph-grid">${buildMorphologyCards(term)}</div>
-          </div>
-
+          ${structure}
+          ${section("Philosophical meaning", esc(term.philosophical_gloss), "prose")}
+          ${section("Doctrinal significance", esc(term.doctrinal_significance), "prose")}
           ${
             term.compound_type
-              ? section("Compound Type", esc(term.compound_type))
+              ? section("Compound type", esc(term.compound_type))
               : ""
           }
-
-          ${buildSourceSection(term)}
-
-          ${section("Philosophical Meaning", esc(term.philosophical_gloss), "serif")}
-          ${section("Doctrinal Significance", esc(term.doctrinal_significance), "serif")}
-
           ${buildChineseSection(term)}
           ${
             term.ambiguity_notes
-              ? section("Scholarly Notes", esc(term.ambiguity_notes), "serif")
+              ? section("Scholarly notes", esc(term.ambiguity_notes), "prose")
               : ""
           }
           ${buildCitationSection(term)}
         </div>
-      </div>
+      </article>
     `;
   }
 
   function section(label, content, extraClass) {
     return `
-      <div class="card-section">
-        <div class="section-label">${label}</div>
+      <section class="card-section">
+        <h2 class="section-label">${label}</h2>
         <div class="section-content ${extraClass || ""}">${content}</div>
-      </div>
+      </section>
     `;
   }
 
+  function renderConfidence(term) {
+    return `<span class="tag tag-confidence">${esc(term.confidence)} confidence in the analysis</span>`;
+  }
+
   function renderVerificationBadge(term) {
-    if (isVerified(term)) {
-      return '<span class="card-verified verified-yes">source-verified</span>';
-    }
-    return '<span class="card-verified verified-no">not yet source-verified</span>';
+    return isVerified(term)
+      ? '<span class="tag tag-verified">Source-verified</span>'
+      : '<span class="tag tag-unverified">Not yet source-verified</span>';
   }
 
   function buildSourceSection(term) {
-    const corpus = SOURCE_LABELS[term.source_text] || SOURCE_LABELS.yoga_sutras;
-    const chapter =
-      `<span class="chapter-ref">${esc(term.chapter)}</span>` +
-      `<span class="corpus-tag">${esc(corpus)}</span>`;
+    const cite = `<cite class="source-cite">${esc(term.chapter)}</cite>`;
 
     if (!term.source_context) {
       return `
-        <div class="card-section">
-          <div class="section-label">Where It Appears</div>
-          <div class="section-content">${chapter}</div>
-          <div class="source-missing">
-            This term has not yet been checked against the text. The passage
-            references above come from the working bundle, and no quoted sutra
-            has been recorded for it.
-          </div>
-        </div>
+        <section class="source-panel source-panel-empty">
+          <h2 class="section-label">Where it appears</h2>
+          ${cite}
+          <p class="source-missing">
+            No passage has been recorded for this term yet. The references above come
+            from the working catalogue and have not been checked against the text.
+          </p>
+        </section>
       `;
     }
 
     return `
-      <div class="card-section">
-        <div class="section-label">Where It Appears</div>
-        <div class="section-content">${chapter}</div>
-        <blockquote class="source-quote serif">${esc(term.source_context)}</blockquote>
-      </div>
+      <section class="source-panel">
+        <h2 class="section-label">Where it appears</h2>
+        ${cite}
+        <blockquote class="source-quote">${formatPassage(term.source_context)}</blockquote>
+      </section>
     `;
+  }
+
+  // Passages are authored as "<citation>: <sanskrit> (\"<translation>\")", sometimes
+  // several in a row, sometimes with a trailing remark. Anchor on the citation
+  // sigla rather than on punctuation: an earlier version split on ") " and broke
+  // on entries where the passages are joined by ". " instead.
+
+  function formatPassage(raw) {
+    const text = String(raw).trim();
+    const starts = [];
+    let match;
+    CITE_RE.lastIndex = 0;
+    while ((match = CITE_RE.exec(text)) !== null) {
+      starts.push({ index: match.index, label: match[0].trim() });
+    }
+
+    if (!starts.length) {
+      return `<p class="passage"><span class="passage-sanskrit">${esc(text)}</span></p>`;
+    }
+
+    const blocks = [];
+    const preamble = text.slice(0, starts[0].index).trim();
+    if (preamble) {
+      blocks.push(`<p class="passage-aside">${esc(preamble)}</p>`);
+    }
+
+    starts.forEach((cite, i) => {
+      const stop = i + 1 < starts.length ? starts[i + 1].index : text.length;
+      let body = text.slice(cite.index + cite.label.length, stop).trim();
+      body = body.replace(/^:\s*/, "").replace(/[.;]\s*$/, "");
+
+      const quoted = body.match(/^([\s\S]*?)\s*\(\s*"([\s\S]*?)"\s*\)\s*([\s\S]*)$/);
+      const sanskrit = quoted ? quoted[1].trim() : body;
+      const english = quoted ? quoted[2].trim() : "";
+      const tail = quoted ? quoted[3].replace(/^[.;,\s]+/, "").trim() : "";
+
+      blocks.push(`
+        <div class="passage">
+          <span class="passage-ref">${esc(cite.label)}</span>
+          ${sanskrit ? `<span class="passage-sanskrit">${esc(sanskrit)}</span>` : ""}
+          ${english ? `<span class="passage-english">${esc(english)}</span>` : ""}
+          ${tail ? `<span class="passage-tail">${esc(tail)}</span>` : ""}
+        </div>
+      `);
+    });
+
+    return blocks.join("");
   }
 
   function buildCitationSection(term) {
@@ -485,58 +587,12 @@
     if (!trail.length) {
       return "";
     }
-    const items = trail.map((entry) => `<li>${esc(entry)}</li>`).join("");
     return `
-      <div class="card-section">
-        <div class="section-label">Citation Trail</div>
-        <ul class="citation-list">${items}</ul>
-      </div>
+      <section class="card-section">
+        <h2 class="section-label">Citation trail</h2>
+        <ul class="citation-list">${trail.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>
+      </section>
     `;
-  }
-
-  function buildMorphologyCards(term) {
-    const cards = [];
-    (term.prefixes || []).forEach((prefix) => {
-      cards.push({ type: "Prefix", value: prefix.prefix, meaning: prefix.meaning });
-    });
-    (term.roots || []).forEach((root) => {
-      cards.push({
-        type: "Root",
-        value: `${root.root}${root.devanagari ? ` ${root.devanagari}` : ""}`,
-        meaning: root.meaning,
-      });
-    });
-    (term.suffixes || []).forEach((suffix) => {
-      cards.push({
-        type: "Suffix",
-        value: suffix.suffix,
-        meaning: suffix.grammatical_function
-          ? `${suffix.meaning} — ${suffix.grammatical_function}`
-          : suffix.meaning,
-      });
-    });
-
-    if (!cards.length) {
-      return `
-        <div class="morph-item">
-          <div class="morph-type">Status</div>
-          <div class="morph-value">Pending</div>
-          <div class="morph-meaning">This term does not yet have a canonical morphological breakdown.</div>
-        </div>
-      `;
-    }
-
-    return cards
-      .map(
-        (card) => `
-          <div class="morph-item">
-            <div class="morph-type">${esc(card.type)}</div>
-            <div class="morph-value">${esc(card.value)}</div>
-            <div class="morph-meaning">${esc(card.meaning)}</div>
-          </div>
-        `
-      )
-      .join("");
   }
 
   function buildChineseSection(term) {
@@ -544,58 +600,186 @@
     if (!candidates.length) {
       return "";
     }
-
     const cards = candidates
       .map((candidate) => {
-        const mappingType = candidate.mapping_type || "";
+        const mappingType = (candidate.mapping_type || "").replace(/_/g, " ");
         return `
-          <div class="chinese-card">
-            <div class="chinese-chars">${esc(candidate.characters)}</div>
-            <div class="chinese-pinyin">${esc(candidate.pinyin)}</div>
-            <span class="chinese-type type-${esc(mappingType.replace(/\s/g, "_"))}">
-              ${esc(mappingType.replace(/_/g, " "))}
-            </span>
+          <div class="chinese-item">
+            <span class="chinese-chars">${esc(candidate.characters)}</span>
+            <span class="chinese-pinyin">${esc(candidate.pinyin)}</span>
+            <span class="chinese-type">${esc(mappingType)}</span>
           </div>
         `;
       })
       .join("");
-
     return `
-      <div class="card-section">
-        <div class="section-label">Chinese Buddhist Equivalents</div>
-        <div class="chinese-cards">${cards}</div>
-      </div>
+      <section class="card-section">
+        <h2 class="section-label">Chinese Buddhist equivalents</h2>
+        <div class="chinese-list">${cards}</div>
+      </section>
     `;
   }
 
+  /* ---------- morphology ----------
+
+     The segmentation string is authored, not generated, and carries its own
+     markers: a leading √ marks a root, a leading hyphen marks a suffix. Earlier
+     this code guessed instead, matching each piece against the declared
+     prefix/root/suffix lists by substring in both directions. A one-letter
+     prefix such as "a-" is a substring of almost every Sanskrit morpheme, so
+     that guess mis-coloured 38 of 120 terms. Trust the markers; fall back to an
+     exact match against the declared parts; leave anything else unmarked.        */
+
+  function parseSegmentation(term) {
+    const raw = (term.segmentation || "").trim();
+    if (!raw) {
+      return null;
+    }
+
+    // A trailing parenthetical is an editorial remark, not a morpheme.
+    let note = "";
+    let body = raw;
+    const noteMatch = body.match(/\s*\(([^()]*)\)\s*$/);
+    if (noteMatch) {
+      note = noteMatch[1].trim();
+      body = body.slice(0, noteMatch.index).trim();
+    }
+
+    // "→" introduces the inflected form the analysis resolves to.
+    let derived = "";
+    const arrowAt = body.indexOf("→");
+    if (arrowAt !== -1) {
+      derived = body.slice(arrowAt + 1).trim();
+      body = body.slice(0, arrowAt).trim();
+    }
+
+    // "|" separates the members of a compound analysed word by word.
+    const groups = body
+      .split("|")
+      .map((group) => group.trim())
+      .filter(Boolean)
+      .map((group) =>
+        group
+          .split(/\s*\+\s*/)
+          .map((piece) => piece.trim())
+          .filter(Boolean)
+          .map((piece) => {
+            // A parenthetical can also sit on an individual morpheme, as in
+            // "ni + √dhyai (desiderative, reduplicated) + -ana".
+            const inline = piece.match(/^(.*?)\s*\(([^()]*)\)\s*$/);
+            const text = inline ? inline[1].trim() : piece;
+            return {
+              text,
+              gloss: inline ? inline[2].trim() : "",
+              kind: classifyPiece(text, term),
+            };
+          })
+      );
+
+    if (!groups.length) {
+      return null;
+    }
+    return { groups, note, derived };
+  }
+
+  function classifyPiece(piece, term) {
+    if (piece.startsWith("√")) {
+      return "root";
+    }
+    if (piece.startsWith("-")) {
+      return "suffix";
+    }
+
+    const bare = piece.replace(/^[√-]|-$/g, "");
+    const declared = (list, key, strip) =>
+      (list || []).some((item) => item[key].replace(strip, "") === bare);
+
+    if (declared(term.prefixes, "prefix", /-$/)) {
+      return "prefix";
+    }
+    if (declared(term.roots, "root", /^√/)) {
+      return "root";
+    }
+    if (declared(term.suffixes, "suffix", /^-/)) {
+      return "suffix";
+    }
+    // A stem, a particle, or a compound member with no affix marking.
+    return "stem";
+  }
+
   function buildSegmentation(term) {
-    if (!term.segmentation) {
+    const parsed = parseSegmentation(term);
+    if (!parsed) {
       return "";
     }
 
-    const parts = term.segmentation.split(/\s*\+\s*/);
-    const prefixes = (term.prefixes || []).map((prefix) => prefix.prefix.replace("-", ""));
-    const roots = (term.roots || []).map((root) => root.root.replace("√", ""));
-    const suffixes = (term.suffixes || []).map((suffix) => suffix.suffix.replace("-", ""));
+    const groups = parsed.groups
+      .map((pieces) =>
+        `<span class="seg-group">` +
+        pieces
+          .map(
+            (piece, index) =>
+              `<span class="seg-piece seg-${piece.kind}"${
+                piece.gloss ? ` title="${esc(piece.gloss)}"` : ""
+              }>${esc(piece.text)}${
+                piece.gloss ? `<span class="seg-piece-note">${esc(piece.gloss)}</span>` : ""
+              }</span>` +
+              (index < pieces.length - 1 ? '<span class="seg-join">+</span>' : "")
+          )
+          .join("") +
+        `</span>`
+      )
+      .join('<span class="seg-boundary">·</span>');
 
-    return parts
-      .map((part, index) => {
-        const cleaned = part.replace(/[√-]/g, "");
-        let cssClass = "seg-root";
-        if (prefixes.some((prefix) => cleaned.includes(prefix) || prefix.includes(cleaned))) {
-          cssClass = "seg-prefix";
-        } else if (suffixes.some((suffix) => cleaned.includes(suffix) || suffix.includes(cleaned))) {
-          cssClass = "seg-suffix";
-        } else if (roots.some((root) => cleaned.includes(root) || root.includes(cleaned))) {
-          cssClass = "seg-root";
-        }
+    const derived = parsed.derived
+      ? `<span class="seg-derived"><span class="seg-arrow">→</span>${esc(parsed.derived)}</span>`
+      : "";
+    const note = parsed.note ? `<p class="seg-note">${esc(parsed.note)}</p>` : "";
 
-        const plus = index < parts.length - 1 ? '<span class="seg-plus">+</span>' : "";
-        return `<span class="seg-piece"><span class="seg-label ${cssClass}">${esc(
-          part
-        )}</span>${plus}</span>`;
-      })
-      .join("");
+    return `<div class="seg-line">${groups}${derived}</div>${note}`;
+  }
+
+  function buildMorphologyRows(term) {
+    const rows = [];
+    (term.prefixes || []).forEach((prefix) => {
+      rows.push({ kind: "prefix", value: prefix.prefix, meaning: prefix.meaning });
+    });
+    (term.roots || []).forEach((root) => {
+      rows.push({
+        kind: "root",
+        value: `${root.root}${root.devanagari ? ` ${root.devanagari}` : ""}`,
+        meaning: root.meaning,
+      });
+    });
+    (term.suffixes || []).forEach((suffix) => {
+      rows.push({
+        kind: "suffix",
+        value: suffix.suffix,
+        meaning: suffix.grammatical_function
+          ? `${suffix.meaning} — ${suffix.grammatical_function}`
+          : suffix.meaning,
+      });
+    });
+
+    if (!rows.length) {
+      return "";
+    }
+
+    return `
+      <dl class="morph-list">
+        ${rows
+          .map(
+            (row) => `
+              <dt class="morph-term">
+                <span class="morph-kind seg-${row.kind}">${KIND_LABEL[row.kind]}</span>
+                <span class="morph-value">${esc(row.value)}</span>
+              </dt>
+              <dd class="morph-meaning">${esc(row.meaning)}</dd>
+            `
+          )
+          .join("")}
+      </dl>
+    `;
   }
 
   /* ---------- helpers ---------- */
