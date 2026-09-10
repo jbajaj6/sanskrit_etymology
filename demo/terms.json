@@ -70,6 +70,11 @@
             "devanagari": "अहं ब्रह्मास्मि"
           },
           {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
             "id": "sat",
             "transliteration": "sat",
             "devanagari": "सत्"
@@ -256,6 +261,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -284,6 +294,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -557,6 +572,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -602,6 +622,11 @@
             "devanagari": "उपासन"
           },
           {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
+          },
+          {
             "id": "virocana",
             "transliteration": "virocana",
             "devanagari": "विरोचन"
@@ -639,16 +664,16 @@
     "prefixes": [],
     "suffixes": [
       {
-        "suffix": "-ya (taddhita)",
-        "meaning": "abstract noun suffix",
-        "grammatical_function": "forms a neuter abstract noun from the adjective kevala: 'the state of being kevala'"
+        "suffix": "-ya",
+        "meaning": "taddhita (secondary derivative) suffix",
+        "grammatical_function": "forms an abstract neuter noun from kevala: 'the state of being alone'"
       }
     ],
     "compound_type": null,
     "literal_gloss": "aloneness; the state of being exclusively oneself",
     "philosophical_gloss": "Kaivalya is the telos of Patañjali's Yoga Sutras — the final liberation. It is not union (yoga in the popular sense) but isolation: puruṣa (pure awareness) stands free in its own nature, permanently disentangled from prakṛti (material nature, including the mind). The guṇas — the three fundamental qualities of prakṛti — return to their latent state, having served their purpose of providing experience and eventually prompting liberation. Kaivalya is thus not a blissful experience but the end of all experience-for-puruṣa: awareness aware of itself alone. This differs sharply from Vedāntic mokṣa (which is union with Brahman) and Buddhist nirvāṇa (which is the cessation of craving and the end of the rebirth cycle without positing a permanent self).",
     "doctrinal_significance": "Kaivalya names where the entire system is heading. It titles the fourth and final chapter of the Yoga Sutras (Kaivalya Pāda). Understanding kaivalya is essential because it reveals the dualist metaphysics underlying Patañjali's system: the goal is not merger but separation — the aloneness of consciousness free from material entanglement.",
-    "ambiguity_notes": "Kaivalya is derived from the adjective kevala, not from a verbal root. This is morphologically straightforward (Monier-Williams s.v. kaivalya). The interpretive challenge is that \"aloneness\" or \"isolation\" can sound negative or nihilistic to modern ears, but in Sāṃkhya-Yoga it is the highest positive state: awareness freed from all that is not itself. Some translators soften this to \"independence\" or \"absolute freedom\" to avoid the negative connotation, which is reasonable but loses the precision of \"aloneness\" (kevala = alone).",
+    "ambiguity_notes": "Kaivalya is derived from the adjective kevala, not from a verbal root. This is morphologically straightforward (Monier-Williams s.v. kaivalya). The interpretive challenge is that \"aloneness\" or \"isolation\" can sound negative or nihilistic to modern ears, but in Sāṃkhya-Yoga it is the highest positive state: awareness freed from all that is not itself. Some translators soften this to \"independence\" or \"absolute freedom\" to avoid the negative connotation, which is reasonable but loses the precision of \"aloneness\" (kevala = alone). The reading given here follows the Āgāśe edition that GRETIL's text reproduces; other editions read citiśakteḥ.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -656,7 +681,7 @@
     ],
     "priority_bucket": "must",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "YS 4.34: puruṣārtha-śūnyānāṃ guṇānāṃ pratiprasavaḥ kaivalyaṃ svarūpa-pratiṣṭhā vā citi-śakteḥ iti (\"Kaivalya is the return of the guṇas to their source, [their] purpose for puruṣa being exhausted — or [equivalently], the power of consciousness established in its own nature\"). Found in SARIT: Aṣṭāvakragītā 11.6 (\"kaivalyamiva saṃprāpto\") and Bhoja's Rājamārtaṇḍa commentary on YS (\"kaivalyamaśnute\").",
+    "source_context": "YS 4.34: puruṣārtha-śūnyānāṃ guṇānāṃ pratiprasavaḥ kaivalyaṃ svarūpa-pratiṣṭhā vā citiśaktir iti (\"Kaivalya is the return of the guṇas to their source, [their] purpose for puruṣa being exhausted — or [equivalently], the power of consciousness established in its own nature\"). Found in SARIT: Aṣṭāvakragītā 11.6 (\"kaivalyamiva saṃprāpto\") and Bhoja's Rājamārtaṇḍa commentary on YS (\"kaivalyamaśnute\").",
     "citation_trail": [
       "No standard Chinese Buddhist equivalent — kaivalya is a Sāṃkhya-Yoga technical term",
       "Buddhist liberation is nirvāṇa (涅槃), not kaivalya",
@@ -669,12 +694,47 @@
     "related_morphemes": [
       {
         "kind": "suffix",
-        "morpheme": "-ya (taddhita)",
+        "morpheme": "-ya",
         "terms": [
+          {
+            "id": "acarya",
+            "transliteration": "ācārya",
+            "devanagari": "आचार्य"
+          },
+          {
+            "id": "alasya",
+            "transliteration": "ālasya",
+            "devanagari": "आलस्य"
+          },
+          {
+            "id": "brahmacarya",
+            "transliteration": "brahmacarya",
+            "devanagari": "ब्रह्मचर्य"
+          },
+          {
+            "id": "satya",
+            "transliteration": "satya",
+            "devanagari": "सत्य"
+          },
+          {
+            "id": "satyasya_satyam",
+            "transliteration": "satyasya satyam",
+            "devanagari": "सत्यस्य सत्यम्"
+          },
           {
             "id": "vairagya",
             "transliteration": "vairāgya",
             "devanagari": "वैराग्य"
+          },
+          {
+            "id": "virya",
+            "transliteration": "vīrya",
+            "devanagari": "वीर्य"
+          },
+          {
+            "id": "vrtti_sarupyam",
+            "transliteration": "vṛtti-sārūpyam",
+            "devanagari": "वृत्तिसारूप्यम्"
           }
         ]
       }
@@ -1351,9 +1411,9 @@
     ],
     "suffixes": [
       {
-        "suffix": "-a (with guṇa of root)",
-        "meaning": "action/result noun suffix (ghañ pratyaya)",
-        "grammatical_function": "forms a masculine noun; √kṛ → kāra with guṇa; sam + s + kāra = saṃskāra"
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms a masculine noun; the root takes guṇa, √kṛ → kāra"
       }
     ],
     "compound_type": null,
@@ -1510,14 +1570,14 @@
     ],
     "suffixes": [
       {
-        "suffix": "-a (in viveka)",
-        "meaning": "action noun suffix (ghañ pratyaya)",
-        "grammatical_function": "forms a masculine noun from vi + √vic → viveka"
+        "suffix": "-a",
+        "meaning": "action noun suffix (ghañ)",
+        "grammatical_function": "forms viveka, the first member of the compound"
       },
       {
-        "suffix": "-ti (in khyāti)",
-        "meaning": "action noun suffix (kṛt pratyaya)",
-        "grammatical_function": "forms a feminine noun from √khyā → khyāti"
+        "suffix": "-ti",
+        "meaning": "action noun suffix (ktin)",
+        "grammatical_function": "forms khyāti, the second member of the compound"
       }
     ],
     "compound_type": "tatpuruṣa (ṣaṣṭhī — genitive relationship: 'the vision of discrimination')",
@@ -1616,6 +1676,62 @@
             "devanagari": "विवेक"
           }
         ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ti",
+        "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
+            "id": "buddhi",
+            "transliteration": "buddhi",
+            "devanagari": "बुद्धि"
+          },
+          {
+            "id": "prakrti",
+            "transliteration": "prakṛti",
+            "devanagari": "प्रकृति"
+          },
+          {
+            "id": "siddhi",
+            "transliteration": "siddhi",
+            "devanagari": "सिद्धि"
+          },
+          {
+            "id": "smrti",
+            "transliteration": "smṛti",
+            "devanagari": "स्मृति"
+          },
+          {
+            "id": "susupti",
+            "transliteration": "suṣupti",
+            "devanagari": "सुषुप्ति"
+          },
+          {
+            "id": "vibhuti",
+            "transliteration": "vibhūti",
+            "devanagari": "विभूति"
+          },
+          {
+            "id": "vrtti",
+            "transliteration": "vṛtti",
+            "devanagari": "वृत्ति"
+          }
+        ]
       }
     ],
     "related_mentions": [
@@ -1628,11 +1744,6 @@
         "id": "kaivalya",
         "transliteration": "kaivalya",
         "devanagari": "कैवल्य"
-      },
-      {
-        "id": "prakrti",
-        "transliteration": "prakṛti",
-        "devanagari": "प्रकृति"
       },
       {
         "id": "purusa",
@@ -1690,9 +1801,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -1723,6 +1844,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           }
         ]
       }
@@ -1867,6 +1993,173 @@
     ]
   },
   {
+    "id": "aditi",
+    "devanagari": "अदिति",
+    "transliteration": "aditi",
+    "chapter": "BṛU 1.2.5; KaU 4.7",
+    "segmentation": "a- + diti",
+    "roots": [
+      {
+        "root": "√dā",
+        "devanagari": "√दा",
+        "meaning": "to bind (in diti, 'binding, limitation')",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "a-",
+        "meaning": "not, un- (negating prefix)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-ti",
+        "meaning": "action noun suffix (ktin)",
+        "grammatical_function": "forms diti, 'binding', from √dā"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "the unbound; boundlessness",
+    "philosophical_gloss": "Aditi is a Vedic goddess, mother of the Ādityas, whose name means the unbound or boundless. The Upaniṣads inherit her but put the name to unexpected work. BṛU 1.2.5 derives it not from binding but from eating: whatever the creator produced he set about eating, and 'because he eats everything (atti), that is Aditi's Aditi-hood'. KaU 4.7 keeps her cosmological, calling her aditir devatāmayī, made of the deities, who enters the cave and abides there.",
+    "doctrinal_significance": "The passage matters for how the corpus argues rather than for what it says about a goddess. Deriving a name by wordplay is a standard Upaniṣadic device: an etymology is offered as a doctrine, and knowing it is said to produce a result, here becoming the eater of everything.",
+    "ambiguity_notes": "The text's derivation and the philological one disagree, and the entry keeps both. BṛU 1.2.5 connects aditi with √ad, 'to eat'; the accepted analysis is a- plus diti, 'unbound', from √dā, 'to bind'. The Upaniṣadic derivation is a nirukta-style play on sound, not a claim about word formation, and it should not be reported as the etymology.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "aditi"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "BṛU 1.2.5: sa yad-yad evāsṛjata tattad attum adhriyata | sarvaṃ vā attīti tad aditer adititvam | sarvasyāttā bhavati sarvam asyānnaṃ bhavati ya evam etad aditer adititvaṃ veda (\"Whatever he created, he set about eating it. Because he eats everything, that is Aditi's Aditi-hood. One who knows Aditi's Aditi-hood in this way becomes the eater of everything, and everything becomes his food.\")",
+    "citation_trail": [
+      "GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva recension, mūla), BṛU 1.2.5"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "Aditi — boundlessness, and the Vedic goddess of that name",
+    "source_text": "upanisads",
+    "related_morphemes": [
+      {
+        "kind": "prefix",
+        "morpheme": "a-",
+        "terms": [
+          {
+            "id": "ahimsa",
+            "transliteration": "ahiṃsā",
+            "devanagari": "अहिंसा"
+          },
+          {
+            "id": "aksara",
+            "transliteration": "akṣara",
+            "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
+            "id": "amrta",
+            "transliteration": "amṛta",
+            "devanagari": "अमृत"
+          },
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
+            "id": "asteya",
+            "transliteration": "asteya",
+            "devanagari": "अस्तेय"
+          },
+          {
+            "id": "avidya",
+            "transliteration": "avidyā",
+            "devanagari": "अविद्या"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "avyakta",
+            "transliteration": "avyakta",
+            "devanagari": "अव्यक्त"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ti",
+        "terms": [
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
+            "id": "buddhi",
+            "transliteration": "buddhi",
+            "devanagari": "बुद्धि"
+          },
+          {
+            "id": "prakrti",
+            "transliteration": "prakṛti",
+            "devanagari": "प्रकृति"
+          },
+          {
+            "id": "siddhi",
+            "transliteration": "siddhi",
+            "devanagari": "सिद्धि"
+          },
+          {
+            "id": "smrti",
+            "transliteration": "smṛti",
+            "devanagari": "स्मृति"
+          },
+          {
+            "id": "susupti",
+            "transliteration": "suṣupti",
+            "devanagari": "सुषुप्ति"
+          },
+          {
+            "id": "vibhuti",
+            "transliteration": "vibhūti",
+            "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
+          },
+          {
+            "id": "vrtti",
+            "transliteration": "vṛtti",
+            "devanagari": "वृत्ति"
+          }
+        ]
+      }
+    ],
+    "related_mentions": []
+  },
+  {
     "id": "aham_brahmasmi",
     "devanagari": "अहं ब्रह्मास्मि",
     "transliteration": "ahaṃ brahmāsmi",
@@ -1938,6 +2231,11 @@
             "devanagari": "अभ्यास"
           },
           {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
             "id": "sat",
             "transliteration": "sat",
             "devanagari": "सत्"
@@ -1997,7 +2295,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "BṛU 3.8.8: etad vai tad akṣaraṃ gārgi brāhmaṇā abhivadanty asthūlam anaṇv ahrasvam adīrgham ... acakṣuṣkam aśrotram avāg amanaḥ (\"This, Gārgī, is that imperishable which the brahmins speak of: not coarse, not fine, not short, not long ... without eye, without ear, without speech, without mind\").",
+    "source_context": "BṛU 3.8.8: etad vai tad akṣaraṃ gārgi brāhmaṇā abhivadanty asthūlam anaṇv ahrasvam adīrgham ... acakṣuṣkam aśrotram avāg amano 'tejaskam (\"This, Gārgī, is that imperishable which the brahmins speak of: not coarse, not fine, not short, not long ... without eye, without ear, without speech, without mind\").",
     "citation_trail": [
       "GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 3.8.8",
       "GRETIL chup___u (Chāndogya mūla), ChU 1.1.1"
@@ -2010,6 +2308,11 @@
         "kind": "prefix",
         "morpheme": "a-",
         "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
           {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
@@ -2034,6 +2337,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -2107,7 +2415,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "BṛU 1.3.28: asato mā sad gamaya, tamaso mā jyotir gamaya, mṛtyor mā amṛtaṃ gamaya (\"From the unreal lead me to the real, from darkness lead me to light, from death lead me to the deathless\").",
+    "source_context": "BṛU 1.3.28: asato mā sad gamaya, tamaso mā jyotir gamaya, mṛtyor māmṛtaṃ gamayeti (\"From the unreal lead me to the real, from darkness lead me to light, from death lead me to the deathless\").",
     "citation_trail": [
       "GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 1.3.28",
       "GRETIL isup___u (Īśa mūla), ĪśU 11"
@@ -2137,6 +2445,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -2160,6 +2473,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -2399,57 +2717,6 @@
       },
       {
         "kind": "prefix",
-        "morpheme": "a-",
-        "terms": [
-          {
-            "id": "ahimsa",
-            "transliteration": "ahiṃsā",
-            "devanagari": "अहिंसा"
-          },
-          {
-            "id": "aksara",
-            "transliteration": "akṣara",
-            "devanagari": "अक्षर"
-          },
-          {
-            "id": "alabdhabhumikatva",
-            "transliteration": "alabdhabhūmikatva",
-            "devanagari": "अलब्धभूमिकत्व"
-          },
-          {
-            "id": "amrta",
-            "transliteration": "amṛta",
-            "devanagari": "अमृत"
-          },
-          {
-            "id": "aparigraha",
-            "transliteration": "aparigraha",
-            "devanagari": "अपरिग्रह"
-          },
-          {
-            "id": "asteya",
-            "transliteration": "asteya",
-            "devanagari": "अस्तेय"
-          },
-          {
-            "id": "avidya",
-            "transliteration": "avidyā",
-            "devanagari": "अविद्या"
-          },
-          {
-            "id": "avirati",
-            "transliteration": "avirati",
-            "devanagari": "अविरति"
-          },
-          {
-            "id": "avyakta",
-            "transliteration": "avyakta",
-            "devanagari": "अव्यक्त"
-          }
-        ]
-      },
-      {
-        "kind": "prefix",
         "morpheme": "sam-",
         "terms": [
           {
@@ -2496,6 +2763,67 @@
             "id": "santosha",
             "transliteration": "santoṣa",
             "devanagari": "सन्तोष"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "a-",
+        "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
+            "id": "ahimsa",
+            "transliteration": "ahiṃsā",
+            "devanagari": "अहिंसा"
+          },
+          {
+            "id": "aksara",
+            "transliteration": "akṣara",
+            "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
+            "id": "amrta",
+            "transliteration": "amṛta",
+            "devanagari": "अमृत"
+          },
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
+            "id": "asteya",
+            "transliteration": "asteya",
+            "devanagari": "अस्तेय"
+          },
+          {
+            "id": "avidya",
+            "transliteration": "avidyā",
+            "devanagari": "अविद्या"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "avyakta",
+            "transliteration": "avyakta",
+            "devanagari": "अव्यक्त"
           }
         ]
       },
@@ -2626,6 +2954,224 @@
     ]
   },
   {
+    "id": "asat",
+    "devanagari": "असत्",
+    "transliteration": "asat",
+    "chapter": "ChU 6.2.1–6.2.2; BṛU 1.3.28, 5.4.1",
+    "segmentation": "a- + √as + -at",
+    "roots": [
+      {
+        "root": "√as",
+        "devanagari": "√अस्",
+        "meaning": "to be, to exist",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [
+      {
+        "prefix": "a-",
+        "meaning": "not, un- (negating prefix)"
+      }
+    ],
+    "suffixes": [
+      {
+        "suffix": "-at",
+        "meaning": "present participle suffix (śatṛ)",
+        "grammatical_function": "forms sat, 'being'; negated as asat, 'not being'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "non-being; what is not",
+    "philosophical_gloss": "Asat is the negation of sat, and ChU 6.2 stages it as a live philosophical position rather than a straw man. Uddālaka reports that some hold that in the beginning this was non-being alone, and that being was born from it. He then refuses the view with a question: how could being be born from non-being? The alternative is stated fairly and answered by argument, which is rare enough in the corpus to be worth noticing.",
+    "doctrinal_significance": "This is one of the earliest recorded philosophical disagreements in India, and the form of the refusal matters: an appeal to intelligibility rather than to authority. In BṛU 1.3.28 the pair is used differently, where the prayer asato mā sad gamaya is glossed by the text itself as a prayer about death and deathlessness rather than about being and non-being.",
+    "ambiguity_notes": "Asat carries two senses that the passages do not keep apart: the non-existent, and the unreal or false. BṛU 1.3.28 exploits the second when it explains asat as death. Translating it uniformly as 'non-being' misses that the prayer is not a metaphysical claim.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "asat"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "ChU 6.2.1: sad eva somyedam agra āsīd ekam evādvitīyam | tad dhaika āhur asad evedam agra āsīd ekam evādvitīyam | tasmād asataḥ saj jāyata (\"In the beginning, my dear, this was being alone, one only, without a second. Some say that in the beginning this was non-being alone, one only, without a second, and that from that non-being being was born.\")",
+    "citation_trail": [
+      "GRETIL chup___u (Chāndogya Upaniṣad, mūla), ChU 6.2.1"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "non-being — the alternative the Chandogya raises and rejects",
+    "source_text": "upanisads",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√as",
+        "terms": [
+          {
+            "id": "abhyasa",
+            "transliteration": "abhyāsa",
+            "devanagari": "अभ्यास"
+          },
+          {
+            "id": "aham_brahmasmi",
+            "transliteration": "ahaṃ brahmāsmi",
+            "devanagari": "अहं ब्रह्मास्मि"
+          },
+          {
+            "id": "sat",
+            "transliteration": "sat",
+            "devanagari": "सत्"
+          },
+          {
+            "id": "satyasya_satyam",
+            "transliteration": "satyasya satyam",
+            "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "tat_tvam_asi",
+            "transliteration": "tat tvam asi",
+            "devanagari": "तत् त्वम् असि"
+          }
+        ]
+      },
+      {
+        "kind": "prefix",
+        "morpheme": "a-",
+        "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
+            "id": "ahimsa",
+            "transliteration": "ahiṃsā",
+            "devanagari": "अहिंसा"
+          },
+          {
+            "id": "aksara",
+            "transliteration": "akṣara",
+            "devanagari": "अक्षर"
+          },
+          {
+            "id": "alabdhabhumikatva",
+            "transliteration": "alabdhabhūmikatva",
+            "devanagari": "अलब्धभूमिकत्व"
+          },
+          {
+            "id": "amrta",
+            "transliteration": "amṛta",
+            "devanagari": "अमृत"
+          },
+          {
+            "id": "aparigraha",
+            "transliteration": "aparigraha",
+            "devanagari": "अपरिग्रह"
+          },
+          {
+            "id": "asamprajnata",
+            "transliteration": "asamprajñāta",
+            "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asteya",
+            "transliteration": "asteya",
+            "devanagari": "अस्तेय"
+          },
+          {
+            "id": "avidya",
+            "transliteration": "avidyā",
+            "devanagari": "अविद्या"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "avyakta",
+            "transliteration": "avyakta",
+            "devanagari": "अव्यक्त"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-at",
+        "terms": [
+          {
+            "id": "jagrat",
+            "transliteration": "jāgrat",
+            "devanagari": "जाग्रत्"
+          },
+          {
+            "id": "sat",
+            "transliteration": "sat",
+            "devanagari": "सत्"
+          }
+        ]
+      }
+    ],
+    "related_mentions": []
+  },
+  {
+    "id": "asura",
+    "devanagari": "असुर",
+    "transliteration": "asura",
+    "chapter": "BṛU 1.3.1, 5.2.1–5.2.3; ChU 1.2.1, 8.7.2",
+    "segmentation": "asu + -ra",
+    "roots": [],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ra",
+        "meaning": "possessive adjectival suffix",
+        "grammatical_function": "forms an adjective from asu, 'life-breath': 'possessing life-force'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "one possessing life-force",
+    "philosophical_gloss": "In the Upaniṣads the asuras are not evil so much as the other party. BṛU 1.3.1 makes them and the gods both offspring of Prajāpati, with the asuras the elder and the gods the younger, contending over the worlds; BṛU 5.2 has gods, humans and asuras all study under Prajāpati and each receive the same syllable. The Chāndogya's teaching narrative turns on Virocana, the asuras' representative, taking away the wrong answer.",
+    "doctrinal_significance": "The pairing gives the corpus a way of presenting error as a rival reading rather than as wickedness. Virocana is not punished for concluding that the body is the self; he is simply satisfied too early, and the text lets that stand as a philosophical position with a constituency.",
+    "ambiguity_notes": "The etymology is contested and the popular one is backwards. Asura is older than sura, and derives from asu, 'life-breath', with the possessive suffix -ra; in the Ṛgveda it is an honorific applied to Varuṇa and others. The reading a-sura, 'not a god', is a later folk etymology, and sura was itself back-formed from it.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "asura"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "BṛU 1.3.1: dvayā ha prājāpatyā devāś cāsurāś ca tataḥ kānīyasā eva devā jyāyasā asurāḥ | ta eṣu lokeṣv aspardhanta (\"The offspring of Prajāpati were of two kinds, gods and asuras; and of these the gods were the younger and the asuras the elder. They contended with each other over these worlds.\")",
+    "citation_trail": [
+      "GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva recension, mūla), BṛU 1.3.1"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "asura — the elder counterpart of the gods, and their rival",
+    "source_text": "upanisads",
+    "related_morphemes": [
+      {
+        "kind": "suffix",
+        "morpheme": "-ra",
+        "terms": [
+          {
+            "id": "dahara",
+            "transliteration": "dahara",
+            "devanagari": "दहर"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "prajapati",
+        "transliteration": "prajāpati",
+        "devanagari": "प्रजापति"
+      },
+      {
+        "id": "virocana",
+        "transliteration": "virocana",
+        "devanagari": "विरोचन"
+      }
+    ]
+  },
+  {
     "id": "avyakta",
     "devanagari": "अव्यक्त",
     "transliteration": "avyakta",
@@ -2660,7 +3206,7 @@
     "literal_gloss": "the unmanifest; what has not been made distinct",
     "philosophical_gloss": "KaU 3.10-3.11 sets out a hierarchy: beyond the senses are their objects, beyond those the mind, then the understanding, then the great self (mahān ātmā), then the unmanifest, and beyond the unmanifest, puruṣa, beyond whom there is nothing. The Kaṭha is here using vocabulary that Sāṃkhya would later systematise, and using it before the system existed.",
     "doctrinal_significance": "This passage is the principal evidence that Sāṃkhya categories were forming inside the Upaniṣadic corpus rather than arriving from outside it. Avyakta becomes a standard name for prakṛti in its unevolved state, and the Kaṭha already places it in the right position in the series.",
-    "ambiguity_notes": "Whether the Kaṭha's avyakta is already the technical prakṛti of classical Sāṃkhya, or a looser term the later system took over, is genuinely disputed. The verse gives a position in a hierarchy but no definition.",
+    "ambiguity_notes": "Whether the Kaṭha's avyakta is already the technical prakṛti of classical Sāṃkhya, or a looser term the later system took over, is genuinely disputed. The verse gives a position in a hierarchy but no definition. GRETIL's file reads puruśān at this point, which is not a Sanskrit word; the emendation to puruṣān adopted here is certain.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -2680,6 +3226,11 @@
         "kind": "prefix",
         "morpheme": "a-",
         "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
           {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
@@ -2709,6 +3260,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -3058,9 +3614,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "prakrti",
@@ -3086,6 +3652,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -3122,7 +3693,7 @@
     "literal_gloss": "small, subtle, fine",
     "philosophical_gloss": "ChU 8.1.1 opens the dahara-vidyā, the teaching on the small space. In the city of brahman, that is the body, there is a small lotus dwelling, and inside it a small space (daharākāśa). What is inside that is what should be sought. The text then makes the startling claim that this small space is as large as the space outside, containing sky, earth, fire, wind, sun and moon.",
     "doctrinal_significance": "This is the most concretely meditative passage in the older Upaniṣads, and the one closest in spirit to what the Yoga Sutras prescribe: an object is given, located in the body, and the practitioner is told to attend to it. The identification of inner and outer space is what the practice is meant to reveal.",
-    "ambiguity_notes": "Dahara has no secure etymology; it is simply the ordinary word for 'small', possibly related to dahra. Its technical weight here comes from the passage, not the word.",
+    "ambiguity_notes": "Dahara has no secure etymology; it is simply the ordinary word for 'small', possibly related to dahra. Its technical weight here comes from the passage, not the word. GRETIL's file reads antarākāsaḥ at this point, which is not a Sanskrit word; the emendation to antarākāśaḥ adopted here is certain.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -3137,12 +3708,84 @@
     "verification": "source-verified",
     "professor_gloss": "the small space within the heart, and the meditation on it",
     "source_text": "upanisads",
-    "related_morphemes": [],
+    "related_morphemes": [
+      {
+        "kind": "suffix",
+        "morpheme": "-ra",
+        "terms": [
+          {
+            "id": "asura",
+            "transliteration": "asura",
+            "devanagari": "असुर"
+          }
+        ]
+      }
+    ],
     "related_mentions": [
       {
         "id": "brahman",
         "transliteration": "brahman",
         "devanagari": "ब्रह्मन्"
+      }
+    ]
+  },
+  {
+    "id": "deva",
+    "devanagari": "देव",
+    "transliteration": "deva",
+    "chapter": "AiU 1.3.14; BṛU 1.3.1; ChU 1.2.1, 8.7.2",
+    "segmentation": "√div + -a",
+    "roots": [
+      {
+        "root": "√div",
+        "devanagari": "√दिव्",
+        "meaning": "to shine; also to play",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "primary noun suffix",
+        "grammatical_function": "forms a masculine noun: 'the shining one'"
+      }
+    ],
+    "compound_type": null,
+    "literal_gloss": "the shining one",
+    "philosophical_gloss": "Deva is the ordinary word for a god, from √div, 'to shine'. The Aitareya's use of it is the memorable one: having explained that the self is properly called Idandra, 'the one who sees this', the text observes that people call him Indra instead, indirectly, because the gods are fond of the indirect. The line is repeated, which in this corpus marks the end of a teaching.",
+    "doctrinal_significance": "Parokṣapriyā iva hi devāḥ is the closest the Upaniṣads come to explaining their own obliqueness. Concealment is presented not as a failure of clarity but as something the subject matter and its subjects prefer, which is of a piece with the word upaniṣad meaning a hidden connection.",
+    "ambiguity_notes": "Deva is cognate with Latin deus and the same root gives Greek Zeus, but it is not cognate with English 'divine' by borrowing, nor with 'devil', which is a common confusion. In Iranian the valuation reverses: daēva means a demon, and ahura, cognate with asura, is the honorific.",
+    "confidence": "high",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "deva"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "AiU 1.3.14: tam idandraṃ santam indra ity ācakṣate parokṣeṇa | parokṣapriyā iva hi devāḥ parokṣapriyā iva hi devāḥ (\"Though he is Idandra, they call him Indra, indirectly. For the gods are fond of the indirect, the gods are fond of the indirect.\")",
+    "citation_trail": [
+      "GRETIL aitup__u (Aitareya Upaniṣad, mūla), AiU 1.3.14"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "god — and the Upanisads' remark that the gods like things said indirectly",
+    "source_text": "upanisads",
+    "related_morphemes": [],
+    "related_mentions": [
+      {
+        "id": "asura",
+        "transliteration": "asura",
+        "devanagari": "असुर"
+      },
+      {
+        "id": "indra",
+        "transliteration": "indra",
+        "devanagari": "इन्द्र"
+      },
+      {
+        "id": "upanisad",
+        "transliteration": "upaniṣad",
+        "devanagari": "उपनिषद्"
       }
     ]
   },
@@ -3221,6 +3864,11 @@
             "id": "guha",
             "transliteration": "guhā",
             "devanagari": "गुहा"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           }
         ]
       },
@@ -3247,6 +3895,11 @@
             "id": "avasthanam",
             "transliteration": "avasthānam",
             "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "dhyana",
@@ -3292,6 +3945,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -3395,6 +4053,11 @@
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           }
         ]
       }
@@ -3508,7 +4171,7 @@
     "devanagari": "ज्योतिस्",
     "transliteration": "jyotis",
     "chapter": "BṛU 4.3.2–4.3.6",
-    "segmentation": "√dyut/jyut + -is",
+    "segmentation": "√dyut + -is",
     "roots": [
       {
         "root": "√dyut",
@@ -3529,7 +4192,7 @@
     "literal_gloss": "light; radiance",
     "philosophical_gloss": "Janaka asks Yājñavalkya what light a person has, and the answers retreat one by one: the sun; and when the sun has set, the moon; and when the moon has set, fire; and when the fire is out, speech; and when speech has fallen silent, the self is his light. The dialogue works by elimination, and it frames the whole discussion of svapna and suṣupti that follows.",
     "doctrinal_significance": "The passage establishes awareness as self-luminous, a claim later Vedānta makes central under the name svayaṃprakāśa. It arrives at it not by argument but by exhausting the alternatives.",
-    "ambiguity_notes": "Jyotis in Vedic usage means a physical light, and the passage exploits that: the earlier answers are literal, so the last one either extends the word metaphorically or reveals what it always meant. Which of these the text intends is the interpretative question the commentators divide on.",
+    "ambiguity_notes": "Jyotis in Vedic usage means a physical light, and the passage exploits that: the earlier answers are literal, so the last one either extends the word metaphorically or reveals what it always meant. Which of these the text intends is the interpretative question the commentators divide on. The root is cited both as √dyut and, with the older initial, as √jyut; the two are the same root and jyotis is formed on the latter shape.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -3537,7 +4200,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "insight_knowledge",
-    "source_context": "BṛU 4.3.6: astamita āditye yājñavalkya candramasy astamite śānte 'gnau śāntāyāṃ vāci kiṃjyotir evāyaṃ puruṣa iti | ātmaivāsya jyotir bhavati (\"'When the sun has set, Yājñavalkya, and the moon has set, and the fire has gone out, and speech has fallen silent, what light does a person have?' 'The self is his light.'\")",
+    "source_context": "BṛU 4.3.6: astamita āditye yājñavalkya candramasy astamite śānte 'gnau śāntāyāṃ vāci kiṃjyotir evāyaṃ puruṣa iti | ātmaivāsya jyotir bhavatīti (\"'When the sun has set, Yājñavalkya, and the moon has set, and the fire has gone out, and speech has fallen silent, what light does a person have?' 'The self is his light.'\")",
     "citation_trail": [
       "GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva recension, mūla), BṛU 4.3.6"
     ],
@@ -3605,6 +4268,11 @@
         "kind": "suffix",
         "morpheme": "-at",
         "terms": [
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
           {
             "id": "sat",
             "transliteration": "sat",
@@ -3875,6 +4543,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -3918,6 +4591,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -4365,6 +5043,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -4408,6 +5091,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -4464,7 +5152,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "BṛU 1.4.7: tad dhedaṃ tarhy avyākṛtam āsīt | tan nāmarūpābhyām eva vyākriyata asau nāmāyam idaṃrūpa iti (\"At that time this was undifferentiated. It was differentiated precisely by name and form: 'he is so-named, he is of such a form.'\")",
+    "source_context": "BṛU 1.4.7: tad dhedaṃ tarhy avyākṛtam āsīt | tan nāmarūpābhyām eva vyākriyatāsau nāmāyam idaṃrūpa iti (\"At that time this was undifferentiated. It was differentiated precisely by name and form: 'he is so-named, he is of such a form.'\")",
     "citation_trail": [
       "GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva recension, mūla), BṛU 1.4.7"
     ],
@@ -4529,7 +5217,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "mind_psychology",
-    "source_context": "ChU 8.6.1: atha yā etā hṛdayasya nāḍyas tāḥ piṅgalasyāṇimnas tiṣṭhanti śuklasya nīlasya pītasya lohitasya (\"Now, these channels of the heart consist of the finest essence of the tawny, the white, the blue, the yellow and the red.\")",
+    "source_context": "ChU 8.6.1: atha yā etā hṛdayasya nāḍyas tāḥ piṅgalasyāṇimnas tiṣṭhanti śuklasya nīlasya pītasya lohitasyeti (\"Now, these channels of the heart consist of the finest essence of the tawny, the white, the blue, the yellow and the red.\")",
     "citation_trail": [
       "GRETIL chup___u (Chāndogya Upaniṣad, mūla), ChU 8.6.1"
     ],
@@ -4700,6 +5388,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -4743,6 +5436,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -4804,7 +5502,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "ChU 8.7.1: ya ātmā apahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpaḥ so 'nveṣṭavyaḥ sa vijijñāsitavyaḥ ... iti ha prajāpatir uvāca (\"The self that is free from evil, free from old age and death, free from sorrow, hunger and thirst, whose desire is the real and whose intention is the real — that should be sought out, that should be sought to be known ... so said Prajāpati\").",
+    "source_context": "ChU 8.7.1: ya ātmā apahatapāpmā vijaro vimṛtyur viśoko vijighatso 'pipāsaḥ satyakāmaḥ satyasaṃkalpaḥ so 'nveṣṭavyaḥ sa vijijñāsitavyaḥ ... vijānātīti ha prajāpatir uvāca (\"The self that is free from evil, free from old age and death, free from sorrow, hunger and thirst, whose desire is the real and whose intention is the real — that should be sought out, that should be sought to be known ... so said Prajāpati\").",
     "citation_trail": [
       "GRETIL chup___u (Chāndogya mūla), ChU 8.7.1",
       "GRETIL sa_bRhadAraNyakopaniSadkANva-recension (Kāṇva mūla), BṛU 5.2.1"
@@ -4923,7 +5621,7 @@
     "literal_gloss": "a drawing-back-toward; a gathering inward; withdrawal",
     "philosophical_gloss": "Pratyāhāra is the fifth limb — the turning point between the outer and inner practices. It describes the process by which the senses disengage from their objects and follow the inward movement of citta. Patañjali's definition (YS 2.54) uses a striking simile: the senses \"imitate the own-form of citta\" (svarūpānukāra iva). Just as bees follow the queen, the senses follow the mind when it withdraws. This is not forceful suppression of sensory experience but a natural turning- inward: when citta withdraws from external engagement, the senses follow. The result is \"supreme mastery over the senses\" (paramā vaśyatā, YS 2.55). In Sanskrit grammar, pratyāhāra also means an abbreviatory formula (the Māheśvara sūtras), though this technical usage is unrelated to the yogic meaning.",
     "doctrinal_significance": "Pratyāhāra is the hinge of the eight-limb system. The first four limbs (yama, niyama, āsana, prāṇāyāma) are external preparations; the last three (dhāraṇā, dhyāna, samādhi) are internal absorptions. Pratyāhāra is the bridge — the moment where attention shifts from outer to inner. For a meditation practitioner, it corresponds to the transition from \"settling in\" to actual meditative work.",
-    "ambiguity_notes": "The derivation prati + ā + √hṛ is standard (Monier-Williams s.v. pratyāhāra). The prefix combination prati + ā creates the sense of \"drawing back toward [oneself].\" No morphological controversy. The grammatical homonym (pratyāhāra as abbreviatory device in Pāṇini's system) shares the same etymology — \"gathering together\" — but applies it to phonemes rather than senses. This is a case of the same word serving entirely different technical domains.",
+    "ambiguity_notes": "The derivation prati + ā + √hṛ is standard (Monier-Williams s.v. pratyāhāra). The prefix combination prati + ā creates the sense of \"drawing back toward [oneself].\" No morphological controversy. The grammatical homonym (pratyāhāra as abbreviatory device in Pāṇini's system) shares the same etymology — \"gathering together\" — but applies it to phonemes rather than senses. This is a case of the same word serving entirely different technical domains. The reading given here follows the Āgāśe edition that GRETIL's text reproduces; other editions read cittasya svarūpānukāra.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -4932,7 +5630,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "practice_discipline",
-    "source_context": "YS 2.54: sva-viṣayāsaṃprayoge cittasya svarūpānukāra ivendriyāṇāṃ pratyāhāraḥ (\"Pratyāhāra is, as it were, the imitation by the senses of citta's own form, through disengagement from their respective objects\"). YS 2.55: tataḥ paramā vaśyatendriyāṇām (\"From that arises supreme mastery over the senses\"). Found in GRETIL: Ānandakanda lists pratyāhāra alongside the other limbs. Found in SARIT: Rājamārtaṇḍa and Brahmapurāṇa.",
+    "source_context": "YS 2.54: sva-viṣayāsaṃprayoge cittasvarūpānukāra ivendriyāṇāṃ pratyāhāraḥ (\"Pratyāhāra is, as it were, the imitation by the senses of citta's own form, through disengagement from their respective objects\"). YS 2.55: tataḥ paramā vaśyatendriyāṇām (\"From that arises supreme mastery over the senses\"). Found in GRETIL: Ānandakanda lists pratyāhāra alongside the other limbs. Found in SARIT: Rājamārtaṇḍa and Brahmapurāṇa.",
     "citation_trail": [
       "No standard Chinese Buddhist equivalent — pratyāhāra is a Yoga Sutras technical term",
       "GRETIL: Ānandakanda lists pratyāhāra with other yoga limbs",
@@ -5469,7 +6167,7 @@
     "literal_gloss": "person; conscious subject; self",
     "philosophical_gloss": "Puruṣa is the metaphysical foundation of the Yoga Sutras: pure, unchanging consciousness, radically distinct from prakṛti (material nature). Puruṣa does not act, think, or change — it witnesses. The mind (citta), the body, the senses, and all experience belong to prakṛti. Puruṣa's apparent entanglement with prakṛti is the root error (avidyā), and its disentanglement is liberation (kaivalya). Patañjali inherits this framework from Sāṃkhya philosophy but adds a practical soteriological path (yoga). Key differences from other systems: unlike Vedāntic ātman, puruṣa in Sāṃkhya-Yoga is one of many (each being has its own puruṣa); unlike Buddhist anātman (\"no-self\"), Sāṃkhya-Yoga affirms a real, permanent self. Patañjali also posits a special puruṣa (puruṣa-viśeṣa) called Īśvara — a consciousness never entangled with prakṛti (YS 1.24).",
     "doctrinal_significance": "Puruṣa is the \"who\" of the Yoga Sutras — the one for whose sake the entire system exists. Without understanding puruṣa, the purpose of yoga is unintelligible: why still the mind? Because puruṣa, which is not the mind, is currently misidentified with it. Stilling the mind reveals that puruṣa was always free. This is also the major point of divergence from Buddhism, which denies a permanent self altogether.",
-    "ambiguity_notes": "The etymology of puruṣa is genuinely debated among scholars. Major proposals include: (1) puri-śaya, \"one who lies in the city [of the body]\" — a folk etymology found in the Bṛhadāraṇyaka Upaniṣad and widely cited but not linguistically standard; (2) connection to puru (\"much, full\") + a nominal suffix, yielding \"the full one\" or \"the abundant one\"; (3) derivation from √pṝ (\"to fill\") via pūru; (4) a very old word without a transparent etymology, possibly pre-Indo- European or borrowed. Monier-Williams lists the word without committing to a single derivation. Mayrhofer's Etymological Dictionary treats it as of uncertain origin. This is one of the rare cases where honest morphological analysis must say: the etymology is not settled. The confidence rating is for the philosophical analysis, not the morphological derivation.",
+    "ambiguity_notes": "The etymology of puruṣa is genuinely debated among scholars. Major proposals include: (1) puri-śaya, \"one who lies in the city [of the body]\" — a folk etymology found in the Bṛhadāraṇyaka Upaniṣad and widely cited but not linguistically standard; (2) connection to puru (\"much, full\") + a nominal suffix, yielding \"the full one\" or \"the abundant one\"; (3) derivation from √pṝ (\"to fill\") via pūru; (4) a very old word without a transparent etymology, possibly pre-Indo- European or borrowed. Monier-Williams lists the word without committing to a single derivation. Mayrhofer's Etymological Dictionary treats it as of uncertain origin. This is one of the rare cases where honest morphological analysis must say: the etymology is not settled. The confidence rating is for the philosophical analysis, not the morphological derivation. The reading given here follows the Āgāśe edition that GRETIL's text reproduces; other editions read parārthatvāt.",
     "confidence": "medium",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -5478,7 +6176,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "liberation_metaphysics",
-    "source_context": "YS 1.24: kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ (\"Īśvara is a special puruṣa, untouched by kleśas, karma, its fruition, and its residue\"). YS 3.35: sattva-puruṣayor atyantāsaṃkīrṇayoḥ pratyayāviśeṣo bhogaḥ parārthatvāt svārtha- saṃyamāt puruṣa-jñānam (\"Experience exists because sattva and puruṣa are not distinguished; from saṃyama on [puruṣa's] own purpose comes knowledge of puruṣa\"). Found in GRETIL: Paramārthasāra (guṇapuruṣavibhāgajñe — \"for one who knows the distinction of guṇa and puruṣa\").",
+    "source_context": "YS 1.24: kleśa-karma-vipākāśayair aparāmṛṣṭaḥ puruṣa-viśeṣa īśvaraḥ (\"Īśvara is a special puruṣa, untouched by kleśas, karma, its fruition, and its residue\"). YS 3.35: sattva-puruṣayor atyantāsaṃkīrṇayoḥ pratyayāviśeṣo bhogaḥ parārthāt svārthasaṃyamāt puruṣa-jñānam (\"Experience exists because sattva and puruṣa are not distinguished; from saṃyama on [puruṣa's] own purpose comes knowledge of puruṣa\"). Found in GRETIL: Paramārthasāra (guṇapuruṣavibhāgajñe — \"for one who knows the distinction of guṇa and puruṣa\").",
     "citation_trail": [
       "No Chinese Buddhist equivalent — puruṣa as permanent self is rejected in Buddhist metaphysics",
       "GRETIL: Paramārthasāra (guṇapuruṣavibhāga — guṇa-puruṣa distinction)",
@@ -5579,6 +6277,11 @@
             "devanagari": "अहं ब्रह्मास्मि"
           },
           {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
@@ -5594,6 +6297,11 @@
         "kind": "suffix",
         "morpheme": "-at",
         "terms": [
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
           {
             "id": "jagrat",
             "transliteration": "jāgrat",
@@ -5669,6 +6377,11 @@
             "devanagari": "अहं ब्रह्मास्मि"
           },
           {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
+          },
+          {
             "id": "sat",
             "transliteration": "sat",
             "devanagari": "सत्"
@@ -5700,9 +6413,19 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -6080,7 +6803,7 @@
     "literal_gloss": "sound sleep; a thorough sleeping",
     "philosophical_gloss": "Suṣupti is the third quarter, whose subject is prājña. The Māṇḍūkya's description is precise and philosophically loaded: here one desires nothing and sees no dream; awareness becomes 'a single mass of knowing' (prajñānaghana), blissful, and an eater of bliss. Deep sleep is thus not the absence of consciousness but consciousness without an object — which is exactly why it is not yet the goal.",
     "doctrinal_significance": "Deep sleep is the Upaniṣads' closest natural analogue to liberation, and their sharpest problem. It has the unity and the absence of suffering, but no knowing; turīya is introduced precisely because suṣupti is not enough.",
-    "ambiguity_notes": "Whether suṣupti involves any awareness at all is one of the most argued questions in Vedānta. That one reports afterwards 'I slept well' is taken by Advaitins as evidence of a witnessing presence; opponents read it as inference rather than memory.",
+    "ambiguity_notes": "Whether suṣupti involves any awareness at all is one of the most argued questions in Vedānta. That one reports afterwards 'I slept well' is taken by Advaitins as evidence of a witnessing presence; opponents read it as inference rather than memory. GRETIL's file reads evāndamayo at this point, which is not a Sanskrit word; the emendation to evānandamayo adopted here is certain.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -6089,7 +6812,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "mind_psychology",
-    "source_context": "MāU 5: yatra supto na kañcana kāmaṃ kāmayate na kañcana svapnaṃ paśyati tat suṣuptam | suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hy ānandabhuk cetomukhaḥ prājñas tṛtīyaḥ pādaḥ (\"Where one asleep desires no desire and sees no dream, that is deep sleep. Grounded in deep sleep, become one, a very mass of knowing, made of bliss and an eater of bliss, with awareness as its mouth — prājña is the third quarter\").",
+    "source_context": "MāU 5: yatra supto na kañcana kāmaṃ kāmayate na kañcana svapnaṃ paśyati tat suṣuptam | suṣuptasthāna ekībhūtaḥ prajñānaghana evānandamayo hy ānandabhuk cetomukhaḥ prājñaḥ tṛtīyaḥ pādaḥ (\"Where one asleep desires no desire and sees no dream, that is deep sleep. Grounded in deep sleep, become one, a very mass of knowing, made of bliss and an eater of bliss, with awareness as its mouth — prājña is the third quarter\").",
     "citation_trail": [
       "GRETIL mandup_u (Māṇḍūkya mūla), MāU 5"
     ],
@@ -6113,9 +6836,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -6141,6 +6874,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -6406,7 +7144,7 @@
     "literal_gloss": "the luminous one; made of brilliance",
     "philosophical_gloss": "Taijasa is the subject of dream (svapna): aware of what is within, an eater of the subtle. The name says why the dreamer counts philosophically. Dream is lit by nothing outside it, so the self that operates there is called 'the luminous', supplying its own light in a state where no other is available.",
     "doctrinal_significance": "The name of the dream-subject and the answer Yājñavalkya gives Janaka at BṛU 4.3.6 are the same claim in two vocabularies: when every external jyotis is gone, the self is the light. The Māṇḍūkya builds that into its name for the second quarter.",
-    "ambiguity_notes": "Taijasa is a formation from tejas and carries no independent lexical history; its meaning here is entirely supplied by the Māṇḍūkya's scheme.",
+    "ambiguity_notes": "Taijasa is a formation from tejas and carries no independent lexical history; its meaning here is entirely supplied by the Māṇḍūkya's scheme. GRETIL's file reads svaprasthāno at this point, which is not a Sanskrit word; the emendation to svapnasthāno adopted here is certain.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -6492,6 +7230,11 @@
             "id": "aham_brahmasmi",
             "transliteration": "ahaṃ brahmāsmi",
             "devanagari": "अहं ब्रह्मास्मि"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "sat",
@@ -6588,7 +7331,7 @@
     "literal_gloss": "a sitting-down-close; the session of sitting near [a teacher]",
     "philosophical_gloss": "The traditional derivation reads upaniṣad as the act of sitting (√sad) down (ni-) near (upa-) a teacher, and by extension the secret doctrine imparted in that setting. Śaṅkara instead derives it from √sad in the sense of 'destroying' — the teaching that destroys ignorance. In the texts themselves the word usually means something closer to 'hidden connection' or 'correspondence': the secret equivalence between a ritual element, a cosmic power, and something in the person. BṛU 2.4.10 lists the upaniṣads among the whole body of learning breathed out by the great being, alongside the Vedas, itihāsa and purāṇa.",
     "doctrinal_significance": "The word names both the texts and the mode of their transmission. That the teaching is called a 'sitting near' rather than a treatise marks it as something conveyed between persons rather than published — a point that shapes how the Upaniṣads present knowledge throughout, always inside a dialogue.",
-    "ambiguity_notes": "Three derivations compete: 'sitting near' (traditional and most widely accepted), 'destroying [ignorance]' (Śaṅkara, drawing on √sad in the sense of avasādana), and 'connection/equivalence' (favoured by many modern philologists, e.g. Olivelle, on the basis of the word's actual use in the texts). The morphology alone does not decide between them.",
+    "ambiguity_notes": "Three derivations compete: 'sitting near' (traditional and most widely accepted), 'destroying [ignorance]' (Śaṅkara, drawing on √sad in the sense of avasādana), and 'connection/equivalence' (favoured by many modern philologists, e.g. Olivelle, on the basis of the word's actual use in the texts). The morphology alone does not decide between them. GRETIL's file reads vyākhyānani at this point, which is not a Sanskrit word; the emendation to vyākhyānāni adopted here is certain.",
     "confidence": "high",
     "chinese_counterparts": null,
     "search_aliases": [
@@ -6762,6 +7505,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -6805,6 +7553,11 @@
             "id": "styana",
             "transliteration": "styāna",
             "devanagari": "स्त्यान"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -6854,9 +7607,9 @@
     ],
     "suffixes": [
       {
-        "suffix": "-ya (taddhita)",
-        "meaning": "abstract noun suffix",
-        "grammatical_function": "forms a neuter abstract noun from the adjective/noun virāga → vairāgya: 'the state of being without rāga'"
+        "suffix": "-ya",
+        "meaning": "taddhita (secondary derivative) suffix",
+        "grammatical_function": "forms an abstract neuter noun on the vṛddhi grade of virāga"
       }
     ],
     "compound_type": null,
@@ -6969,12 +7722,47 @@
       },
       {
         "kind": "suffix",
-        "morpheme": "-ya (taddhita)",
+        "morpheme": "-ya",
         "terms": [
+          {
+            "id": "acarya",
+            "transliteration": "ācārya",
+            "devanagari": "आचार्य"
+          },
+          {
+            "id": "alasya",
+            "transliteration": "ālasya",
+            "devanagari": "आलस्य"
+          },
+          {
+            "id": "brahmacarya",
+            "transliteration": "brahmacarya",
+            "devanagari": "ब्रह्मचर्य"
+          },
           {
             "id": "kaivalya",
             "transliteration": "kaivalya",
             "devanagari": "कैवल्य"
+          },
+          {
+            "id": "satya",
+            "transliteration": "satya",
+            "devanagari": "सत्य"
+          },
+          {
+            "id": "satyasya_satyam",
+            "transliteration": "satyasya satyam",
+            "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "virya",
+            "transliteration": "vīrya",
+            "devanagari": "वीर्य"
+          },
+          {
+            "id": "vrtti_sarupyam",
+            "transliteration": "vṛtti-sārūpyam",
+            "devanagari": "वृत्तिसारूप्यम्"
           }
         ]
       }
@@ -7265,6 +8053,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -7313,6 +8106,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "yoganushasanam",
@@ -7428,7 +8226,7 @@
     ],
     "priority_bucket": "nice",
     "thematic_bucket": "practice_discipline",
-    "source_context": "BṛU 1.5.17: yadā praiṣyan manyate 'tha putram āha — tvaṃ brahma tvaṃ yajñas tvaṃ loka iti | sa putraḥ pratyāha aham brahma aham yajño 'ham loka iti (\"When he thinks he is about to depart, he says to his son: 'You are brahman, you are the sacrifice, you are the world.' The son replies: 'I am brahman, I am the sacrifice, I am the world.'\")",
+    "source_context": "BṛU 1.5.17: yadā praiṣyan manyate 'tha putram āha — tvaṃ brahma tvaṃ yajñas tvaṃ loka iti | sa putraḥ pratyāhāhaṃ brahmāhaṃ yajño 'ham loka iti (\"When he thinks he is about to depart, he says to his son: 'You are brahman, you are the sacrifice, you are the world.' The son replies: 'I am brahman, I am the sacrifice, I am the world.'\")",
     "citation_trail": [
       "GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva recension, mūla), BṛU 1.5.17"
     ],
@@ -7613,6 +8411,11 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
@@ -7621,6 +8424,11 @@
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -7903,6 +8711,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -7946,6 +8759,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -8098,6 +8916,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -8121,6 +8944,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -10031,6 +10859,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "aksara",
             "transliteration": "akṣara",
             "devanagari": "अक्षर"
@@ -10054,6 +10887,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -10090,6 +10928,11 @@
             "id": "guha",
             "transliteration": "guhā",
             "devanagari": "गुहा"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           }
         ]
       }
@@ -10205,6 +11048,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -10253,6 +11101,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -10358,6 +11211,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -10381,6 +11239,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -10539,6 +11402,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -10567,6 +11435,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "avidya",
@@ -10656,8 +11529,13 @@
     "suffixes": [
       {
         "suffix": "-ana",
-        "meaning": "action noun suffix",
-        "grammatical_function": "forms a neuter noun: 'the act of abiding'"
+        "meaning": "action noun suffix (lyuṭ)",
+        "grammatical_function": "forms the neuter noun avasthāna, 'abiding'"
+      },
+      {
+        "suffix": "-m",
+        "meaning": "neuter nominative and accusative singular ending",
+        "grammatical_function": "an inflectional ending, not a derivational suffix; the sūtra's form is avasthānam"
       }
     ],
     "compound_type": null,
@@ -10706,6 +11584,22 @@
       },
       {
         "kind": "suffix",
+        "morpheme": "-m",
+        "terms": [
+          {
+            "id": "vrtti_sarupyam",
+            "transliteration": "vṛtti-sārūpyam",
+            "devanagari": "वृत्तिसारूप्यम्"
+          },
+          {
+            "id": "yoganushasanam",
+            "transliteration": "yogānuśāsanam",
+            "devanagari": "योगानुशासनम्"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
         "morpheme": "-ana",
         "terms": [
           {
@@ -10722,6 +11616,11 @@
             "id": "avarana",
             "transliteration": "āvaraṇa",
             "devanagari": "आवरण"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "dharana",
@@ -10772,6 +11671,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -10851,6 +11755,11 @@
         "morpheme": "a-",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "ahimsa",
             "transliteration": "ahiṃsā",
             "devanagari": "अहिंसा"
@@ -10879,6 +11788,11 @@
             "id": "asamprajnata",
             "transliteration": "asamprajñāta",
             "devanagari": "असम्प्रज्ञात"
+          },
+          {
+            "id": "asat",
+            "transliteration": "asat",
+            "devanagari": "असत्"
           },
           {
             "id": "asteya",
@@ -10963,6 +11877,16 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "buddhi",
             "transliteration": "buddhi",
             "devanagari": "बुद्धि"
@@ -10991,6 +11915,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -11109,9 +12038,14 @@
     "prefixes": [],
     "suffixes": [
       {
-        "suffix": "-ti / -ana",
-        "meaning": "noun suffixes",
-        "grammatical_function": "bhrānti = 'confusion'; darśana = 'view, seeing'"
+        "suffix": "-ti",
+        "meaning": "action noun suffix (ktin)",
+        "grammatical_function": "forms bhrānti, 'wandering, error'"
+      },
+      {
+        "suffix": "-ana",
+        "meaning": "action noun suffix (lyuṭ)",
+        "grammatical_function": "forms darśana, 'seeing, view'"
       }
     ],
     "compound_type": "tatpuruṣa (bhrānti + darśana: 'confused seeing')",
@@ -11147,6 +12081,153 @@
             "id": "drashta",
             "transliteration": "draṣṭā",
             "devanagari": "द्रष्टा"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ti",
+        "terms": [
+          {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
+            "id": "avirati",
+            "transliteration": "avirati",
+            "devanagari": "अविरति"
+          },
+          {
+            "id": "buddhi",
+            "transliteration": "buddhi",
+            "devanagari": "बुद्धि"
+          },
+          {
+            "id": "prakrti",
+            "transliteration": "prakṛti",
+            "devanagari": "प्रकृति"
+          },
+          {
+            "id": "siddhi",
+            "transliteration": "siddhi",
+            "devanagari": "सिद्धि"
+          },
+          {
+            "id": "smrti",
+            "transliteration": "smṛti",
+            "devanagari": "स्मृति"
+          },
+          {
+            "id": "susupti",
+            "transliteration": "suṣupti",
+            "devanagari": "सुषुप्ति"
+          },
+          {
+            "id": "vibhuti",
+            "transliteration": "vibhūti",
+            "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
+          },
+          {
+            "id": "vrtti",
+            "transliteration": "vṛtti",
+            "devanagari": "वृत्ति"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ana",
+        "terms": [
+          {
+            "id": "anumana",
+            "transliteration": "anumāna",
+            "devanagari": "अनुमान"
+          },
+          {
+            "id": "asana",
+            "transliteration": "āsana",
+            "devanagari": "आसन"
+          },
+          {
+            "id": "avarana",
+            "transliteration": "āvaraṇa",
+            "devanagari": "आवरण"
+          },
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "dharana",
+            "transliteration": "dhāraṇā",
+            "devanagari": "धारणा"
+          },
+          {
+            "id": "dhyana",
+            "transliteration": "dhyāna",
+            "devanagari": "ध्यान"
+          },
+          {
+            "id": "manana",
+            "transliteration": "manana",
+            "devanagari": "मनन"
+          },
+          {
+            "id": "nididhyasana",
+            "transliteration": "nididhyāsana",
+            "devanagari": "निदिध्यासन"
+          },
+          {
+            "id": "prajnana",
+            "transliteration": "prajñāna",
+            "devanagari": "प्रज्ञान"
+          },
+          {
+            "id": "pramana",
+            "transliteration": "pramāṇa",
+            "devanagari": "प्रमाण"
+          },
+          {
+            "id": "pranidhana",
+            "transliteration": "praṇidhāna",
+            "devanagari": "प्रणिधान"
+          },
+          {
+            "id": "sravana",
+            "transliteration": "śravaṇa",
+            "devanagari": "श्रवण"
+          },
+          {
+            "id": "styana",
+            "transliteration": "styāna",
+            "devanagari": "स्त्यान"
+          },
+          {
+            "id": "upasana",
+            "transliteration": "upāsana",
+            "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
+          },
+          {
+            "id": "virocana",
+            "transliteration": "virocana",
+            "devanagari": "विरोचन"
+          },
+          {
+            "id": "yoganushasanam",
+            "transliteration": "yogānuśāsanam",
+            "devanagari": "योगानुशासनम्"
           }
         ]
       }
@@ -11240,6 +12321,11 @@
             "devanagari": "आलस्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
@@ -11248,6 +12334,11 @@
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -12336,9 +13427,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -12364,6 +13465,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -12679,6 +13785,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -12722,6 +13833,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -13038,6 +14154,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -13081,6 +14202,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -13578,9 +14704,19 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -13789,9 +14925,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -13817,6 +14963,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -13900,9 +15051,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -13928,6 +15089,11 @@
             "id": "vibhuti",
             "transliteration": "vibhūti",
             "devanagari": "विभूति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -14021,6 +15187,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -14064,6 +15235,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -14459,9 +15635,19 @@
         "morpheme": "-ti",
         "terms": [
           {
+            "id": "aditi",
+            "transliteration": "aditi",
+            "devanagari": "अदिति"
+          },
+          {
             "id": "avirati",
             "transliteration": "avirati",
             "devanagari": "अविरति"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "buddhi",
@@ -14487,6 +15673,11 @@
             "id": "susupti",
             "transliteration": "suṣupti",
             "devanagari": "सुषुप्ति"
+          },
+          {
+            "id": "viveka_khyati",
+            "transliteration": "viveka-khyāti",
+            "devanagari": "विवेकख्याति"
           },
           {
             "id": "vrtti",
@@ -15271,9 +16462,14 @@
     "prefixes": [],
     "suffixes": [
       {
-        "suffix": "-anā",
-        "meaning": "feminine action noun suffix",
-        "grammatical_function": "forms feminine noun: 'lingering fragrance, subtle tendency'"
+        "suffix": "-ana",
+        "meaning": "action noun suffix (lyuṭ)",
+        "grammatical_function": "forms the action noun vāsana from the root"
+      },
+      {
+        "suffix": "-ā",
+        "meaning": "feminine derivative suffix",
+        "grammatical_function": "makes the noun feminine: vāsanā, 'lingering fragrance, subtle tendency'"
       }
     ],
     "compound_type": null,
@@ -15304,7 +16500,120 @@
     "verification": "source-verified",
     "professor_gloss": "a lingering fragrance",
     "source_text": "yoga_sutras",
-    "related_morphemes": [],
+    "related_morphemes": [
+      {
+        "kind": "suffix",
+        "morpheme": "-ā",
+        "terms": [
+          {
+            "id": "ahimsa",
+            "transliteration": "ahiṃsā",
+            "devanagari": "अहिंसा"
+          },
+          {
+            "id": "dharana",
+            "transliteration": "dhāraṇā",
+            "devanagari": "धारणा"
+          },
+          {
+            "id": "guha",
+            "transliteration": "guhā",
+            "devanagari": "गुहा"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-ana",
+        "terms": [
+          {
+            "id": "anumana",
+            "transliteration": "anumāna",
+            "devanagari": "अनुमान"
+          },
+          {
+            "id": "asana",
+            "transliteration": "āsana",
+            "devanagari": "आसन"
+          },
+          {
+            "id": "avarana",
+            "transliteration": "āvaraṇa",
+            "devanagari": "आवरण"
+          },
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
+            "id": "dharana",
+            "transliteration": "dhāraṇā",
+            "devanagari": "धारणा"
+          },
+          {
+            "id": "dhyana",
+            "transliteration": "dhyāna",
+            "devanagari": "ध्यान"
+          },
+          {
+            "id": "manana",
+            "transliteration": "manana",
+            "devanagari": "मनन"
+          },
+          {
+            "id": "nididhyasana",
+            "transliteration": "nididhyāsana",
+            "devanagari": "निदिध्यासन"
+          },
+          {
+            "id": "prajnana",
+            "transliteration": "prajñāna",
+            "devanagari": "प्रज्ञान"
+          },
+          {
+            "id": "pramana",
+            "transliteration": "pramāṇa",
+            "devanagari": "प्रमाण"
+          },
+          {
+            "id": "pranidhana",
+            "transliteration": "praṇidhāna",
+            "devanagari": "प्रणिधान"
+          },
+          {
+            "id": "sravana",
+            "transliteration": "śravaṇa",
+            "devanagari": "श्रवण"
+          },
+          {
+            "id": "styana",
+            "transliteration": "styāna",
+            "devanagari": "स्त्यान"
+          },
+          {
+            "id": "upasana",
+            "transliteration": "upāsana",
+            "devanagari": "उपासन"
+          },
+          {
+            "id": "virocana",
+            "transliteration": "virocana",
+            "devanagari": "विरोचन"
+          },
+          {
+            "id": "yoganushasanam",
+            "transliteration": "yogānuśāsanam",
+            "devanagari": "योगानुशासनम्"
+          }
+        ]
+      }
+    ],
     "related_mentions": [
       {
         "id": "citta",
@@ -15389,6 +16698,11 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
@@ -15397,6 +16711,11 @@
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "vrtti_sarupyam",
@@ -15444,6 +16763,11 @@
         "suffix": "-ya",
         "meaning": "abstract noun suffix (taddhita)",
         "grammatical_function": "forms a neuter abstract noun: 'the state of having the same form'"
+      },
+      {
+        "suffix": "-m",
+        "meaning": "neuter nominative and accusative singular ending",
+        "grammatical_function": "an inflectional ending rather than a derivational suffix; it is the form the word takes in the sūtra"
       }
     ],
     "compound_type": "tatpuruṣa (vṛtti + sārūpya: 'identification with the vṛttis')",
@@ -15494,6 +16818,22 @@
       },
       {
         "kind": "suffix",
+        "morpheme": "-m",
+        "terms": [
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "yoganushasanam",
+            "transliteration": "yogānuśāsanam",
+            "devanagari": "योगानुशासनम्"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
         "morpheme": "-ya",
         "terms": [
           {
@@ -15512,6 +16852,11 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
@@ -15520,6 +16865,11 @@
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -15732,8 +17082,13 @@
     "suffixes": [
       {
         "suffix": "-ana",
-        "meaning": "action noun suffix",
+        "meaning": "action noun suffix (lyuṭ)",
         "grammatical_function": "forms a neuter noun: 'instruction, exposition'"
+      },
+      {
+        "suffix": "-m",
+        "meaning": "neuter nominative and accusative singular ending",
+        "grammatical_function": "an inflectional ending rather than a derivational suffix; it is the form the word takes in the sūtra"
       }
     ],
     "compound_type": "tatpuruṣa (yoga + anuśāsana: 'instruction on yoga')",
@@ -15772,6 +17127,22 @@
       },
       {
         "kind": "suffix",
+        "morpheme": "-m",
+        "terms": [
+          {
+            "id": "avasthanam",
+            "transliteration": "avasthānam",
+            "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "vrtti_sarupyam",
+            "transliteration": "vṛtti-sārūpyam",
+            "devanagari": "वृत्तिसारूप्यम्"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
         "morpheme": "-ana",
         "terms": [
           {
@@ -15793,6 +17164,11 @@
             "id": "avasthanam",
             "transliteration": "avasthānam",
             "devanagari": "अवस्थानम्"
+          },
+          {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
           },
           {
             "id": "dharana",
@@ -15843,6 +17219,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -16050,6 +17431,11 @@
             "devanagari": "ब्रह्मचर्य"
           },
           {
+            "id": "kaivalya",
+            "transliteration": "kaivalya",
+            "devanagari": "कैवल्य"
+          },
+          {
             "id": "satya",
             "transliteration": "satya",
             "devanagari": "सत्य"
@@ -16058,6 +17444,11 @@
             "id": "satyasya_satyam",
             "transliteration": "satyasya satyam",
             "devanagari": "सत्यस्य सत्यम्"
+          },
+          {
+            "id": "vairagya",
+            "transliteration": "vairāgya",
+            "devanagari": "वैराग्य"
           },
           {
             "id": "virya",
@@ -16413,6 +17804,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -16461,6 +17857,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",
@@ -16619,6 +18020,11 @@
             "devanagari": "अवस्थानम्"
           },
           {
+            "id": "bhranti_darshana",
+            "transliteration": "bhrānti-darśana",
+            "devanagari": "भ्रान्तिदर्शन"
+          },
+          {
             "id": "dharana",
             "transliteration": "dhāraṇā",
             "devanagari": "धारणा"
@@ -16667,6 +18073,11 @@
             "id": "upasana",
             "transliteration": "upāsana",
             "devanagari": "उपासन"
+          },
+          {
+            "id": "vasana",
+            "transliteration": "vāsanā",
+            "devanagari": "वासना"
           },
           {
             "id": "virocana",

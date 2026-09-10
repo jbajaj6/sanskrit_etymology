@@ -205,6 +205,40 @@ class DemoPayloadTestCase(unittest.TestCase):
                     f"{term.id} is unverified but carries a Chinese mapping",
                 )
 
+    def test_morpheme_identifiers_are_bare(self) -> None:
+        """A qualifier belongs in the meaning, not in the morpheme itself.
+
+        Several entries once declared a suffix as "-ya (taddhita)". The card
+        rendered it, but the cross-referencer keys on the exact morpheme, so
+        those terms silently linked to nothing.
+        """
+        for term in self.terms:
+            for field, key in (("roots", "root"), ("prefixes", "prefix"), ("suffixes", "suffix")):
+                for component in getattr(term, field) or []:
+                    value = component[key]
+                    self.assertNotRegex(
+                        value,
+                        r"[ ()/]",
+                        f"{term.id}: {key} {value!r} carries a qualifier or two morphemes",
+                    )
+
+    def test_segmentation_markers_are_declared(self) -> None:
+        """A piece marked as a root or suffix needs a row explaining it."""
+        for term in self.terms:
+            body = re.sub(r"\([^)]*\)", "", term.segmentation or "")
+            for piece in re.split(r"[|+\u2192]", body):
+                piece = piece.strip()
+                if piece.startswith("\u221a"):
+                    self.assertTrue(
+                        any(r["root"] == piece for r in term.roots or []),
+                        f"{term.id}: segmentation names {piece}, which is not declared",
+                    )
+                elif piece.startswith("-"):
+                    self.assertTrue(
+                        any(s["suffix"] == piece for s in term.suffixes or []),
+                        f"{term.id}: segmentation names {piece}, which is not declared",
+                    )
+
     def test_sort_places_analysed_terms_first(self) -> None:
         ordered = sort_demo_terms(self.terms)
         first_extended = next(

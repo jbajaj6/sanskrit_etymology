@@ -6,7 +6,7 @@ philosophical vocabulary, drawn from the Yoga Sutras and the principal Upanisads
 ## What This Repo Contains
 
 - Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — the
-  explorer and the catalog now hold the same 145 terms
+  explorer and the catalog now hold the same 149 terms
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
 - A working-entry bundle in [data/demo_terms.json](data/demo_terms.json)
@@ -69,7 +69,7 @@ mula text named in its citation trail, not quoted from memory.
 
 ## Chinese mappings
 
-57 of the 145 terms carry Chinese Buddhist equivalents, in
+57 of the 149 terms carry Chinese Buddhist equivalents, in
 [sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml).
 Every candidate names the Taisho text and line where it was located in CBETA.
 
@@ -108,9 +108,29 @@ read `nididhyāsana` as containing `āsana` and `praṇava` as containing `prā�
 both of which are false derivations. See
 [relations.py](src/sanskrit_etymology/relations.py).
 
+### Checking the passages
+
+`validate-data` checks the shape of the data. It cannot check that a quoted
+passage is really what the text says, because that needs the text. This does:
+
+```bash
+python3 tools/verify_passages.py
+```
+
+It compares every quoted passage, character for character, against the mula text
+in a local GRETIL corpus, so it runs locally rather than in CI. Whitespace,
+punctuation and the two spellings of anusvara are ignored; nothing else is, so a
+real letter difference is reported. An ellipsis marks a deliberate excerpt and
+each fragment must occur in order.
+
+The script's `EMENDATIONS` table lists every place the quoted text departs from
+the corpus file because that file has a clear input error, such as `svaprasthano`
+for `svapnasthano` at MaU 4. Each is disclosed on the term's own card too.
+Anything not listed must match verbatim.
+
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
 and `sanskrit-etymology stats` reports the coverage percentage. It currently
-stands at 139 of 145.
+stands at 143 of 149.
 
 Six terms are deliberately left unverified, and each says why on its own card:
 
