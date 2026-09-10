@@ -61,7 +61,7 @@
 
 ### 4b. abhiniveśa — "A deep settling-into"
 
-- abhi + ni + √viś + -a (triple prefix!)
+- abhi + ni + √viś + -a (two prefixes stacked on one root)
 - The morphology physically enacts the concept: layer after layer of settling deeper
 - "Flows by its own momentum, even in the wise" (YS 2.9)
 - This is not an intellectual error — it is an embodied survival drive

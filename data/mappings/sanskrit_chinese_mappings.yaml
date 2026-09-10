@@ -1,9 +1,10 @@
-# Sanskrit-Chinese Term Mappings — Stage 01
+# Sanskrit-Chinese Term Mappings
 # Sanskrit Etymology Project
-# Generated: 2026-04-09
+# Generated: 2026-04-09; second pass (47 terms) and third pass (1 term) added later;
+# Taishō titles corrected 2026-09-10
 #
-# Terms mapped: samādhi, dhyāna, citta, nirodha, prajñā, kleśa, avidyā,
-#   saṃskāra, svarūpa
+# Stage 01 terms: samādhi, dhyāna, citta, nirodha, prajñā, kleśa, avidyā,
+#   saṃskāra, svarūpa. 57 terms mapped in total.
 #
 # Evidence sources: CBETA (buddha-cli), GRETIL (buddha-cli), SARIT (buddha-cli),
 #   Monier-Williams, Edgerton Buddhist Hybrid Sanskrit Dictionary,
@@ -31,7 +32,7 @@ mappings:
       - characters: "三昧"
         pinyin: "sānmèi"
         historical_reading_notes: >
-          Middle Chinese approximately *sam-muəi (Baxter-Sagart) or *sam-mwoj.
+          Middle Chinese approximately *sam-mwojH (Baxter's notation; approximate).
           Reflects a Prakrit or Gāndhārī form closer to samāi or samāhi,
           with loss of the final dental -dhi. This is the older and more
           widespread transliteration.
@@ -70,8 +71,9 @@ mappings:
           (7th c. CE) as part of his systematic retranslation project.
         source_tradition: Xuanzang school (新譯, new translation)
         attestation_source:
-          - "T01n0002 (遊行經): 三摩地"
-          - "T01n0003 (大本經): 入三摩地"
+          - "T30n1579 (瑜伽師地論, Xuanzang): 三摩地"
+          - "T01n0002 (七佛經, Fatian, Song dynasty): 成就三摩地"
+          - "T01n0003 (毘婆尸佛經, Fatian, Song dynasty): 入三摩地"
           - "T01n0009: 三摩地受用法"
           - "T01n0010: 入三摩地"
           - "T01n0012: 三三摩地 (three samādhis)"
@@ -148,7 +150,7 @@ mappings:
       - characters: "禪那"
         pinyin: "chánnà"
         historical_reading_notes: >
-          Middle Chinese approximately *dʑian-na (Baxter-Sagart). Maps to
+          Middle Chinese approximately *dzyen-na (Baxter's notation; approximate). Maps to
           Pali/Prakrit jhāna rather than classical Sanskrit dhyāna. The
           initial *dʑ- reflects the Prakrit palatalization dhy → jh → dʑ.
         source_tradition: pan-Buddhist
@@ -207,7 +209,7 @@ mappings:
         source_tradition: pan-Buddhist
         attestation_source:
           - "T01n0001 (長阿含經): 禪定"
-          - "T01n0002 (遊行經): 禪定解脫之法"
+          - "T01n0002 (七佛經): 禪定解脫之法"
         mapping_type: hybrid
         phonetic_evidence: >
           禪 component is phonetic (from dhyāna via jhāna).
@@ -406,14 +408,14 @@ mappings:
       - characters: "般若"
         pinyin: "bōrě"
         historical_reading_notes: >
-          Middle Chinese approximately *puan-ɲia (Baxter-Sagart) or *ban-nja.
+          Middle Chinese approximately *pan-nyak (Baxter's notation; approximate), often cited as *ban-nja.
           The modern reading bōrě is irregular and preserves an archaic
           pronunciation. Standard modern Mandarin for these characters
           would be bānruò, but the traditional Buddhist reading bōrě is
           used in all liturgical and scholarly contexts.
         source_tradition: pan-Buddhist, especially Prajñāpāramitā literature
         attestation_source:
-          - "T01n0025 (中阿含經): 般若"
+          - "T01n0025 (起世因本經): 般若"
           - "T01n0026 (中阿含經): 般若"
           - "T08n0223 (摩訶般若波羅蜜經, Kumārajīva): entire text"
           - "T05n0220a–T07n0220c (大般若波羅蜜多經, Xuanzang): 600-fascicle magnum opus"
@@ -504,8 +506,8 @@ mappings:
         source_tradition: pan-Buddhist
         attestation_source:
           - "T01n0001 (長阿含經): 無煩惱"
-          - "T01n0002 (遊行經): 斷盡諸煩惱"
-          - "T01n0003 (大本經): 煩惱"
+          - "T01n0002 (七佛經): 斷盡諸煩惱"
+          - "T01n0003 (毘婆尸佛經): 煩惱"
           - "T03n0159: 煩惱障 (kleśāvaraṇa, 'affliction-obstruction')"
           - "T03n0160: 煩惱障"
         mapping_type: semantic_translation
@@ -563,7 +565,7 @@ mappings:
         source_tradition: pan-Buddhist
         attestation_source:
           - "T01n0001 (長阿含經): 若無明滅盡是時則無行"
-          - "T01n0003 (大本經): 從無明支有"
+          - "T01n0003 (毘婆尸佛經): 從無明支有"
           - "T01n0007 (大般涅槃經): 無明及愛"
           - "T02n0099 (雜阿含經): 無明緣行行緣識"
           - "T02n0124: 無明緣行"
@@ -625,7 +627,7 @@ mappings:
         source_tradition: pan-Buddhist
         attestation_source:
           - "T01n0001 (長阿含經): 無明滅盡是時則無行"
-          - "T01n0003 (大本經): 無明緣行"
+          - "T01n0003 (毘婆尸佛經): 無明緣行"
           - "T02n0099 (雜阿含經): 無明緣行行緣識"
           - "T02n0124: 無明緣行"
           - "Five aggregates: 色受想行識 (rūpa, vedanā, saṃjñā, saṃskāra, vijñāna)"
@@ -961,16 +963,16 @@ mappings:
       source_tradition: pan-Buddhist
       attestation_source:
       - 'T30n1579 (Yogācārabhūmi 瑜伽師地論 (Xuanzang)), line 0371a12: 梵行'
-      mapping_type: semantic_translation
+      mapping_type: hybrid
       phonetic_evidence: null
       semantic_evidence: '梵 transliterates brahman and 行 renders carya: a hybrid, sound for
         the first element and sense for the second.'
-      translation_strategy: meaning_preserving
+      translation_strategy: mixed
       doctrinal_shift_notes: In Buddhist usage 梵行 means the celibate holy life generally, wider
         than the specific continence of Patañjali's fourth yama.
       confidence: high
       ambiguity_notes: null
-    overall_mapping_type: semantic_translation
+    overall_mapping_type: hybrid
     overall_confidence: high
     overall_notes: 梵行 keeps the Brahman element and renders carya as conduct.
   - sanskrit_term: brahman
@@ -1330,7 +1332,7 @@ mappings:
       confidence: medium
       ambiguity_notes: null
     overall_mapping_type: semantic_translation
-    overall_confidence: high
+    overall_confidence: medium
     overall_notes: 本願 and 願 render praṇidhāna as vow or aspiration.
   - sanskrit_term: pratyakṣa
     devanagari: प्रत्यक्ष

@@ -55,7 +55,7 @@ class PipelineTestCase(unittest.TestCase):
         )
         self.assertEqual(
             demo_by_id["vyadhi"].segmentation,
-            "√vyadh + -i",
+            "vi + ā + √dhā + -i",
         )
         self.assertEqual(
             demo_by_id["purusa"].segmentation,
