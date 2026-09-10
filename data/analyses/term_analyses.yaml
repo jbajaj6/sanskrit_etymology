@@ -5517,3 +5517,67 @@ analyses:
     - GRETIL patyog_u (Patañjali, Yogasūtra, mūla), sūtra 1.30
     - Ed. Kāśinātha Śāstrī Āgāśe, Ānandāśrama Sanskrit Series 47 (Pune 1904), the edition GRETIL's
       text follows
+
+  # ── ADDED SINGLY ──
+  - id: soma
+    devanagari: सोम
+    transliteration: soma
+    chapter: ChU 5.4.2, 5.5.2, 5.10.4; BṛU 1.4.6, 6.2.10; PraU 5.4
+    source_context: 'ChU 5.4.2: tasminn etasminn agnau devāḥ śraddhāṃ juhvati | tasyā āhuteḥ
+      somo rājā saṃbhavati ("In this fire the gods offer faith; from that oblation King Soma
+      arises"). ChU 5.10.4: ākāsāc candramasam | eṣa somo rājā | tad devānām annam | taṃ devā
+      bhakṣayanti ("From space, to the moon. This is King Soma; that is the food of the gods,
+      and the gods eat him").'
+    segmentation: √su + -ma
+    roots:
+    - root: √su
+      devanagari: √सु
+      meaning: to press out, to extract juice
+      dhatu_number: null
+    prefixes: []
+    suffixes:
+    - suffix: -ma
+      meaning: primary nominal suffix
+      grammatical_function: 'forms a masculine noun on the guṇa grade of the root: sav- + -ma
+        → soma'
+    compound_type: null
+    literal_gloss: the pressed one; what is extracted by pressing
+    philosophical_gloss: 'Soma is the juice pressed from a plant and offered in Vedic ritual,
+      personified as King Soma (soma rājan) and identified with the moon. The Upaniṣads inherit
+      the word from the ritual literature and put it to work in the doctrine of rebirth. In
+      the five-fire teaching (pañcāgni-vidyā, ChU 5.4-5.10, with a parallel at BṛU 6.2), the
+      gods offer śraddhā in the fire of the yonder world and from that offering King Soma arises;
+      they then offer King Soma in the fire of the rain-god and from that offering rain arises,
+      which becomes food, then semen, then a new birth. On the path of the fathers the dead
+      reach the moon, and ChU 5.10.4 says plainly what they become there: ''this is King Soma,
+      the food of the gods.'''
+    doctrinal_significance: 'The five-fire teaching is where the Upaniṣads convert the vocabulary
+      of sacrifice into a mechanism of rebirth, and soma is its pivot. What is striking is the
+      first offering: soma arises from an oblation of śraddhā, so the ritual substance is generated
+      by an inner disposition rather than gathered from a hillside. The move is characteristic
+      of the corpus, which repeatedly relocates the sacrifice inside the person. Soma and amṛta
+      are the two Vedic names for a draught conferring deathlessness, and the hymns identify
+      them; that identification is Ṛgvedic background, however, and is not asserted by any passage
+      cited here. Their afterlives diverge sharply. Amṛta entered Chinese Buddhist vocabulary
+      as 甘露, ''sweet dew'', and stayed there. Soma did not transmit at all: the ritual it belongs
+      to had no Buddhist use, and the one promising Chinese hit, 蘇摩, turns out to be a tribal
+      name.'
+    ambiguity_notes: 'Two cautions. First, the Chāndogya''s constant vocative somya, ''my dear'',
+      addressed to Śvetaketu, is far more frequent than the substance: 53 occurrences of the
+      address against 12 of soma itself in the corpus searched here. Somya is a vṛddhi derivative
+      of soma meaning ''gentle, pleasant'', so the two are related in origin but not in use,
+      and a reader searching for soma in ChU 6 will mostly find the greeting. Second, the botanical
+      identity of the soma plant is unresolved; Ephedra, Sarcostemma and Amanita muscaria have
+      all been proposed and none is settled. Nothing in the Upaniṣads decides the question,
+      and this entry does not either.'
+    confidence: high
+    chinese_counterparts: null
+    mapping_type: null
+    phonetic_evidence: null
+    semantic_evidence: null
+    citation_trail:
+    - GRETIL chup___u (Chāndogya Upaniṣad, mūla), ChU 5.4.2 and 5.10.4
+    - GRETIL brup___u (Bṛhadāraṇyaka, Kāṇva mūla), BṛU 6.2.10 — the parallel five-fire teaching
+    - 'No Chinese counterpart recorded: searched the Yogācārabhūmi, Abhidharmakośa, Cheng weishi
+      lun, Nyāyapraveśa, Dīrghāgama and Saṃyuktāgama. The one hit for 蘇摩 (T01n0001, line 0098a03)
+      is a tribal name in a list of peoples, not the draught.'

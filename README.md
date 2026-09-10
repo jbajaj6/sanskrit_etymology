@@ -6,7 +6,7 @@ philosophical vocabulary, drawn from the Yoga Sutras and the principal Upanisads
 ## What This Repo Contains
 
 - Canonical term catalog in [data/seed_terms.yaml](data/seed_terms.yaml) — the
-  explorer and the catalog now hold the same 126 terms
+  explorer and the catalog now hold the same 127 terms
 - Structured analyses in [data/analyses/term_analyses.yaml](data/analyses/term_analyses.yaml)
 - Sanskrit-to-Chinese mappings in [data/mappings/sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml)
 - A working-entry bundle in [data/demo_terms.json](data/demo_terms.json)
@@ -69,7 +69,7 @@ mula text named in its citation trail, not quoted from memory.
 
 ## Chinese mappings
 
-56 of the 126 terms carry Chinese Buddhist equivalents, in
+56 of the 127 terms carry Chinese Buddhist equivalents, in
 [sanskrit_chinese_mappings.yaml](data/mappings/sanskrit_chinese_mappings.yaml).
 Every candidate names the Taisho text and line where it was located in CBETA.
 
@@ -110,7 +110,7 @@ both of which are false derivations. See
 
 `sanskrit-etymology validate-data` prints the current sourcing gap as a warning,
 and `sanskrit-etymology stats` reports the coverage percentage. It currently
-stands at 120 of 126.
+stands at 121 of 127.
 
 Six terms are deliberately left unverified, and each says why on its own card:
 

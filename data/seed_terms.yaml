@@ -1507,3 +1507,17 @@ terms:
       Searched the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and Śvetāśvatara
       mūla texts without a clear occurrence. See ācārya for the verified Upaniṣadic term for
       a teacher.'
+
+  # ── ADDED SINGLY ──
+  - id: soma
+    devanagari: सोम
+    transliteration: soma
+    normalized_slug: soma
+    priority_bucket: nice
+    chapter: ChU 5.4.2, 5.5.2, 5.10.4; BṛU 1.4.6, 6.2.10; PraU 5.4
+    professor_gloss: the pressed ritual draught; King Soma, and the moon
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Vedic ritual vocabulary carried into the Upaniṣadic rebirth doctrine. Passage verified
+      against the GRETIL mūla text.
