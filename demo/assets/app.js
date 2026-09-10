@@ -61,7 +61,7 @@
   window.addEventListener("hashchange", routeFromHash);
 
   searchEl.addEventListener("input", () => {
-    const query = searchEl.value.trim().toLowerCase();
+    const query = searchEl.value.trim();
     activeIndex = -1;
     if (!query) {
       hideSuggestions();
@@ -220,33 +220,58 @@
 
   /* ---------- search ---------- */
 
-  function searchTerms(query) {
+  function searchTerms(rawQuery) {
+    const query = fold(rawQuery);
     const scored = [];
     terms.forEach((term) => {
-      const aliases = term.search_aliases || [];
-      const translit = (term.transliteration || "").toLowerCase();
+      const aliases = (term.search_aliases || []).map(fold);
+      const translit = fold(term.transliteration || "");
+      const devanagari = term.devanagari || "";
       let rank = null;
+      let position = 0;
 
       if (aliases.some((alias) => alias === query)) {
         rank = 0;
       } else if (aliases.some((alias) => alias.startsWith(query))) {
         rank = 1;
-      } else if (translit.includes(query) || (term.devanagari || "").includes(query)) {
+      } else if (translit.includes(query) || aliases.some((alias) => alias.includes(query))) {
+        // Substring anywhere, diacritics ignored: "atman" finds jīvātman and
+        // paramātman, "khyati" finds viveka-khyāti.
         rank = 2;
-      } else if (query.length >= 3 && glossText(term).includes(query)) {
+        position = translit.indexOf(query);
+        if (position < 0) {
+          position = Math.min(...aliases.map((alias) => alias.indexOf(query)).filter((i) => i >= 0));
+        }
+      } else if (devanagari.includes(rawQuery)) {
+        rank = 2;
+        position = devanagari.indexOf(rawQuery);
+      } else if (query.length >= 3 && fold(glossText(term)).includes(query)) {
         // Meaning search: someone who knows "absorption" but not "samadhi".
         rank = 3;
       }
 
       if (rank !== null) {
-        scored.push({ term, rank });
+        scored.push({ term, rank, position });
       }
     });
 
     scored.sort(
-      (a, b) => a.rank - b.rank || a.term.transliteration.localeCompare(b.term.transliteration)
+      (a, b) =>
+        a.rank - b.rank ||
+        a.position - b.position ||
+        a.term.transliteration.localeCompare(b.term.transliteration)
     );
     return scored;
+  }
+
+  // Lower-case and strip diacritics so that "ātman", "atman" and "ATMAN" all
+  // compare equal, and "samskara" matches saṃskāra. Devanagari is left alone.
+  function fold(text) {
+    return String(text || "")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .normalize("NFC");
   }
 
   function glossText(term) {
