@@ -3488,6 +3488,11 @@
             "devanagari": "ब्रह्मन्"
           },
           {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
             "id": "karma",
             "transliteration": "karma",
             "devanagari": "कर्म"
@@ -3496,6 +3501,11 @@
             "id": "namarupa",
             "transliteration": "nāmarūpa",
             "devanagari": "नामरूप"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
           }
         ]
       }
@@ -3578,6 +3588,11 @@
             "devanagari": "भूमन्"
           },
           {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
             "id": "karma",
             "transliteration": "karma",
             "devanagari": "कर्म"
@@ -3586,6 +3601,11 @@
             "id": "namarupa",
             "transliteration": "nāmarūpa",
             "devanagari": "नामरूप"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
           }
         ]
       }
@@ -4356,7 +4376,19 @@
     "verification": "source-verified",
     "professor_gloss": "the individual living self, as distinct from the universal self",
     "source_text": "upanisads",
-    "related_morphemes": [],
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√jīv",
+        "terms": [
+          {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          }
+        ]
+      }
+    ],
     "related_mentions": [
       {
         "id": "atman",
@@ -4369,6 +4401,107 @@
         "devanagari": "ब्रह्मन्"
       }
     ]
+  },
+  {
+    "id": "jivatman",
+    "devanagari": "जीवात्मन्",
+    "transliteration": "jīvātman",
+    "chapter": "ChU 6.3.2; GK 3.13–3.14",
+    "segmentation": "jīva + ātman",
+    "roots": [
+      {
+        "root": "√jīv",
+        "devanagari": "√जीव्",
+        "meaning": "to live, be alive (in jīva)",
+        "dhatu_number": null
+      }
+    ],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-a",
+        "meaning": "agent/action noun suffix",
+        "grammatical_function": "forms jīva: 'the living one'"
+      },
+      {
+        "suffix": "-man",
+        "meaning": "primary noun suffix",
+        "grammatical_function": "forms ātman; the base it attaches to is not securely identifiable"
+      }
+    ],
+    "compound_type": "karmadhāraya — 'the self that is the living one'; at GK 3.13 the dual jīvātmanoḥ is more naturally a dvandva, 'the living being and the self'",
+    "literal_gloss": "the living self; the self considered as an individual living being",
+    "philosophical_gloss": "Jīvātman names the self as it is found in a particular living body: embodied, acting, experiencing and transmigrating. The principal Upaniṣads do not use the compound. What they have is the pair. ChU 6.3.2 has the deity enter the three elements 'by this living self' (anena jīvena ātmanā), where jīva qualifies ātman rather than standing against it; and Gauḍapāda, commenting on the Māṇḍūkya, argues through the whole of his third chapter that jīva stands to ātman as the space in a pot stands to space (GK 3.3-3.7), concluding at 3.13 that their non-otherness is what the Upaniṣads praise. The one-word technical term jīvātman, paired with paramātman, belongs to the later systems: the Nyāya handbook Tarkasaṃgraha opens its account of the self by dividing it into paramātman and jīvātman.",
+    "doctrinal_significance": "The jīvātman/paramātman pair is the vocabulary in which the Vedānta schools state their disagreement. Advaita holds the two to be one self seen with and without limiting conditions; Viśiṣṭādvaita and Dvaita hold them to be really distinct. Gauḍapāda's pot-space simile is the earliest worked-out form of the Advaita answer, and it is already built on jīva and ātman rather than on the later compounds.",
+    "ambiguity_notes": "Two cautions. First, the compound is not Upaniṣadic. The Chāndogya has jīvena ātmanā as two words in apposition, and GK 3.13 has the dual jīvātmanoḥ, which the commentators take as 'of jīva and ātman' (a dvandva), not as the dual of a single word jīvātman. Second, the karmadhāraya reading 'the self qua living being' and the tatpuruṣa reading 'the self of the living being' both occur in later usage and are not always distinguished. The confidence rating reflects the thin Upaniṣadic attestation, not any doubt about the morphology.",
+    "confidence": "medium",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "jivatman",
+      "jīvātman"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "ChU 6.3.2: seyaṃ devataikṣata | hantāham imās tisro devatā anena jīvenātmanānupraviśya nāmarūpe vyākaravāṇīti (\"That deity thought: come, let me enter these three deities by means of this living self and differentiate name and form\"). GK 3.13: jīvātmanor ananyatvam abhedena praśasyate | nānātvaṃ nindyate yac ca tad evaṃ hi samañjasam (\"That the living being and the self are not other is praised as non-difference, and plurality is censured; so that alone is coherent\").",
+    "citation_trail": [
+      "GRETIL chup___u (Chāndogya Upaniṣad, mūla), ChU 6.3.2 — jīvena ātmanā, two words",
+      "GRETIL sa_mANDUkyopaniSatkArikA (Gauḍapāda, Māṇḍūkyakārikā), GK 3.13-3.14, with the pot-space simile at GK 3.3-3.7",
+      "GRETIL sa_annaMbhatta-tarkasaMgraha (Annaṃbhaṭṭa, Tarkasaṃgraha) 17, 'sa dvividhaḥ paramātmā jīvātmā ca' — the pair as fixed technical terms in Nyāya",
+      "Searched the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and Śvetāśvatara mūla texts; the compound jīvātman does not occur in any of them"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the self as an individual living being; the embodied self",
+    "source_text": "upanisads",
+    "related_morphemes": [
+      {
+        "kind": "root",
+        "morpheme": "√jīv",
+        "terms": [
+          {
+            "id": "jiva",
+            "transliteration": "jīva",
+            "devanagari": "जीव"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-man",
+        "terms": [
+          {
+            "id": "atman",
+            "transliteration": "ātman",
+            "devanagari": "आत्मन्"
+          },
+          {
+            "id": "bhuman",
+            "transliteration": "bhūman",
+            "devanagari": "भूमन्"
+          },
+          {
+            "id": "brahman",
+            "transliteration": "brahman",
+            "devanagari": "ब्रह्मन्"
+          },
+          {
+            "id": "karma",
+            "transliteration": "karma",
+            "devanagari": "कर्म"
+          },
+          {
+            "id": "namarupa",
+            "transliteration": "nāmarūpa",
+            "devanagari": "नामरूप"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
+          }
+        ]
+      }
+    ],
+    "related_mentions": []
   },
   {
     "id": "kosa",
@@ -5205,9 +5338,19 @@
             "devanagari": "ब्रह्मन्"
           },
           {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
             "id": "karma",
             "transliteration": "karma",
             "devanagari": "कर्म"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
           }
         ]
       }
@@ -5255,6 +5398,122 @@
         "id": "prana",
         "transliteration": "prāṇa",
         "devanagari": "प्राण"
+      }
+    ]
+  },
+  {
+    "id": "paramatman",
+    "devanagari": "परमात्मन्",
+    "transliteration": "paramātman",
+    "chapter": "KaivU 23–24; BhG 13.22",
+    "segmentation": "parama + ātman",
+    "roots": [],
+    "prefixes": [],
+    "suffixes": [
+      {
+        "suffix": "-ma",
+        "meaning": "superlative suffix",
+        "grammatical_function": "forms parama, 'highest, furthest', from para, 'beyond, other'"
+      },
+      {
+        "suffix": "-man",
+        "meaning": "primary noun suffix",
+        "grammatical_function": "forms ātman; the base it attaches to is not securely identifiable"
+      }
+    ],
+    "compound_type": "karmadhāraya — 'the highest self'",
+    "literal_gloss": "the highest self; the supreme self",
+    "philosophical_gloss": "Paramātman is the self considered as supreme, beyond the individual living self with which the later systems pair it. The word is not in the principal Upaniṣads: where they want this sense they say ātman, brahman, or, in the Kaṭha, para puruṣa, 'the highest person' (KaU 3.11). It enters the vocabulary with the Bhagavadgītā, which at 13.22 lists it among the names of the highest person in the body, and with the later Upaniṣads. The Kaivalya Upaniṣad, a short Śaiva text of the Atharvan collection, uses it twice in succession at the close of its teaching: the knower, having denied that any of the elements belongs to him, knows the nature of the supreme self, lying in the cave, partless and without a second, and reaches it.",
+    "doctrinal_significance": "The Kaivalya passage shows the older vocabulary being gathered under the new word. The self in the cave is the Kaṭha's (KaU 2.20), 'without a second' is the Chāndogya's (ChU 6.2.1), the witness is the Śvetāśvatara's (ŚvU 6.11), and the method of denial is the Bṛhadāraṇyaka's neti neti. What is new is only the name, and the name is what allows the later systems to ask how this self relates to the jīvātman. Buddhist Sanskrit turns the word inside out: the Mahāyānasūtrālaṃkāra (9.23) says the buddhas have a paramātman in the uncontaminated sphere, and explains that this is because their nature is supreme selflessness.",
+    "ambiguity_notes": "Three notes. First, the shorter form parātman, 'the other or further self', occurs with the same sense in Śaṅkara's Upadeśasāhasrī and in the Vivekacūḍāmaṇi, both in the corpus; this entry uses paramātman as the headword because it is the form the pair jīvātman/paramātman is built on. Second, the Kaivalya Upaniṣad is late and sectarian, and is not one of the principal Upaniṣads this project otherwise draws on; it is cited because it is the only Upaniṣad in the corpus that has the word. Third, BhG 13.22 (paramātmeti cāpy ukto dehe 'smin puruṣaḥ paraḥ) is attested in the corpus only as quoted by later texts (Mahāsubhāṣitasaṃgraha 7069, Sāṃkhyaparibhāṣā 4); the Gītā itself was not fetched here. The confidence rating reflects the late attestation, not the morphology.",
+    "confidence": "medium",
+    "chinese_counterparts": null,
+    "search_aliases": [
+      "paramatman",
+      "paramātman"
+    ],
+    "priority_bucket": "nice",
+    "thematic_bucket": "liberation_metaphysics",
+    "source_context": "KaivU 23: na bhūmir āpo na ca vahnir asti na cānilo me 'sti na cāmbaraṃ ca | evaṃ viditvā paramātmarūpaṃ guhāśayaṃ niṣkalam advitīyam (\"For me there is no earth, no water, no fire, no wind, no sky. Having thus known the nature of the supreme self, lying in the cave, partless, without a second ...\"). KaivU 24: samastasākṣiṃ sadasadvihīnaṃ prayāti śuddhaṃ paramātmarūpam (\"... the witness of all, free of being and non-being, one reaches the pure nature of the supreme self\").",
+    "citation_trail": [
+      "GRETIL sa_kaivalyopaniSad (Kaivalya Upaniṣad, ed. Tarkaratna, Bibliotheca Indica 76, 1872), KaivU 23-24 (the second verse is numbered 23* in GRETIL's file and 24 in most editions)",
+      "BhG 13.22cd as quoted in the corpus: GRETIL sa_mahAsubhASitasaMgraha-1-9979, MSS 7069, and GRETIL sa_sAMkhyaparibhASA, verse 4",
+      "GRETIL sa_asaGga-mahAyAnasUtrAlaMkAra (Mahāyānasūtrālaṃkāra), on 9.23, 'buddhānāṃ paramātmā nirdiśyate ... agranairātmyātmakatvāt'",
+      "Searched the Aitareya, Bṛhadāraṇyaka, Chāndogya, Īśa, Kaṭha, Māṇḍūkya, Praśna and Śvetāśvatara mūla texts; neither paramātman nor parātman occurs in any of them",
+      "No Chinese counterpart recorded: the Chinese rendering of the Mahāyānasūtrālaṃkāra passage was not checked here"
+    ],
+    "verification": "source-verified",
+    "professor_gloss": "the supreme self; the self beyond the individual self",
+    "source_text": "upanisads",
+    "related_morphemes": [
+      {
+        "kind": "suffix",
+        "morpheme": "-ma",
+        "terms": [
+          {
+            "id": "soma",
+            "transliteration": "soma",
+            "devanagari": "सोम"
+          }
+        ]
+      },
+      {
+        "kind": "suffix",
+        "morpheme": "-man",
+        "terms": [
+          {
+            "id": "atman",
+            "transliteration": "ātman",
+            "devanagari": "आत्मन्"
+          },
+          {
+            "id": "bhuman",
+            "transliteration": "bhūman",
+            "devanagari": "भूमन्"
+          },
+          {
+            "id": "brahman",
+            "transliteration": "brahman",
+            "devanagari": "ब्रह्मन्"
+          },
+          {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
+            "id": "karma",
+            "transliteration": "karma",
+            "devanagari": "कर्म"
+          },
+          {
+            "id": "namarupa",
+            "transliteration": "nāmarūpa",
+            "devanagari": "नामरूप"
+          }
+        ]
+      }
+    ],
+    "related_mentions": [
+      {
+        "id": "kaivalya",
+        "transliteration": "kaivalya",
+        "devanagari": "कैवल्य"
+      },
+      {
+        "id": "neti_neti",
+        "transliteration": "neti neti",
+        "devanagari": "नेति नेति"
+      },
+      {
+        "id": "purusa",
+        "transliteration": "puruṣa",
+        "devanagari": "पुरुष"
+      },
+      {
+        "id": "upanisad",
+        "transliteration": "upaniṣad",
+        "devanagari": "उपनिषद्"
       }
     ]
   },
@@ -6788,7 +7047,19 @@
     "verification": "source-verified",
     "professor_gloss": "the pressed ritual draught; King Soma, and the moon",
     "source_text": "upanisads",
-    "related_morphemes": [],
+    "related_morphemes": [
+      {
+        "kind": "suffix",
+        "morpheme": "-ma",
+        "terms": [
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
+          }
+        ]
+      }
+    ],
     "related_mentions": [
       {
         "id": "amrta",
@@ -8556,6 +8827,11 @@
             "devanagari": "ब्रह्मन्"
           },
           {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
             "id": "karma",
             "transliteration": "karma",
             "devanagari": "कर्म"
@@ -8564,6 +8840,11 @@
             "id": "namarupa",
             "transliteration": "nāmarūpa",
             "devanagari": "नामरूप"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
           }
         ]
       }
@@ -12811,9 +13092,19 @@
             "devanagari": "ब्रह्मन्"
           },
           {
+            "id": "jivatman",
+            "transliteration": "jīvātman",
+            "devanagari": "जीवात्मन्"
+          },
+          {
             "id": "namarupa",
             "transliteration": "nāmarūpa",
             "devanagari": "नामरूप"
+          },
+          {
+            "id": "paramatman",
+            "transliteration": "paramātman",
+            "devanagari": "परमात्मन्"
           }
         ]
       }

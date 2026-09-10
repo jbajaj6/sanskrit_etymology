@@ -91,7 +91,7 @@ class DemoPayloadTestCase(unittest.TestCase):
 
     def test_upanisadic_terms_cite_an_upanisad(self) -> None:
         """A term filed under the Upanisads must not carry a Yoga Sutra citation."""
-        sigla = ("BṛU", "ChU", "KaU", "MāU", "AiU", "ĪśU", "ŚvU", "PraU", "MuU")
+        sigla = ("BṛU", "ChU", "KaU", "MāU", "AiU", "ĪśU", "ŚvU", "PraU", "MuU", "KaivU", "GK")
         upanisadic = [t for t in self.terms if t.source_text == "upanisads"]
         self.assertTrue(upanisadic, "no Upanisadic terms in the bundle")
         for term in upanisadic:
@@ -119,7 +119,7 @@ class DemoPayloadTestCase(unittest.TestCase):
         bare Sanskrit as if it were a full passage.
         """
         cite = re.compile(
-            r"(?:YS|B[ṛr]U|ChU|KaU|M[āa]U|AiU|[ĪI][śs]U|[ŚS]vU|PraU|MuU)\s*[\d][\d.,\s–-]*(?=:)"
+            r"(?:YS|B[ṛr]U|ChU|KaivU|KaU|M[āa]U|AiU|[ĪI][śs]U|[ŚS]vU|PraU|MuU|GK)\s*[\d][\d.,\s–-]*(?=:)"
         )
         for term in self.terms:
             if not term.source_context:

@@ -1770,3 +1770,31 @@ terms:
     cross_cultural_priority: medium
     source_text: upanisads
     notes: Passage verified against the GRETIL mūla text.
+
+  # ── THE INDIVIDUAL AND THE SUPREME SELF (2 terms) ──
+  - id: jivatman
+    devanagari: जीवात्मन्
+    transliteration: jīvātman
+    normalized_slug: jivatman
+    priority_bucket: nice
+    chapter: ChU 6.3.2 (jīvena ātmanā); GK 3.13–3.14 (jīva and ātman as a pair)
+    professor_gloss: the self as an individual living being; the embodied self
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: 'The single compound jīvātman does not occur in the principal Upaniṣads in the corpus
+      consulted; the pair jīva/ātman does, at ChU 6.3.2 and in Gauḍapāda''s kārikā 3.13. Both
+      passages verified against the GRETIL texts.'
+  - id: paramatman
+    devanagari: परमात्मन्
+    transliteration: paramātman
+    normalized_slug: paramatman
+    priority_bucket: nice
+    chapter: KaivU 23–24; BhG 13.22 (as quoted in the corpus)
+    professor_gloss: the supreme self; the self beyond the individual self
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: 'Absent from the principal Upaniṣads in the corpus consulted; attested in the later
+      Kaivalya Upaniṣad, verified against the GRETIL text. The variant parātman is noted in the
+      analysis.'
