@@ -1521,3 +1521,206 @@ terms:
     source_text: upanisads
     notes: Vedic ritual vocabulary carried into the Upaniṣadic rebirth doctrine. Passage verified
       against the GRETIL mūla text.
+
+  # ── UPANIṢADIC VOCABULARY, SECOND PASS (18 terms) ──
+  - id: tat_tvam_asi
+    devanagari: तत् त्वम् असि
+    transliteration: tat tvam asi
+    normalized_slug: tat-tvam-asi
+    priority_bucket: nice
+    chapter: ChU 6.8.7, 6.9.4, 6.10.3, 6.11.3, 6.12.3, 6.13.3, 6.14.3, 6.15.3, 6.16.3
+    professor_gloss: '''you are that'' — the great saying of the Chandogya'
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: aham_brahmasmi
+    devanagari: अहं ब्रह्मास्मि
+    transliteration: ahaṃ brahmāsmi
+    normalized_slug: aham-brahmasmi
+    priority_bucket: nice
+    chapter: BṛU 1.4.10
+    professor_gloss: '''I am brahman'' — the great saying of the Brhadaranyaka'
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: antaryamin
+    devanagari: अन्तर्यामिन्
+    transliteration: antaryāmin
+    normalized_slug: antaryamin
+    priority_bucket: nice
+    chapter: BṛU 3.7.3–3.7.23
+    professor_gloss: the inner controller — the self that governs each thing from inside it
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: satyasya_satyam
+    devanagari: सत्यस्य सत्यम्
+    transliteration: satyasya satyam
+    normalized_slug: satyasya-satyam
+    priority_bucket: nice
+    chapter: BṛU 2.1.20, 2.3.6
+    professor_gloss: '''the real of the real'' — the Upanisad''s own name for the self'
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: dahara
+    devanagari: दहर
+    transliteration: dahara
+    normalized_slug: dahara
+    priority_bucket: nice
+    chapter: ChU 8.1.1–8.1.6
+    professor_gloss: the small space within the heart, and the meditation on it
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: guha
+    devanagari: गुहा
+    transliteration: guhā
+    normalized_slug: guha
+    priority_bucket: nice
+    chapter: KaU 1.14, 2.12, 2.20, 3.1
+    professor_gloss: the cave — the hidden place in the heart where the self is set down
+    thematic_bucket: meditation_core
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: sreyas
+    devanagari: श्रेयस्
+    transliteration: śreyas
+    normalized_slug: sreyas
+    priority_bucket: nice
+    chapter: KaU 2.1–2.2
+    professor_gloss: the better — what genuinely benefits, as against what merely pleases
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: preyas
+    devanagari: प्रेयस्
+    transliteration: preyas
+    normalized_slug: preyas
+    priority_bucket: nice
+    chapter: KaU 2.1–2.2
+    professor_gloss: the pleasanter — what appeals, as against what benefits
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: bhuman
+    devanagari: भूमन्
+    transliteration: bhūman
+    normalized_slug: bhuman
+    priority_bucket: nice
+    chapter: ChU 7.23.1–7.24.1
+    professor_gloss: the plenum — fullness, in which there is nothing else to see or hear
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: jyotis
+    devanagari: ज्योतिस्
+    transliteration: jyotis
+    normalized_slug: jyotis
+    priority_bucket: nice
+    chapter: BṛU 4.3.2–4.3.6
+    professor_gloss: light — and the question of what light a person has when every light has
+      gone out
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: avyakta
+    devanagari: अव्यक्त
+    transliteration: avyakta
+    normalized_slug: avyakta
+    priority_bucket: nice
+    chapter: KaU 3.11, 6.7–6.8
+    professor_gloss: the unmanifest — the undifferentiated ground above the great and below
+      purusa
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: vaisvanara
+    devanagari: वैश्वानर
+    transliteration: vaiśvānara
+    normalized_slug: vaisvanara
+    priority_bucket: nice
+    chapter: MāU 3; ChU 5.11–5.18
+    professor_gloss: the waking-state self, the first of the four quarters
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: taijasa
+    devanagari: तैजस
+    transliteration: taijasa
+    normalized_slug: taijasa
+    priority_bucket: nice
+    chapter: MāU 4, 10
+    professor_gloss: the dream-state self, the second of the four quarters
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: madhu
+    devanagari: मधु
+    transliteration: madhu
+    normalized_slug: madhu
+    priority_bucket: nice
+    chapter: BṛU 2.5.1–2.5.19
+    professor_gloss: honey — the mutual-dependence teaching of the Brhadaranyaka
+    thematic_bucket: insight_knowledge
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: yajna
+    devanagari: यज्ञ
+    transliteration: yajña
+    normalized_slug: yajna
+    priority_bucket: nice
+    chapter: BṛU 1.5.17, 3.1.6; ChU 4.16.1–4.17.10
+    professor_gloss: sacrifice — the ritual the Upanisads inherit and relocate
+    thematic_bucket: practice_discipline
+    cross_cultural_priority: medium
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: nadi
+    devanagari: नाडी
+    transliteration: nāḍī
+    normalized_slug: nadi
+    priority_bucket: nice
+    chapter: ChU 8.6.1–8.6.6; BṛU 4.3.20; PraU 3.6
+    professor_gloss: the channels of the heart, along which awareness is said to travel
+    thematic_bucket: mind_psychology
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: namarupa
+    devanagari: नामरूप
+    transliteration: nāmarūpa
+    normalized_slug: namarupa
+    priority_bucket: nice
+    chapter: BṛU 1.4.7; ChU 6.3.2
+    professor_gloss: name and form — the pair by which the undifferentiated becomes a world
+      of distinct things
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: high
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.
+  - id: punarmrtyu
+    devanagari: पुनर्मृत्यु
+    transliteration: punarmṛtyu
+    normalized_slug: punarmrtyu
+    priority_bucket: nice
+    chapter: BṛU 1.2.7, 1.5.2, 3.2.10, 3.3.2
+    professor_gloss: re-death — the fear that one might have to die more than once
+    thematic_bucket: liberation_metaphysics
+    cross_cultural_priority: low
+    source_text: upanisads
+    notes: Passage verified against the GRETIL mūla text.

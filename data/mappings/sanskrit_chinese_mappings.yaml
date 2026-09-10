@@ -1798,3 +1798,29 @@ mappings:
     overall_mapping_type: transliteration
     overall_confidence: high
     overall_notes: 瑜伽 transliterates rather than translates, and names a whole school.
+
+  # ── THIRD MAPPING PASS (1 term) ──
+  - sanskrit_term: nāmarūpa
+    devanagari: नामरूप
+    normalized_slug: namarupa
+    chinese_candidates:
+    - characters: 名色
+      pinyin: míngsè
+      historical_reading_notes: null
+      source_tradition: pan-Buddhist
+      attestation_source:
+      - 'T30n1579 (Yogācārabhūmi 瑜伽師地論, Xuanzang), line 0321a28: 名色'
+      mapping_type: semantic_translation
+      phonetic_evidence: null
+      semantic_evidence: 名 renders nāman and 色 rūpa, element for element, one of the most exact
+        term-for-term renderings in the translation corpus.
+      translation_strategy: meaning_preserving
+      doctrinal_shift_notes: The Chinese preserves the structure and inverts the metaphysics.
+        In the Upaniṣads name and form differentiate a reality that underlies them; as the fourth
+        link of pratītyasamutpāda they are conditioned, with nothing underlying them at all.
+      confidence: high
+      ambiguity_notes: 色 elsewhere renders rūpa as 'materiality' or 'visible form' generally,
+        and as the first of the five skandhas; the sense in 名色 is narrower.
+    overall_mapping_type: semantic_translation
+    overall_confidence: high
+    overall_notes: 名色 renders the compound element for element.
